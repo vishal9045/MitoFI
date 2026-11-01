@@ -1,0 +1,2 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+MAX_DMSO_ (30) - Deconvolved,True,,0.0411,elongated,0.922,0.0411,0.0762,2.748,2.12,0.0338,1.77,259,0.020074601233102455,,"2D image, used as is"

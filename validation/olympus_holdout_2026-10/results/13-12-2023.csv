@@ -1,0 +1,8 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+huh-7 CoV-2 48 hpi Inf LC3 F1,True,,0.6713,mixed,0.459,0.6713,0.1807,3.549,1.47,0.0059,3.12,1167,0.103580094900373,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 15 planes
+huh-7 CoV-2 48 hpi Inf LC3 F2,True,,0.9005,fragmented,0.809,0.9005,0.1319,3.249,1.81,0.0027,2.88,780,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 12 planes
+huh-7 CoV-2 48 hpi Inf LC3 F3,True,,0.6635,mixed,0.479,0.6635,0.1029,4.085,6.05,0.0002,4.98,373,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 13 planes
+huh-7 CoV-2 48 hpi Inf LC3 F4,True,,0.7299,mixed,0.563,0.7299,0.092,3.563,2.99,0.0014,3.5,310,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 11 planes
+huh-7 CoV-2 48 hpi Inf LC3 F5,True,,0.7471,mixed,0.57,0.7471,0.0275,4.149,9.54,0.0005,5.04,95,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes
+huh-7 CoV-2 48 hpi Inf LC3 F6,True,,0.6092,mixed,0.491,0.6092,0.1979,4.023,2.07,0.0017,3.14,791,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 16 planes
+huh-7 CoV-2 48 hpi Inf LC3 F7,True,,0.8162,mixed,0.679,0.8162,0.2281,3.303,1.63,0.0083,2.54,1098,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 15 planes

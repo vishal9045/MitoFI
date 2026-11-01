@@ -1,0 +1,34 @@
+pixel size: read from each file
+
+    #  image                             um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────────────────
+    1  MAVS KO CCCP 12 HPT mTS-GFP F1   0.0829       —  —               —  too much diffuse background: 7.4% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    2  MAVS KO CCCP 12 HPT mTS-GFP F…   0.0829   0.465  mixed        0.60
+    3  MAVS KO CCCP 12 HPT mTS-GFP F2   0.1381       —  —               —  too much diffuse background: 9.1% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    4  MAVS KO CCCP 12 HPT mTS-GFP F3   0.0829       —  —               —  too much diffuse background: 14.7% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    5  MAVS KO CCCP 12 HPT mTS-GFP F4   0.0829       —  —               —  too much diffuse background: 6.6% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    6  MAVS KO CCCP 12 HPT mTS-GFP F5   0.0829       —  —               —  too much diffuse background: 6.4% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    7  MAVS KO CCCP 12 HPT mTS-GFP F6   0.0829       —  —               —  too much diffuse background: 7.7% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    8  MAVS KO CCCP 12 HPT mTS-GFP F7   0.0829       —  —               —  too much diffuse background: 10.0% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    9  MAVS KO CCCP 12 HPT mTS-GFP F8   0.0829       —  —               —  too much diffuse background: 7.3% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   10  MAVS KO CCCP 12 HPT mTS-GFP F9   0.0829   0.970  fragmented   0.94
+
+8 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  MAVS KO CCCP 12 HPT mTS-GFP F1   0.0829   0.956  fragmented   0.91
+    2  MAVS KO CCCP 12 HPT mTS-GFP F2   0.1381   0.485  mixed        0.67
+    3  MAVS KO CCCP 12 HPT mTS-GFP F3   0.0829   0.182  mixed        0.64
+    4  MAVS KO CCCP 12 HPT mTS-GFP F4   0.0829   0.790  mixed        0.61
+    5  MAVS KO CCCP 12 HPT mTS-GFP F5   0.0829   0.865  mixed        0.75
+    6  MAVS KO CCCP 12 HPT mTS-GFP F6   0.0829   0.905  fragmented   0.82
+    7  MAVS KO CCCP 12 HPT mTS-GFP F7   0.0829   0.965  fragmented   0.93
+    8  MAVS KO CCCP 12 HPT mTS-GFP F8   0.0829   0.984  fragmented   0.97
+  ──────────────────────────────────────────────────────────────────────────────
+  10 images                          10 scored, 0 rejected
+  index                              mean 0.757   median 0.885   sd 0.280   range 0.182–0.984
+  bands                              fragmented 5   mixed 5   elongated 0
+  pixel sizes                        2 different in this folder, 0.0829 to 0.1381 um
+
+  NOTE: 8 of 10 scored fields were rescued (background 8, black point 0); the rest were not. Check that a difference between conditions holds without the rescued rows.
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/07-06-2025 MAVS protein import__MAVS KO CCCP 12 HPT mTS-GFP.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/07-06-2025 MAVS protein import__MAVS KO CCCP 12 HPT mTS-GFP_summary.csv

@@ -1,0 +1,2 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+huh-7 polyIC 60x F3 2.5 zoom,True,,0.4974,mixed,0.489,0.4974,0.0954,4.14,0.98,0.0294,1.72,437,0.082864075920298,background,"channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 9 planes; background subtracted, rolling ball 2.5 um"

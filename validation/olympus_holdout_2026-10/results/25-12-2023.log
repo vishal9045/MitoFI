@@ -1,0 +1,22 @@
+pixel size: read from each file
+
+    #  image                             um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────────────────
+    1  Huh-7 CCCP PUNO LC3 ENDO B1 F1   0.0829   0.935  fragmented   0.87
+    2  Huh-7 CCCP PUNO LC3 ENDO B1 F…   0.0829   0.907  fragmented   0.82
+    3  Huh-7 CCCP PUNO LC3 ENDO B1 F2   0.1036   0.834  mixed        0.70
+    4  Huh-7 CCCP PUNO LC3 ENDO B1 F3   0.0829   0.909  fragmented   0.83
+    5  Huh-7 CCCP PUNO LC3 ENDO B1 F4   0.0829   0.936  fragmented   0.88
+    6  Huh-7 CCCP PUNO LC3 ENDO B1 F5   0.1036   0.917  fragmented   0.84
+    7  Huh-7 CCCP PUNO LC3 ENDO B1 F6   0.0829   0.863  mixed        0.74
+    8  Huh-7 CCCP PUNO LC3 ENDO B1 F7   0.0829   0.927  fragmented   0.86
+    9  Huh-7 CCCP PUNO LC3 ENDO B1 F8   0.0829   0.950  fragmented   0.90
+   10  Huh-7 CCCP PUNO LC3 ENDO B1 F9   0.0829   0.947  fragmented   0.90
+  ──────────────────────────────────────────────────────────────────────────────
+  10 images                          10 scored, 0 rejected
+  index                              mean 0.912   median 0.922   sd 0.037   range 0.834–0.950
+  bands                              fragmented 8   mixed 2   elongated 0
+  pixel sizes                        2 different in this folder, 0.0829 to 0.1036 um
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/25-12-2023.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/25-12-2023_summary.csv

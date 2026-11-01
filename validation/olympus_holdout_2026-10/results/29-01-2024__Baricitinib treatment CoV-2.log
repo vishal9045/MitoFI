@@ -1,0 +1,19 @@
+pixel size: read from each file
+
+    #  image                             um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────────────────
+    1  huh-7 baricitinib treatment M…   0.0829   0.007  elongated    0.99
+    2  huh-7 baricitinib treatment M…   0.1036   0.720  mixed        0.50
+    3  huh-7 baricitinib treatment M…   0.0829   0.001  elongated    1.00
+    4  huh-7 baricitinib treatment M…   0.0691   0.024  elongated    0.95
+    5  huh-7 baricitinib treatment M…   0.0921   0.000  elongated    1.00
+    6  huh-7 baricitinib treatment M…   0.0829   0.239  mixed        0.59
+    7  huh-7 baricitinib treatment M…   0.0829   0.881  fragmented   0.78
+  ──────────────────────────────────────────────────────────────────────────────
+  7 images                           7 scored, 0 rejected
+  index                              mean 0.267   median 0.024   sd 0.377   range 0.000–0.881
+  bands                              fragmented 1   mixed 2   elongated 4
+  pixel sizes                        4 different in this folder, 0.0691 to 0.1036 um
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/29-01-2024__Baricitinib treatment CoV-2.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/29-01-2024__Baricitinib treatment CoV-2_summary.csv

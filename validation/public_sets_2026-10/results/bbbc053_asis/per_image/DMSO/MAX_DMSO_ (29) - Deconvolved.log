@@ -1,0 +1,19 @@
+pixel size: read from each file
+
+    #  image                           um/px   index  band         conf  notes
+  ────────────────────────────────────────────────────────────────────────────
+    1  MAX_DMSO_ (29) - Deconvolved   0.0201       —  —               —  segmentation collapsed: foreground 0.09%
+
+1 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  MAX_DMSO_ (29) - Deconvolved   0.0201       —  —               —  segmentation collapsed: foreground 0.12%
+
+1 field(s) are refused by the quality gate. Setting a black point at the cytoplasm level -- what setting the minimum in Fiji's Brightness/Contrast does, with the level read from each image -- lets many more be scored. It keeps the order between fields that all had it, but reads about 0.2 higher than untouched fields (median +0.21 to +0.24 on fields that already pass), so rows are marked "black point" in the rescue column: compare them with each other, not with untouched fields.
+    1  MAX_DMSO_ (29) - Deconvolved   0.0201       —  —               —  mask is speckle: objects average 1.681 um and stand only 3.5 background SD above their surroundings
+  ────────────────────────────────────────────────────────────────────────────
+  1 images                         0 scored, 1 rejected
+
+  why 1 image(s) were refused:
+     1  speckle: the objects are small and barely brighter than their surroundings: too dim or noisy to read, or genuinely tiny mitochondria at low contrast, which this cannot tell apart.
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/bbbc053_asis/per_image/DMSO/MAX_DMSO_ (29) - Deconvolved.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/bbbc053_asis/per_image/DMSO/MAX_DMSO_ (29) - Deconvolved_summary.csv

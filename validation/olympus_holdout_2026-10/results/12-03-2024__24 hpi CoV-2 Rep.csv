@@ -1,0 +1,2 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+huh-7 Mito GFP 24 hpi Rep image 1,True,,0.7872,mixed,0.613,0.7872,0.0812,3.685,3.42,0.0001,3.95,408,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 4; max projection over 12 planes

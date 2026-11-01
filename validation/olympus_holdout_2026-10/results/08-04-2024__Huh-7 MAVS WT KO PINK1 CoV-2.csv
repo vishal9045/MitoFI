@@ -1,0 +1,9 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+Huh-7 MAVS KO CoV-2 PINK1 B1 F1,True,,0.7312,mixed,0.555,0.7312,0.042,4.37,8.11,0.0001,4.22,142,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 13 planes
+Huh-7 MAVS KO CoV-2 PINK1 B1 F2,True,,0.9389,fragmented,0.883,0.9389,0.0458,3.146,4.82,0.0044,3.48,326,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes
+Huh-7 MAVS KO CoV-2 PINK1 B1 F3,True,,0.7746,mixed,0.648,0.7746,0.0259,4.412,4.67,0.0002,3.82,79,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 11 planes
+Huh-7 MAVS KO CoV-2 PINK1 B1 F4,True,,0.4711,mixed,0.386,0.4711,0.0316,5.091,10.04,0.0002,4.58,109,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 9 planes
+Huh-7 MAVS KO CoV-2 PINK1 B1 F5,True,,0.8723,fragmented,0.774,0.8723,0.0411,3.929,5.73,0.0017,3.59,169,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 14 planes
+Huh-7 WT CoV-2 PINK1 B1 F1,True,,0.9279,fragmented,0.859,0.9279,0.0911,3.158,8.35,0.0001,5.66,455,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 13 planes
+Huh-7 WT CoV-2 PINK1 B1 F2,True,,0.6635,mixed,0.459,0.6635,0.0335,4.218,9.45,0.0004,3.83,128,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 14 planes
+Huh-7 WT CoV-2 PINK1 B1 F3,True,,0.9348,fragmented,0.872,0.9348,0.0277,3.504,17.75,0.0001,5.52,141,0.082864075920298,,channel 1 chosen by excitation at 570 nm; axes ZCYX; channel 1 of 3; max projection over 12 planes

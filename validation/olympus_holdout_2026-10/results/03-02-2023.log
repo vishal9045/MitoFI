@@ -1,0 +1,17 @@
+pixel size: read from each file
+
+    #  image                             um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────────────────
+    1  huh-7 HA-MAVS Mock T Calnexin…   0.0829   0.592  mixed        0.42
+    2  huh-7 HA-MAVS Mock T Calnexin…   0.0829   0.021  elongated    0.96
+    3  huh-7 HA-MAVS Mock T Calnexin…   0.1036   0.002  elongated    1.00
+    4  huh-7 HA-MAVS Mock T Calnexin…   0.0829   0.008  elongated    0.98
+    5  huh-7 HA-MAVS Mock T Calnexin…   0.0829   0.016  elongated    0.97
+  ──────────────────────────────────────────────────────────────────────────────
+  5 images                           5 scored, 0 rejected
+  index                              mean 0.128   median 0.016   sd 0.260   range 0.002–0.592
+  bands                              fragmented 0   mixed 1   elongated 4
+  pixel sizes                        2 different in this folder, 0.0829 to 0.1036 um
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/03-02-2023.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/03-02-2023_summary.csv

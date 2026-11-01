@@ -1,0 +1,25 @@
+pixel size: read from each file
+
+    #  image    um/px   index  band         conf  notes
+  ─────────────────────────────────────────────────────
+    1  AC_a    0.0659       —  —               —  too much diffuse background: 6.4% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    2  AC_b    0.0659       —  —               —  too much diffuse background: 11.1% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    3  AC_c    0.0659       —  —               —  too much diffuse background: 6.2% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    4  AC_d    0.0659       —  —               —  too much diffuse background: 7.0% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    5  AC_e    0.0659       —  —               —  mask is speckle: objects average 1.981 um and stand only 2.9 background SD above their surroundings
+    6  AC_f    0.0659       —  —               —  too much diffuse background: 6.4% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+
+6 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  AC_a    0.0659   0.000  elongated    1.00
+    2  AC_b    0.0659   0.003  elongated    0.99
+    3  AC_c    0.0659   0.001  elongated    1.00
+    4  AC_d    0.0659   0.000  elongated    1.00
+    5  AC_e    0.0659   0.008  elongated    0.99
+    6  AC_f    0.0659   0.012  elongated    0.98
+  ─────────────────────────────────────────────────────
+  6 images  6 scored, 0 rejected
+  index     mean 0.004   median 0.002   sd 0.005   range 0.000–0.012
+  bands     fragmented 0   mixed 0   elongated 6
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/uct/repA_control.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/uct/repA_control_summary.csv

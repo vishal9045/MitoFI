@@ -1,0 +1,5 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+huh-7 STABLE C11 MDA-5 check T F1,True,,0.0393,elongated,0.924,0.0393,0.1096,3.5,0.7,0.0379,1.39,462,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes
+huh-7 STABLE C11 MDA-5 check T F2,True,,0.047,elongated,0.909,0.047,0.1019,3.081,0.83,0.022,1.36,491,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 16 planes
+huh-7 STABLE C11 check T F1,True,,0.2319,mixed,0.626,0.2319,0.0831,3.723,1.71,0.0123,2.34,386,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes
+huh-7 normal check T+I F1,True,,0.4165,mixed,0.448,0.4165,0.0717,3.639,1.73,0.0155,2.4,382,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 5 planes

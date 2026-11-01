@@ -1,0 +1,2 @@
+n_images,n_scored,n_rejected,mean_index,median_index,sd_index,min_index,max_index,n_fragmented,n_mixed,n_elongated,n_rescued_background,n_rescued_black_point,rejected_pixels_too_coarse,rejected_nothing_segmented,rejected_almost_nothing_segmented,rejected_diffuse_background,rejected_noise_texture,rejected_speckle,rejected_could_not_be_read
+34,9,25,0.407,0.4082,0.2398,0.0048,0.6461,0,8,1,2,0,0,0,25,0,0,0,0

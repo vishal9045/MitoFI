@@ -1,0 +1,7 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+Huh-7 MAVS KO Mock PINK1 B1 F1,True,,0.8818,fragmented,0.793,0.8818,0.1216,4.145,5.56,0.0004,4.05,513,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 17 planes
+Huh-7 MAVS KO Mock PINK1 B1 F2,True,,0.9839,fragmented,0.968,0.9839,0.0331,4.007,15.23,0.0002,4.83,103,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 18 planes
+Huh-7 MAVS KO Mock PINK1 B1 F3,True,,0.6656,mixed,0.458,0.6656,0.0623,4.395,4.79,0.0047,4.17,226,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 20 planes
+Huh-7 WT Mock PINK1 B1 F1,True,,0.6117,mixed,0.517,0.6117,0.0315,5.254,10.57,0.0002,4.77,100,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 12 planes
+Huh-7 WT Mock PINK1 B1 F2,True,,0.8858,fragmented,0.789,0.8858,0.0843,3.845,7.48,0.0002,5.32,316,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 13 planes
+Huh-7 WT Mock PINK1 B1 F3,True,,0.8926,fragmented,0.789,0.8926,0.0694,3.32,10.04,0.0002,6.34,367,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes

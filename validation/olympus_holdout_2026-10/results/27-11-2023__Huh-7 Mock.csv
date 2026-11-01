@@ -1,0 +1,9 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+huh-7 Mock LC3 F10,True,,0.7435,mixed,0.517,0.7435,0.0877,2.906,1.29,0.011,2.55,526,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes
+huh-7 Mock LC3 F2,True,,0.4985,mixed,0.769,0.4985,0.1209,3.045,2.95,0.0023,2.98,823,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 8 planes
+huh-7 Mock LC3 F3,True,,0.7601,mixed,0.542,0.7601,0.0907,2.64,1.08,0.0171,2.22,733,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 9 planes
+huh-7 Mock LC3 F4,True,,0.1592,mixed,0.702,0.1592,0.1399,3.731,0.82,0.0399,1.77,624,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 9 planes
+huh-7 Mock LC3 F5,True,,0.026,elongated,0.948,0.026,0.0915,3.563,0.96,0.0131,1.51,476,0.090069647739454,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes
+huh-7 Mock LC3 F6,True,,0.0012,elongated,0.998,0.0012,0.2512,3.742,0.62,0.0282,1.43,893,0.076725996222498,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes
+huh-7 Mock LC3 F7,True,,0.5057,mixed,0.64,0.5057,0.1515,3.214,1.03,0.0179,2.32,887,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 11 planes
+huh-7 Mock LC3 F8,True,,0.5336,mixed,0.664,0.5336,0.0749,3.169,1.74,0.0035,3.77,368,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes

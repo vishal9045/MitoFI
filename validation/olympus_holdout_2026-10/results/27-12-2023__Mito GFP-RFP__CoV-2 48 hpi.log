@@ -1,0 +1,16 @@
+pixel size: read from each file
+
+    #  image                             um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────────────────
+    1  huh-7 Mito GFP-RFP CoV-2 48 h…   0.0829   0.863  mixed        0.76
+    2  huh-7 Mito GFP-RFP CoV-2 48 h…   0.0829   0.006  elongated    0.99
+    3  huh-7 Mito GFP-RFP CoV-2 48 h…   0.0829   0.000  elongated    1.00
+    4  huh-7 Mito GFP-RFP CoV-2 48 h…   0.0829   0.538  mixed        0.54
+    5  huh-7 Mito GFP-RFP CoV-2 48 h…   0.0829   0.000  elongated    1.00
+  ──────────────────────────────────────────────────────────────────────────────
+  5 images                           5 scored, 0 rejected
+  index                              mean 0.281   median 0.006   sd 0.400   range 0.000–0.863
+  bands                              fragmented 0   mixed 2   elongated 3
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/27-12-2023__Mito GFP-RFP__CoV-2 48 hpi.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/27-12-2023__Mito GFP-RFP__CoV-2 48 hpi_summary.csv

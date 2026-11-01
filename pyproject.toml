@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mitofi"
+# one source of truth: the window title, --version and the wheel all read it
+dynamic = ["version"]
+description = "A continuous, calibrated mitochondrial fragmentation index for 2D confocal images"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Vishal" }]
+keywords = ["microscopy", "mitochondria", "image-analysis", "segmentation"]
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Image Processing",
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "numpy>=1.21",
+    "scipy>=1.7",
+    "scikit-image>=0.19",
+    "scikit-learn>=1.5",   # verified on 1.5.2, 1.7.2 and 1.9.0
+    "tifffile>=2021.7",
+    "imagecodecs>=2022.2",  # LZW, JPEG, ZSTD ... compressed TIFFs; tifffile alone reads only uncompressed and deflate
+    "joblib>=1.1",
+]
+
+[project.scripts]
+mitofi = "mitofi.cli:main"
+
+[tool.setuptools]
+packages = ["mitofi"]
+
+[tool.setuptools.package-data]
+mitofi = ["models/*.joblib", "models/*.json"]
+
+[tool.setuptools.dynamic]
+version = { attr = "mitofi.__version__" }

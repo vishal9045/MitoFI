@@ -1,0 +1,3 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+A549 KO MAVS TF HA Calnexin F1,True,,0.4583,mixed,0.38,0.4583,0.0132,3.249,10.84,0.0001,4.31,82,0.082864075920298,black point,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes; black point at the cytoplasm peak (1896 on the 12-bit scale)
+A549 WT MAVS TF HA Calnexin F4,True,,0.5035,mixed,0.431,0.5035,0.0101,2.455,7.59,0.0018,5.93,31,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 20 planes

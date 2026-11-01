@@ -1,0 +1,296 @@
+<title>Blind Pilot Protocol</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+:root{
+  --bg:#f3f5f4;
+  --bg-raised:#ffffff;
+  --bg-sunken:#e8ebe9;
+  --ink:#1c2126;
+  --ink-dim:#5b6470;
+  --ink-faint:#8a919b;
+  --border:#d6dbd9;
+  --border-strong:#b9c0be;
+  --teal:#1f6e73;
+  --teal-ink:#0f4448;
+  --teal-tint:#e2eeee;
+  --warn:#9c2e3d;
+  --warn-tint:#f6e6e8;
+  --shadow:0 1px 2px rgba(20,24,22,.06), 0 6px 20px rgba(20,24,22,.05);
+  --font-display:'Fraunces',Georgia,serif;
+  --font-body:'Public Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  --font-mono:'IBM Plex Mono',ui-monospace,'SF Mono',Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#14171b; --bg-raised:#1b1f24; --bg-sunken:#101316;
+    --ink:#e8eaec; --ink-dim:#a3aab3; --ink-faint:#767e88;
+    --border:#2c3238; --border-strong:#3a424a;
+    --teal:#5fc2c7; --teal-ink:#bfe9ea; --teal-tint:#132625;
+    --warn:#e0717e; --warn-tint:#2e1b1f;
+    --shadow:0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.35);
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#14171b; --bg-raised:#1b1f24; --bg-sunken:#101316;
+  --ink:#e8eaec; --ink-dim:#a3aab3; --ink-faint:#767e88;
+  --border:#2c3238; --border-strong:#3a424a;
+  --teal:#5fc2c7; --teal-ink:#bfe9ea; --teal-tint:#132625;
+  --warn:#e0717e; --warn-tint:#2e1b1f;
+  --shadow:0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.35);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+code{font-family:var(--font-mono);font-size:.92em;background:var(--bg-sunken);padding:1px 5px;border-radius:3px;color:var(--ink)}
+a{color:var(--teal)}
+
+.wrap{max-width:800px;margin:0 auto;padding:0 24px 100px}
+
+.topnav{position:sticky;top:0;z-index:20;background:color-mix(in srgb, var(--bg) 88%, transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
+.topnav-inner{max-width:800px;margin:0 auto;padding:0 24px;display:flex;gap:18px;overflow-x:auto;font-family:var(--font-mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase}
+.topnav a{color:var(--ink-dim);text-decoration:none;padding:12px 0;white-space:nowrap}
+.topnav a:hover{color:var(--ink)}
+
+header.hero{padding:52px 0 34px;border-bottom:1px solid var(--border)}
+.eyebrow{font-family:var(--font-mono);font-size:12px;letter-spacing:.09em;text-transform:uppercase;color:var(--teal-ink);background:var(--teal-tint);display:inline-block;padding:4px 10px;border-radius:3px;margin-bottom:16px}
+h1{font-family:var(--font-display);font-weight:700;font-size:clamp(1.9rem,4vw,2.7rem);line-height:1.08;margin:0 0 12px;text-wrap:balance;letter-spacing:-.01em}
+.deck{font-size:1.08rem;color:var(--ink-dim);max-width:600px;margin:0 0 22px}
+.meta{display:flex;flex-wrap:wrap;gap:8px 20px;font-family:var(--font-mono);font-size:12px;color:var(--ink-faint);border-top:1px solid var(--border);padding-top:16px}
+.meta b{color:var(--ink-dim);font-weight:500}
+
+/* golden rules */
+.rules{background:var(--warn-tint);border:1px solid color-mix(in srgb, var(--warn) 35%, var(--border));border-radius:8px;padding:22px 24px;margin:32px 0;box-shadow:var(--shadow)}
+.rules .tag{font-family:var(--font-mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--warn);font-weight:500;margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.rules .tag::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--warn);display:inline-block}
+.rules ol{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:10px}
+.rules li{color:var(--ink);font-size:14.5px}
+.rules b{color:var(--warn)}
+
+/* pipeline strip */
+.strip{overflow-x:auto;margin:30px 0 8px;padding-bottom:6px}
+.strip-inner{display:flex;gap:0;min-width:720px}
+.strip-step{flex:1;text-align:center;position:relative;padding:0 4px}
+.strip-step .dot{width:30px;height:30px;border-radius:50%;background:var(--bg-raised);border:1.5px solid var(--teal);color:var(--teal-ink);font-family:var(--font-mono);font-size:12.5px;display:flex;align-items:center;justify-content:center;margin:0 auto 8px;font-weight:500}
+.strip-step .lbl{font-size:11.5px;color:var(--ink-dim);line-height:1.3}
+.strip-step::before{content:"";position:absolute;top:15px;left:-50%;width:100%;height:1.5px;background:var(--border-strong);z-index:-1}
+.strip-step:first-child::before{display:none}
+
+section{padding:44px 0}
+section + section{border-top:1px solid var(--border)}
+.stage-label{font-family:var(--font-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--teal);display:flex;align-items:center;gap:10px;margin:0 0 8px}
+.stage-label .n{width:22px;height:22px;border-radius:50%;background:var(--teal);color:var(--bg-raised);display:inline-flex;align-items:center;justify-content:center;font-size:11.5px}
+h2{font-family:var(--font-display);font-weight:600;font-size:1.7rem;margin:0 0 8px}
+.lede{font-size:1rem;color:var(--ink-dim);max-width:620px;margin-bottom:22px}
+h3{font-family:var(--font-body);font-weight:600;font-size:1rem;margin:24px 0 10px;color:var(--ink)}
+
+.steps{display:flex;flex-direction:column;gap:0;border:1px solid var(--border);border-radius:8px;overflow:hidden;background:var(--bg-raised)}
+.step{display:grid;grid-template-columns:38px 1fr;gap:14px;padding:15px 18px;border-bottom:1px solid var(--border)}
+.step:last-child{border-bottom:none}
+.step .idx{font-family:var(--font-mono);color:var(--teal);font-size:13px;padding-top:1px}
+.step p{margin:0;font-size:14.5px;color:var(--ink-dim)}
+.step p b{color:var(--ink);font-weight:600}
+
+.filetree{background:var(--bg-sunken);border-radius:8px;padding:16px 20px;font-family:var(--font-mono);font-size:13px;color:var(--ink-dim);margin:16px 0;overflow-x:auto;white-space:pre;line-height:1.7}
+.filetree .dir{color:var(--ink)}
+.filetree .note{color:var(--ink-faint)}
+
+.callout{border-left:3px solid var(--teal);background:var(--teal-tint);border-radius:0 6px 6px 0;padding:14px 18px;margin:16px 0;font-size:14px;color:var(--ink)}
+.callout.warn{border-color:var(--warn);background:var(--warn-tint)}
+.callout b{font-weight:600}
+
+.tablewrap{overflow-x:auto;border:1px solid var(--border);border-radius:8px;margin:18px 0}
+table{width:100%;border-collapse:collapse;font-size:13.5px;min-width:560px}
+thead th{text-align:left;font-family:var(--font-mono);font-size:10.5px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-faint);background:var(--bg-sunken);padding:10px 13px;border-bottom:1px solid var(--border)}
+tbody td{padding:11px 13px;border-bottom:1px solid var(--border);color:var(--ink-dim);vertical-align:top}
+tbody tr:last-child td{border-bottom:none}
+tbody td.feat{color:var(--ink);font-weight:500;font-family:var(--font-mono);font-size:12.5px}
+
+.check{display:flex;flex-direction:column;gap:9px;margin-top:18px}
+.check label{display:flex;gap:10px;align-items:flex-start;font-size:14px;color:var(--ink-dim)}
+.check input{margin-top:3px;accent-color:var(--teal)}
+
+footer{padding:36px 0 0;color:var(--ink-faint);font-size:12.5px;font-family:var(--font-mono)}
+
+@media print{
+  .topnav{display:none}
+  body{background:#fff;color:#111}
+  section{padding:22px 0;break-inside:avoid}
+  .strip{display:none}
+  a{color:#111;text-decoration:underline}
+}
+</style>
+
+<nav class="topnav"><div class="topnav-inner">
+  <a href="#rules">Golden rules</a>
+  <a href="#s1">1 · Pool</a>
+  <a href="#s2">2 · Masks</a>
+  <a href="#s3">3 · Blind calls</a>
+  <a href="#s4">4 · Seg. model</a>
+  <a href="#s5">5 · Features</a>
+  <a href="#s6">6 · Classifier</a>
+  <a href="#s7">7 · Validate</a>
+</div></nav>
+
+<div class="wrap">
+
+<header class="hero">
+  <span class="eyebrow">Reference · print or keep open while working</span>
+  <h1>Blind Pilot Protocol</h1>
+  <p class="deck">The full pilot workflow, in the order you'll actually run it — from raw images to a validated fragmentation index. Companion to the Fragmentation Field Guide.</p>
+  <div class="meta">
+    <span><b>Project</b> Fragmentation Index Calculator</span>
+    <span><b>Scale</b> ~50–100 images, single blind rater</span>
+    <span><b>Tools</b> Fiji + Labkit</span>
+    <span><b>Prepared</b> 3 Sep 2026</span>
+  </div>
+
+  <div class="strip"><div class="strip-inner">
+    <div class="strip-step"><div class="dot">1</div><div class="lbl">Pool<br>images</div></div>
+    <div class="strip-step"><div class="dot">2</div><div class="lbl">Hand<br>masks</div></div>
+    <div class="strip-step"><div class="dot">3</div><div class="lbl">Blind<br>calls</div></div>
+    <div class="strip-step"><div class="dot">4</div><div class="lbl">Train seg.<br>model</div></div>
+    <div class="strip-step"><div class="dot">5</div><div class="lbl">h-free<br>features</div></div>
+    <div class="strip-step"><div class="dot">6</div><div class="lbl">Train<br>classifier</div></div>
+    <div class="strip-step"><div class="dot">7</div><div class="lbl">Validate vs.<br>literature</div></div>
+  </div></div>
+
+  <div class="rules" id="rules">
+    <div class="tag">Golden rules — break these and the pilot is void</div>
+    <ol>
+      <li><b>Never sort images into fragmented/elongated folders.</b> That un-blinds you before you rate. Condition lives in a separate file you don't open until rating is done.</li>
+      <li><b>Mix multiple sessions per class from the start.</b> One-session-per-condition is what broke the last attempt — the classifier learns "which experiment," not "what shape."</li>
+      <li><b>No watershed, no <code>h</code> parameter, anywhere.</b> Every feature is computed on the whole mask or its connected components. If a step needs instance splitting, it's the wrong step.</li>
+      <li><b>Hold out by session for validation</b>, never by random image. Images from the same session are near-duplicates.</li>
+    </ol>
+  </div>
+</header>
+
+<section id="s1">
+  <p class="stage-label"><span class="n">1</span>Assemble the pilot pool</p>
+  <h2>Pull images without letting condition leak into anything</h2>
+  <p class="lede">~50–100 images, deliberately spanning several sessions per class. File names and folders carry no condition information.</p>
+
+  <div class="steps">
+    <div class="step"><span class="idx">1.1</span><p>Select candidate images across the archive — <b>not</b> just the CCCP and MAVS-KO/IFN folders used before. Include other fragmenting and elongating conditions if available, spread across multiple imaging sessions each.</p></div>
+    <div class="step"><span class="idx">1.2</span><p>Rename/copy into a neutral pool, keyed by <b>session + serial</b>, never by drug or phenotype: <code>s{session-date}_{serial}.tif</code>.</p></div>
+    <div class="step"><span class="idx">1.3</span><p>Record the true condition for every image in <code>condition_key.csv</code> — kept in a separate folder from the working set, not opened again until Stage 3 is fully done.</p></div>
+  </div>
+
+  <div class="filetree"><span class="dir">data/pilot/</span>
+├── <span class="dir">images/</span>
+│   ├── s2024-08-20_00001.tif
+│   ├── s2024-05-20_00007.tif
+│   └── ...
+├── <span class="dir">masks/</span>              <span class="note"># filled in during Stage 2</span>
+├── labels_blind.csv     <span class="note"># filled in during Stage 3</span>
+└── condition_key.csv     <span class="note"># true condition — don't open yet</span></div>
+</section>
+
+<section id="s2">
+  <p class="stage-label"><span class="n">2</span>Hand-annotate segmentation masks</p>
+  <h2>Binary masks only — no per-object labels</h2>
+  <p class="lede">Labkit is a few-shot pixel classifier, not manual tracing: scribble examples, it trains live, you correct. The segmentation model only needs mitochondria-vs-background — no instance IDs, since h-free features never need per-object splitting.</p>
+
+  <div class="steps">
+    <div class="step"><span class="idx">2.1</span><p>If not installed: Fiji → <b>Help → Update... → Manage update sites</b> → check <b>Labkit</b> → Apply changes → restart Fiji.</p></div>
+    <div class="step"><span class="idx">2.2</span><p>Open the mitochondria-channel <b>MIP</b> (matches what the trained model runs on downstream — not the raw z-stack).</p></div>
+    <div class="step"><span class="idx">2.3</span><p><b>Plugins → Segmentation → Labkit</b> → open the current image. Add two label classes: <code>mito</code>, <code>background</code>.</p></div>
+    <div class="step"><span class="idx">2.4</span><p>Scribble a handful of strokes on clear mito pixels (bright tubules, dim puncta, edges) with the mito label, a handful on clear background with the other. Don't trace outlines — mark representative examples only.</p></div>
+    <div class="step"><span class="idx">2.5</span><p>Enable live prediction / <b>Train classifier</b>. Labkit overlays its predicted segmentation over the full image.</p></div>
+    <div class="step"><span class="idx">2.6</span><p>Correct wherever it's wrong — add scribbles on missed dim mitochondria or false-positive noise, retrain. Repeat a few rounds until it looks right.</p></div>
+    <div class="step"><span class="idx">2.7</span><p>Export: <b>Show Segmentation</b> → <b>File → Save As → Tiff</b>. Save as <code>{image_id}_mask.tif</code> into <code>data/pilot/masks/</code>.</p></div>
+  </div>
+
+  <div class="callout"><b>Speed-up:</b> save the trained classifier after the first 5–10 images and apply it to the next one before scribbling fresh. Correcting an already-decent guess is much faster than starting from nothing each time.</div>
+</section>
+
+<section id="s3">
+  <p class="stage-label"><span class="n">3</span>Blind fragmented / elongated calls</p>
+  <h2>Rate morphology, not memory of the drug</h2>
+  <p class="lede">One rater (you), binary scheme for this pilot. The whole point of this stage is that the call reflects what's on screen, not which folder it came from — so the condition file stays closed.</p>
+
+  <div class="steps">
+    <div class="step"><span class="idx">3.1</span><p>Work through <code>data/pilot/images/</code> in randomized order — not grouped by session, not grouped by anything that could let a pattern in file order leak condition.</p></div>
+    <div class="step"><span class="idx">3.2</span><p>For each image: call it <b>fragmented</b> or <b>elongated</b> by eye. If genuinely unsure, it's fine to mark <code>uncertain</code> rather than force a side — note it, don't discard it.</p></div>
+    <div class="step"><span class="idx">3.3</span><p>Log every call in <code>labels_blind.csv</code>: <code>image_id, blinded_call, date_rated</code>. No other columns — nothing that could hint at condition creeping in during later analysis.</p></div>
+    <div class="step"><span class="idx">3.4</span><p>Only after <b>every</b> image is rated: open <code>condition_key.csv</code> and join it against <code>labels_blind.csv</code> for the first time.</p></div>
+  </div>
+
+  <div class="callout warn"><b>If you open the condition file mid-rating</b>, even once, treat the whole blind pass as compromised for the images rated afterward — restart rating for those, don't quietly continue.</div>
+</section>
+
+<section id="s4">
+  <p class="stage-label"><span class="n">4</span>Train the segmentation model</p>
+  <h2>Binary foreground/background, nothing else</h2>
+  <p class="lede">Trained model, not the old classical Frangi+Otsu pipeline — masks from Stage 2 are the training targets. Split by session, same rule as everywhere else in this protocol.</p>
+
+  <div class="steps">
+    <div class="step"><span class="idx">4.1</span><p>Pair every <code>images/*.tif</code> with its <code>masks/*_mask.tif</code>.</p></div>
+    <div class="step"><span class="idx">4.2</span><p>Split train/validation <b>by session</b>, not by random image — hold out one or two entire sessions the model never sees during training.</p></div>
+    <div class="step"><span class="idx">4.3</span><p>Train a binary segmentation model on the pairs. Output per image: one probability mask, thresholded to binary.</p></div>
+    <div class="step"><span class="idx">4.4</span><p>Check the held-out sessions visually before trusting it on new data — same qualitative overlay check used throughout last round's diagnostics.</p></div>
+  </div>
+</section>
+
+<section id="s5">
+  <p class="stage-label"><span class="n">5</span>Compute h-free features</p>
+  <h2>Whole-mask and connected-component descriptors only</h2>
+  <p class="lede">No watershed, no instance splitting, no <code>h</code> parameter. Everything below is computed on the binary mask straight from Stage 4, or on its connected components — the same set that separated last round's data 12/13 and 13/13 before we knew the labels were confounded.</p>
+
+  <div class="tablewrap"><table>
+    <thead><tr><th>Feature</th><th>What it captures</th></tr></thead>
+    <tbody>
+      <tr><td class="feat">mean_aspect_ratio</td><td>Major/minor axis ratio per connected component — elongation, shape-based</td></tr>
+      <tr><td class="feat">mean_eccentricity</td><td>Ellipse eccentricity per component — round vs. stretched</td></tr>
+      <tr><td class="feat">mean_solidity</td><td>Area ÷ convex-hull area — how filled-in vs. beaded/branchy a shape is</td></tr>
+      <tr><td class="feat">mean_circularity</td><td>4π·area ÷ perimeter² — compactness</td></tr>
+      <tr><td class="feat">mean_branch_um</td><td>Skeleton length between topological nodes — use with caution, known compact-object bias (Field Guide, confounds)</td></tr>
+      <tr><td class="feat">mean_net_len_um</td><td>Length-weighted network size — how big the connected structure a random pixel belongs to typically is</td></tr>
+      <tr><td class="feat">junctions_per_100um</td><td>Branch-point density — connectivity, not length</td></tr>
+      <tr><td class="feat">endpoints_per_100um</td><td>Free-end density — inversely tracks network connectedness</td></tr>
+      <tr><td class="feat">largest_net_frac</td><td>Share of total skeleton length in the single largest network — hyperfusion signal</td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="callout">Compute all of these per image (field) to start, since fields here run 1–4 cells with consistent phenotype. Per-cell breakdown stays available later if that stops holding.</div>
+</section>
+
+<section id="s6">
+  <p class="stage-label"><span class="n">6</span>Train the classifier</p>
+  <h2>Simple and interpretable, sized to the pilot</h2>
+  <p class="lede">Logistic regression or a small random forest on the Stage 5 feature table, joined against Stage 3's blind labels. Not end-to-end deep learning — not enough labeled examples yet to justify it, and interpretability is the point at this stage.</p>
+
+  <div class="steps">
+    <div class="step"><span class="idx">6.1</span><p>Join <code>labels_blind.csv</code> to the Stage 5 feature table on <code>image_id</code>. Drop any <code>uncertain</code> rows from training, keep them aside as a separate check set.</p></div>
+    <div class="step"><span class="idx">6.2</span><p>Split train/test <b>by session</b> again — same discipline as Stage 4. A model that only works within one session isn't validated.</p></div>
+    <div class="step"><span class="idx">6.3</span><p>Fit logistic regression (or small random forest) on the ~9 features above. Inspect coefficients/importances — they should point at the same features the tools survey flagged as standard (aspect ratio, solidity, connectivity), not something incidental.</p></div>
+    <div class="step"><span class="idx">6.4</span><p>Report accuracy on the held-out session(s), not on training data. This number is the pilot's real result.</p></div>
+  </div>
+</section>
+
+<section id="s7">
+  <p class="stage-label"><span class="n">7</span>Derive the index and validate</p>
+  <h2>A continuous score, checked against the literature</h2>
+  <p class="lede">Not a forced binary. The model's probability output <em>is</em> the fragmentation index — then it gets checked against what the field actually reports, using the Field Guide's definitions table and tool survey as the comparison set.</p>
+
+  <div class="steps">
+    <div class="step"><span class="idx">7.1</span><p>Take the classifier's predicted probability (fragmented-class) as the continuous fragmentation index, per image.</p></div>
+    <div class="step"><span class="idx">7.2</span><p>Pick a middle band as <code>ambiguous</code> rather than forcing every score to a side — the boundary itself doesn't need to be sharp for the index to be useful.</p></div>
+    <div class="step"><span class="idx">7.3</span><p><b>Qualitative check:</b> do the features driving high/low scores match what the PubMed sources in the Field Guide say drives fragmented vs. elongated calls (aspect ratio, form factor, connectivity — not skeleton length alone)?</p></div>
+    <div class="step"><span class="idx">7.4</span><p><b>Quantitative check:</b> where a paper reports actual values (e.g. solidity ≥0.8 → high fusion propensity, per the solidity/perimeter predictor in the survey), see whether the pilot's own distributions land in a comparable range.</p></div>
+    <div class="step"><span class="idx">7.5</span><p>Write up agreement and disagreement plainly — a mismatch against literature is a finding, not a failure, provided it's a real biological difference and not the compact-object skeleton bias or a session confound creeping back in.</p></div>
+  </div>
+
+  <h3>Before calling the pilot done</h3>
+  <div class="check">
+    <label><input type="checkbox"> Blind ratings never touched the condition file mid-pass</label>
+    <label><input type="checkbox"> Every class has examples from 2+ sessions</label>
+    <label><input type="checkbox"> No <code>h</code>/watershed step anywhere in the feature pipeline</label>
+    <label><input type="checkbox"> Segmentation and classifier both validated on a held-out <em>session</em>, not a held-out image</label>
+    <label><input type="checkbox"> Index checked against the Field Guide's literature definitions, agreement and disagreement both recorded</label>
+  </div>
+</section>
+
+<footer>Blind Pilot Protocol — companion to the Fragmentation Field Guide. Print via browser print (⌘/Ctrl+P) for a paper copy.</footer>
+
+</div>

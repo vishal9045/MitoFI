@@ -1,0 +1,15 @@
+pixel size: read from each file
+
+    #  image                             um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────────────────
+    1  huh-7 STABLE C11 MDA-5 check …   0.0829   0.039  elongated    0.92
+    2  huh-7 STABLE C11 MDA-5 check …   0.0829   0.047  elongated    0.91
+    3  huh-7 STABLE C11 check T F1      0.0829   0.232  mixed        0.63
+    4  huh-7 normal check T+I F1        0.0829   0.416  mixed        0.45
+  ──────────────────────────────────────────────────────────────────────────────
+  4 images                           4 scored, 0 rejected
+  index                              mean 0.184   median 0.139   sd 0.179   range 0.039–0.416
+  bands                              fragmented 0   mixed 2   elongated 2
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/13-04-2023__MAVS stable check.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/13-04-2023__MAVS stable check_summary.csv

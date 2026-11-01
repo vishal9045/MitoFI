@@ -1,0 +1,228 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Blind Rating - Rater 2</title>
+<style>
+:root{--bg:#111;--fg:#eee;--dim:#888;--line:#333;--acc:#4fa3ff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:14px system-ui,-apple-system,Segoe UI,sans-serif;
+     height:100vh;display:flex;flex-direction:column;overflow:hidden}
+header{display:flex;align-items:center;gap:16px;padding:8px 14px;border-bottom:1px solid var(--line);flex:0 0 auto}
+#bar{flex:1;height:6px;background:#222;border-radius:3px;overflow:hidden}
+#fill{height:100%;background:var(--acc);width:0}
+#count{color:var(--dim);font-variant-numeric:tabular-nums;white-space:nowrap}
+main{flex:1;display:flex;align-items:center;justify-content:center;min-height:0;padding:8px;position:relative}
+#img{max-width:100%;max-height:100%;object-fit:contain;image-rendering:pixelated;cursor:zoom-in;
+     display:block;margin:auto}
+#img.zoomed{max-width:none;max-height:none;cursor:grab}
+#img.dragging{cursor:grabbing}
+#zlvl{position:absolute;top:14px;right:14px;background:#000a;border:1px solid var(--line);
+      border-radius:5px;padding:4px 10px;font-size:13px;color:var(--fg);pointer-events:none}
+#wrap{width:100%;height:100%;display:flex;align-items:center;justify-content:center;overflow:auto}
+footer{flex:0 0 auto;border-top:1px solid var(--line);padding:8px 14px;display:flex;gap:14px;align-items:flex-end;flex-wrap:wrap}
+.grp{display:flex;flex-direction:column;gap:5px}
+.grp .row{display:flex;gap:8px;align-items:center}
+.lbl{font-size:10.5px;letter-spacing:.09em;color:var(--dim)}
+.sep{width:1px;align-self:stretch;background:var(--line);margin:0 2px}
+button[data-call]{border-color:#3a3a3a}
+button[data-call]:hover{background:#243b55;border-color:var(--acc)}
+button{background:#1c1c1c;color:var(--fg);border:1px solid var(--line);border-radius:6px;
+       padding:9px 14px;font:inherit;cursor:pointer}
+button:hover{border-color:var(--acc)}
+button b{color:var(--acc)}
+.tag{background:#1c1c1c;border:1px solid var(--line);border-radius:6px;padding:9px 12px;cursor:pointer;user-select:none}
+.tag.on{background:var(--acc);border-color:#fff;color:#000;font-weight:700}
+.tag.on::before{content:"\2713 "}
+#flags{position:absolute;top:14px;left:14px;display:flex;gap:8px;pointer-events:none}
+#flags span{background:var(--acc);color:#000;font-weight:700;border-radius:5px;padding:4px 10px;font-size:13px}
+#note{background:#1a1a1a;border:1px solid var(--line);color:var(--fg);border-radius:6px;padding:9px;
+      font:inherit;flex:1;min-width:140px}
+#note:focus{outline:none;border-color:#e6a100;background:#1f1a10}
+#hint{color:var(--dim)}
+body.noting #hint{color:#e6a100;font-weight:600}
+body.noting footer{box-shadow:inset 0 0 0 2px #e6a100}
+#spacer{flex:1}
+#done{display:none;flex-direction:column;gap:14px;align-items:center;text-align:center;padding:40px}
+#done.show{display:flex}
+kbd{background:#222;border:1px solid var(--line);border-radius:4px;padding:1px 6px;font-size:12px;color:var(--dim)}
+small{color:var(--dim)}
+</style></head><body>
+<header>
+  <strong>Blind rating &mdash; rater 2</strong>
+  <div id="bar"><div id="fill"></div></div>
+  <div id="count">0 / 0</div>
+  <button id="export">Export CSV</button>
+  <button id="reset" title="Delete all stored calls and start from the first image">Reset all</button>
+</header>
+<main>
+  <div id="wrap"><img id="img" alt=""></div>
+  <div id="flags"></div>
+  <div id="zlvl">fit</div>
+  <div id="done">
+    <h2>All images rated. Thank you.</h2>
+    <p>Export the CSV and send the file back unchanged.<br>
+    Please do not open it in Excel and re-save &mdash; Excel alters the identifiers and the dates.</p>
+    <button id="export2">Export CSV</button>
+  </div>
+</main>
+<footer>
+  <div class="grp">
+    <span class="lbl">CALL &mdash; picks one and moves on</span>
+    <div class="row">
+      <button data-call="fragmented"><b>F</b>ragmented</button>
+      <button data-call="normal"><b>N</b>ormal / mixed</button>
+      <button data-call="elongated"><b>E</b>longated</button>
+      <button data-call="uncertain"><b>U</b>ncertain</button>
+    </div>
+  </div>
+  <div class="sep"></div>
+  <div class="grp">
+    <span class="lbl">TAGS &mdash; optional, does not advance</span>
+    <div class="row">
+      <div class="tag" id="tD"><b>D</b>onut</div>
+      <div class="tag" id="tC"><b>C</b>lump</div>
+      <input id="note" placeholder="note (optional)">
+      <button id="back">&larr; Undo</button>
+    </div>
+  </div>
+  <span id="spacer"></span>
+  <small id="hint"><kbd>F</kbd><kbd>N</kbd><kbd>E</kbd><kbd>U</kbd> call &middot; <kbd>D</kbd><kbd>C</kbd> flags &middot; <kbd>Z</kbd>/<kbd>+</kbd>/<kbd>-</kbd> zoom 1-4x &middot; drag to pan &middot; <kbd>Backspace</kbd> undo &middot; <kbd>Esc</kbd> leave note</small>
+</footer>
+<script>
+const ORDER = ["img_b53274", "img_8caa31", "img_0d0169", "img_710e06", "img_1400dc", "img_2258f8", "img_d5031a", "img_26e13e", "img_053143", "img_f8eaad", "img_0f6928", "img_38d59c", "img_264fce", "img_ad2119", "img_18fdd6", "img_edd6a6", "img_0be1a1", "img_7b03bd", "img_5e821b", "img_a7f38d", "img_dc8639", "img_f6c7cd", "img_38560d", "img_73533d", "img_eceebf", "img_dd0462", "img_8914e7", "img_ec8468", "img_af33cb", "img_3736b7", "img_5bf8b5", "img_20b888", "img_3f0cf1", "img_750e16", "img_b5c8d8", "img_78c2e5", "img_0e9b95", "img_b1b347", "img_c66c7f", "img_e6931a", "img_a1b26b", "img_e1ddb9", "img_6088de", "img_6bb0ab", "img_16ccb9", "img_008ff6", "img_376147", "img_4b7933", "img_039468", "img_5a8e74", "img_a67115", "img_e46743", "img_f451a9", "img_e936c8", "img_743f77", "img_3d6b80", "img_669209", "img_e4cb1b", "img_aa50a0", "img_0099ce", "img_ecdca1", "img_484cdc", "img_43c7e7", "img_2c71e9", "img_f9dbc7", "img_88a8a0", "img_8bb78d", "img_db2be7", "img_87d3f8", "img_3efb92", "img_9c8499", "img_50dd23", "img_1a8b3c", "img_9b8211", "img_945d27", "img_282500", "img_2f7c79", "img_50c80c", "img_ccd6b4", "img_224a89", "img_7ff178", "img_beec33", "img_bd7f2e", "img_e5fd7d", "img_505fbd", "img_5a52d0", "img_845566", "img_7e389e", "img_753df1", "img_686533", "img_b2a9bd", "img_50b8e1", "img_849bc8", "img_3d4e9c", "img_604a5b", "img_7a2dbe", "img_8feb31", "img_3685b9", "img_6cb7e0", "img_43bed8", "img_dacdf1", "img_ced7c3", "img_b5f009", "img_688718", "img_cd875b", "img_59f95a", "img_73dcc9", "img_b5e191", "img_921fc4", "img_a49aa1", "img_795820", "img_7a6f03", "img_7f9421", "img_0613c1", "img_d1c128", "img_8a1234", "img_1b98d3", "img_6d8957", "img_2cf7d7", "img_0c0f3b", "img_d9e73c", "img_995ba3", "img_83d4f5", "img_76354f", "img_b53a3f", "img_f19e45", "img_79fb90", "img_49210a", "img_a1e1a7", "img_1dcbd5", "img_8024e3", "img_fae149", "img_49ec79", "img_a1d75f", "img_3ff54b", "img_9fd2ec", "img_118980", "img_6414b4", "img_6793e9", "img_78ecc2", "img_7ee842", "img_cfbf5d", "img_68d744", "img_d961aa", "img_8d3d3c", "img_b89014", "img_bd4442", "img_00df52", "img_ea4dfa", "img_15676d", "img_9573a4", "img_aeac25", "img_5816cf", "img_28de5d", "img_5a0119", "img_f5f0d5", "img_f4dd32", "img_dfe336", "img_42c697", "img_918b51", "img_7e45ba", "img_7b7ef1", "img_7955be", "img_677217", "img_ede00a", "img_d31035", "img_065913", "img_d0cd45", "img_d9be51", "img_226955", "img_0b083a", "img_9b102b", "img_ed1068", "img_481f57", "img_fb831a", "img_805929", "img_9b8b22", "img_c62886", "img_898a32", "img_4692b5", "img_f5a9df", "img_06443f", "img_a4d96d", "img_cde128", "img_1926b3", "img_2099a4", "img_0c646f", "img_dadbef", "img_f5eaf0", "img_bf99ff", "img_3d0119", "img_dacc64", "img_4838c0", "img_184d28", "img_c22535", "img_2b5da1", "img_d8e9c9", "img_bbcb7b", "img_60e5ea", "img_ce8fbb", "img_eb8040", "img_410e62", "img_98d257", "img_de622a", "img_07f20a", "img_3f95bc", "img_b415f5", "img_67c13f", "img_e0353c", "img_d2a06c", "img_d588ce", "img_068527", "img_e75cdd", "img_893e89", "img_ed7b88", "img_c070fc", "img_e9d85d", "img_7cc3fc", "img_31562d", "img_ca428f", "img_607119", "img_658cb8", "img_e7459c", "img_d86a79", "img_2af59e", "img_ccc751", "img_6b0946", "img_8a3c7d", "img_759478", "img_731f41", "img_fb09da", "img_294c3d", "img_8fe171", "img_bf93ff", "img_a0428d", "img_fba930", "img_35e344", "img_2e0a59", "img_371280", "img_56509e", "img_48fa5a", "img_72d50c", "img_13153b", "img_c4b698", "img_ccfa8e", "img_845ac2", "img_9afda3", "img_87ede8", "img_e2769d", "img_478851", "img_245d71", "img_d1526e", "img_a39cc2", "img_6b43bf", "img_247302", "img_929bf5", "img_17274b", "img_ad888c", "img_39391b", "img_fce731", "img_25d9fe", "img_0b9d1f", "img_e8ba41", "img_152213", "img_90284e", "img_9812c1", "img_3df8ce", "img_bd8589", "img_3af896", "img_93a54c", "img_4c0545", "img_7b5b48", "img_09c382", "img_23ee74", "img_1a4229", "img_67a533", "img_513321", "img_7f67c9", "img_e2e653", "img_1bb71a", "img_2ee208", "img_da7653", "img_268649", "img_fdcc6d", "img_a2b689", "img_fb3594", "img_4271c9", "img_df758b", "img_6c7977", "img_af4f18", "img_6a4213", "img_654478", "img_d17cb3", "img_50ccd6", "img_5f4a28", "img_837cf6", "img_73e29e", "img_106af2", "img_12c550", "img_131cfc", "img_4d19b8", "img_c4d136", "img_49b592", "img_54dd86", "img_ba1e36", "img_a2289d", "img_05ab65", "img_b3a923", "img_dad5be", "img_b43219", "img_adc555", "img_8355b3", "img_0e31ea", "img_6f6047", "img_42f04b", "img_29b9ae", "img_a2abf5", "img_b37e4b", "img_86c315", "img_14842c", "img_1d0e1c", "img_645e19", "img_47ddb3", "img_cccb44", "img_6c0afe", "img_1c4206", "img_0f94c9", "img_245946", "img_c5bee7", "img_48bbbf", "img_0ab7da", "img_2f3af9", "img_c2aca3", "img_64cd48", "img_b324c4", "img_e46288", "img_44090e", "img_28fb33", "img_9507f9", "img_d5a331", "img_93bc03", "img_cab350", "img_7a3db2", "img_a2bd6e", "img_aeac81", "img_d2e4bf", "img_022a9e", "img_de1c4a", "img_b164bd", "img_ed5ecd", "img_3e88d7", "img_18d7eb", "img_13c232", "img_3a0338", "img_b9e847", "img_f28f0b", "img_b8f4d2", "img_2cfc3e", "img_8ba09f", "img_b37687", "img_37fdbf", "img_b80fcd", "img_4ff9e2", "img_426322", "img_dec5dd", "img_be9729", "img_054149", "img_7f1060", "img_a8e20a", "img_18601d", "img_b30662", "img_7771f5", "img_1b640c", "img_cf1e1e", "img_f226a1", "img_36aad0", "img_2cf5c0", "img_ee433b", "img_1ea6ff", "img_932d9d", "img_23001b", "img_f8bea6", "img_0aa5da", "img_2f96c4", "img_30a872", "img_e9a1f3", "img_51c2dd", "img_f382fd", "img_0cfaf5", "img_6c31f5", "img_615308", "img_1d1e60", "img_847263", "img_142c7b", "img_045c80", "img_7660fe", "img_3fd6cf", "img_28b9c1", "img_5b19bb", "img_cf9eaa", "img_b1ae18", "img_2acf93", "img_7b5673", "img_f5b3c0", "img_36365a", "img_d36962", "img_38d8ce", "img_60ae58", "img_0aaa5d", "img_59ba87", "img_ebc577", "img_7102a4", "img_4e2ec9", "img_17398f", "img_3bf46f", "img_b7d4de", "img_09670e", "img_da78ea", "img_d99eb5", "img_666031", "img_02dad2", "img_814910", "img_b89d74", "img_db720c", "img_b37584", "img_8681dc", "img_b5072b", "img_0a4b00", "img_017653", "img_04e51b", "img_0c7f01", "img_b2ceab", "img_0bcd70", "img_6869d3", "img_edcab0", "img_402dee", "img_1395bf", "img_ae3e86", "img_7c2015", "img_ffdb29", "img_97d62c", "img_011cd1", "img_ebcce4", "img_0625ed", "img_469b46", "img_4dc1ae", "img_9fb7dc", "img_2fe7d3", "img_0a00da", "img_ba4b0a", "img_7a0fad", "img_7f5e4a", "img_c4e33b", "img_a41b00", "img_24c7b1", "img_c195c0", "img_87bed8", "img_bedda7", "img_d2d9f7", "img_eba625", "img_b532e1", "img_46e19a", "img_d44e09", "img_5c768f", "img_b8e43c", "img_4a8c4d", "img_fad9c2", "img_f316f3", "img_78f556", "img_89848e", "img_6f667f", "img_a12a39", "img_783ed0", "img_f8671c", "img_03b8ef", "img_d0c400", "img_a75b5c", "img_4b1698", "img_c8ec4b", "img_924ec4", "img_42ec3e", "img_f2d478", "img_e3af13", "img_0b5c6a", "img_8489f0", "img_744d49", "img_a1c4cc", "img_cc040b", "img_119984", "img_7496d7", "img_964d53", "img_8dd979", "img_866f00", "img_fae774", "img_bf7306", "img_55a0c7", "img_58e91a", "img_a38554", "img_c8a8ef", "img_980171"];
+const KEY = 'blind_rating_r2';          // second rater, independent of rater 1
+const BACKUP_EVERY = 50;                // auto-download a copy this often
+let calls = JSON.parse(localStorage.getItem(KEY) || '{}');
+let idx = 0, donut = false, clump = false;
+const img=document.getElementById('img'), fill=document.getElementById('fill'),
+      count=document.getElementById('count'), note=document.getElementById('note'),
+      tD=document.getElementById('tD'), tC=document.getElementById('tC'),
+      done=document.getElementById('done'), wrap=document.getElementById('wrap');
+
+function firstUnrated(){ let i=0; while(i<ORDER.length && calls[ORDER[i]]) i++; return i; }
+function show(){
+  const n=Object.keys(calls).length;
+  count.textContent = 'image ' + Math.min(idx+1, ORDER.length) + ' of ' + ORDER.length + '  \u00b7  ' + n + ' rated';
+  fill.style.width = (100*n/ORDER.length) + '%';
+  if(idx>=ORDER.length){ wrap.style.display='none'; done.classList.add('show'); return; }
+  wrap.style.display='flex'; done.classList.remove('show');
+  setZoom(0);
+  img.src = 'rating_png/' + ORDER[idx] + '.png';
+  donut=false; clump=false; paintFlags(); note.value='';
+  note.blur();
+}
+function record(call){
+  try{
+  if(idx>=ORDER.length) return;
+  const tags=[]; if(donut) tags.push('donut'); if(clump) tags.push('clump');
+  const txt=note.value.trim().replace(/,/g,';');
+  if(txt) tags.push(txt);
+  calls[ORDER[idx]] = {call:call, notes:tags.join('; '), date:new Date().toISOString().slice(0,10)};
+  localStorage.setItem(KEY, JSON.stringify(calls));
+  const n = Object.keys(calls).length;
+  // Losing a day's work to cleared site data is the one unrecoverable failure
+  // here, so take a copy periodically rather than trusting the final export.
+  if(n % BACKUP_EVERY === 0) exportCsv('labels_rater2_backup_' + n + '.csv');
+  idx++; show();
+  }catch(err){ alert('record() failed: '+err.message); throw err; }
+}
+document.querySelectorAll('button[data-call]').forEach(b=>{
+  b.addEventListener('mousedown',e=>{ e.preventDefault(); record(b.dataset.call); });
+});
+const flagBox=document.getElementById('flags');
+function paintFlags(){
+  tD.classList.toggle('on',donut); tC.classList.toggle('on',clump);
+  flagBox.innerHTML = (donut?'<span>DONUT</span>':'') + (clump?'<span>CLUMP</span>':'');
+}
+tD.onclick=()=>{donut=!donut;paintFlags()};
+tC.onclick=()=>{clump=!clump;paintFlags()};
+// ---- zoom: fit -> 1x -> 2x -> 4x, wheel to zoom, drag to pan ----
+const LEVELS=[0,1,2,4], zl=document.getElementById('zlvl');
+let zi=0;
+function applyZoom(cx,cy){
+  const f=LEVELS[zi];
+  if(f===0){
+    img.classList.remove('zoomed'); img.style.width=''; img.style.height='';
+    zl.textContent='fit';
+  }else{
+    img.classList.add('zoomed');
+    img.style.width=(img.naturalWidth*f)+'px'; img.style.height='auto';
+    zl.textContent=f+'x';
+    // keep the clicked point roughly centred
+    requestAnimationFrame(()=>{
+      const rx = cx==null ? 0.5 : cx, ry = cy==null ? 0.5 : cy;
+      wrap.scrollLeft = rx*wrap.scrollWidth  - wrap.clientWidth/2;
+      wrap.scrollTop  = ry*wrap.scrollHeight - wrap.clientHeight/2;
+    });
+  }
+}
+function setZoom(i,cx,cy){ zi=Math.max(0,Math.min(LEVELS.length-1,i)); applyZoom(cx,cy); }
+img.addEventListener('click',e=>{
+  const r=img.getBoundingClientRect();
+  setZoom(zi+1<LEVELS.length?zi+1:0,(e.clientX-r.left)/r.width,(e.clientY-r.top)/r.height);
+});
+wrap.addEventListener('wheel',e=>{
+  e.preventDefault();
+  const r=img.getBoundingClientRect();
+  setZoom(zi+(e.deltaY<0?1:-1),(e.clientX-r.left)/r.width,(e.clientY-r.top)/r.height);
+},{passive:false});
+let drag=null;
+img.addEventListener('mousedown',e=>{
+  if(!img.classList.contains('zoomed')) return;
+  drag={x:e.clientX,y:e.clientY,l:wrap.scrollLeft,t:wrap.scrollTop};
+  img.classList.add('dragging'); e.preventDefault();
+});
+addEventListener('mousemove',e=>{
+  if(!drag) return;
+  wrap.scrollLeft=drag.l-(e.clientX-drag.x);
+  wrap.scrollTop =drag.t-(e.clientY-drag.y);
+});
+addEventListener('mouseup',()=>{ if(drag){drag=null; img.classList.remove('dragging');} });
+document.getElementById('back').onclick=()=>{
+  if(idx>0){ idx--; delete calls[ORDER[idx]]; localStorage.setItem(KEY,JSON.stringify(calls)); show(); }
+};
+addEventListener('keydown',e=>{
+  if(e.target===note){ if(e.key==='Enter'||e.key==='Escape') note.blur(); return; }
+  const k=e.key.toLowerCase();
+  if(k==='f') record('fragmented');
+  else if(k==='n') record('normal');
+  else if(k==='e') record('elongated');
+  else if(k==='u') record('uncertain');
+  else if(k==='d'){ donut=!donut; paintFlags(); }
+  else if(k==='c'){ clump=!clump; paintFlags(); }
+  else if(k==='z') setZoom(zi+1<LEVELS.length?zi+1:0);
+  else if(k==='+'||k==='='){ setZoom(zi+1); }
+  else if(k==='-'||k==='_'){ setZoom(zi-1); }
+  else if(k==='0') setZoom(0);
+  else if(k==='Backspace'||e.key==='Backspace'){ e.preventDefault(); document.getElementById('back').click(); }
+});
+function exportCsv(name){
+  let out='image_id,blinded_call,date_rated,notes\n';
+  for(const id of ORDER){
+    const c=calls[id];
+    out += id + ',' + (c?c.call:'') + ',' + (c?c.date:'') + ',' + (c?c.notes:'') + '\n';
+  }
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(new Blob([out],{type:'text/csv'}));
+  a.download = (typeof name === 'string' && name) ? name : 'labels_rater2.csv';
+  a.click();
+}
+const hint=document.getElementById('hint');
+const HINT_IDLE=hint.innerHTML;
+note.addEventListener('focus',()=>{
+  document.body.classList.add('noting');
+  hint.innerHTML='typing a note - shortcuts paused. Press <kbd>Enter</kbd> or <kbd>Esc</kbd>, or just click a call button.';
+});
+note.addEventListener('blur',()=>{
+  document.body.classList.remove('noting');
+  hint.innerHTML=HINT_IDLE;
+});
+wrap.addEventListener('mousedown',()=>note.blur());
+document.getElementById('reset').onclick=()=>{
+  const n=Object.keys(calls).length;
+  if(!confirm('Delete all '+n+' stored calls and start over?\n\nThis cannot be undone. Export first if you want a copy.')) return;
+  calls={}; localStorage.removeItem(KEY); idx=0; show();
+};
+// wrap: assigning exportCsv directly passes the click event as the filename
+document.getElementById('export').onclick=()=>exportCsv();
+document.getElementById('export2').onclick=()=>exportCsv();
+idx=firstUnrated(); show();
+</script></body></html>

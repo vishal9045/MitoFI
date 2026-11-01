@@ -1,0 +1,12 @@
+pixel size: read from each file
+
+    #  image                             um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────────────────
+    1  huh-7 Mito GFP 24 hpi Rep ima…   0.0829   0.787  mixed        0.61
+  ──────────────────────────────────────────────────────────────────────────────
+  1 images                           1 scored, 0 rejected
+  index                              mean 0.787   median 0.787   sd —   range 0.787–0.787
+  bands                              fragmented 0   mixed 1   elongated 0
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/12-03-2024__24 hpi CoV-2 Rep.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/12-03-2024__24 hpi CoV-2 Rep_summary.csv

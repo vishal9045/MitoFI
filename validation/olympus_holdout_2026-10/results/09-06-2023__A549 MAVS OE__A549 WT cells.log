@@ -1,0 +1,22 @@
+pixel size: read from each file
+
+    #  image                          um/px   index  band         conf  notes
+  ───────────────────────────────────────────────────────────────────────────
+    1  A549 WT NORMAL CELLS F1 B3    0.0829   0.667  mixed        0.56
+    2  A549 WT NORMAL CELLS F10 B3   0.0829   0.161  mixed        0.70
+    3  A549 WT NORMAL CELLS F11 B3   0.0829   0.398  mixed        0.48
+    4  A549 WT NORMAL CELLS F2 B3    0.0829   0.021  elongated    0.96
+    5  A549 WT NORMAL CELLS F3 B3    0.0829   0.897  fragmented   0.81
+    6  A549 WT NORMAL CELLS F4 B3    0.0829   0.001  elongated    1.00
+    7  A549 WT NORMAL CELLS F5 B3    0.0829   0.950  fragmented   0.91
+    8  A549 WT NORMAL CELLS F6 B3    0.0829   0.182  mixed        0.72
+    9  A549 WT NORMAL CELLS F7 B3    0.0829   0.006  elongated    0.99
+   10  A549 WT NORMAL CELLS F8 B3    0.0829   0.750  mixed        0.62
+   11  A549 WT NORMAL CELLS F9 B3    0.0829   0.850  mixed        0.73
+  ───────────────────────────────────────────────────────────────────────────
+  11 images                       11 scored, 0 rejected
+  index                           mean 0.444   median 0.398   sd 0.386   range 0.001–0.950
+  bands                           fragmented 2   mixed 6   elongated 3
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/09-06-2023__A549 MAVS OE__A549 WT cells.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/09-06-2023__A549 MAVS OE__A549 WT cells_summary.csv

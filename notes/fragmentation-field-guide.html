@@ -1,0 +1,617 @@
+<title>Fragmentation Field Guide</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+:root{
+  --bg:#f2f4f3;
+  --bg-raised:#ffffff;
+  --bg-sunken:#e7eae9;
+  --ink:#1c2126;
+  --ink-dim:#5b6470;
+  --ink-faint:#8a919b;
+  --border:#d6dbd9;
+  --border-strong:#b9c0be;
+  --accent:#9c2e3d;
+  --accent-ink:#ffffff;
+  --accent-tint:#f6e6e8;
+  --teal:#1f6e73;
+  --teal-tint:#e2eeee;
+  --teal-ink:#0f4448;
+  --shadow:0 1px 2px rgba(20,24,22,.06), 0 6px 20px rgba(20,24,22,.05);
+  --font-display:'Fraunces',Georgia,'Times New Roman',serif;
+  --font-body:'Public Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  --font-mono:'IBM Plex Mono',ui-monospace,'SF Mono',Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#14171b;
+    --bg-raised:#1b1f24;
+    --bg-sunken:#101316;
+    --ink:#e8eaec;
+    --ink-dim:#a3aab3;
+    --ink-faint:#767e88;
+    --border:#2c3238;
+    --border-strong:#3a424a;
+    --accent:#e0717e;
+    --accent-ink:#1c0a0d;
+    --accent-tint:#2e1b1f;
+    --teal:#5fc2c7;
+    --teal-tint:#132625;
+    --teal-ink:#bfe9ea;
+    --shadow:0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.35);
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#14171b;
+  --bg-raised:#1b1f24;
+  --bg-sunken:#101316;
+  --ink:#e8eaec;
+  --ink-dim:#a3aab3;
+  --ink-faint:#767e88;
+  --border:#2c3238;
+  --border-strong:#3a424a;
+  --accent:#e0717e;
+  --accent-ink:#1c0a0d;
+  --accent-tint:#2e1b1f;
+  --teal:#5fc2c7;
+  --teal-tint:#132625;
+  --teal-ink:#bfe9ea;
+  --shadow:0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.35);
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--ink);
+  font-family:var(--font-body);
+  font-size:16px;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+::selection{background:var(--accent-tint);color:var(--ink)}
+a{color:var(--teal)}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var(--teal);outline-offset:2px}
+
+.wrap{max-width:920px;margin:0 auto;padding:0 24px 120px}
+.prose{max-width:680px}
+
+/* nav */
+.topnav{
+  position:sticky;top:0;z-index:20;
+  background:color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--border);
+}
+.topnav-inner{
+  max-width:920px;margin:0 auto;padding:0 24px;
+  display:flex;gap:22px;overflow-x:auto;
+  font-family:var(--font-mono);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;
+}
+.topnav a{color:var(--ink-dim);text-decoration:none;padding:13px 0;white-space:nowrap;border-bottom:2px solid transparent}
+.topnav a:hover{color:var(--ink)}
+
+/* header */
+header.hero{padding:56px 0 40px;border-bottom:1px solid var(--border)}
+.eyebrow{
+  font-family:var(--font-mono);font-size:12px;letter-spacing:.09em;text-transform:uppercase;
+  color:var(--teal-ink);background:var(--teal-tint);display:inline-block;
+  padding:4px 10px;border-radius:3px;margin-bottom:18px;
+}
+h1{
+  font-family:var(--font-display);font-weight:600;font-size:clamp(2.1rem,4.5vw,3.1rem);
+  line-height:1.06;margin:0 0 14px;text-wrap:balance;letter-spacing:-.01em;
+}
+.deck{font-size:1.15rem;color:var(--ink-dim);max-width:640px;margin:0 0 26px;text-wrap:pretty}
+.meta{
+  display:flex;flex-wrap:wrap;gap:8px 22px;
+  font-family:var(--font-mono);font-size:12.5px;color:var(--ink-faint);
+  border-top:1px solid var(--border);padding-top:18px;
+}
+.meta b{color:var(--ink-dim);font-weight:500}
+
+section{padding:52px 0}
+section + section{border-top:1px solid var(--border)}
+.section-label{
+  font-family:var(--font-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--ink-faint);margin:0 0 8px;
+}
+h2{font-family:var(--font-display);font-weight:600;font-size:1.85rem;margin:0 0 6px;text-wrap:balance}
+h3{font-family:var(--font-display);font-weight:600;font-size:1.25rem;margin:28px 0 10px}
+p{margin:0 0 16px}
+.lede{font-size:1.05rem;color:var(--ink-dim);max-width:640px;margin-bottom:30px}
+
+/* divider ornament: a tiny schematic skeleton graph */
+.ornament{display:flex;justify-content:center;margin:8px 0 34px;color:var(--border-strong)}
+.ornament svg{display:block}
+
+/* callout / erratum banner */
+.erratum{
+  background:var(--accent-tint);border:1px solid color-mix(in srgb, var(--accent) 35%, var(--border));
+  border-radius:8px;padding:26px 28px;box-shadow:var(--shadow);
+}
+.erratum .tag{
+  font-family:var(--font-mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--accent);font-weight:500;display:flex;align-items:center;gap:8px;margin-bottom:12px;
+}
+.erratum .tag::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--accent);display:inline-block}
+.erratum h3{margin-top:0;font-size:1.4rem;color:var(--ink)}
+.erratum p{color:var(--ink)}
+.erratum .verdict{
+  display:inline-flex;gap:8px;align-items:baseline;font-family:var(--font-mono);font-size:13px;
+  background:var(--bg-raised);border:1px solid var(--border);border-radius:5px;padding:9px 12px;margin:4px 8px 4px 0;
+}
+.erratum .verdict b{color:var(--accent)}
+
+/* pathway diagram */
+.pathway{background:var(--bg-raised);border:1px solid var(--border);border-radius:8px;padding:28px;box-shadow:var(--shadow);overflow-x:auto}
+.pathway svg{display:block;min-width:640px;width:100%;height:auto}
+.pathway-cap{font-size:13px;color:var(--ink-faint);margin-top:14px}
+
+/* tool cards */
+.toolgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;margin-top:28px}
+.toolcard{
+  background:var(--bg-raised);border:1px solid var(--border);border-radius:8px;padding:18px 20px;
+  display:flex;flex-direction:column;gap:10px;
+}
+.toolcard .head{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+.toolcard h4{font-family:var(--font-display);font-size:1.05rem;font-weight:600;margin:0}
+.badges{display:flex;flex-wrap:wrap;gap:6px}
+.badge{
+  font-family:var(--font-mono);font-size:10.5px;letter-spacing:.03em;text-transform:uppercase;
+  padding:3px 7px;border-radius:4px;border:1px solid var(--border-strong);color:var(--ink-dim);white-space:nowrap;
+}
+.badge.cat-no{color:var(--ink-faint)}
+.badge.cat-yes{background:var(--teal-tint);border-color:transparent;color:var(--teal-ink)}
+.badge.cat-refuse{background:var(--accent-tint);border-color:transparent;color:var(--accent)}
+.toolcard .insight{font-size:14px;color:var(--ink-dim);margin:0}
+.toolcard details{margin-top:2px;border-top:1px solid var(--border);padding-top:10px}
+.toolcard summary{cursor:pointer;font-family:var(--font-mono);font-size:11.5px;letter-spacing:.05em;text-transform:uppercase;color:var(--teal);list-style:none}
+.toolcard summary::-webkit-details-marker{display:none}
+.toolcard summary::before{content:"+  ";}
+.toolcard details[open] summary::before{content:"–  "}
+.toolcard .body{font-size:13.5px;color:var(--ink-dim);margin-top:10px;line-height:1.55}
+.toolcard .body dt{font-weight:600;color:var(--ink);margin-top:8px}
+.toolcard .body dd{margin:2px 0 0}
+.toolcard a.src{font-family:var(--font-mono);font-size:11.5px}
+
+.synth{background:var(--teal-tint);border-radius:8px;padding:24px 26px;margin-top:30px}
+.synth h3{margin-top:0;color:var(--teal-ink)}
+.synth ol{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:12px}
+.synth li{color:var(--ink)}
+.synth li::marker{font-family:var(--font-mono);color:var(--teal)}
+
+/* table */
+.tablewrap{overflow-x:auto;border:1px solid var(--border);border-radius:8px;margin-top:24px}
+table{width:100%;border-collapse:collapse;font-size:14px;min-width:760px}
+thead th{
+  text-align:left;font-family:var(--font-mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--ink-faint);background:var(--bg-sunken);padding:11px 14px;border-bottom:1px solid var(--border);
+}
+tbody td{padding:13px 14px;border-bottom:1px solid var(--border);vertical-align:top;color:var(--ink-dim)}
+tbody tr:last-child td{border-bottom:none}
+tbody td.study{color:var(--ink);font-weight:500}
+tbody td.crit{font-family:var(--font-mono);font-size:12.5px}
+tbody tr:hover td{background:var(--bg-sunken)}
+
+/* confound cards */
+.confounds{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-top:26px}
+.confound{border:1px solid var(--border);border-radius:8px;padding:20px 22px;background:var(--bg-raised)}
+.confound .status{
+  font-family:var(--font-mono);font-size:10.5px;letter-spacing:.05em;text-transform:uppercase;
+  padding:3px 8px;border-radius:4px;display:inline-block;margin-bottom:10px;
+}
+.status.documented{background:var(--teal-tint);color:var(--teal-ink)}
+.status.novel{background:var(--accent-tint);color:var(--accent)}
+.confound h4{margin:0 0 8px;font-family:var(--font-display);font-size:1.05rem}
+.confound p{font-size:13.5px;color:var(--ink-dim);margin:0}
+
+/* open questions */
+.qlist{display:flex;flex-direction:column;gap:0;margin-top:26px;border-top:1px solid var(--border)}
+.qitem{display:grid;grid-template-columns:32px 1fr;gap:16px;padding:20px 0;border-bottom:1px solid var(--border)}
+.qitem .num{font-family:var(--font-mono);color:var(--ink-faint);font-size:13px;padding-top:2px}
+.qitem h4{margin:0 0 6px;font-family:var(--font-body);font-weight:600;font-size:15.5px}
+.qitem p{margin:0;font-size:14px;color:var(--ink-dim)}
+
+/* sources */
+.srcgroup summary{
+  cursor:pointer;font-family:var(--font-mono);font-size:12.5px;letter-spacing:.04em;text-transform:uppercase;
+  color:var(--ink);padding:14px 0;border-bottom:1px solid var(--border);list-style:none;display:flex;justify-content:space-between;
+}
+.srcgroup summary::-webkit-details-marker{display:none}
+.srcgroup summary::after{content:"+";color:var(--ink-faint);font-family:var(--font-body)}
+.srcgroup[open] summary::after{content:"–"}
+.srclist{padding:6px 0 18px;display:flex;flex-direction:column;gap:9px}
+.srclist li{font-size:13.5px;color:var(--ink-dim);list-style:none;padding-left:0}
+.srclist a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--border-strong)}
+.srclist a:hover{color:var(--teal);border-color:var(--teal)}
+.srclist .note{color:var(--ink-faint);font-size:12.5px}
+
+footer{padding:40px 0 0;color:var(--ink-faint);font-size:12.5px;font-family:var(--font-mono)}
+
+@media (max-width:600px){
+  .erratum{padding:20px}
+  .qitem{grid-template-columns:24px 1fr}
+}
+</style>
+
+<nav class="topnav"><div class="topnav-inner">
+  <a href="#finding">IFN check</a>
+  <a href="#tools">Tools</a>
+  <a href="#definitions">Definitions</a>
+  <a href="#pathway">CCCP·IFN</a>
+  <a href="#confounds">Confounds</a>
+  <a href="#questions">Open questions</a>
+  <a href="#sources">Sources</a>
+</div></nav>
+
+<div class="wrap">
+
+<header class="hero">
+  <span class="eyebrow">Literature &amp; tools survey</span>
+  <h1>Fragmentation Field Guide</h1>
+  <p class="deck">Before rebuilding the pipeline: how does the field actually define "fragmented" versus "elongated" mitochondria, what do the open-access tools measure, and does either of our own labelled conditions hold up.</p>
+  <div class="meta">
+    <span><b>Project</b> Fragmentation Index Calculator</span>
+    <span><b>Model</b> Huh-7 · MitoTracker Red · 0.083 µm/px confocal</span>
+    <span><b>Sources</b> 12 tools · 25 papers</span>
+    <span><b>Prepared</b> 3 Sep 2026</span>
+  </div>
+</header>
+
+<section id="finding">
+  <p class="section-label">Checked against the literature</p>
+  <h2>IFN → fusion: your data, not the mechanism papers</h2>
+  <p class="lede">Resolved, not a blocker — recorded here because it's a genuine divergence from the mechanism literature, and that's worth knowing even when it isn't a problem.</p>
+
+  <div class="erratum">
+    <div class="tag">Context-dependent, not a labelling error</div>
+    <h3>Own data overrides — Huh-7 shows IFN-driven fusion</h3>
+    <p>Our elongated bin is the <code>20-05-2024 MAVS KO IFN repeat</code> folder. The mechanism literature found here points the other way in the systems it was studied in:</p>
+    <div>
+      <span class="verdict">CCCP → <b>fission</b> · Drp1-dependent, confirmed causally (Drp1-KO restores signalling CCCP suppresses)</span>
+      <span class="verdict">IFN-β → <b>fission</b> · STAT5 → PGAM5 → Drp1-S622, shown in neurons, N2A, MEFs, mouse brain</span>
+      <span class="verdict">Type&nbsp;I IFN/IFNAR → <b>fission</b> · via ISG15/OMA1, in macrophages</span>
+    </div>
+    <p style="margin-top:14px">None of those are Huh-7. Own data here shows IFN driving fusion in this cell line, which the mechanism papers don't rule out — they're neuron/N2A/MEF/macrophage systems, and the one elongation↔IFN link that does exist in the literature is already known to be context/virus-dependent. Treat Huh-7-IFN-fusion as a real, cell-type-specific result, not an error to chase down. CCCP → fragmented stays uncontested either way.</p>
+  </div>
+</section>
+
+<section id="tools">
+  <p class="section-label">Survey · Part I</p>
+  <h2>What the open-access tools actually do</h2>
+  <p class="lede">Twelve tools, spanning a Fourier-based 2005 ImageJ macro to a 2025 <em>Nature Methods</em> release. The question asked of each: does it output a fragmented/elongated <em>category</em>, or only continuous shape numbers?</p>
+
+  <div class="toolgrid">
+
+    <article class="toolcard">
+      <div class="head"><h4>MiNA</h4></div>
+      <div class="badges"><span class="badge">Skeleton</span><span class="badge">2D/3D</span><span class="badge cat-no">No category</span></div>
+      <p class="insight">Their own FAQ, quoted: <em>"This is not a question we can definitively answer or one we will try to answer."</em> Punts thresholding to the user, deliberately.</p>
+      <details><summary>Method &amp; validation</summary><div class="body">
+        <dt>Segmentation</dt><dd>Threshold ± Ridge Detection enhancement → binarize → skeletonize → Analyze Skeleton</dd>
+        <dt>Outputs</dt><dd>Footprint, branch length (mean/median/SD), summed lengths, network count, donut count</dd>
+        <dt>Validation</dt><dd>Qualitative only, on example hyperfused/fused/fragmented images</dd>
+      </div></details>
+      <a class="src" href="https://pubmed.ncbi.nlm.nih.gov/28314612/" target="_blank">pubmed.ncbi.nlm.nih.gov/28314612 ↗</a>
+    </article>
+
+    <article class="toolcard">
+      <div class="head"><h4>Mitochondria Analyzer</h4></div>
+      <div class="badges"><span class="badge">Adaptive threshold</span><span class="badge">2D/3D/4D</span><span class="badge cat-no">No fixed cutoff</span></div>
+      <p class="insight"><b>Local, not global</b>, thresholding — the design choice that let it beat 4 other ImageJ tools by avoiding the false-clustering we hit with our own Otsu union mask.</p>
+      <details><summary>Method &amp; validation</summary><div class="body">
+        <dt>Outputs</dt><dd>Circularity, form factor, branch counts, network stats</dd>
+        <dt>Validation</dt><dd>Independent comparison review found it outperformed peers specifically on touching-object separation</dd>
+      </div></details>
+      <a class="src" href="https://github.com/acayuelalopez/MitochondrialAnalyzer_" target="_blank">github.com/…/MitochondrialAnalyzer ↗</a>
+    </article>
+
+    <article class="toolcard">
+      <div class="head"><h4>MitoGraph</h4></div>
+      <div class="badges"><span class="badge">Graph decomp.</span><span class="badge">3D only</span><span class="badge cat-no">No category</span></div>
+      <p class="insight">3D <em>by explicit rationale</em> — built because 2D projection destroys network topology in non-flat cells. Direct precedent for our own MIP concerns.</p>
+      <details><summary>Method &amp; validation</summary><div class="body">
+        <dt>Segmentation</dt><dd>3D blind deconvolution → intensity threshold → graph decomposition (nodes = junctions/ends)</dd>
+        <dt>Outputs</dt><dd>Volume, surface area, sphericity, branch count/length/diameter, length per biomass</dd>
+        <dt>Validation</dt><dd>Synthetic objects of known geometry + qualitative rotenone comparison, no ground-truth dataset</dd>
+      </div></details>
+      <a class="src" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4079598/" target="_blank">pmc…/PMC4079598 ↗</a>
+    </article>
+
+    <article class="toolcard">
+      <div class="head"><h4>Nellie</h4></div>
+      <div class="badges"><span class="badge">Frangi + adaptive</span><span class="badge">2D/3D</span><span class="badge cat-no">No category</span></div>
+      <p class="insight"><em>Nature Methods</em> 2025. Voxel-adaptive multiscale Frangi — the filter family we used — paired with hierarchical sub-organelle decomposition, still stops at continuous features.</p>
+      <details><summary>Method &amp; validation</summary><div class="body">
+        <dt>Outputs</dt><dd>Branch length, tortuosity, aspect ratio, solidity, radius, volume + motility via tracking</dd>
+        <dt>Validation</dt><dd>F1/IoU vs. simulated ground truth across noise levels; functional check via ionomycin recovery kinetics</dd>
+      </div></details>
+      <a class="src" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11978511/" target="_blank">pmc…/PMC11978511 ↗</a>
+    </article>
+
+    <article class="toolcard">
+      <div class="head"><h4>MitoSegNet</h4></div>
+      <div class="badges"><span class="badge">U-Net</span><span class="badge">2D</span><span class="badge cat-no">No category</span></div>
+      <p class="insight">Deep-learning segmentation trained on just 12 annotated images — small training set worth noting if we ever go this route.</p>
+      <details><summary>Method &amp; validation</summary><div class="body">
+        <dt>Training</dt><dd>12 annotated <em>C. elegans</em> body-wall muscle images</dd>
+        <dt>Validation</dt><dd>Outperformed Otsu / classical features / Ilastik on pixelwise + morphological accuracy; demo'd on CCCP-fragmented HeLa</dd>
+      </div></details>
+      <a class="src" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7554024/" target="_blank">pmc…/PMC7554024 ↗</a>
+    </article>
+
+    <article class="toolcard">
+      <div class="head"><h4>Mitometer</h4></div>
+      <div class="badges"><span class="badge">Tracking</span><span class="badge">2D/3D time-lapse</span><span class="badge cat-no">Comparative only</span></div>
+      <p class="insight">Frame-to-frame morphology + displacement linking; detects fission/fusion <em>events</em> directly rather than classifying static shape.</p>
+      <details><summary>Method &amp; validation</summary><div class="body">
+        <dt>Outputs</dt><dd>Size/shape/elongation + speed/directionality + fission-fusion event detection</dd>
+        <dt>Note</dt><dd>Full text paywalled — details here are abstract-level, lower confidence than the rest of this table</dd>
+      </div></details>
+      <a class="src" href="https://github.com/aelefebv/Mitometer" target="_blank">github.com/aelefebv/Mitometer ↗</a>
+    </article>
+
+    <article class="toolcard">
+      <div class="head"><h4>Mito Hacker / MiA</h4></div>
+      <div class="badges"><span class="badge">Intensity distrib.</span><span class="badge">2D by design</span><span class="badge cat-refuse">Refuses category</span></div>
+      <p class="insight">States outright: <em>"does not classify mitochondria into morphological categories… produces continuous quantitative measurements that downstream ML models can use."</em></p>
+      <details><summary>Method &amp; validation</summary><div class="body">
+        <dt>Outputs</dt><dd>31 mitochondria-level + 110 cell-level continuous measures</dd>
+        <dt>Validation</dt><dd>96.5% overlap vs. hand-drawn masks. Downstream classifier on Drp1-genotype (not visual class): <b>87% accuracy, 630 cells</b></dd>
+      </div></details>
+      <a class="src" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7642274/" target="_blank">pmc…/PMC7642274 ↗</a>
+    </article>
+
+    <article class="toolcard">
+      <div class="head"><h4>Koopman toolkit</h4></div>
+      <div class="badges"><span class="badge">Fourier</span><span class="badge">2D</span><span class="badge cat-no">No fixed cutoff</span></div>
+      <p class="insight">2005/6, foundational. Introduced <b>aspect ratio</b> and <b>form factor</b> — still the field's standard shape descriptors, and neither is skeleton length.</p>
+      <details><summary>Method &amp; validation</summary><div class="body">
+        <dt>Contribution</dt><dd>AR (major/minor axis) and FF (perimeter²/4π·area), reported as continuous distributions; every later cutoff study picks its own threshold on these</dd>
+      </div></details>
+      <a class="src" href="https://onlinelibrary.wiley.com/doi/abs/10.1002/cyto.a.20198" target="_blank">onlinelibrary.wiley.com/…/cyto.a.20198 ↗</a>
+    </article>
+
+    <article class="toolcard">
+      <div class="head"><h4>Automatic Subtyping</h4></div>
+      <div class="badges"><span class="badge">Ensemble ML</span><span class="badge">2D</span><span class="badge cat-yes">Categorical, rigorous</span></div>
+      <p class="insight">The most defensible categorical classifier found. <b>10,662 hand-labeled objects</b>, six subtypes, honest per-class accuracy including the weak class.</p>
+      <details><summary>Method &amp; validation</summary><div class="body">
+        <dt>Classes</dt><dd>Small/swollen globules, straight/twisted/branched tubules, loops (donuts)</dd>
+        <dt>Method</dt><dd>~20 features (mask + skeleton + Haralick texture) → decision tree + RBF-SVM + linear-SVM, majority vote</dd>
+        <dt>Validation</dt><dd>10-fold CV, 50% holdout ×20 repeats. &gt;80% for 4 of 6 classes; twisted tubules weakest, "often confused with straight"</dd>
+      </div></details>
+      <a class="src" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3188504/" target="_blank">ncbi…/PMC3188504 ↗</a>
+    </article>
+
+    <article class="toolcard">
+      <div class="head"><h4>Count+size cutoff</h4></div>
+      <div class="badges"><span class="badge">Absolute rule</span><span class="badge">2D, per-cell</span><span class="badge cat-yes">Categorical, binary</span></div>
+      <p class="insight">Sidesteps segmentation instead of solving it: cells are <b>flattened by centrifugation before imaging</b> so touching objects mostly don't occur.</p>
+      <details><summary>Method &amp; validation</summary><div class="body">
+        <dt>Rule</dt><dd>Quoted: "fragmented" = cell contains ≥8 fragments each &lt;3 µm longest axis. Authors tested 2/5/10 as alternates and say plainly the cutoff is a choice</dd>
+      </div></details>
+      <a class="src" href="https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0074008" target="_blank">plosone · pone.0074008 ↗</a>
+    </article>
+
+    <article class="toolcard">
+      <div class="head"><h4>Solidity/perimeter predictor</h4></div>
+      <div class="badges"><span class="badge">Random forest</span><span class="badge">2D time-lapse</span><span class="badge cat-yes">Event-validated</span></div>
+      <p class="insight">Ground truth here is a real, camera-confirmed fission/fusion <em>event</em> — the strongest validation design in this whole survey.</p>
+      <details><summary>Method &amp; validation</summary><div class="body">
+        <dt>Thresholds</dt><dd>Solidity ≥0.8 → high fusion propensity; ~0.65 in untreated controls; perimeter ≤100 µm predicts fusion likelihood</dd>
+        <dt>Validation</dt><dd>11-feature random forest, <b>86% accuracy</b> discriminating fission-destined vs. fusion-destined mitochondria</dd>
+      </div></details>
+      <a class="src" href="https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0095265" target="_blank">plosone · pone.0095265 ↗</a>
+    </article>
+
+    <article class="toolcard">
+      <div class="head"><h4>Area+perimeter geometry</h4></div>
+      <div class="badges"><span class="badge">Algebraic</span><span class="badge">2D</span><span class="badge cat-no">No category</span></div>
+      <p class="insight">Derives length/width <b>algebraically from area and perimeter</b>, assuming tubular geometry — deliberately not skeleton-based.</p>
+      <details><summary>Method &amp; validation</summary><div class="body">
+        <dt>Validation</dt><dd>R=0.93 length/width repeatability across replicates; detected known fragmenting treatments (high glucose, H₂O₂) as a sensitivity check</dd>
+      </div></details>
+      <a class="src" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5891219/" target="_blank">pmc…/PMC5891219 ↗</a>
+    </article>
+
+  </div>
+
+  <div class="synth">
+    <h3>Patterns across all twelve</h3>
+    <ol>
+      <li><b>Every actively-maintained modern tool refuses a fragmented/elongated category.</b> MiNA, MitoGraph, Nellie, and MiA — four separate teams, same design decision, stated outright in three of their own papers. That's a field-level signal that a fixed image-derived threshold doesn't generalize across cell type, stain, and scope — precisely the wall we hit trying to make one <code>h</code> value work across two conditions.</li>
+      <li><b>Where a category does exist, it never comes from tuning a segmentation parameter.</b> It comes from a trained classifier on real labeled ground truth (10,662 hand-labeled objects; or genetic-perturbation identity as the label), or from a wet-lab step that removes the ambiguity before imaging even happens. Nobody derives a splitting rule from the image itself and expects it to travel between conditions.</li>
+      <li><b>Nobody uses skeleton length alone as the discriminator.</b> The field's default shape descriptors are aspect ratio, form factor, and solidity — skeleton length shows up only as one input among many in a multi-feature classifier, never as a standalone µm cutoff the way our scrapped pipeline used it.</li>
+      <li>The compact-object skeleton bias we measured ourselves — 66% vs. 78% of major-axis length recovered — <b>isn't a documented problem anywhere in this literature.</b> Plausibly because nobody else leans on raw skeleton pixel count the way we did. Worth writing up rather than only routing around.</li>
+      <li>The real category system is richer than a binary. Six subtypes in the most rigorous classifier found: small/swollen globules, straight/twisted/branched tubules, loops. CCCP specifically is known to produce <b>donuts</b>, not just short fragments — worth checking against our own images.</li>
+      <li>The one non-circular calibration precedent: solidity/perimeter thresholds derived from <em>watching real fission/fusion events</em>, not from a static shape judgment. A route to a defensible threshold if live time-lapse imaging is ever on the table.</li>
+    </ol>
+  </div>
+</section>
+
+<section id="definitions">
+  <p class="section-label">Survey · Part II</p>
+  <h2>How the field actually draws the line</h2>
+  <p class="lede">Seven fundamentally different operational definitions, in active concurrent use. No universal quantitative cutoff exists — the studies aren't measuring the same thing when they say "fragmented."</p>
+
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th style="width:20%">Approach</th><th style="width:22%">Study / tool</th><th style="width:36%">Exact criterion</th><th style="width:22%">Output</th></tr></thead>
+      <tbody>
+        <tr><td class="study">Absolute length + count</td><td>Ovarian cancer chemoresistance study</td><td class="crit">≥8 fragments, each &lt;3 µm longest axis</td><td>Binary, per cell</td></tr>
+        <tr><td class="study">Branch topology only</td><td>MitoCellPhe</td><td class="crit">0 branches = punctate · 1 = rod · ≥2 = network — no size term at all</td><td>3-class, per object</td></tr>
+        <tr><td class="study">Blinded visual scoring</td><td>Multiple studies (general pattern)</td><td class="crit">Rater blind to treatment, ≥80–100 cells/group, % per category reported</td><td>3-class, human-rated</td></tr>
+        <tr><td class="study">Percentile vs. control</td><td>Skeletal muscle EM study</td><td class="crit">&lt;25th pct of control = "simple" · &gt;75th = "complex" — always relative, never absolute</td><td>Relative, per experiment</td></tr>
+        <tr><td class="study">Continuous only, no category</td><td>MiNA · Mitochondria Analyzer · MitoGraph · Nellie</td><td class="crit">Branch length, footprint, AR, form factor, volume, node degree</td><td>Continuous</td></tr>
+        <tr><td class="study">Trained ML, genetic ground truth</td><td>Reis et al. 2012 (CellProfiler + RF)</td><td class="crit">Label = perturbation identity: OPA1-siRNA→"fragmented", DNM1L-siRNA→"hypertubular". 69 features, 92% CV accuracy</td><td>3-class, ML</td></tr>
+        <tr><td class="study">Explicit refusal</td><td>Mito Hacker / MiA</td><td class="crit">"Does not classify… produces continuous measurements downstream models can use"</td><td>Continuous, by design</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section id="pathway">
+  <p class="section-label">Survey · Part III</p>
+  <h2>CCCP and IFN, mechanistically</h2>
+  <p class="lede">Both stimuli converge on the same outcome. They were never supposed to be a fragmenting/elongating pair.</p>
+
+  <div class="pathway">
+    <svg viewBox="0 0 860 300" role="img" aria-labelledby="pwtitle">
+      <title id="pwtitle">CCCP and IFN both converge on fission via Drp1</title>
+      <defs>
+        <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M0,0 L10,5 L0,10 z" fill="var(--ink-faint)"/>
+        </marker>
+        <marker id="arrowDim" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M0,0 L10,5 L0,10 z" fill="var(--ink-faint)" opacity=".5"/>
+        </marker>
+      </defs>
+
+      <!-- CCCP track -->
+      <g font-family="var(--font-body)">
+        <rect x="20" y="30" width="168" height="46" rx="6" fill="var(--teal-tint)" stroke="var(--teal)" stroke-width="1.2"/>
+        <text x="104" y="53" text-anchor="middle" font-size="13" font-weight="600" fill="var(--teal-ink)">CCCP</text>
+        <text x="104" y="68" text-anchor="middle" font-size="10.5" fill="var(--teal-ink)">ΔΨm collapse</text>
+
+        <line x1="188" y1="53" x2="248" y2="53" stroke="var(--ink-faint)" stroke-width="1.4" marker-end="url(#arrow)"/>
+
+        <rect x="250" y="30" width="168" height="46" rx="6" fill="var(--bg-sunken)" stroke="var(--border-strong)" stroke-width="1.2"/>
+        <text x="334" y="53" text-anchor="middle" font-size="12.5" fill="var(--ink)">Drp1 activation</text>
+        <text x="334" y="68" text-anchor="middle" font-size="10" fill="var(--ink-dim)">(direct, causal — Drp1-KO rescues)</text>
+
+        <!-- IFN track -->
+        <rect x="20" y="120" width="168" height="46" rx="6" fill="var(--teal-tint)" stroke="var(--teal)" stroke-width="1.2"/>
+        <text x="104" y="143" text-anchor="middle" font-size="13" font-weight="600" fill="var(--teal-ink)">IFN-β / Type I IFN</text>
+        <text x="104" y="158" text-anchor="middle" font-size="10" fill="var(--teal-ink)">IFNAR signalling</text>
+
+        <line x1="188" y1="143" x2="248" y2="143" stroke="var(--ink-faint)" stroke-width="1.4" marker-end="url(#arrow)"/>
+
+        <rect x="250" y="120" width="168" height="46" rx="6" fill="var(--bg-sunken)" stroke="var(--border-strong)" stroke-width="1.2"/>
+        <text x="334" y="140" text-anchor="middle" font-size="12" fill="var(--ink)">STAT5 → PGAM5</text>
+        <text x="334" y="155" text-anchor="middle" font-size="10.5" fill="var(--ink-dim)">→ Drp1-S622-P</text>
+
+        <!-- both converge -->
+        <line x1="418" y1="53" x2="470" y2="53" stroke="var(--ink-faint)" stroke-width="1.4"/>
+        <line x1="470" y1="53" x2="470" y2="143" stroke="var(--ink-faint)" stroke-width="1.4"/>
+        <line x1="418" y1="143" x2="470" y2="143" stroke="var(--ink-faint)" stroke-width="1.4"/>
+        <line x1="470" y1="98" x2="520" y2="98" stroke="var(--ink-faint)" stroke-width="1.4" marker-end="url(#arrow)"/>
+
+        <rect x="522" y="70" width="150" height="56" rx="6" fill="var(--accent-tint)" stroke="var(--accent)" stroke-width="1.4"/>
+        <text x="597" y="94" text-anchor="middle" font-size="14" font-weight="700" fill="var(--accent)">FISSION</text>
+        <text x="597" y="110" text-anchor="middle" font-size="10" fill="var(--accent)">= fragmentation</text>
+
+        <!-- own data path -->
+        <line x1="104" y1="166" x2="104" y2="230" stroke="var(--teal)" stroke-width="1.2" stroke-dasharray="3 4" opacity=".8" marker-end="url(#arrowDim)"/>
+        <rect x="20" y="232" width="336" height="46" rx="6" fill="var(--teal-tint)" stroke="var(--teal)" stroke-width="1.2" stroke-dasharray="3 4" opacity=".9"/>
+        <text x="188" y="252" text-anchor="middle" font-size="11.5" fill="var(--teal-ink)">Own data, Huh-7: IFN → fusion</text>
+        <text x="188" y="267" text-anchor="middle" font-size="10.5" fill="var(--teal-ink)">Opposite of neuron/N2A/MEF/macrophage systems below</text>
+
+        <!-- reverse arrow note -->
+        <text x="700" y="230" font-size="10.5" fill="var(--ink-faint)" text-anchor="start" width="140">Elongation →</text>
+        <text x="700" y="244" font-size="10.5" fill="var(--ink-faint)" text-anchor="start">more IFN output</text>
+        <text x="700" y="258" font-size="10.5" fill="var(--ink-faint)" text-anchor="start">(reverse direction,</text>
+        <text x="700" y="272" font-size="10.5" fill="var(--ink-faint)" text-anchor="start">virus-context dependent)</text>
+        <path d="M597,128 C650,170 690,190 700,222" fill="none" stroke="var(--ink-faint)" stroke-width="1.1" stroke-dasharray="2 3" opacity=".5" marker-end="url(#arrowDim)"/>
+      </g>
+    </svg>
+    <p class="pathway-cap">Solid boxes/arrows: causally demonstrated in neuron/N2A/MEF/macrophage systems. Teal dashed: our own Huh-7 result, running the other way — a cell-type difference, not a contradiction of the literature above.</p>
+  </div>
+</section>
+
+<section id="confounds">
+  <p class="section-label">Survey · Part IV</p>
+  <h2>Known confounds</h2>
+  <p class="lede">Two of these were already visible in our own data before we knew to look for them in the literature.</p>
+
+  <div class="confounds">
+    <div class="confound">
+      <span class="status documented">Documented in literature</span>
+      <h4>2D MIP merging artifact</h4>
+      <p>Zhang et al. document &gt;20× parameter shifts from a 10–35% intensity threshold change, and explicitly note that stressed/rounded cells increase artifactual merging in projection — meaning the fragmented condition is <em>more</em> susceptible to this than elongated, independent of real biology. Matches our own <code>frag_00001</code>, the 41%-saturated field that drove every outlier we saw.</p>
+    </div>
+    <div class="confound">
+      <span class="status novel">Not found in literature</span>
+      <h4>Skeleton-length compact-object bias</h4>
+      <p>General thinning/skeletonization bias is documented, but nothing found ties the under-recovery specifically to object compactness the way we measured it (66% vs. 78% of major-axis length). Likely because nobody else leans on raw skeleton length as a standalone metric. Worth treating as our own finding, not a known artifact to cite.</p>
+    </div>
+    <div class="confound">
+      <span class="status documented">Documented, unaddressed by us</span>
+      <h4>Missing donut / swollen / punctate bins</h4>
+      <p>Donut formation is mechanistically distinct from Drp1-fission — driven by PTP/K⁺-channel swelling and self-fusion after membrane-potential loss. CCCP is exactly this kind of stimulus. Our binary scheme has no bin for it, and some of what we called "fragmented" may be donuts, not fragments.</p>
+    </div>
+  </div>
+</section>
+
+<section id="questions">
+  <p class="section-label">For discussion</p>
+  <h2>Open questions</h2>
+  <p class="lede">Not recommendations — the things this survey raises that need a decision before any code gets written.</p>
+
+  <div class="qlist">
+    <div class="qitem"><span class="num">01</span><div><h4>Worth its own write-up?</h4><p>Huh-7 IFN-driven fusion runs opposite to every mechanism paper found (neurons, N2A, MEFs, macrophages). That's either a genuine cell-type-specific finding worth characterizing on its own, or reason to double-check the own-data result once — either way it's a side track from the pipeline rebuild, not a blocker to it.</p></div></div>
+    <div class="qitem"><span class="num">02</span><div><h4>Replace skeleton length as the primary metric</h4><p>Aspect ratio, form factor, and solidity are what the field actually uses. Do we drop skeleton length to a secondary role, or keep it as one input among several rather than the sole discriminator?</p></div></div>
+    <div class="qitem"><span class="num">03</span><div><h4>Pick a category strategy, not a threshold</h4><p>Every real categorical tool in this survey used either hand-labeled ground truth + a trained classifier, or a wet-lab step that avoids the segmentation problem entirely. Which of those two — or continuous-only, MiA-style — fits what we actually have access to?</p></div></div>
+    <div class="qitem"><span class="num">04</span><div><h4>Add bins for donut/swollen, or explicitly exclude them</h4><p>If CCCP produces donuts, a binary fragmented/elongated scheme may be silently misclassifying part of the fragmented population. Worth a visual check on our own images either way.</p></div></div>
+    <div class="qitem"><span class="num">05</span><div><h4>2D vs. 3D, revisited</h4><p>MitoGraph exists specifically because 2D MIP destroys topology in non-flat cells. We tested this once (3D barely recovered more objects than MIP) — is that finding specific to our stacks, or does it hold generally?</p></div></div>
+  </div>
+</section>
+
+<section id="sources">
+  <p class="section-label">Appendix</p>
+  <h2>Full source list</h2>
+  <p class="lede">25 literature sources plus tool references, grouped by theme. Open-access only; paywalled hits noted where relevant, not included otherwise.</p>
+
+  <details class="srcgroup" open><summary>CCCP / IFN mechanism</summary><ul class="srclist">
+    <li><a href="https://pubmed.ncbi.nlm.nih.gov/28859978/" target="_blank">CCCP → STING suppression via Drp1-dependent fission</a> — establishes CCCP→Drp1→fission causally</li>
+    <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8167366/" target="_blank">IFN-β / STAT5 / PGAM5 / Drp1-S622</a> — neurons, N2A, MEFs, mouse brain</li>
+    <li><a href="https://www.sciencedirect.com/science/article/pii/S1074761325005667" target="_blank">Type I IFN / ISG15 / OMA1, macrophages</a> — <span class="note">paywalled, snippet-confidence only</span></li>
+    <li><a href="https://www.nature.com/articles/s44298-024-00057-x" target="_blank">Elongation amplifies MAVS/RLR signalling</a> — reverse causal direction</li>
+    <li><a href="https://www.frontiersin.org/journals/virology/articles/10.3389/fviro.2022.918806/full" target="_blank">Virus-context dependence of elongation/IFN link</a></li>
+    <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10100850/" target="_blank">MFN1/MAVS redistribution, HCMV</a></li>
+    <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11434706/" target="_blank">MAVS-dependent immunity vs. network morphology, ectromelia virus</a></li>
+    <li><a href="https://pubmed.ncbi.nlm.nih.gov/30715798/" target="_blank">MAVS polymers and membrane remodelling</a></li>
+  </ul></details>
+
+  <details class="srcgroup"><summary>Tool papers</summary><ul class="srclist">
+    <li><a href="https://pubmed.ncbi.nlm.nih.gov/28314612/" target="_blank">MiNA</a> · <a href="https://imagej.net/plugins/mina" target="_blank">tool page</a></li>
+    <li><a href="https://www.biorxiv.org/content/10.1101/687749v2.full.pdf" target="_blank">Mitochondria Analyzer (β-cell pipeline)</a></li>
+    <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4079598/" target="_blank">MitoGraph</a></li>
+    <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11978511/" target="_blank">Nellie</a> — <em>Nature Methods</em> 2025</li>
+    <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7554024/" target="_blank">MitoSegNet</a></li>
+    <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8185547/" target="_blank">Mitometer / ML dynamics review</a></li>
+    <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7642274/" target="_blank">Mito Hacker / MiA</a></li>
+    <li><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/cyto.a.20198" target="_blank">Koopman toolkit</a> — foundational AR/FF descriptors</li>
+    <li><a href="https://www.frontiersin.org/journals/physics/articles/10.3389/fphy.2022.855775/full" target="_blank">Tool comparison review</a> — Frontiers in Physics 2022</li>
+  </ul></details>
+
+  <details class="srcgroup"><summary>Definitions &amp; classifiers</summary><ul class="srclist">
+    <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3767598/" target="_blank">Ovarian cancer fragmentation cutoff (≥8 fragments &lt;3µm)</a></li>
+    <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8560386/" target="_blank">MitoCellPhe</a> — branch-count categories, 24 parameters</li>
+    <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3188504/" target="_blank">Automatic morphological subtyping</a> — 10,662 hand-labeled objects, 6 subtypes</li>
+    <li><a href="http://archiv.ub.uni-heidelberg.de/volltextserver/12413/1/YReis_Dissertation.pdf" target="_blank">Reis et al. 2012</a> — CellProfiler + Random Forest, genetic-perturbation ground truth</li>
+    <li><a href="https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0095265" target="_blank">Solidity/perimeter fission-fusion predictor</a> — event-confirmed ground truth</li>
+    <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5891219/" target="_blank">Geometric length/width from area+perimeter</a></li>
+    <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3544498/" target="_blank">Percentile-relative cutoff, skeletal muscle EM</a></li>
+    <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6370323/" target="_blank">Blinder</a> — blinded visual-scoring methodology precedent</li>
+    <li><a href="https://www.sciencedirect.com/science/article/pii/S1476927125001379" target="_blank">CNN classifier for mitochondrial morphology, 2025</a> — <span class="note">unverified, fetch blocked, worth a manual look</span></li>
+  </ul></details>
+
+  <details class="srcgroup"><summary>Confounds &amp; categories</summary><ul class="srclist">
+    <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4600005/" target="_blank">Skeletonization/thinning bias</a> — general image analysis</li>
+    <li><a href="https://neubias.github.io/training-resources/skeletonization/index.html" target="_blank">NEUBIAS skeletonization training resource</a></li>
+    <li><a href="https://www.nature.com/articles/cdd201113" target="_blank">Donut/toroidal formation mechanism</a> — <em>Cell Death &amp; Differentiation</em></li>
+    <li><a href="https://www.nature.com/articles/s41598-017-18582-6" target="_blank">Donut formation</a> — <em>Scientific Reports</em></li>
+    <li><a href="https://www.cell.com/biophysj/fulltext/S0006-3495(15)00774-2" target="_blank">Donut formation, biophysical modelling</a></li>
+  </ul></details>
+
+  <details class="srcgroup"><summary>Foundational review</summary><ul class="srclist">
+    <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4762028/" target="_blank">Youle &amp; van der Bliek 2012, "Mitochondrial Fission, Fusion, and Stress"</a> — <em>Science</em>. Qualitative only, no quantitative criteria, doesn't address CCCP/IFN directly.</li>
+  </ul></details>
+
+</section>
+
+<footer>Fragmentation Field Guide — assembled from two parallel research passes, 36 + 33 source fetches. Not yet cross-checked against our own microscopy images.</footer>
+
+</div>

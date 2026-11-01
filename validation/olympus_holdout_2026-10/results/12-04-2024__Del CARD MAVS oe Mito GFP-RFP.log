@@ -1,0 +1,12 @@
+pixel size: read from each file
+
+    #  image                             um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────────────────
+    1  Huh-7 Del CARD Mito GFP-RFP F1   0.0829   0.000  elongated    1.00
+  ──────────────────────────────────────────────────────────────────────────────
+  1 images                           1 scored, 0 rejected
+  index                              mean 0.000   median 0.000   sd —   range 0.000–0.000
+  bands                              fragmented 0   mixed 0   elongated 1
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/12-04-2024__Del CARD MAVS oe Mito GFP-RFP.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/12-04-2024__Del CARD MAVS oe Mito GFP-RFP_summary.csv

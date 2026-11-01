@@ -1,0 +1,20 @@
+pixel size: read from each file
+
+    #  image                 um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────
+    1  huh-7 Mock LC3 F10   0.0829   0.744  mixed        0.52
+    2  huh-7 Mock LC3 F2    0.0829   0.498  mixed        0.77
+    3  huh-7 Mock LC3 F3    0.0829   0.760  mixed        0.54
+    4  huh-7 Mock LC3 F4    0.0829   0.159  mixed        0.70
+    5  huh-7 Mock LC3 F5    0.0901   0.026  elongated    0.95
+    6  huh-7 Mock LC3 F6    0.0767   0.001  elongated    1.00
+    7  huh-7 Mock LC3 F7    0.0829   0.506  mixed        0.64
+    8  huh-7 Mock LC3 F8    0.0829   0.534  mixed        0.66
+  ──────────────────────────────────────────────────────────────────
+  8 images               8 scored, 0 rejected
+  index                  mean 0.404   median 0.502   sd 0.303   range 0.001–0.760
+  bands                  fragmented 0   mixed 6   elongated 2
+  pixel sizes            3 different in this folder, 0.0767 to 0.0901 um
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/27-11-2023__Huh-7 Mock.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/27-11-2023__Huh-7 Mock_summary.csv

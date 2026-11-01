@@ -1,0 +1,4 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+MAVS KO HA-Del MAVS CoV-2 F1 both 2,True,,0.2403,mixed,0.613,0.2403,0.0814,4.266,6.45,0.0006,4.64,228,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 22 planes
+MAVS KO HA-Del MAVS CoV-2 F1 both,True,,0.1904,mixed,0.671,0.1904,0.0828,4.641,5.65,0.0049,3.93,237,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 22 planes
+MAVS KO HA-Del MAVS CoV-2 F2 both,True,,0.5699,mixed,0.451,0.5699,0.12,5.138,4.98,0.007,3.68,407,0.092071195466998,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 25 planes

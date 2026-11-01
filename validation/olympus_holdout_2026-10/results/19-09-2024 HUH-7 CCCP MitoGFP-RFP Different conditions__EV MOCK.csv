@@ -1,0 +1,6 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+Huh-7 EV Mock F1,True,,0.5556,mixed,0.508,0.5556,0.0659,3.413,2.45,0.0035,2.8,407,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 3; max projection over 11 planes
+Huh-7 EV Mock F2,True,,0.8284,mixed,0.685,0.8284,0.094,3.527,8.63,0.0001,5.96,500,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 3; max projection over 10 planes
+Huh-7 EV Mock F3,True,,0.5297,mixed,0.737,0.5297,0.0192,3.479,28.62,0.0,8.24,114,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 3; max projection over 16 planes
+Huh-7 EV Mock F4,True,,0.886,fragmented,0.784,0.886,0.0533,3.224,15.78,0.0,10.43,339,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 3; max projection over 9 planes
+Huh-7 EV Mock F5,True,,0.5601,mixed,0.538,0.5601,0.0818,3.23,4.58,0.0012,5.81,500,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 3; max projection over 12 planes

@@ -1,0 +1,6 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+Del CARD MAVS Mito GFP-RFP F1,True,,0.1036,elongated,0.797,0.1036,0.053,5.798,9.94,0.0001,5.64,114,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 4; max projection over 15 planes
+Del CARD MAVS Mito GFP-RFP F2,True,,0.9115,fragmented,0.833,0.9115,0.1019,3.285,2.53,0.0058,2.99,649,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 4; max projection over 15 planes
+Del CARD MAVS Mito GFP-RFP F3,True,,0.5131,mixed,0.491,0.5131,0.1065,4.054,2.37,0.0022,3.02,510,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 4; max projection over 16 planes
+Del CARD MAVS Mito GFP-RFP F4,True,,0.808,mixed,0.665,0.808,0.0368,3.123,8.89,0.0001,4.28,213,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 4; max projection over 17 planes
+Del CARD MAVS Mito GFP-RFP F5,True,,0.6753,mixed,0.514,0.6753,0.0762,3.946,2.12,0.0579,2.62,362,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 4; max projection over 23 planes

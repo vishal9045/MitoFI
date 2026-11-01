@@ -1,0 +1,2 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+MAX_DMSO_ (23) - Deconvolved,False,mask is speckle: objects average 1.835 um and stand only 3.1 background SD above their surroundings,,qc_fail,0.796,0.1442,0.0613,1.835,3.08,0.0,2.85,294,0.020074601233102455,black point,"2D image, used as is; 16-bit data scaled x0.06249 to the 12-bit range the classifier was trained on; black point at the cytoplasm peak (34 on the 12-bit scale)"

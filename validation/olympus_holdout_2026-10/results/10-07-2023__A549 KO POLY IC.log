@@ -1,0 +1,27 @@
+pixel size: read from each file
+
+    #  image                       um/px   index  band         conf  notes
+  ────────────────────────────────────────────────────────────────────────
+    1  A549 KO Poly IC 100X F1    0.0497   0.857  mixed        0.75
+    2  A549 KO Poly IC 100X F10   0.0497   0.808  mixed        0.72
+    3  A549 KO Poly IC 100X F11   0.0497   0.316  mixed        0.47
+    4  A549 KO Poly IC 100X F12   0.0497   0.859  mixed        0.77
+    5  A549 KO Poly IC 100X F13   0.0497   0.114  mixed        0.77
+    6  A549 KO Poly IC 100X F14   0.0621   0.665  mixed        0.45
+    7  A549 KO Poly IC 100X F15   0.0621   0.824  mixed        0.68
+    8  A549 KO Poly IC 100X F2    0.0497   0.335  mixed        0.45
+    9  A549 KO Poly IC 100X F3    0.0497   0.657  mixed        0.52
+   10  A549 KO Poly IC 100X F4    0.0497   0.716  mixed        0.59
+   11  A549 KO Poly IC 100X F5    0.0621   0.062  elongated    0.90
+   12  A549 KO Poly IC 100X F6    0.0497   0.511  mixed        0.36
+   13  A549 KO Poly IC 100X F7    0.0497   0.003  elongated    0.99
+   14  A549 KO Poly IC 100X F8    0.0497   0.052  elongated    0.90
+   15  A549 KO Poly IC 100X F9    0.0497   0.184  mixed        0.68
+  ────────────────────────────────────────────────────────────────────────
+  15 images                    15 scored, 0 rejected
+  index                        mean 0.464   median 0.511   sd 0.326   range 0.003–0.859
+  bands                        fragmented 0   mixed 12   elongated 3
+  pixel sizes                  2 different in this folder, 0.0497 to 0.0621 um
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/10-07-2023__A549 KO POLY IC.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/10-07-2023__A549 KO POLY IC_summary.csv

@@ -1,0 +1,21 @@
+pixel size: read from each file
+
+    #  image                           um/px   index  band         conf  notes
+  ────────────────────────────────────────────────────────────────────────────
+    1  huh-7 MAVS oe LC3 endo B1 F1   0.0829   0.203  mixed        0.66
+    2  huh-7 MAVS oe LC3 endo B1 F2   0.0829   0.178  mixed        0.70
+    3  huh-7 MAVS oe LC3 endo B1 F3   0.0829   0.169  mixed        0.72
+    4  huh-7 MAVS oe LC3 endo B1 F4   0.1381   0.662  mixed        0.49
+    5  huh-7 MAVS oe LC3 endo B1 F5   0.1036   0.011  elongated    0.98
+    6  huh-7 MAVS oe LC3 endo B1 F6   0.1381   0.694  mixed        0.56
+    7  huh-7 PUNO oe LC3 endo B1 F1   0.0829   0.711  mixed        0.48
+    8  huh-7 PUNO oe LC3 endo B1 F2   0.0829   0.789  mixed        0.61
+    9  huh-7 PUNO oe LC3 endo B1 F3   0.0829   0.205  mixed        0.62
+  ────────────────────────────────────────────────────────────────────────────
+  9 images                         9 scored, 0 rejected
+  index                            mean 0.403   median 0.205   sd 0.303   range 0.011–0.789
+  bands                            fragmented 0   mixed 8   elongated 1
+  pixel sizes                      3 different in this folder, 0.0829 to 0.1381 um
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/18-12-2023__HUH-7 MAVS oe ENDO LC3.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/18-12-2023__HUH-7 MAVS oe ENDO LC3_summary.csv

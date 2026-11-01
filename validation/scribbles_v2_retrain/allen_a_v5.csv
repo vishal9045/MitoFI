@@ -1,0 +1,477 @@
+model,CellId,group,FOVId,matched_to,whole_pass,whole_reason,whole_index,whole_rescue,whole_band,whole_fg,cell_pass,cell_reason,cell_index,cell_rescue,cell_band,cell_fg
+a,927281,M0,14264,927248.0,True,,0.653,black point,mixed,0.1577,True,,0.1587,black point,mixed,0.0808
+v5,927281,M0,14264,927248.0,True,,0.4159,black point,mixed,0.0944,True,,0.5721,black point,mixed,0.0451
+a,335242,M0,3458,335246.0,True,,0.1774,black point,mixed,0.1527,True,,0.0011,black point,elongated,0.0561
+v5,335242,M0,3458,335246.0,True,,0.1591,black point,elongated,0.0949,True,,0.0897,black point,elongated,0.0394
+a,921300,M1M2,14207,,True,,0.2044,background,mixed,0.019,True,,0.0072,black point,elongated,0.0591
+v5,921300,M1M2,14207,,True,,0.0883,black point,elongated,0.0894,True,,0.0619,black point,elongated,0.0354
+a,927248,M1M2,14264,,True,,0.1562,black point,mixed,0.189,True,,0.0691,black point,elongated,0.0681
+v5,927248,M1M2,14264,,True,,0.1603,black point,elongated,0.1116,True,,0.1122,black point,elongated,0.0361
+a,921304,M0,14207,921300.0,True,,0.2009,background,mixed,0.0225,True,,0.097,black point,elongated,0.0556
+v5,921304,M0,14207,921300.0,True,,0.1677,black point,elongated,0.0818,True,,0.1801,black point,mixed,0.032
+a,335246,M1M2,3458,,True,,0.3057,background,mixed,0.0209,True,,0.4181,black point,mixed,0.0505
+v5,335246,M1M2,3458,,True,,0.3822,black point,mixed,0.0856,False,no objects in mask,,refused,,0.0
+a,962519,M1M2,15914,,True,,0.817,black point,mixed,0.1688,True,,0.5407,black point,mixed,0.0447
+v5,962519,M1M2,15914,,True,,0.2421,black point,mixed,0.1029,False,no objects in mask,,refused,,0.0
+a,962508,M0,15914,962519.0,True,,0.2772,background,mixed,0.0222,False,too much diffuse background: 79.7% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again,,refused,qc_fail,0.1229
+v5,962508,M0,15914,962519.0,True,,0.1223,black point,elongated,0.0846,True,,0.1001,black point,elongated,0.0303
+a,278617,M1M2,1555,,True,,0.8106,black point,mixed,0.1755,True,,0.8303,black point,mixed,0.0648
+v5,278617,M1M2,1555,,True,,0.2511,black point,mixed,0.1203,True,,0.331,black point,mixed,0.0431
+a,262069,M1M2,1047,,True,,0.3549,black point,mixed,0.1923,True,,0.1261,black point,mixed,0.05
+v5,262069,M1M2,1047,,True,,0.1778,black point,mixed,0.1154,True,,0.3157,black point,mixed,0.0266
+a,262083,M0,1047,262069.0,True,,0.2756,black point,mixed,0.1526,True,,0.1656,black point,mixed,0.0697
+v5,262083,M0,1047,262069.0,True,,0.8451,background,mixed,0.0372,True,,0.2212,black point,mixed,0.0391
+a,325756,M0,3147,325727.0,True,,0.1017,background,elongated,0.0381,True,,0.5875,black point,mixed,0.0581
+v5,325756,M0,3147,325727.0,True,,0.8617,background,mixed,0.0399,True,,0.3759,black point,mixed,0.0306
+a,278623,M0,1555,278617.0,True,,0.6418,black point,mixed,0.1652,True,,0.4481,black point,mixed,0.0676
+v5,278623,M0,1555,278617.0,True,,0.4788,black point,mixed,0.1121,True,,0.6986,black point,mixed,0.0506
+a,323252,M1M2,3076,,True,,0.2307,black point,mixed,0.139,True,,0.013,black point,elongated,0.0538
+v5,323252,M1M2,3076,,True,,0.0769,black point,elongated,0.0831,True,,0.1274,black point,elongated,0.0354
+a,335389,M1M2,3462,,True,,0.4019,black point,mixed,0.1514,True,,0.2829,black point,mixed,0.0457
+v5,335389,M1M2,3462,,True,,0.9544,background,mixed,0.0265,False,too much diffuse background: 65.5% of the signal under the mask is smooth haze (limit 7%); subtract the background and score again,,refused,qc_fail,0.0004
+a,325727,M1M2,3147,,True,,0.2607,background,mixed,0.031,True,,0.7126,black point,mixed,0.059
+v5,325727,M1M2,3147,,True,,0.9192,background,mixed,0.0427,True,,0.3665,black point,mixed,0.0378
+a,323279,M0,3076,323252.0,True,,0.1312,background,mixed,0.0141,False,too much diffuse background: 80.1% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again,,refused,qc_fail,0.106
+v5,323279,M0,3076,323252.0,True,,0.2428,black point,mixed,0.0913,True,,0.1507,black point,elongated,0.0229
+a,335417,M0,3462,335389.0,True,,0.2621,background,mixed,0.014,True,,0.0255,black point,elongated,0.0651
+v5,335417,M0,3462,335389.0,True,,0.1792,black point,mixed,0.116,True,,0.037,black point,elongated,0.0423
+a,321963,M0,3025,321967.0,True,,0.182,black point,mixed,0.1917,True,,0.0021,background,elongated,0.0114
+v5,321963,M0,3025,321967.0,True,,0.3279,black point,mixed,0.1192,True,,0.6265,background,mixed,0.0108
+a,918539,M1M2,14193,,True,,0.4735,background,mixed,0.0176,True,,0.1483,black point,mixed,0.0463
+v5,918539,M1M2,14193,,True,,0.2659,black point,mixed,0.1036,True,,0.7227,black point,mixed,0.0321
+a,331823,M0,3341,331833.0,True,,0.0708,black point,elongated,0.1362,True,,0.0159,black point,elongated,0.0646
+v5,331823,M0,3341,331833.0,True,,0.2617,black point,mixed,0.0836,True,,0.2139,black point,mixed,0.0425
+a,918542,M0,14193,918539.0,True,,0.3451,background,mixed,0.0199,True,,0.0207,black point,elongated,0.0598
+v5,918542,M0,14193,918539.0,True,,0.2345,black point,mixed,0.1051,True,,0.0392,black point,elongated,0.0349
+a,331833,M1M2,3341,,True,,0.8074,background,mixed,0.0226,True,,0.0779,black point,elongated,0.0811
+v5,331833,M1M2,3341,,True,,0.375,black point,mixed,0.1052,True,,0.5155,black point,mixed,0.0555
+a,925342,M1M2,14247,,True,,0.3788,black point,mixed,0.1765,True,,0.5492,black point,mixed,0.0684
+v5,925342,M1M2,14247,,True,,0.4289,black point,mixed,0.1131,True,,0.5271,black point,mixed,0.0422
+a,316303,M0,2855,316278.0,True,,0.567,black point,mixed,0.2002,True,,0.2262,black point,mixed,0.0663
+v5,316303,M0,2855,316278.0,True,,0.1725,black point,elongated,0.1226,True,,0.1727,black point,elongated,0.0389
+a,925343,M0,14247,925342.0,True,,0.0262,background,elongated,0.0361,True,,0.0391,background,elongated,0.0146
+v5,925343,M0,14247,925342.0,True,,0.1827,black point,mixed,0.1095,True,,0.0044,black point,elongated,0.0403
+a,321967,M1M2,3025,,True,,0.5719,black point,mixed,0.16,True,,0.2425,black point,mixed,0.0565
+v5,321967,M1M2,3025,,True,,0.9145,background,mixed,0.0402,True,,0.787,background,mixed,0.0141
+a,341091,M1M2,3643,,True,,0.7514,black point,mixed,0.1774,True,,0.0787,black point,elongated,0.0711
+v5,341091,M1M2,3643,,True,,0.7615,black point,mixed,0.1049,True,,0.6001,black point,mixed,0.0415
+a,346123,M0,3790,346100.0,True,,0.3758,background,mixed,0.0206,True,,0.2049,black point,mixed,0.0526
+v5,346123,M0,3790,346100.0,True,,0.3571,black point,mixed,0.1092,True,,0.1362,black point,elongated,0.0308
+a,346100,M1M2,3790,,True,,0.1,black point,elongated,0.1505,False,too much diffuse background: 80.4% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again,,refused,qc_fail,0.1449
+v5,346100,M1M2,3790,,True,,0.4336,black point,mixed,0.0863,True,,0.1211,black point,elongated,0.0196
+a,341111,M0,3643,341091.0,True,,0.2931,black point,mixed,0.1912,True,,0.1566,black point,mixed,0.042
+v5,341111,M0,3643,341091.0,True,,0.3918,black point,mixed,0.1153,True,,0.1415,black point,elongated,0.0251
+a,316278,M1M2,2855,,True,,0.3909,black point,mixed,0.1825,True,,0.0138,black point,elongated,0.0583
+v5,316278,M1M2,2855,,True,,0.1805,black point,mixed,0.1095,True,,0.1203,black point,elongated,0.0346
+a,261661,M0,1035,261666.0,True,,0.3303,background,mixed,0.0288,True,,0.1291,background,mixed,0.0111
+v5,261661,M0,1035,261666.0,True,,0.7884,black point,mixed,0.0947,True,,0.8017,black point,mixed,0.0307
+a,261666,M1M2,1035,,True,,0.2817,black point,mixed,0.1258,True,,0.1061,black point,elongated,0.0521
+v5,261666,M1M2,1035,,True,,0.3772,black point,mixed,0.0852,True,,0.996,background,fragmented,0.0122
+a,268752,M0,1261,268743.0,True,,0.0461,black point,elongated,0.1457,True,,0.011,black point,elongated,0.064
+v5,268752,M0,1261,268743.0,True,,0.0461,black point,elongated,0.0886,True,,0.9532,background,mixed,0.011
+a,254432,M1M2,832,,True,,0.5384,background,mixed,0.0162,True,,0.0205,black point,elongated,0.054
+v5,254432,M1M2,832,,True,,0.373,black point,mixed,0.1087,True,,0.6845,black point,mixed,0.0315
+a,268743,M1M2,1261,,True,,0.6891,black point,mixed,0.1501,True,,0.7874,black point,mixed,0.0426
+v5,268743,M1M2,1261,,True,,0.2109,black point,mixed,0.0904,True,,0.3443,black point,mixed,0.0215
+a,254434,M0,832,254432.0,True,,0.0058,background,elongated,0.025,True,,0.0,background,elongated,0.0121
+v5,254434,M0,832,254432.0,True,,0.2499,black point,mixed,0.1094,True,,0.0433,black point,elongated,0.0423
+a,263648,M0,1094,263656.0,True,,0.7936,black point,mixed,0.1871,False,too much diffuse background: 75.0% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again,,refused,qc_fail,0.1431
+v5,263648,M0,1094,263656.0,True,,0.1868,black point,mixed,0.108,True,,0.5674,black point,mixed,0.0238
+a,319525,M0,2951,319524.0,True,,0.3957,black point,mixed,0.1526,True,,0.0236,black point,elongated,0.0686
+v5,319525,M0,2951,319524.0,True,,0.1745,black point,elongated,0.1003,True,,0.2477,black point,mixed,0.0419
+a,319524,M1M2,2951,,True,,0.2459,black point,mixed,0.1349,True,,0.0239,black point,elongated,0.0452
+v5,319524,M1M2,2951,,True,,0.1742,black point,elongated,0.0862,True,,0.9061,background,mixed,0.0136
+a,263656,M1M2,1094,,True,,0.1414,black point,mixed,0.1892,True,,0.7639,black point,mixed,0.0657
+v5,263656,M1M2,1094,,True,,0.2285,black point,mixed,0.1194,True,,0.6277,black point,mixed,0.0436
+a,275070,M1M2,1448,,True,,0.2135,black point,mixed,0.1579,True,,0.0033,black point,elongated,0.0575
+v5,275070,M1M2,1448,,True,,0.1294,black point,elongated,0.0987,True,,0.0928,black point,elongated,0.0319
+a,914361,M1M2,14172,,True,,0.2748,background,mixed,0.0175,True,,0.0007,black point,elongated,0.0695
+v5,914361,M1M2,14172,,True,,0.1071,black point,elongated,0.1002,False,no objects in mask,,refused,,0.0
+a,914364,M0,14172,914361.0,True,,0.2922,black point,mixed,0.1783,True,,0.1004,black point,elongated,0.0516
+v5,914364,M0,14172,914361.0,True,,0.353,black point,mixed,0.1118,True,,0.399,black point,mixed,0.0275
+a,272211,M1M2,1358,,True,,0.3355,black point,mixed,0.1252,True,,0.1253,black point,mixed,0.0636
+v5,272211,M1M2,1358,,True,,0.4009,black point,mixed,0.0835,True,,0.1658,black point,elongated,0.0377
+a,321848,M0,3022,321850.0,True,,0.3632,black point,mixed,0.1585,False,too much diffuse background: 74.3% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again,,refused,qc_fail,0.1427
+v5,321848,M0,3022,321850.0,True,,0.3616,black point,mixed,0.1042,True,,0.0396,black point,elongated,0.028
+a,272228,M0,1358,272211.0,True,,0.012,background,elongated,0.0214,False,too much diffuse background: 81.8% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again,,refused,qc_fail,0.0866
+v5,272228,M0,1358,272211.0,True,,0.9958,background,fragmented,0.0355,False,no objects in mask,,refused,,0.0
+a,275071,M0,1448,275070.0,True,,0.2034,black point,mixed,0.1527,True,,0.1554,black point,mixed,0.0557
+v5,275071,M0,1448,275070.0,True,,0.9678,background,fragmented,0.0347,True,,0.107,black point,elongated,0.0331
+a,271421,M1M2,1339,,True,,0.4449,black point,mixed,0.1641,True,,0.2558,black point,mixed,0.0669
+v5,271421,M1M2,1339,,True,,0.5867,black point,mixed,0.0936,True,,0.5675,black point,mixed,0.0354
+a,321850,M1M2,3022,,True,,0.208,black point,mixed,0.1735,True,,0.0645,black point,elongated,0.0528
+v5,321850,M1M2,3022,,True,,0.4324,black point,mixed,0.1059,True,,0.3682,black point,mixed,0.0319
+a,271439,M0,1339,271421.0,True,,0.5339,black point,mixed,0.1755,True,,0.0082,black point,elongated,0.0511
+v5,271439,M0,1339,271421.0,True,,0.3382,black point,mixed,0.1046,True,,0.0881,black point,elongated,0.0293
+a,327673,M1M2,3221,,True,,0.4684,black point,mixed,0.1783,True,,0.1375,black point,mixed,0.0673
+v5,327673,M1M2,3221,,True,,0.1441,black point,elongated,0.0974,True,,0.1432,black point,elongated,0.0319
+a,327674,M0,3221,327673.0,True,,0.3331,black point,mixed,0.1681,True,,0.5416,background,mixed,0.013
+v5,327674,M0,3221,327673.0,True,,0.1683,black point,elongated,0.0902,True,,0.1276,black point,elongated,0.0249
+a,347786,M1M2,3841,,True,,0.5142,black point,mixed,0.189,True,,0.3052,black point,mixed,0.0649
+v5,347786,M1M2,3841,,True,,0.2621,black point,mixed,0.1092,True,,0.3823,black point,mixed,0.0339
+a,347795,M0,3841,347786.0,True,,0.6893,black point,mixed,0.1952,True,,0.0769,black point,elongated,0.066
+v5,347795,M0,3841,347786.0,True,,0.4759,black point,mixed,0.1203,True,,0.1254,black point,elongated,0.0404
+a,327168,M1M2,3206,,True,,0.1761,black point,mixed,0.1661,True,,0.0108,background,elongated,0.018
+v5,327168,M1M2,3206,,True,,0.2529,black point,mixed,0.1047,True,,0.2858,black point,mixed,0.0406
+a,270757,M0,1322,270728.0,True,,0.0158,background,elongated,0.0212,True,,0.0132,black point,elongated,0.0352
+v5,270757,M0,1322,270728.0,True,,0.322,black point,mixed,0.1148,True,,0.279,black point,mixed,0.0219
+a,327174,M0,3206,327168.0,True,,0.6589,black point,mixed,0.1617,True,,0.1696,black point,mixed,0.048
+v5,327174,M0,3206,327168.0,True,,0.3402,black point,mixed,0.1056,True,,0.0385,black point,elongated,0.0315
+a,326116,M1M2,3168,,True,,0.276,background,mixed,0.0267,True,,0.3597,black point,mixed,0.0613
+v5,326116,M1M2,3168,,True,,0.3127,black point,mixed,0.1141,True,,0.5278,black point,mixed,0.0418
+a,270728,M1M2,1322,,True,,0.3186,black point,mixed,0.1606,False,too much diffuse background: 80.8% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again,,refused,qc_fail,0.111
+v5,270728,M1M2,1322,,True,,0.1615,black point,elongated,0.0992,True,,0.0726,black point,elongated,0.0255
+a,326151,M0,3168,326116.0,True,,0.2023,black point,mixed,0.1881,True,,0.0068,background,elongated,0.0145
+v5,326151,M0,3168,326116.0,True,,0.0702,black point,elongated,0.1086,True,,0.409,black point,mixed,0.0396
+a,335117,M0,3454,335107.0,True,,0.0425,background,elongated,0.0204,True,,0.0872,black point,elongated,0.0543
+v5,335117,M0,3454,335107.0,True,,0.2422,black point,mixed,0.0997,True,,0.5625,black point,mixed,0.0341
+a,264179,M0,1113,264175.0,True,,0.6936,black point,mixed,0.1192,True,,0.2392,black point,mixed,0.0478
+v5,264179,M0,1113,264175.0,True,,0.3481,black point,mixed,0.0937,True,,0.1825,black point,mixed,0.0299
+a,335107,M1M2,3454,,True,,0.0366,background,elongated,0.0369,True,,0.0042,background,elongated,0.0186
+v5,335107,M1M2,3454,,True,,0.2887,black point,mixed,0.0923,True,,0.8011,background,mixed,0.0182
+a,271849,M1M2,1349,,True,,0.5923,black point,mixed,0.1625,True,,0.1342,black point,mixed,0.0687
+v5,271849,M1M2,1349,,True,,0.2652,black point,mixed,0.0994,True,,0.1831,black point,mixed,0.0384
+a,271865,M0,1349,271849.0,True,,0.8369,black point,mixed,0.1467,True,,0.4876,black point,mixed,0.064
+v5,271865,M0,1349,271849.0,True,,0.9783,background,fragmented,0.0194,True,,0.0034,black point,elongated,0.039
+a,264175,M1M2,1113,,True,,0.4975,black point,mixed,0.1244,False,too much diffuse background: 84.0% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again,,refused,qc_fail,0.1521
+v5,264175,M1M2,1113,,True,,0.7515,black point,mixed,0.0794,False,too much diffuse background: 60.4% of the signal under the mask is smooth haze (limit 7%); subtract the background and score again,,refused,qc_fail,0.0004
+a,232206,M1M2,32,,True,,0.4833,background,mixed,0.011,True,,0.0722,black point,elongated,0.0589
+v5,232206,M1M2,32,,False,no objects in mask,,refused,,0.0,True,,0.2668,black point,mixed,0.0355
+a,232204,M0,32,232206.0,True,,0.1349,black point,mixed,0.1888,True,,0.0258,black point,elongated,0.0519
+v5,232204,M0,32,232206.0,True,,0.1186,black point,elongated,0.1052,True,,0.0155,black point,elongated,0.026
+a,261844,M0,1040,261882.0,True,,0.1427,black point,mixed,0.1648,True,,0.2419,black point,mixed,0.0593
+v5,261844,M0,1040,261882.0,True,,0.3321,black point,mixed,0.1081,True,,0.1697,black point,elongated,0.0361
+a,261048,M1M2,1017,,True,,0.0806,black point,elongated,0.1533,True,,0.1646,black point,mixed,0.0494
+v5,261048,M1M2,1017,,True,,0.362,black point,mixed,0.0794,False,no objects in mask,,refused,,0.0
+a,261882,M1M2,1040,,True,,0.0675,black point,elongated,0.1717,True,,0.0002,black point,elongated,0.0429
+v5,261882,M1M2,1040,,True,,0.2305,black point,mixed,0.1109,False,too much diffuse background: 55.1% of the signal under the mask is smooth haze (limit 7%); subtract the background and score again,,refused,qc_fail,0.0059
+a,261031,M0,1017,261048.0,True,,0.138,black point,mixed,0.1572,True,,0.2042,black point,mixed,0.0408
+v5,261031,M0,1017,261048.0,True,,0.6155,black point,mixed,0.1015,True,,0.4933,black point,mixed,0.025
+a,267163,M1M2,1206,,True,,0.2568,black point,mixed,0.1538,True,,0.4551,black point,mixed,0.0433
+v5,267163,M1M2,1206,,True,,0.4477,black point,mixed,0.1001,True,,0.3183,black point,mixed,0.0269
+a,333710,M0,3399,333712.0,True,,0.3725,background,mixed,0.0358,True,,0.0279,black point,elongated,0.0601
+v5,333710,M0,3399,333712.0,True,,0.9797,background,fragmented,0.0357,True,,0.0256,black point,elongated,0.043
+a,267188,M0,1206,267163.0,True,,0.2298,black point,mixed,0.1584,True,,0.0676,black point,elongated,0.0553
+v5,267188,M0,1206,267163.0,True,,0.2547,black point,mixed,0.1039,True,,0.3442,black point,mixed,0.0353
+a,333712,M1M2,3399,,True,,0.208,background,mixed,0.0244,True,,0.0047,black point,elongated,0.0682
+v5,333712,M1M2,3399,,True,,0.2954,black point,mixed,0.1009,True,,0.1072,black point,elongated,0.0478
+a,231862,M1M2,21,,True,,0.3289,black point,mixed,0.1606,False,too much diffuse background: 78.9% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again,,refused,qc_fail,0.153
+v5,231862,M1M2,21,,True,,0.204,black point,mixed,0.0993,True,,0.1646,black point,elongated,0.0295
+a,325169,M0,3131,325170.0,True,,0.8327,black point,mixed,0.1878,True,,0.3635,black point,mixed,0.0704
+v5,325169,M0,3131,325170.0,True,,0.5291,black point,mixed,0.1119,True,,0.2646,black point,mixed,0.0378
+a,325170,M1M2,3131,,True,,0.6622,black point,mixed,0.1664,True,,0.5636,black point,mixed,0.0537
+v5,325170,M1M2,3131,,True,,0.9006,background,mixed,0.0414,True,,0.7112,background,mixed,0.0162
+a,334832,M0,3434,334837.0,True,,0.362,black point,mixed,0.1816,True,,0.1945,black point,mixed,0.053
+v5,334832,M0,3434,334837.0,True,,0.2551,black point,mixed,0.111,True,,0.1756,black point,mixed,0.0289
+a,334837,M1M2,3434,,True,,0.5034,background,mixed,0.0149,True,,0.2893,black point,mixed,0.0794
+v5,334837,M1M2,3434,,True,,0.5563,black point,mixed,0.099,True,,0.4362,black point,mixed,0.045
+a,336453,M0,3492,336449.0,True,,0.1415,black point,mixed,0.1428,False,too much diffuse background: 78.5% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again,,refused,qc_fail,0.1975
+v5,336453,M0,3492,336449.0,False,too much diffuse background: 65.3% of the signal under the mask is smooth haze (limit 7%); subtract the background and score again,,refused,qc_fail,0.0162,False,too much diffuse background: 59.9% of the signal under the mask is smooth haze (limit 7%); subtract the background and score again,,refused,qc_fail,0.0005
+a,231868,M0,21,231862.0,True,,0.4765,black point,mixed,0.1528,True,,0.2435,black point,mixed,0.04
+v5,231868,M0,21,231862.0,True,,0.4254,black point,mixed,0.1006,True,,0.1764,black point,mixed,0.0222
+a,336449,M1M2,3492,,True,,0.3911,black point,mixed,0.1836,True,,0.6427,black point,mixed,0.0562
+v5,336449,M1M2,3492,,True,,0.1496,black point,elongated,0.1103,True,,0.306,black point,mixed,0.0318
+a,269884,M0,1297,269880.0,True,,0.2005,black point,mixed,0.1216,True,,0.289,black point,mixed,0.0377
+v5,269884,M0,1297,269880.0,True,,0.1179,black point,elongated,0.0768,True,,0.2182,black point,mixed,0.0204
+a,932768,M1M2,14326,,True,,0.1113,background,mixed,0.0223,True,,0.0106,black point,elongated,0.0403
+v5,932768,M1M2,14326,,True,,0.2868,black point,mixed,0.0805,True,,0.5109,black point,mixed,0.0223
+a,915732,M1M2,14179,,True,,0.0657,black point,elongated,0.157,True,,0.0002,black point,elongated,0.0669
+v5,915732,M1M2,14179,,True,,0.8964,background,mixed,0.0332,True,,0.0079,black point,elongated,0.0328
+a,932774,M0,14326,932768.0,True,,0.3414,black point,mixed,0.1163,True,,0.0366,black point,elongated,0.0432
+v5,932774,M0,14326,932768.0,True,,0.2205,black point,mixed,0.0844,True,,0.2405,black point,mixed,0.0347
+a,346179,M0,3792,346167.0,True,,0.1636,black point,mixed,0.1533,True,,0.0156,black point,elongated,0.0395
+v5,346179,M0,3792,346167.0,True,,0.1861,black point,mixed,0.1097,True,,0.4098,black point,mixed,0.0256
+a,269880,M1M2,1297,,True,,0.5997,black point,mixed,0.1416,True,,0.2419,black point,mixed,0.0577
+v5,269880,M1M2,1297,,True,,0.228,black point,mixed,0.092,True,,0.2283,black point,mixed,0.0363
+a,915731,M0,14179,915732.0,True,,0.0798,black point,elongated,0.1603,True,,0.0383,black point,elongated,0.0479
+v5,915731,M0,14179,915732.0,True,,0.0749,black point,elongated,0.102,True,,0.0659,black point,elongated,0.0275
+a,346167,M1M2,3792,,True,,0.1232,black point,mixed,0.1417,False,too much diffuse background: 77.7% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again,,refused,qc_fail,0.1574
+v5,346167,M1M2,3792,,True,,0.0601,black point,elongated,0.0942,True,,0.0716,black point,elongated,0.0334
+a,326635,M1M2,3192,,True,,0.5471,black point,mixed,0.1457,True,,0.6292,black point,mixed,0.075
+v5,326635,M1M2,3192,,True,,0.9376,background,mixed,0.0379,True,,0.4959,black point,mixed,0.0528
+a,315002,M0,2810,315024.0,True,,0.0288,background,elongated,0.0232,True,,0.0286,background,elongated,0.015
+v5,315002,M0,2810,315024.0,True,,0.17,black point,elongated,0.0894,True,,0.2182,black point,mixed,0.0378
+a,326646,M0,3192,326635.0,True,,0.3994,background,mixed,0.0415,True,,0.0313,black point,elongated,0.049
+v5,326646,M0,3192,326635.0,True,,0.4205,black point,mixed,0.0992,True,,0.1216,black point,elongated,0.0326
+a,340133,M0,3594,340162.0,True,,0.8436,black point,mixed,0.2196,True,,0.9285,black point,fragmented,0.0781
+v5,340133,M0,3594,340162.0,True,,0.4874,black point,mixed,0.1339,True,,0.7942,black point,mixed,0.0487
+a,340162,M1M2,3594,,True,,0.4277,black point,mixed,0.1633,True,,0.2306,black point,mixed,0.0559
+v5,340162,M1M2,3594,,True,,0.7923,black point,mixed,0.0978,False,no objects in mask,,refused,,0.0
+a,338796,M3,3556,,True,,0.2586,black point,mixed,0.2106,True,,0.3236,black point,mixed,0.0742
+v5,338796,M3,3556,,True,,0.1574,black point,elongated,0.1211,True,,0.4519,black point,mixed,0.0424
+a,333159,M0,3381,333129.0,True,,0.6992,black point,mixed,0.1653,True,,0.9653,black point,fragmented,0.0318
+v5,333159,M0,3381,333129.0,True,,0.2476,black point,mixed,0.1105,False,no objects in mask,,refused,,0.0
+a,338793,M0,3556,338796.0,True,,0.222,black point,mixed,0.1937,True,,0.0495,black point,elongated,0.0761
+v5,338793,M0,3556,338796.0,True,,0.1633,black point,elongated,0.1274,True,,0.0981,black point,elongated,0.0497
+a,315024,M1M2,2810,,True,,0.3272,black point,mixed,0.0622,True,,0.0273,black point,elongated,0.0251
+v5,315024,M1M2,2810,,True,,0.9715,black point,fragmented,0.0555,False,too much diffuse background: 60.4% of the signal under the mask is smooth haze (limit 7%); subtract the background and score again,,refused,qc_fail,0.0002
+a,333129,M3,3381,,True,,0.3415,black point,mixed,0.1794,True,,0.315,black point,mixed,0.0708
+v5,333129,M3,3381,,True,,0.3612,black point,mixed,0.0974,False,too much diffuse background: 55.6% of the signal under the mask is smooth haze (limit 7%); subtract the background and score again,,refused,qc_fail,0.0004
+a,323748,M3,3090,,True,,0.0102,background,elongated,0.0314,True,,0.1285,black point,mixed,0.049
+v5,323748,M3,3090,,True,,0.956,background,mixed,0.0438,True,,0.0764,black point,elongated,0.0291
+a,323756,M0,3090,323748.0,True,,0.2736,black point,mixed,0.1158,True,,0.1454,black point,mixed,0.0493
+v5,323756,M0,3090,323748.0,True,,0.9144,background,mixed,0.0385,True,,0.1242,black point,elongated,0.0364
+a,349061,M0,3883,349055.0,True,,0.5731,black point,mixed,0.1971,True,,0.0113,black point,elongated,0.0565
+v5,349061,M0,3883,349055.0,True,,0.2514,black point,mixed,0.1146,True,,0.0555,black point,elongated,0.0362
+a,318578,M3,2923,,True,,0.0282,background,elongated,0.0237,True,,0.001,background,elongated,0.0129
+v5,318578,M3,2923,,True,,0.973,background,fragmented,0.0329,True,,0.7189,background,mixed,0.0176
+a,318590,M0,2923,318578.0,True,,0.1749,background,mixed,0.0427,True,,0.0367,background,elongated,0.0206
+v5,318590,M0,2923,318578.0,True,,0.2658,black point,mixed,0.0907,False,too much diffuse background: 57.4% of the signal under the mask is smooth haze (limit 7%); subtract the background and score again,,refused,qc_fail,0.0037
+a,336051,M0,3480,336041.0,True,,0.5403,black point,mixed,0.1475,True,,0.6092,black point,mixed,0.0579
+v5,336051,M0,3480,336041.0,True,,0.6625,background,mixed,0.0314,True,,0.5065,black point,mixed,0.0336
+a,349055,M3,3883,,True,,0.4703,black point,mixed,0.1877,True,,0.5399,black point,mixed,0.066
+v5,349055,M3,3883,,True,,0.4515,black point,mixed,0.1067,True,,0.6395,black point,mixed,0.0373
+a,256130,M0,881,256124.0,True,,0.1066,background,elongated,0.0401,True,,0.0001,background,elongated,0.0125
+v5,256130,M0,881,256124.0,True,,0.9835,background,fragmented,0.0488,True,,0.8824,background,mixed,0.0119
+a,336041,M3,3480,,True,,0.657,black point,mixed,0.1573,True,,0.3744,black point,mixed,0.0689
+v5,336041,M3,3480,,True,,0.2258,black point,mixed,0.0877,True,,0.073,black point,elongated,0.0329
+a,256124,M3,881,,True,,0.0377,background,elongated,0.0195,True,,0.7337,black point,mixed,0.0284
+v5,256124,M3,881,,True,,0.4864,black point,mixed,0.0774,True,,0.8952,black point,mixed,0.0146
+a,316144,M0,2845,316145.0,True,,0.6237,black point,mixed,0.1715,True,,0.2647,black point,mixed,0.0737
+v5,316144,M0,2845,316145.0,True,,0.2924,black point,mixed,0.1054,True,,0.3486,black point,mixed,0.0444
+a,316145,M3,2845,,True,,0.3232,black point,mixed,0.164,True,,0.2748,black point,mixed,0.0402
+v5,316145,M3,2845,,True,,0.3074,black point,mixed,0.1073,False,no objects in mask,,refused,,0.0
+a,274164,M0,1419,274157.0,True,,0.4128,background,mixed,0.0132,True,,0.0077,black point,elongated,0.0459
+v5,274164,M0,1419,274157.0,True,,0.1452,black point,elongated,0.099,True,,0.3815,black point,mixed,0.0263
+a,262209,M3,1051,,True,,0.2785,background,mixed,0.0308,False,too much diffuse background: 82.2% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again,,refused,qc_fail,0.1907
+v5,262209,M3,1051,,True,,0.1855,black point,mixed,0.0949,False,no objects in mask,,refused,,0.0001
+a,332295,M3,3355,,True,,0.3103,black point,mixed,0.1606,True,,0.2611,black point,mixed,0.0554
+v5,332295,M3,3355,,True,,0.3076,black point,mixed,0.0975,True,,0.3068,black point,mixed,0.0273
+a,274157,M3,1419,,True,,0.6638,black point,mixed,0.1696,True,,0.1161,black point,mixed,0.0623
+v5,274157,M3,1419,,True,,0.5925,black point,mixed,0.0905,True,,0.7891,black point,mixed,0.0318
+a,332312,M0,3355,332295.0,True,,0.633,black point,mixed,0.1874,True,,0.709,black point,mixed,0.0693
+v5,332312,M0,3355,332295.0,True,,0.4032,black point,mixed,0.1159,True,,0.6301,black point,mixed,0.0432
+a,326091,M3,3167,,True,,0.4996,black point,mixed,0.1728,True,,0.5137,black point,mixed,0.0632
+v5,326091,M3,3167,,True,,0.3851,black point,mixed,0.1026,True,,0.4526,black point,mixed,0.0334
+a,262220,M0,1051,262209.0,True,,0.5033,black point,mixed,0.1665,True,,0.7594,black point,mixed,0.0446
+v5,262220,M0,1051,262209.0,True,,0.4852,black point,mixed,0.1039,True,,0.9192,background,mixed,0.0148
+a,329707,M0,3278,329682.0,True,,0.5502,black point,mixed,0.191,True,,0.3036,black point,mixed,0.0545
+v5,329707,M0,3278,329682.0,True,,0.3254,black point,mixed,0.1185,True,,0.9898,background,fragmented,0.018
+a,329682,M3,3278,,True,,0.8234,black point,mixed,0.2175,True,,0.4753,black point,mixed,0.0696
+v5,329682,M3,3278,,True,,0.2115,black point,mixed,0.1369,True,,0.1018,black point,elongated,0.0356
+a,326094,M0,3167,326091.0,True,,0.25,black point,mixed,0.1434,True,,0.017,black point,elongated,0.0513
+v5,326094,M0,3167,326091.0,True,,0.9804,background,fragmented,0.038,True,,0.5852,black point,mixed,0.0264
+a,403464,M0,16197,403479.0,True,,0.4608,black point,mixed,0.1986,True,,0.3374,black point,mixed,0.066
+v5,403464,M0,16197,403479.0,True,,0.087,black point,elongated,0.1151,True,,0.2065,black point,mixed,0.0408
+a,403479,M3,16197,,True,,0.364,black point,mixed,0.2193,True,,0.4983,black point,mixed,0.0865
+v5,403479,M3,16197,,True,,0.1715,black point,elongated,0.1372,False,no objects in mask,,refused,,0.0
+a,280084,M3,1600,,True,,0.2256,background,mixed,0.0321,True,,0.3836,black point,mixed,0.0794
+v5,280084,M3,1600,,True,,0.3768,black point,mixed,0.1076,True,,0.3338,black point,mixed,0.0505
+a,276653,M0,1492,276640.0,True,,0.1929,background,mixed,0.02,True,,0.328,black point,mixed,0.0507
+v5,276653,M0,1492,276640.0,True,,0.2732,black point,mixed,0.0957,True,,0.5358,black point,mixed,0.0297
+a,276640,M3,1492,,True,,0.0238,background,elongated,0.0233,False,too much diffuse background: 83.5% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again,,refused,qc_fail,0.1677
+v5,276640,M3,1492,,True,,0.2389,black point,mixed,0.1038,False,too much diffuse background: 58.7% of the signal under the mask is smooth haze (limit 7%); subtract the background and score again,,refused,qc_fail,0.0009
+a,254284,M3,828,,True,,0.1531,background,mixed,0.0386,True,,0.5364,background,mixed,0.0125
+v5,254284,M3,828,,True,,0.964,background,fragmented,0.0445,True,,0.8979,background,mixed,0.015
+a,265781,M3,1162,,True,,0.2369,black point,mixed,0.1371,True,,0.5122,black point,mixed,0.0323
+v5,265781,M3,1162,,True,,0.1587,black point,elongated,0.0933,False,no objects in mask,,refused,,0.0
+a,280099,M0,1600,280084.0,True,,0.5181,black point,mixed,0.1696,True,,0.0335,black point,elongated,0.0574
+v5,280099,M0,1600,280084.0,True,,0.3522,black point,mixed,0.1137,True,,0.3517,black point,mixed,0.0386
+a,265804,M0,1162,265781.0,True,,0.4938,black point,mixed,0.1264,True,,0.1511,black point,mixed,0.0528
+v5,265804,M0,1162,265781.0,True,,0.3955,black point,mixed,0.0812,True,,0.1571,black point,elongated,0.0316
+a,254293,M0,828,254284.0,True,,0.2435,black point,mixed,0.1312,True,,0.0318,black point,elongated,0.0438
+v5,254293,M0,828,254284.0,True,,0.0324,black point,elongated,0.08,True,,0.027,black point,elongated,0.0251
+a,316782,M3,2870,,True,,0.2464,black point,mixed,0.1531,True,,0.027,black point,elongated,0.0694
+v5,316782,M3,2870,,True,,0.2792,black point,mixed,0.0919,False,no objects in mask,,refused,,0.0
+a,254094,M4M5,823,,True,,0.7786,black point,mixed,0.1649,True,,0.9292,black point,fragmented,0.0693
+v5,254094,M4M5,823,,True,,0.528,black point,mixed,0.0871,False,no objects in mask,,refused,,0.0
+a,271734,M4M5,1346,,True,,0.2911,black point,mixed,0.15,False,too much diffuse background: 87.7% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again,,refused,qc_fail,0.1176
+v5,271734,M4M5,1346,,True,,0.4462,black point,mixed,0.0961,False,no objects in mask,,refused,,0.0
+a,254104,M0,823,254094.0,True,,0.717,black point,mixed,0.1747,True,,0.5404,background,mixed,0.0198
+v5,254104,M0,823,254094.0,True,,0.1379,black point,elongated,0.101,True,,0.4149,background,mixed,0.0162
+a,316798,M0,2870,316782.0,True,,0.3405,background,mixed,0.022,True,,0.1777,black point,mixed,0.041
+v5,316798,M0,2870,316782.0,True,,0.3768,black point,mixed,0.1035,True,,0.4694,black point,mixed,0.021
+a,269079,M0,1272,269070.0,True,,0.383,black point,mixed,0.1652,True,,0.0454,black point,elongated,0.0609
+v5,269079,M0,1272,269070.0,True,,0.281,black point,mixed,0.1012,True,,0.3363,black point,mixed,0.0418
+a,271739,M0,1346,271734.0,True,,0.2796,black point,mixed,0.1661,True,,0.2418,black point,mixed,0.061
+v5,271739,M0,1346,271734.0,True,,0.3268,black point,mixed,0.1073,True,,0.4596,black point,mixed,0.0383
+a,347737,M4M5,3840,,True,,0.0278,background,elongated,0.038,True,,0.2383,black point,mixed,0.0441
+v5,347737,M4M5,3840,,True,,0.4595,black point,mixed,0.1005,False,no objects in mask,,refused,,0.0
+a,347755,M0,3840,347737.0,True,,0.339,black point,mixed,0.1805,True,,0.376,black point,mixed,0.0733
+v5,347755,M0,3840,347737.0,True,,0.215,black point,mixed,0.1159,True,,0.1812,black point,mixed,0.0468
+a,269070,M4M5,1272,,True,,0.1141,black point,mixed,0.1889,True,,0.3402,black point,mixed,0.0785
+v5,269070,M4M5,1272,,True,,0.1399,black point,elongated,0.1118,True,,0.1087,black point,elongated,0.0372
+a,270825,M4M5,1324,,True,,0.7951,black point,mixed,0.1653,True,,0.8814,black point,fragmented,0.0386
+v5,270825,M4M5,1324,,True,,0.6302,black point,mixed,0.1022,False,no objects in mask,,refused,,0.0
+a,271967,M4M5,1352,,True,,0.0634,background,elongated,0.0232,True,,0.8109,black point,mixed,0.0439
+v5,271967,M4M5,1352,,True,,0.3008,black point,mixed,0.1061,False,no objects in mask,,refused,,0.0
+a,271979,M0,1352,271967.0,True,,0.1902,background,mixed,0.0232,True,,0.2071,black point,mixed,0.0657
+v5,271979,M0,1352,271967.0,True,,0.9838,background,fragmented,0.033,True,,0.0248,black point,elongated,0.0416
+a,270836,M0,1324,270825.0,True,,0.7919,black point,mixed,0.1631,True,,0.4189,black point,mixed,0.054
+v5,270836,M0,1324,270825.0,True,,0.7338,black point,mixed,0.1067,True,,0.7539,black point,mixed,0.034
+a,345267,M0,3764,345259.0,True,,0.0404,background,elongated,0.0274,True,,0.002,black point,elongated,0.068
+v5,345267,M0,3764,345259.0,True,,0.3599,black point,mixed,0.0867,True,,0.3166,black point,mixed,0.0424
+a,345259,M4M5,3764,,True,,0.473,background,mixed,0.031,True,,0.2516,black point,mixed,0.0683
+v5,345259,M4M5,3764,,True,,0.2736,black point,mixed,0.095,False,too much diffuse background: 54.4% of the signal under the mask is smooth haze (limit 7%); subtract the background and score again,,refused,qc_fail,0.0011
+a,923433,M4M5,14219,,True,,0.2835,black point,mixed,0.187,False,too much diffuse background: 84.4% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again,,refused,qc_fail,0.1818
+v5,923433,M4M5,14219,,True,,0.1184,black point,elongated,0.1126,False,no objects in mask,,refused,,0.0
+a,276813,M4M5,1497,,True,,0.0886,background,elongated,0.0184,True,,0.2685,black point,mixed,0.0345
+v5,276813,M4M5,1497,,True,,0.3317,black point,mixed,0.081,False,no objects in mask,,refused,,0.0
+a,276820,M0,1497,276813.0,True,,0.1623,black point,mixed,0.1673,False,too much diffuse background: 77.9% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again,,refused,qc_fail,0.133
+v5,276820,M0,1497,276813.0,True,,0.1879,black point,mixed,0.1177,True,,0.0047,black point,elongated,0.0326
+a,923420,M0,14219,923433.0,True,,0.1715,black point,mixed,0.0542,True,,0.6951,black point,mixed,0.0208
+v5,923420,M0,14219,923433.0,True,,0.948,background,mixed,0.0149,True,,0.9943,black point,fragmented,0.0205
+a,259528,M4M5,979,,True,,0.4743,black point,mixed,0.1569,False,too much diffuse background: 82.6% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again,,refused,qc_fail,0.1674
+v5,259528,M4M5,979,,True,,0.7835,background,mixed,0.0163,False,no objects in mask,,refused,,0.0
+a,231120,M4M5,4,,True,,0.3109,black point,mixed,0.1236,True,,0.1871,black point,mixed,0.0342
+v5,231120,M4M5,4,,True,,0.9957,background,fragmented,0.0215,False,no objects in mask,,refused,,0.0
+a,259531,M0,979,259528.0,True,,0.0261,background,elongated,0.0195,True,,0.0475,black point,elongated,0.0548
+v5,259531,M0,979,259528.0,True,,0.2303,black point,mixed,0.1149,True,,0.0596,black point,elongated,0.0321
+a,266235,M4M5,1175,,True,,0.1431,background,mixed,0.0123,True,,0.4712,black point,mixed,0.0433
+v5,266235,M4M5,1175,,True,,0.4154,black point,mixed,0.1029,False,no objects in mask,,refused,,0.0
+a,255784,M4M5,871,,True,,0.1341,background,mixed,0.0157,True,,0.0441,black point,elongated,0.0698
+v5,255784,M4M5,871,,True,,0.1822,black point,mixed,0.1049,False,no objects in mask,,refused,,0.0
+a,266229,M0,1175,266235.0,True,,0.3826,black point,mixed,0.0217,False,no objects in mask,,refused,,0.0
+v5,266229,M0,1175,266235.0,True,,0.9914,black point,fragmented,0.0319,False,no objects in mask,,refused,,0.0
+a,953022,M4M5,15101,,True,,0.0027,background,elongated,0.0109,True,,0.5737,black point,mixed,0.0405
+v5,953022,M4M5,15101,,True,,0.7512,background,mixed,0.0273,True,,0.9065,background,mixed,0.0106
+a,255793,M0,871,255784.0,True,,0.0445,black point,elongated,0.1463,True,,0.0241,black point,elongated,0.0634
+v5,255793,M0,871,255784.0,True,,0.4362,black point,mixed,0.0825,True,,0.4571,black point,mixed,0.0355
+a,231122,M0,4,231120.0,True,,0.784,black point,mixed,0.1475,True,,0.068,black point,elongated,0.0422
+v5,231122,M0,4,231120.0,True,,0.3461,black point,mixed,0.0911,True,,0.7437,black point,mixed,0.0239
+a,953045,M0,15101,953022.0,True,,0.326,black point,mixed,0.1193,True,,0.0167,black point,elongated,0.0342
+v5,953045,M0,15101,953022.0,True,,0.3641,black point,mixed,0.0777,True,,0.9638,background,fragmented,0.0101
+a,344668,M4M5,3746,,True,,0.2346,black point,mixed,0.142,True,,0.0268,black point,elongated,0.0434
+v5,344668,M4M5,3746,,False,too much diffuse background: 61.1% of the signal under the mask is smooth haze (limit 7%); subtract the background and score again,,refused,qc_fail,0.0227,False,too much diffuse background: 59.0% of the signal under the mask is smooth haze (limit 7%); subtract the background and score again,,refused,qc_fail,0.0002
+a,331497,M0,3332,331470.0,True,,0.3105,black point,mixed,0.1432,True,,0.7069,black point,mixed,0.0387
+v5,331497,M0,3332,331470.0,True,,0.3743,black point,mixed,0.0961,True,,0.2684,black point,mixed,0.0226
+a,344682,M0,3746,344668.0,True,,0.697,black point,mixed,0.1468,True,,0.3601,black point,mixed,0.0504
+v5,344682,M0,3746,344668.0,False,too much diffuse background: 58.3% of the signal under the mask is smooth haze (limit 7%); subtract the background and score again,,refused,qc_fail,0.0157,False,too much diffuse background: 53.8% of the signal under the mask is smooth haze (limit 7%); subtract the background and score again,,refused,qc_fail,0.0045
+a,348009,M0,3847,348001.0,True,,0.2342,black point,mixed,0.1707,False,too much diffuse background: 75.4% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again,,refused,qc_fail,0.148
+v5,348009,M0,3847,348001.0,True,,0.3419,black point,mixed,0.1039,True,,0.0308,black point,elongated,0.0392
+a,348001,M4M5,3847,,True,,0.2171,black point,mixed,0.1893,True,,0.2125,black point,mixed,0.0534
+v5,348001,M4M5,3847,,True,,0.3232,black point,mixed,0.1218,True,,0.4572,black point,mixed,0.03
+a,331470,M4M5,3332,,True,,0.4311,black point,mixed,0.1699,False,too much diffuse background: 79.7% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again,,refused,qc_fail,0.1493
+v5,331470,M4M5,3332,,True,,0.8252,black point,mixed,0.104,False,no objects in mask,,refused,,0.0
+a,408954,M4M5,16815,,True,,0.5246,background,mixed,0.0402,True,,0.1601,black point,mixed,0.0784
+v5,408954,M4M5,16815,,True,,0.9795,background,fragmented,0.0434,False,too much diffuse background: 58.7% of the signal under the mask is smooth haze (limit 7%); subtract the background and score again,,refused,qc_fail,0.0001
+a,327137,M0,3205,327124.0,True,,0.2824,black point,mixed,0.1337,True,,0.4446,black point,mixed,0.0516
+v5,327137,M0,3205,327124.0,True,,0.1509,black point,elongated,0.0899,True,,0.5077,black point,mixed,0.037
+a,327124,M4M5,3205,,True,,0.2206,black point,mixed,0.1533,True,,0.3094,black point,mixed,0.0635
+v5,327124,M4M5,3205,,True,,0.8689,background,mixed,0.0278,False,too much diffuse background: 59.0% of the signal under the mask is smooth haze (limit 7%); subtract the background and score again,,refused,qc_fail,0.0007
+a,408970,M0,16815,408954.0,True,,0.7204,black point,mixed,0.1602,True,,0.3461,black point,mixed,0.0491
+v5,408970,M0,16815,408954.0,True,,0.546,black point,mixed,0.0911,True,,0.2096,black point,mixed,0.0253
+a,269111,M0,1273,269102.0,True,,0.8337,background,mixed,0.0199,True,,0.1032,black point,elongated,0.0628
+v5,269111,M0,1273,269102.0,True,,0.6329,black point,mixed,0.1,True,,0.4028,black point,mixed,0.0362
+a,269102,M4M5,1273,,True,,0.9029,black point,fragmented,0.1495,False,too much diffuse background: 85.2% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again,,refused,qc_fail,0.1761
+v5,269102,M4M5,1273,,False,too much diffuse background: 75.5% of the signal under the mask is smooth haze (limit 7%); subtract the background and score again,,refused,qc_fail,0.001,False,no objects in mask,,refused,,0.0
+a,276878,M0,1499,276881.0,True,,0.8185,black point,mixed,0.0946,True,,0.0414,black point,elongated,0.0233
+v5,276878,M0,1499,276881.0,True,,0.7675,black point,mixed,0.0731,False,too much diffuse background: 63.7% of the signal under the mask is smooth haze (limit 7%); subtract the background and score again,,refused,qc_fail,0.0008
+a,932607,M0,14323,932582.0,True,,0.5903,black point,mixed,0.1697,True,,0.0948,black point,elongated,0.082
+v5,932607,M0,14323,932582.0,True,,0.47,black point,mixed,0.1053,True,,0.2689,black point,mixed,0.0486
+a,932582,M4M5,14323,,True,,0.9337,black point,fragmented,0.1321,False,too much diffuse background: 80.8% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again,,refused,qc_fail,0.1772
+v5,932582,M4M5,14323,,True,,0.4674,black point,mixed,0.098,False,too much diffuse background: 60.7% of the signal under the mask is smooth haze (limit 7%); subtract the background and score again,,refused,qc_fail,0.0001
+a,400931,M4M5,15829,,True,,0.3796,black point,mixed,0.1547,True,,0.0536,black point,elongated,0.0641
+v5,400931,M4M5,15829,,True,,0.3458,black point,mixed,0.089,False,no objects in mask,,refused,,0.0
+a,276881,M4M5,1499,,True,,0.2311,black point,mixed,0.1715,True,,0.1494,black point,mixed,0.0564
+v5,276881,M4M5,1499,,True,,0.1177,black point,elongated,0.1071,False,no objects in mask,,refused,,0.0
+a,400953,M0,15829,400931.0,True,,0.5719,black point,mixed,0.1731,True,,0.6051,black point,mixed,0.049
+v5,400953,M0,15829,400931.0,True,,0.4526,black point,mixed,0.087,True,,0.6574,black point,mixed,0.0252
+a,316997,M0,2876,316974.0,True,,0.4483,black point,mixed,0.1732,True,,0.0864,black point,elongated,0.0532
+v5,316997,M0,2876,316974.0,True,,0.9822,background,fragmented,0.0415,True,,0.3916,black point,mixed,0.0291
+a,316974,M4M5,2876,,True,,0.3475,background,mixed,0.0178,True,,0.5108,black point,mixed,0.034
+v5,316974,M4M5,2876,,True,,0.1119,black point,elongated,0.0931,False,no objects in mask,,refused,,0.0
+a,271737,M4M5,1346,,True,,0.8267,black point,mixed,0.1358,True,,0.6382,black point,mixed,0.0307
+v5,271737,M4M5,1346,,True,,0.2729,black point,mixed,0.0854,False,no objects in mask,,refused,,0.0
+a,271760,M0,1346,271737.0,True,,0.4593,black point,mixed,0.1906,True,,0.135,black point,mixed,0.0629
+v5,271760,M0,1346,271737.0,True,,0.6019,black point,mixed,0.1233,True,,0.1446,black point,elongated,0.0409
+a,341989,M0,3668,341970.0,True,,0.4494,black point,mixed,0.1547,True,,0.0017,background,elongated,0.0161
+v5,341989,M0,3668,341970.0,True,,0.9697,background,fragmented,0.0523,True,,0.978,background,fragmented,0.0185
+a,341970,M4M5,3668,,True,,0.2255,background,mixed,0.045,True,,0.0745,background,elongated,0.0106
+v5,341970,M4M5,3668,,True,,0.9497,background,mixed,0.047,False,too much diffuse background: 60.9% of the signal under the mask is smooth haze (limit 7%); subtract the background and score again,,refused,qc_fail,0.0002
+a,405284,M0,16427,405274.0,True,,0.5302,black point,mixed,0.1436,True,,0.0139,black point,elongated,0.0552
+v5,405284,M0,16427,405274.0,True,,0.9848,background,fragmented,0.0339,True,,0.0454,black point,elongated,0.0338
+a,320357,M4M5,2976,,True,,0.1274,black point,mixed,0.1825,True,,0.0729,black point,elongated,0.0733
+v5,320357,M4M5,2976,,True,,0.9547,background,mixed,0.0362,True,,0.0279,black point,elongated,0.0348
+a,405274,M4M5,16427,,True,,0.3696,black point,mixed,0.1361,True,,0.4281,black point,mixed,0.0422
+v5,405274,M4M5,16427,,True,,0.9595,background,mixed,0.0472,True,,0.9895,background,fragmented,0.0144
+a,272489,M4M5,1368,,True,,0.187,background,mixed,0.0279,True,,0.181,black point,mixed,0.0547
+v5,272489,M4M5,1368,,True,,0.2237,black point,mixed,0.112,True,,0.258,black point,mixed,0.0288
+a,332476,M0,3359,332444.0,True,,0.9692,background,fragmented,0.0224,True,,0.1024,black point,elongated,0.0291
+v5,332476,M0,3359,332444.0,True,,0.9978,background,fragmented,0.0248,False,no objects in mask,,refused,,0.0
+a,320360,M0,2976,320357.0,True,,0.0727,black point,elongated,0.1697,True,,0.0459,black point,elongated,0.0866
+v5,320360,M0,2976,320357.0,True,,0.2574,black point,mixed,0.1095,True,,0.248,black point,mixed,0.0572
+a,272495,M0,1368,272489.0,True,,0.4326,background,mixed,0.031,True,,0.2042,black point,mixed,0.0761
+v5,272495,M0,1368,272489.0,True,,0.9821,background,fragmented,0.0378,True,,0.1793,black point,mixed,0.0509
+a,255929,M0,875,255908.0,True,,0.4525,black point,mixed,0.169,True,,0.5353,black point,mixed,0.0785
+v5,255929,M0,875,255908.0,True,,0.2406,black point,mixed,0.1067,True,,0.049,black point,elongated,0.0494
+a,255908,M4M5,875,,True,,0.2176,black point,mixed,0.1731,True,,0.0641,black point,elongated,0.0719
+v5,255908,M4M5,875,,True,,0.0981,black point,elongated,0.1063,True,,0.1215,black point,elongated,0.0409
+a,332444,M4M5,3359,,True,,0.5343,black point,mixed,0.174,True,,0.6767,black point,mixed,0.0559
+v5,332444,M4M5,3359,,True,,0.5881,black point,mixed,0.1107,False,no objects in mask,,refused,,0.0
+a,398944,M4M5,15602,,True,,0.1221,background,mixed,0.016,True,,0.4465,black point,mixed,0.0417
+v5,398944,M4M5,15602,,False,too much diffuse background: 64.8% of the signal under the mask is smooth haze (limit 7%); subtract the background and score again,,refused,qc_fail,0.0073,False,too much diffuse background: 60.6% of the signal under the mask is smooth haze (limit 7%); subtract the background and score again,,refused,qc_fail,0.0014
+a,328773,M0,3250,328759.0,True,,0.3955,black point,mixed,0.1597,True,,0.0264,black point,elongated,0.0488
+v5,328773,M0,3250,328759.0,True,,0.3591,black point,mixed,0.0949,True,,0.9732,background,fragmented,0.0113
+a,328759,M4M5,3250,,True,,0.1039,background,elongated,0.027,True,,0.4486,black point,mixed,0.0636
+v5,328759,M4M5,3250,,True,,0.3174,black point,mixed,0.1054,True,,0.5395,black point,mixed,0.0309
+a,398953,M0,15602,398944.0,True,,0.6661,black point,mixed,0.1487,True,,0.0232,black point,elongated,0.0543
+v5,398953,M0,15602,398944.0,True,,0.4866,black point,mixed,0.0926,True,,0.3829,black point,mixed,0.036
+a,253841,M4M5,816,,True,,0.3264,background,mixed,0.0362,True,,0.5082,background,mixed,0.014
+v5,253841,M4M5,816,,True,,0.9132,background,mixed,0.0487,True,,0.9104,background,mixed,0.0182
+a,266382,M4M5,1179,,True,,0.7411,black point,mixed,0.183,False,too much diffuse background: 85.6% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again,,refused,qc_fail,0.1772
+v5,266382,M4M5,1179,,True,,0.4165,black point,mixed,0.1113,True,,0.2123,black point,mixed,0.0368
+a,253862,M0,816,253841.0,True,,0.3435,black point,mixed,0.1377,True,,0.024,black point,elongated,0.0519
+v5,253862,M0,816,253841.0,True,,0.2766,black point,mixed,0.0893,True,,0.2058,black point,mixed,0.0366
+a,266368,M0,1179,266382.0,True,,0.1832,black point,mixed,0.053,True,,0.0908,black point,elongated,0.0252
+v5,266368,M0,1179,266382.0,True,,0.8892,black point,mixed,0.0616,True,,0.9555,black point,mixed,0.028
+a,257056,M0,907,257054.0,True,,0.1765,black point,mixed,0.1371,True,,0.0019,black point,elongated,0.0498
+v5,257056,M0,907,257054.0,True,,0.292,black point,mixed,0.0953,True,,0.6978,black point,mixed,0.0325
+a,257054,M4M5,907,,True,,0.1922,background,mixed,0.0295,True,,0.8014,black point,mixed,0.0641
+v5,257054,M4M5,907,,True,,0.5861,black point,mixed,0.1026,True,,0.5362,black point,mixed,0.0329
+a,964305,M4M5,16043,,True,,0.0825,background,elongated,0.0144,True,,0.1201,black point,mixed,0.0619
+v5,964305,M4M5,16043,,False,too much diffuse background: 67.3% of the signal under the mask is smooth haze (limit 7%); subtract the background and score again,,refused,qc_fail,0.0033,False,no objects in mask,,refused,,0.0
+a,964332,M0,16043,964305.0,True,,0.1469,background,mixed,0.0317,True,,0.3776,black point,mixed,0.0817
+v5,964332,M0,16043,964305.0,True,,0.2106,black point,mixed,0.1312,True,,0.5338,black point,mixed,0.0546
+a,269678,M4M5,1291,,True,,0.5645,background,mixed,0.0179,False,too much diffuse background: 84.7% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again,,refused,qc_fail,0.1644
+v5,269678,M4M5,1291,,True,,0.2086,black point,mixed,0.1021,False,no objects in mask,,refused,,0.0
+a,269691,M0,1291,269678.0,True,,0.7844,black point,mixed,0.1323,True,,0.1554,black point,mixed,0.0369
+v5,269691,M0,1291,269678.0,True,,0.6284,black point,mixed,0.0833,True,,0.7221,black point,mixed,0.0209
+a,275564,M0,1461,275551.0,True,,0.256,background,mixed,0.0177,True,,0.6614,black point,mixed,0.0343
+v5,275564,M0,1461,275551.0,False,too much diffuse background: 59.9% of the signal under the mask is smooth haze (limit 7%); subtract the background and score again,,refused,qc_fail,0.0036,False,too much diffuse background: 57.5% of the signal under the mask is smooth haze (limit 7%); subtract the background and score again,,refused,qc_fail,0.0029
+a,343733,M0,3717,343711.0,True,,0.7556,black point,mixed,0.1848,True,,0.2218,black point,mixed,0.0631
+v5,343733,M0,3717,343711.0,True,,0.3993,black point,mixed,0.1191,True,,0.3111,black point,mixed,0.0386
+a,275551,M4M5,1461,,True,,0.1117,background,mixed,0.0185,False,too much diffuse background: 84.1% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again,,refused,qc_fail,0.1216
+v5,275551,M4M5,1461,,False,too much diffuse background: 61.8% of the signal under the mask is smooth haze (limit 7%); subtract the background and score again,,refused,qc_fail,0.005,False,too much diffuse background: 69.8% of the signal under the mask is smooth haze (limit 7%); subtract the background and score again,,refused,qc_fail,0.0001
+a,404943,M0,16386,404957.0,True,,0.0486,background,elongated,0.0277,True,,0.0384,black point,elongated,0.0541
+v5,404943,M0,16386,404957.0,True,,0.99,background,fragmented,0.042,False,no objects in mask,,refused,,0.0
+a,404957,M4M5,16386,,True,,0.2888,background,mixed,0.0234,False,too much diffuse background: 84.3% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again,,refused,qc_fail,0.1418
+v5,404957,M4M5,16386,,False,too much diffuse background: 63.9% of the signal under the mask is smooth haze (limit 7%); subtract the background and score again,,refused,qc_fail,0.0039,False,no objects in mask,,refused,,0.0
+a,953011,M0,15101,953008.0,True,,0.1433,black point,mixed,0.1469,True,,0.0022,black point,elongated,0.0566
+v5,953011,M0,15101,953008.0,True,,0.1467,black point,elongated,0.0908,False,no objects in mask,,refused,,0.0
+a,343711,M4M5,3717,,True,,0.3875,black point,mixed,0.1768,True,,0.1694,black point,mixed,0.0601
+v5,343711,M4M5,3717,,True,,0.2597,black point,mixed,0.0946,False,too much diffuse background: 65.6% of the signal under the mask is smooth haze (limit 7%); subtract the background and score again,,refused,qc_fail,0.0001
+a,953008,M4M5,15101,,True,,0.3061,black point,mixed,0.1303,True,,0.1974,black point,mixed,0.0577
+v5,953008,M4M5,15101,,True,,0.2025,black point,mixed,0.0833,True,,0.0703,black point,elongated,0.0371
+a,275819,M4M5,1469,,True,,0.7385,black point,mixed,0.1369,True,,0.2255,black point,mixed,0.0334
+v5,275819,M4M5,1469,,True,,0.2466,black point,mixed,0.0928,False,no objects in mask,,refused,,0.0
+a,275840,M0,1469,275819.0,True,,0.5474,black point,mixed,0.1321,True,,0.0315,black point,elongated,0.0555
+v5,275840,M0,1469,275819.0,True,,0.1946,black point,mixed,0.0871,True,,0.0169,black point,elongated,0.0347
+a,916110,M0,14181,916104.0,True,,0.134,black point,mixed,0.1091,True,,0.0001,black point,elongated,0.0444
+v5,916110,M0,14181,916104.0,True,,0.5035,black point,mixed,0.0827,True,,0.2448,black point,mixed,0.0366
+a,345682,M0,3776,345666.0,True,,0.2761,black point,mixed,0.1409,True,,0.0092,black point,elongated,0.0505
+v5,345682,M0,3776,345666.0,True,,0.2199,black point,mixed,0.0913,True,,0.0033,black point,elongated,0.039
+a,345666,M4M5,3776,,True,,0.3632,background,mixed,0.0268,True,,0.748,black point,mixed,0.0792
+v5,345666,M4M5,3776,,True,,0.9789,background,fragmented,0.027,True,,0.1329,black point,elongated,0.0346
+a,338043,M4M5,3536,,True,,0.5896,black point,mixed,0.1762,True,,0.0122,black point,elongated,0.0531
+v5,338043,M4M5,3536,,True,,0.1129,black point,elongated,0.0995,False,no objects in mask,,refused,,0.0
+a,277303,M0,1512,277287.0,True,,0.7122,black point,mixed,0.1755,True,,0.0893,black point,elongated,0.0651
+v5,277303,M0,1512,277287.0,True,,0.0687,black point,elongated,0.1038,True,,0.0219,black point,elongated,0.0398
+a,277287,M4M5,1512,,True,,0.3657,background,mixed,0.0152,True,,0.101,black point,elongated,0.0692
+v5,277287,M4M5,1512,,True,,0.0694,black point,elongated,0.1035,True,,0.0184,black point,elongated,0.0366
+a,916104,M4M5,14181,,True,,0.594,black point,mixed,0.1228,True,,0.7199,black point,mixed,0.0528
+v5,916104,M4M5,14181,,False,no objects in mask,,refused,,0.0001,False,no objects in mask,,refused,,0.0
+a,338061,M0,3536,338043.0,True,,0.6727,black point,mixed,0.171,True,,0.332,black point,mixed,0.06
+v5,338061,M0,3536,338043.0,True,,0.1486,black point,elongated,0.0972,False,no objects in mask,,refused,,0.0
+a,275676,M4M5,1465,,True,,0.401,black point,mixed,0.1501,False,too much diffuse background: 85.6% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again,,refused,qc_fail,0.1627
+v5,275676,M4M5,1465,,True,,0.1606,black point,elongated,0.0935,False,no objects in mask,,refused,,0.0
+a,346441,M0,3799,346414.0,True,,0.182,black point,mixed,0.1587,True,,0.036,black point,elongated,0.0511
+v5,346441,M0,3799,346414.0,True,,0.248,black point,mixed,0.1027,True,,0.1097,black point,elongated,0.031
+a,346414,M4M5,3799,,True,,0.1133,black point,mixed,0.1514,True,,0.0323,black point,elongated,0.0548
+v5,346414,M4M5,3799,,True,,0.0501,black point,elongated,0.095,True,,0.0346,black point,elongated,0.0274
+a,275687,M0,1465,275676.0,True,,0.4506,black point,mixed,0.1664,True,,0.1817,black point,mixed,0.0584
+v5,275687,M0,1465,275676.0,True,,0.5095,black point,mixed,0.0977,True,,0.3217,black point,mixed,0.0357
+a,261781,M4M5,1038,,True,,0.5213,black point,mixed,0.1923,True,,0.7388,black point,mixed,0.0675
+v5,261781,M4M5,1038,,True,,0.185,black point,mixed,0.0969,False,no objects in mask,,refused,,0.0
+a,261779,M0,1038,261781.0,True,,0.5653,black point,mixed,0.1734,True,,0.6604,black point,mixed,0.047
+v5,261779,M0,1038,261781.0,True,,0.2706,black point,mixed,0.111,True,,0.5789,black point,mixed,0.0296

@@ -1,0 +1,15 @@
+pixel size: read from each file
+
+    #  image                           um/px   index  band         conf  notes
+  ────────────────────────────────────────────────────────────────────────────
+    1  MAX_DMSO_ (22) - Deconvolved   0.0201       —  —               —  mask is speckle: objects average 2.011 um and stand only 1.6 background SD above their surroundings
+
+1 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  MAX_DMSO_ (22) - Deconvolved   0.0201   0.156  mixed        0.76
+  ────────────────────────────────────────────────────────────────────────────
+  1 images                         1 scored, 0 rejected
+  index                            mean 0.156   median 0.156   sd —   range 0.156–0.156
+  bands                            fragmented 0   mixed 1   elongated 0
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/bbbc053_asis/per_image/DMSO/MAX_DMSO_ (22) - Deconvolved.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/bbbc053_asis/per_image/DMSO/MAX_DMSO_ (22) - Deconvolved_summary.csv

@@ -1,0 +1,59 @@
+pixel size: 0.088 um, given on the command line
+
+    #  image                    um/px   index  band         conf  notes
+  ─────────────────────────────────────────────────────────────────────
+    1  YFP0253_1_cell1_2048    0.0880   0.001  elongated    1.00
+    2  YFP0253_1_cell2_2048    0.0880   0.696  mixed        0.53
+    3  YFP0253_1_cell3_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.53%
+    4  YFP0253_1_cell4_2048    0.0880   0.126  mixed        0.77
+    5  YFP0253_22_cell1_2048   0.0880   0.719  mixed        0.57
+    6  YFP0253_22_cell2_2048   0.0880   0.040  elongated    0.93
+    7  YFP0253_22_cell3_2048   0.0880   0.007  elongated    0.99
+    8  YFP0253_22_cell4_2048   0.0880   0.421  mixed        0.39
+    9  YFP0253_22_cell5_2048   0.0880   0.152  mixed        0.72
+   10  YFP0253_22_cell6_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.97%
+   11  YFP0253_22_cell7_2048   0.0880   0.534  mixed        0.41
+   12  YFP0253_22_cell8_2048   0.0880   0.311  mixed        0.56
+   13  YFP0253_24_cell3_2048   0.0880   0.323  mixed        0.54
+   14  YFP0253_32_cell2_2048   0.0880   0.587  mixed        0.46
+   15  YFP0253_32_cell3_2048   0.0880   0.555  mixed        0.43
+   16  YFP0253_32_cell4_2048   0.0880   0.685  mixed        0.52
+   17  YFP0253_32_cell5_2048   0.0880   0.043  elongated    0.92
+   18  YFP0253_36_cell1_2048   0.0880   0.208  mixed        0.62
+   19  YFP0253_36_cell2_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.86%
+   20  YFP0253_36_cell3_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.93%
+   21  YFP0253_36_cell4_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.82%
+   22  YFP0253_8_cell1_2048    0.0880   0.749  mixed        0.61
+   23  YFP0253_8_cell2_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.89%
+   24  YFP0253_8_cell3_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.43%
+   25  YFP0253_8_cell4_2048    0.0880   0.494  mixed        0.65
+   26  YFP0253_8_cell5_2048    0.0880   0.044  elongated    0.91
+
+7 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  YFP0253_1_cell3_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.53%
+    2  YFP0253_22_cell6_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.98%
+    3  YFP0253_36_cell2_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.87%
+    4  YFP0253_36_cell3_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.93%
+    5  YFP0253_36_cell4_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.82%
+    6  YFP0253_8_cell2_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.89%
+    7  YFP0253_8_cell3_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.42%
+
+7 field(s) are refused by the quality gate. Setting a black point at the cytoplasm level -- what setting the minimum in Fiji's Brightness/Contrast does, with the level read from each image -- lets many more be scored. It keeps the order between fields that all had it, but reads about 0.2 higher than untouched fields (median +0.21 to +0.24 on fields that already pass), so rows are marked "black point" in the rescue column: compare them with each other, not with untouched fields.
+    1  YFP0253_1_cell3_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.38%
+    2  YFP0253_22_cell6_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.64%
+    3  YFP0253_36_cell2_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.54%
+    4  YFP0253_36_cell3_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.53%
+    5  YFP0253_36_cell4_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.38%
+    6  YFP0253_8_cell2_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.56%
+    7  YFP0253_8_cell3_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.24%
+  ─────────────────────────────────────────────────────────────────────
+  26 images                 19 scored, 7 rejected
+  index                     mean 0.352   median 0.323   sd 0.271   range 0.001–0.749
+  bands                     fragmented 0   mixed 14   elongated 5
+                            averages cover the scored images only
+
+  why 7 image(s) were refused:
+     7  almost nothing segmented: under 1% of the field was called mitochondria. Usually the wrong channel, an empty field, or a very dim one.
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/mitohacker_cells_0.088/253.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/mitohacker_cells_0.088/253_summary.csv

@@ -1,0 +1,22 @@
+pixel size: 0.066 um, given on the command line
+
+    #  image         um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────
+    1  YFP0253_1    0.0660       —  —               —  too much diffuse background: 9.4% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    2  YFP0253_22   0.0660   0.726  mixed        0.53
+    3  YFP0253_24   0.0660   0.816  mixed        0.67
+    4  YFP0253_32   0.0660   0.559  mixed        0.51
+    5  YFP0253_36   0.0660   0.849  mixed        0.73
+    6  YFP0253_8    0.0660   0.873  fragmented   0.76
+
+1 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  YFP0253_1    0.0660   0.200  mixed        0.63
+  ──────────────────────────────────────────────────────────
+  6 images       6 scored, 0 rejected
+  index          mean 0.670   median 0.770   sd 0.257   range 0.200–0.873
+  bands          fragmented 1   mixed 5   elongated 0
+
+  NOTE: 1 of 6 scored fields were rescued (background 1, black point 0); the rest were not. Check that a difference between conditions holds without the rescued rows.
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/mitohacker_fields_0.066/253.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/mitohacker_fields_0.066/253_summary.csv

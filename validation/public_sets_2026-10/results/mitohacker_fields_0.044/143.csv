@@ -1,0 +1,5 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+YFP0143-2_1,True,,0.8654,mixed,0.754,0.8654,0.0839,2.449,2.59,0.015,3.41,846,0.044,,"2D image, used as is; 8-bit data scaled x16.06 to the 12-bit range the classifier was trained on"
+YFP0143_12,True,,0.0993,elongated,0.833,0.0993,0.0913,2.653,0.69,0.0458,2.32,977,0.044,,"2D image, used as is; 8-bit data scaled x16.06 to the 12-bit range the classifier was trained on"
+YFP0143_15,True,,0.9623,fragmented,0.926,0.9623,0.0139,1.52,11.72,0.0,6.11,317,0.044,black point,"2D image, used as is; 8-bit data scaled x16.06 to the 12-bit range the classifier was trained on; black point at the cytoplasm peak (584 on the 12-bit scale)"
+YFP0143_27,True,,0.4858,mixed,0.478,0.4858,0.0979,3.024,2.21,0.0134,2.62,939,0.044,,"2D image, used as is; 8-bit data scaled x16.06 to the 12-bit range the classifier was trained on"

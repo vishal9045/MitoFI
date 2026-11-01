@@ -1,0 +1,20 @@
+pixel size: read from each file
+
+    #  image                um/px   index  band         conf  notes
+  ─────────────────────────────────────────────────────────────────
+    1  EV JEV MitoGFP F1   0.0829   0.965  fragmented   0.93
+    2  EV JEV MitoGFP F2   0.0829   0.964  fragmented   0.93
+    3  EV JEV MitoGFP F3   0.0829   0.972  fragmented   0.94
+    4  EV JEV MitoGFP F4   0.0829   0.931  fragmented   0.87
+    5  EV JEV MitoGFP F5   0.0829   0.914  fragmented   0.84
+    6  EV JEV MitoGFP F6   0.0829   0.778  mixed        0.60
+    7  EV JEV MitoGFP F7   0.0829   0.980  fragmented   0.96
+    8  EV JEV MitoGFP F8   0.0829   0.992  fragmented   0.98
+    9  EV JEV MitoGFP F9   0.0829   0.655  mixed        0.59
+  ─────────────────────────────────────────────────────────────────
+  9 images              9 scored, 0 rejected
+  index                 mean 0.905   median 0.964   sd 0.114   range 0.655–0.992
+  bands                 fragmented 7   mixed 2   elongated 0
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/MAVS JEV MitoGFP-RFP__JEV EV.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/MAVS JEV MitoGFP-RFP__JEV EV_summary.csv

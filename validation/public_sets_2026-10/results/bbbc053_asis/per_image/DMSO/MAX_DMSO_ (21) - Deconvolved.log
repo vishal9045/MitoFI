@@ -1,0 +1,12 @@
+pixel size: read from each file
+
+    #  image                           um/px   index  band         conf  notes
+  ────────────────────────────────────────────────────────────────────────────
+    1  MAX_DMSO_ (21) - Deconvolved   0.0201   0.071  elongated    0.87
+  ────────────────────────────────────────────────────────────────────────────
+  1 images                         1 scored, 0 rejected
+  index                            mean 0.071   median 0.071   sd —   range 0.071–0.071
+  bands                            fragmented 0   mixed 0   elongated 1
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/bbbc053_asis/per_image/DMSO/MAX_DMSO_ (21) - Deconvolved.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/bbbc053_asis/per_image/DMSO/MAX_DMSO_ (21) - Deconvolved_summary.csv

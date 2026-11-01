@@ -1,0 +1,10 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+huh-7 MAVS oe LC3 endo B1 F1,True,,0.2032,mixed,0.659,0.2032,0.2051,3.68,0.97,0.0039,2.7,779,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 19 planes
+huh-7 MAVS oe LC3 endo B1 F2,True,,0.1777,mixed,0.704,0.1777,0.2354,3.454,1.12,0.0019,2.63,962,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 17 planes
+huh-7 MAVS oe LC3 endo B1 F3,True,,0.1694,mixed,0.725,0.1694,0.1736,3.096,0.86,0.0004,2.35,723,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 16 planes
+huh-7 MAVS oe LC3 endo B1 F4,True,,0.6618,mixed,0.492,0.6618,0.073,4.164,1.95,0.0018,3.18,546,0.138106793200497,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 18 planes
+huh-7 MAVS oe LC3 endo B1 F5,True,,0.0114,elongated,0.978,0.0114,0.1506,3.091,1.28,0.0034,2.8,853,0.103580094900373,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 14 planes
+huh-7 MAVS oe LC3 endo B1 F6,True,,0.6944,mixed,0.56,0.6944,0.0772,3.455,2.91,0.0126,3.89,492,0.138106793200497,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 14 planes
+huh-7 PUNO oe LC3 endo B1 F1,True,,0.7106,mixed,0.485,0.7106,0.0705,3.589,6.34,0.0001,4.4,369,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 12 planes
+huh-7 PUNO oe LC3 endo B1 F2,True,,0.7895,mixed,0.611,0.7895,0.0826,3.479,3.83,0.0001,4.61,436,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 12 planes
+huh-7 PUNO oe LC3 endo B1 F3,True,,0.205,mixed,0.624,0.205,0.1361,4.297,2.97,0.0083,2.83,426,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 15 planes

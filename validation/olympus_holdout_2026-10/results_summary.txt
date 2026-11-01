@@ -1,0 +1,172 @@
+Olympus files never in development, scored with MitoFI 1.0.0 (pixel v6, index v8). Plan: PLAN.md.
+831 files; excluded at scoring (no 570 nm channel): 3; otherwise without a result row: 0
+
+== Pool (all files): 831 fields, 819 scored, median 0.287 (IQR 0.05-0.71), bands e/m/f 250/453/116, as is/bg/bp 696/108/15; refused almost nothing segmented 8, could not be read 3, speckle 1
+
+== P (none, predicted: first -)
+   first :   4 fields,   4 scored, median 0.095 (IQR 0.05-0.12), bands e/m/f 2/2/0, as is/bg/bp 4/0/0
+   second:   3 fields,   3 scored, median 0.600 (IQR 0.30-0.70), bands e/m/f 1/2/0, as is/bg/bp 0/3/0
+   difference -0.505, p = 0.63 (two-sided)
+   rescue mix: first as is 4, background 0; second as is 0, background 3; chi-square p = 0.061
+
+== A (firm, predicted: first more fragmented)
+   first :   9 fields,   9 scored, median 0.912 (IQR 0.84-0.95), bands e/m/f 0/3/6, as is/bg/bp 9/0/0
+   second:   9 fields,   9 scored, median 0.364 (IQR 0.31-0.43), bands e/m/f 2/7/0, as is/bg/bp 9/0/0
+   difference +0.548, p = 0.00021 (greater)  -> in predicted direction, p < 0.05
+
+== I (firm, predicted: first more fragmented)
+   first :  17 fields,  17 scored, median 0.357 (IQR 0.19-0.62), bands e/m/f 2/14/1, as is/bg/bp 17/0/0
+   second:  10 fields,  10 scored, median 0.007 (IQR 0.00-0.13), bands e/m/f 7/2/1, as is/bg/bp 10/0/0
+   difference +0.350, p = 0.0027 (greater)  -> in predicted direction, p < 0.05
+
+== J_PUNO (none, predicted: first -)
+   first :  12 fields,  12 scored, median 0.095 (IQR 0.03-0.43), bands e/m/f 6/6/0, as is/bg/bp 12/0/0
+   second:  13 fields,  13 scored, median 0.216 (IQR 0.06-0.33), bands e/m/f 4/6/3, as is/bg/bp 11/0/2
+   difference -0.121, p = 0.46 (two-sided)
+   rescue mix: first as is 12, black point 0; second as is 11, black point 2; chi-square p = 0.5
+
+== J_polyIC (none, predicted: first -)
+   first :  15 fields,  15 scored, median 0.511 (IQR 0.15-0.76), bands e/m/f 3/12/0, as is/bg/bp 15/0/0
+   second:  11 fields,  11 scored, median 0.077 (IQR 0.04-0.59), bands e/m/f 6/3/2, as is/bg/bp 10/1/0
+   difference +0.434, p = 0.32 (two-sided)
+   rescue mix: first as is 15, background 0; second as is 10, background 1; chi-square p = 0.87
+
+== C12 (firm, predicted: first more fragmented)
+   first :   5 fields,   5 scored, median 0.347 (IQR 0.29-0.49), bands e/m/f 0/5/0, as is/bg/bp 5/0/0
+   second:   5 fields,   4 scored, median 0.270 (IQR 0.27-0.30), bands e/m/f 0/4/0, as is/bg/bp 4/0/0; refused speckle 1
+   difference +0.077, p = 0.16 (greater)  -> in predicted direction
+
+== C24 (firm, predicted: first more fragmented)
+   first :   5 fields,   5 scored, median 0.202 (IQR 0.12-0.78), bands e/m/f 1/3/1, as is/bg/bp 5/0/0
+   second:   5 fields,   5 scored, median 0.326 (IQR 0.29-0.35), bands e/m/f 0/5/0, as is/bg/bp 5/0/0
+   difference -0.124, p = 0.65 (greater)  -> OPPOSITE
+
+== C48 (firm, predicted: first more fragmented)
+   first :   7 fields,   7 scored, median 0.782 (IQR 0.74-0.85), bands e/m/f 0/6/1, as is/bg/bp 7/0/0
+   second:   5 fields,   5 scored, median 0.025 (IQR 0.01-0.22), bands e/m/f 3/2/0, as is/bg/bp 4/0/1
+   difference +0.758, p = 0.0013 (greater)  -> in predicted direction, p < 0.05
+   rescue mix: first as is 7, black point 0; second as is 4, black point 1; chi-square p = 0.86
+
+== L_Dec (firm, predicted: first more elongated)
+   first :  10 fields,  10 scored, median 0.387 (IQR 0.22-0.57), bands e/m/f 1/9/0, as is/bg/bp 10/0/0
+   second:   4 fields,   4 scored, median 0.738 (IQR 0.71-0.80), bands e/m/f 0/3/1, as is/bg/bp 4/0/0
+   difference -0.351, p = 0.027 (less)  -> in predicted direction, p < 0.05
+
+== N_LC3 (firm, predicted: first more elongated)
+   first :   6 fields,   6 scored, median 0.190 (IQR 0.17-0.55), bands e/m/f 1/5/0, as is/bg/bp 6/0/0
+   second:   3 fields,   3 scored, median 0.711 (IQR 0.46-0.75), bands e/m/f 0/3/0, as is/bg/bp 3/0/0
+   difference -0.520, p = 0.048 (less)  -> in predicted direction, p < 0.05
+
+== M_4x (secondary, predicted: first more elongated)
+   first :   6 fields,   6 scored, median 0.204 (IQR 0.18-0.26), bands e/m/f 0/6/0, as is/bg/bp 0/6/0
+   second:   4 fields,   4 scored, median 0.227 (IQR 0.16-0.28), bands e/m/f 1/3/0, as is/bg/bp 0/3/1
+   difference -0.024, p = 0.62 (less)  -> in predicted direction
+   rescue mix: first background 6, black point 0; second background 3, black point 1; chi-square p = 0.83
+
+== B (firm, predicted: first more fragmented)
+   first :  11 fields,  10 scored, median 0.978 (IQR 0.97-0.98), bands e/m/f 0/0/10, as is/bg/bp 9/0/1; refused almost nothing segmented 1
+   second:   5 fields,   5 scored, median 0.560 (IQR 0.56-0.83), bands e/m/f 0/4/1, as is/bg/bp 5/0/0
+   difference +0.418, p = 0.00033 (greater)  -> in predicted direction, p < 0.05
+   rescue mix: first as is 9, black point 1; second as is 5, black point 0; chi-square p = 1
+
+== K_CoV2 (firm, predicted: first more fragmented)
+   first :   3 fields,   3 scored, median 0.152 (IQR 0.13-0.30), bands e/m/f 0/3/0, as is/bg/bp 2/1/0
+   second:   4 fields,   4 scored, median 0.638 (IQR 0.28-0.95), bands e/m/f 0/2/2, as is/bg/bp 4/0/0
+   difference -0.486, p = 0.89 (greater)  -> OPPOSITE
+   rescue mix: first as is 2, background 1; second as is 4, background 0; chi-square p = 0.88
+
+== K_mock (firm, predicted: first more fragmented)
+   first :   3 fields,   3 scored, median 0.266 (IQR 0.25-0.32), bands e/m/f 0/3/0, as is/bg/bp 1/2/0
+   second:   3 fields,   3 scored, median 0.237 (IQR 0.18-0.26), bands e/m/f 0/3/0, as is/bg/bp 3/0/0
+   difference +0.029, p = 0.2 (greater)  -> in predicted direction
+   rescue mix: first as is 1, background 2; second as is 3, background 0; chi-square p = 0.39
+
+== Q (none, predicted: first -)
+   first :   6 fields,   6 scored, median 0.048 (IQR 0.04-0.07), bands e/m/f 5/1/0, as is/bg/bp 0/6/0
+   second:  10 fields,  10 scored, median 0.033 (IQR 0.02-0.09), bands e/m/f 8/2/0, as is/bg/bp 2/6/2
+   difference +0.015, p = 0.49 (two-sided)
+   rescue mix: first as is 0, background 6, black point 0; second as is 2, background 6, black point 2; chi-square p = 0.2
+
+== F_CoV2 (firm, predicted: first more fragmented)
+   first :  17 fields,  16 scored, median 0.355 (IQR 0.29-0.53), bands e/m/f 1/14/1, as is/bg/bp 13/3/0; refused could not be read 1
+   second:   8 fields,   8 scored, median 0.502 (IQR 0.13-0.59), bands e/m/f 2/6/0, as is/bg/bp 8/0/0
+   difference -0.147, p = 0.46 (greater)  -> OPPOSITE
+   rescue mix: first as is 13, background 3; second as is 8, background 0; chi-square p = 0.51
+
+== F_DENV (tentative, predicted: first more elongated)
+   first :   8 fields,   8 scored, median 0.335 (IQR 0.25-0.68), bands e/m/f 0/7/1, as is/bg/bp 8/0/0
+   second:   8 fields,   8 scored, median 0.502 (IQR 0.13-0.59), bands e/m/f 2/6/0, as is/bg/bp 8/0/0
+   difference -0.167, p = 0.71 (less)  -> in predicted direction
+
+== F_JEV (firm, predicted: first more fragmented)
+   first :  10 fields,  10 scored, median 0.573 (IQR 0.48-0.78), bands e/m/f 0/9/1, as is/bg/bp 10/0/0
+   second:   8 fields,   8 scored, median 0.502 (IQR 0.13-0.59), bands e/m/f 2/6/0, as is/bg/bp 8/0/0
+   difference +0.071, p = 0.086 (greater)  -> in predicted direction
+
+== G_CoV2 (firm, predicted: first more fragmented)
+   first :  13 fields,  13 scored, median 0.003 (IQR 0.00-0.03), bands e/m/f 10/3/0, as is/bg/bp 12/0/1
+   second:  40 fields,  38 scored, median 0.016 (IQR 0.00-0.05), bands e/m/f 31/6/1, as is/bg/bp 34/1/3; refused almost nothing segmented 2
+   difference -0.013, p = 0.62 (greater)  -> OPPOSITE
+   rescue mix: first as is 12, background 0, black point 1; second as is 34, background 1, black point 3; chi-square p = 0.84
+
+== G_DENV (tentative, predicted: first more elongated)
+   first :   5 fields,   5 scored, median 0.015 (IQR 0.00-0.11), bands e/m/f 3/2/0, as is/bg/bp 5/0/0
+   second:  40 fields,  38 scored, median 0.016 (IQR 0.00-0.05), bands e/m/f 31/6/1, as is/bg/bp 34/1/3; refused almost nothing segmented 2
+   difference -0.001, p = 0.6 (less)  -> in predicted direction
+   rescue mix: first as is 5, background 0, black point 0; second as is 34, background 1, black point 3; chi-square p = 0.75
+
+== G_JEV (firm, predicted: first more fragmented)
+   first :   5 fields,   5 scored, median 0.006 (IQR 0.00-0.22), bands e/m/f 3/2/0, as is/bg/bp 5/0/0
+   second:  40 fields,  38 scored, median 0.016 (IQR 0.00-0.05), bands e/m/f 31/6/1, as is/bg/bp 34/1/3; refused almost nothing segmented 2
+   difference -0.009, p = 0.52 (greater)  -> OPPOSITE
+   rescue mix: first as is 5, background 0, black point 0; second as is 34, background 1, black point 3; chi-square p = 0.75
+
+== N_CoV2 (firm, predicted: first more elongated)
+   first :   9 fields,   9 scored, median 0.209 (IQR 0.11-0.32), bands e/m/f 2/7/0, as is/bg/bp 9/0/0
+   second:  15 fields,  15 scored, median 0.178 (IQR 0.09-0.31), bands e/m/f 6/9/0, as is/bg/bp 14/1/0
+   difference +0.032, p = 0.48 (less)  -> OPPOSITE
+   rescue mix: first as is 9, background 0; second as is 14, background 1; chi-square p = 1
+
+== L_Apr (firm, predicted: first more elongated)
+   first :  10 fields,  10 scored, median 0.038 (IQR 0.02-0.14), bands e/m/f 7/3/0, as is/bg/bp 10/0/0
+   second:   4 fields,   4 scored, median 0.740 (IQR 0.70-0.81), bands e/m/f 0/3/1, as is/bg/bp 4/0/0
+   difference -0.702, p = 0.001 (less)  -> in predicted direction, p < 0.05
+
+== D12 (tentative, predicted: first more fragmented)
+   first :   5 fields,   5 scored, median 0.140 (IQR 0.12-0.14), bands e/m/f 1/4/0, as is/bg/bp 4/1/0
+   second:   4 fields,   4 scored, median 0.070 (IQR 0.03-0.11), bands e/m/f 3/1/0, as is/bg/bp 2/2/0
+   difference +0.069, p = 0.032 (greater)  -> in predicted direction, p < 0.05
+   rescue mix: first as is 4, background 1; second as is 2, background 2; chi-square p = 0.81
+
+== D24 (tentative, predicted: first more fragmented)
+   first :   6 fields,   6 scored, median 0.048 (IQR 0.03-0.15), bands e/m/f 4/2/0, as is/bg/bp 1/5/0
+   second:   5 fields,   5 scored, median 0.124 (IQR 0.11-0.15), bands e/m/f 1/4/0, as is/bg/bp 5/0/0
+   difference -0.076, p = 0.88 (greater)  -> OPPOSITE
+   rescue mix: first as is 1, background 5; second as is 5, background 0; chi-square p = 0.031
+
+== D48 (tentative, predicted: first more fragmented)
+   first :   6 fields,   6 scored, median 0.252 (IQR 0.20-0.37), bands e/m/f 0/6/0, as is/bg/bp 6/0/0
+   second:   5 fields,   5 scored, median 0.037 (IQR 0.02-0.06), bands e/m/f 4/1/0, as is/bg/bp 3/2/0
+   difference +0.215, p = 0.0022 (greater)  -> in predicted direction, p < 0.05
+   rescue mix: first as is 6, background 0; second as is 3, background 2; chi-square p = 0.35
+
+== O (firm, predicted: first more elongated)
+   first :  12 fields,  12 scored, median 0.559 (IQR 0.40-0.78), bands e/m/f 0/10/2, as is/bg/bp 12/0/0
+   second:   9 fields,   9 scored, median 0.964 (IQR 0.91-0.97), bands e/m/f 0/2/7, as is/bg/bp 9/0/0
+   difference -0.404, p = 0.0013 (less)  -> in predicted direction, p < 0.05
+
+== E (firm, predicted: first more fragmented)
+   first :  29 fields,  29 scored, median 0.543 (IQR 0.34-0.65), bands e/m/f 1/27/1, as is/bg/bp 29/0/0
+   second:  37 fields,  37 scored, median 0.242 (IQR 0.11-0.40), bands e/m/f 10/26/1, as is/bg/bp 36/1/0
+   difference +0.301, p = 0.00015 (greater)  -> in predicted direction, p < 0.05
+   rescue mix: first as is 29, background 0; second as is 36, background 1; chi-square p = 1
+
+== M (firm, predicted: first more elongated)
+   first :   5 fields,   5 scored, median 0.123 (IQR 0.12-0.14), bands e/m/f 1/4/0, as is/bg/bp 0/5/0
+   second:   4 fields,   4 scored, median 0.095 (IQR 0.06-0.13), bands e/m/f 2/2/0, as is/bg/bp 0/4/0
+   difference +0.028, p = 0.86 (less)  -> OPPOSITE
+
+== firm: 19 predictions, 19 testable; in predicted direction 12/19 (binomial p = 0.18); p < 0.05 9/19
+   -> fail (binomial p < 0.05 and at least 9.5 reach p < 0.05)
+== tentative: 5 predictions, 5 testable; in predicted direction 4/5 (binomial p = 0.19); p < 0.05 2/5
+   C infected-minus-mock by time: C12 +0.077, C24 -0.124, C48 +0.758

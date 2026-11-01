@@ -1,0 +1,4 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+A549 KO PUNO T+ I F1,True,,0.0195,elongated,0.961,0.0195,0.0266,3.578,1.9,0.044,2.29,75,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 12 planes
+A549 KO PUNO T+ I F2,True,,0.0107,elongated,0.979,0.0107,0.02,5.792,1.94,0.0271,2.16,66,0.082864075920298,background,"channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes; background subtracted, rolling ball 2.5 um"
+A549 KO PUNO T+ I F3,True,,0.0334,elongated,0.94,0.0334,0.0586,3.363,6.41,0.0025,5.7,125,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes

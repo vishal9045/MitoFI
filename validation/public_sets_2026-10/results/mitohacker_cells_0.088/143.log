@@ -1,0 +1,104 @@
+pixel size: 0.088 um, given on the command line
+
+    #  image                     um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────────
+    1  YFP0143-2_1_cell1_2048   0.0880   0.854  mixed        0.73
+    2  YFP0143-2_1_cell2_2048   0.0880   0.471  mixed        0.42
+    3  YFP0143-2_1_cell3_2048   0.0880   0.419  mixed        0.47
+    4  YFP0143-2_1_cell4_2048   0.0880   0.686  mixed        0.49
+    5  YFP0143_12_cell10_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.13%
+    6  YFP0143_12_cell11_2048   0.0880   0.810  mixed        0.67
+    7  YFP0143_12_cell12_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.58%
+    8  YFP0143_12_cell13_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.29%
+    9  YFP0143_12_cell15_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.73%
+   10  YFP0143_12_cell16_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.25%
+   11  YFP0143_12_cell17_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.10%
+   12  YFP0143_12_cell18_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.72%
+   13  YFP0143_12_cell19_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.63%
+   14  YFP0143_12_cell20_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.13%
+   15  YFP0143_12_cell22_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.06%
+   16  YFP0143_12_cell24_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.73%
+   17  YFP0143_12_cell4_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.21%
+   18  YFP0143_12_cell5_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.25%
+   19  YFP0143_12_cell6_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.12%
+   20  YFP0143_12_cell7_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.81%
+   21  YFP0143_12_cell8_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.55%
+   22  YFP0143_15_cell10_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.80%
+   23  YFP0143_15_cell4_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.73%
+   24  YFP0143_15_cell6_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.79%
+   25  YFP0143_15_cell8_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.94%
+   26  YFP0143_27_cell1_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.63%
+   27  YFP0143_27_cell2_2048    0.0880   0.025  elongated    0.95
+   28  YFP0143_27_cell3_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.39%
+   29  YFP0143_27_cell4_2048    0.0880   0.343  mixed        0.51
+   30  YFP0143_27_cell5_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.33%
+   31  YFP0143_27_cell6_2048    0.0880   0.623  mixed        0.46
+   32  YFP0143_27_cell7_2048    0.0880   0.610  mixed        0.44
+   33  YFP0143_27_cell8_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.91%
+   34  YFP0143_27_cell9_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.35%
+
+25 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  YFP0143_12_cell10_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.13%
+    2  YFP0143_12_cell12_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.59%
+    3  YFP0143_12_cell13_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.29%
+    4  YFP0143_12_cell15_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.73%
+    5  YFP0143_12_cell16_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.25%
+    6  YFP0143_12_cell17_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.10%
+    7  YFP0143_12_cell18_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.72%
+    8  YFP0143_12_cell19_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.63%
+    9  YFP0143_12_cell20_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.14%
+   10  YFP0143_12_cell22_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.06%
+   11  YFP0143_12_cell24_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.73%
+   12  YFP0143_12_cell4_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.21%
+   13  YFP0143_12_cell5_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.25%
+   14  YFP0143_12_cell6_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.12%
+   15  YFP0143_12_cell7_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.82%
+   16  YFP0143_12_cell8_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.55%
+   17  YFP0143_15_cell10_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.80%
+   18  YFP0143_15_cell4_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.73%
+   19  YFP0143_15_cell6_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.79%
+   20  YFP0143_15_cell8_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.95%
+   21  YFP0143_27_cell1_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.63%
+   22  YFP0143_27_cell3_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.39%
+   23  YFP0143_27_cell5_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.33%
+   24  YFP0143_27_cell8_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.90%
+   25  YFP0143_27_cell9_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.35%
+
+25 field(s) are refused by the quality gate. Setting a black point at the cytoplasm level -- what setting the minimum in Fiji's Brightness/Contrast does, with the level read from each image -- lets many more be scored. It keeps the order between fields that all had it, but reads about 0.2 higher than untouched fields (median +0.21 to +0.24 on fields that already pass), so rows are marked "black point" in the rescue column: compare them with each other, not with untouched fields.
+    1  YFP0143_12_cell10_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.86%
+    2  YFP0143_12_cell12_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.30%
+    3  YFP0143_12_cell13_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.56%
+    4  YFP0143_12_cell15_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.47%
+    5  YFP0143_12_cell16_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.34%
+    6  YFP0143_12_cell17_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.15%
+    7  YFP0143_12_cell18_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.36%
+    8  YFP0143_12_cell19_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.30%
+    9  YFP0143_12_cell20_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.73%
+   10  YFP0143_12_cell22_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.13%
+   11  YFP0143_12_cell24_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.46%
+   12  YFP0143_12_cell4_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.12%
+   13  YFP0143_12_cell5_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.51%
+   14  YFP0143_12_cell6_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.18%
+   15  YFP0143_12_cell7_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.49%
+   16  YFP0143_12_cell8_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.32%
+   17  YFP0143_15_cell10_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.44%
+   18  YFP0143_15_cell4_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.38%
+   19  YFP0143_15_cell6_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.50%
+   20  YFP0143_15_cell8_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.54%
+   21  YFP0143_27_cell1_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.39%
+   22  YFP0143_27_cell3_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.32%
+   23  YFP0143_27_cell5_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.18%
+   24  YFP0143_27_cell8_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.50%
+   25  YFP0143_27_cell9_2048    0.0880       —  —               —  segmentation collapsed: foreground 0.30%
+  ──────────────────────────────────────────────────────────────────────
+  34 images                  9 scored, 25 rejected
+  index                      mean 0.538   median 0.610   sd 0.257   range 0.025–0.854
+  bands                      fragmented 0   mixed 8   elongated 1
+                             averages cover the scored images only
+                             WARNING: more images were rejected than scored. These averages describe the survivors, which is not the same as describing the experiment.
+
+  why 25 image(s) were refused:
+    25  almost nothing segmented: under 1% of the field was called mitochondria. Usually the wrong channel, an empty field, or a very dim one.
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/mitohacker_cells_0.088/143.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/mitohacker_cells_0.088/143_summary.csv

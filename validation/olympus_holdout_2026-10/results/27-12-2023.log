@@ -1,0 +1,16 @@
+pixel size: read from each file
+
+    #  image                             um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────────────────
+    1  Huh-7 MAVS oe CCCP endo LC3 B…   0.0829   0.589  mixed        0.41
+    2  Huh-7 MAVS oe CCCP endo LC3 B…   0.0829   0.605  mixed        0.54
+    3  Huh-7 MAVS oe CCCP endo LC3 B…   0.0921   0.858  mixed        0.73
+    4  Huh-7 MAVS oe CCCP endo LC3 B…   0.0829   0.813  mixed        0.67
+  ──────────────────────────────────────────────────────────────────────────────
+  4 images                           4 scored, 0 rejected
+  index                              mean 0.716   median 0.709   sd 0.139   range 0.589–0.858
+  bands                              fragmented 0   mixed 4   elongated 0
+  pixel sizes                        2 different in this folder, 0.0829 to 0.0921 um
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/27-12-2023.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/27-12-2023_summary.csv

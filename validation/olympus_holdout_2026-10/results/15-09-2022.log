@@ -1,0 +1,15 @@
+pixel size: read from each file
+
+    #  image                           um/px   index  band         conf  notes
+  ────────────────────────────────────────────────────────────────────────────
+    1  huh-7 polyIC 60x F3 2.5 zoom   0.0829       —  —               —  too much diffuse background: 27.6% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+
+1 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  huh-7 polyIC 60x F3 2.5 zoom   0.0829   0.497  mixed        0.49
+  ────────────────────────────────────────────────────────────────────────────
+  1 images                         1 scored, 0 rejected
+  index                            mean 0.497   median 0.497   sd —   range 0.497–0.497
+  bands                            fragmented 0   mixed 1   elongated 0
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/15-09-2022.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/15-09-2022_summary.csv

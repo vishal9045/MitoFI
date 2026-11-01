@@ -1,0 +1,30 @@
+pixel size: read from each file
+
+    #  image                        um/px   index  band         conf  notes
+  ─────────────────────────────────────────────────────────────────────────
+    1  DENV MAVS 24 hpi F1         0.0829   0.145  mixed        0.75
+    2  DENV MAVS 24 hpi F10 both   0.0829       —  —               —  mask looks like noise texture: large objects stand only 0.8 x their surrounding noise (limit 1.16)
+    3  DENV MAVS 24 hpi F2         0.0829   0.868  mixed        0.76
+    4  DENV MAVS 24 hpi F3         0.0829       —  —               —  too much diffuse background: 8.8% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    5  DENV MAVS 24 hpi F4         0.0829   0.884  fragmented   0.78
+    6  DENV MAVS 24 hpi F5         0.0829   0.535  mixed        0.44
+    7  DENV MAVS 24 hpi F6         0.0829   0.002  elongated    1.00
+    8  DENV MAVS 24 hpi F7 both    0.0829   0.043  elongated    0.92
+    9  DENV MAVS 24 hpi F8         0.0829   0.344  mixed        0.46
+   10  DENV MAVS 24 hpi F9 both    0.0829   0.318  mixed        0.48
+
+2 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  DENV MAVS 24 hpi F10 both   0.0829       —  —               —  mask looks like noise texture: large objects stand only 0.9 x their surrounding noise (limit 1.16)
+    2  DENV MAVS 24 hpi F3         0.0829   0.013  elongated    0.97
+
+1 field(s) are refused by the quality gate. Setting a black point at the cytoplasm level -- what setting the minimum in Fiji's Brightness/Contrast does, with the level read from each image -- lets many more be scored. It keeps the order between fields that all had it, but reads about 0.2 higher than untouched fields (median +0.21 to +0.24 on fields that already pass), so rows are marked "black point" in the rescue column: compare them with each other, not with untouched fields.
+    1  DENV MAVS 24 hpi F10 both   0.0829   0.000  elongated    1.00
+  ─────────────────────────────────────────────────────────────────────────
+  10 images                     10 scored, 0 rejected
+  index                         mean 0.315   median 0.231   sd 0.345   range 0.000–0.884
+  bands                         fragmented 1   mixed 5   elongated 4
+
+  NOTE: 2 of 10 scored fields were rescued (background 1, black point 1); the rest were not. Black-point rows read about 0.2 higher than untouched ones: compare conditions within the same rescue, or check that a difference holds without the black-point rows.
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/30-10-2023__DENV MAVS 24 hpi.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/30-10-2023__DENV MAVS 24 hpi_summary.csv

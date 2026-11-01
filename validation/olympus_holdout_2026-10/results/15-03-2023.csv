@@ -1,0 +1,5 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+A549 KO T and I HA F3,False,segmentation collapsed: foreground 0.58%,,qc_fail,0.908,0.0548,0.0058,3.898,20.92,0.0001,4.99,17,0.082864075920298,black point,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 11 planes; black point at the cytoplasm peak (451 on the 12-bit scale)
+A549 KO T and I both conditions F1,True,,0.3851,mixed,0.428,0.3851,0.0527,3.972,2.24,0.0098,2.35,169,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 21 planes
+A549 KO T and I both conditions F2,True,,0.0,elongated,1.0,0.0,0.0389,2.966,4.76,0.0004,2.65,71,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 14 planes
+A549 KO T and I no HA F1,True,,0.0352,elongated,0.93,0.0352,0.033,5.607,8.57,0.0002,3.69,99,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes

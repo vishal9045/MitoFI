@@ -1,0 +1,25 @@
+pixel size: read from each file
+
+    #  image                             um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────────────────
+    1  huh-7 IFN treatment endo LC3 …   0.0829   0.073  elongated    0.85
+    2  huh-7 IFN treatment endo LC3 …   0.0829   0.158  mixed        0.70
+    3  huh-7 IFN treatment endo LC3 …   0.0829   0.259  mixed        0.52
+    4  huh-7 IFN treatment endo LC3 …   0.0829   0.203  mixed        0.61
+    5  huh-7 IFN treatment endo LC3 …   0.0829   0.494  mixed        0.63
+    6  huh-7 IFN treatment endo LC3 …   0.0829   0.585  mixed        0.70
+    7  huh-7 IFN treatment endo LC3 …   0.0829   0.794  mixed        0.62
+    8  huh-7 IFN treatment endo LC3 …   0.0829   0.797  mixed        0.62
+    9  huh-7 IFN treatment endo LC3 …   0.0829   0.542  mixed        0.72
+   10  huh-7 IFN treatment endo LC3 …   0.0829   0.280  mixed        0.50
+   11  huh-7 Vehicle treatment endo …   0.0829   0.727  mixed        0.54
+   12  huh-7 Vehicle treatment endo …   0.0829   0.652  mixed        0.53
+   13  huh-7 Vehicle treatment endo …   0.0829   0.749  mixed        0.54
+   14  huh-7 Vehicle treatment endo …   0.0829   0.959  fragmented   0.92
+  ──────────────────────────────────────────────────────────────────────────────
+  14 images                          14 scored, 0 rejected
+  index                              mean 0.519   median 0.564   sd 0.280   range 0.073–0.959
+  bands                              fragmented 1   mixed 12   elongated 1
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/18-12-2023__huh-7 IFN treatment endo LC3.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/18-12-2023__huh-7 IFN treatment endo LC3_summary.csv

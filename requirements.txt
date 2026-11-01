@@ -1,0 +1,12 @@
+# The environment the RESEARCH SCRIPTS in scripts/ were run in, pinned exactly
+# so their numbers reproduce. pandas is here for those scripts only.
+#
+# The tool itself does not use this file: its dependencies are ranges in
+# pyproject.toml, and `pip install mitofi` is all a user needs.
+numpy==1.26.4
+scipy==1.11.4
+scikit-image==0.26.0
+pandas==2.1.4
+tifffile==2026.3.3
+imagecodecs==2026.10.10
+scikit-learn==1.9.0   # Stage 6; installed in .venv, see REPRODUCE.md

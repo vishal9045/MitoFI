@@ -1,0 +1,15 @@
+pixel size: read from each file
+
+    #  image                             um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────────────────
+    1  MAVS KO HA-Del MAVS CoV-2 F1 …   0.0829   0.240  mixed        0.61
+    2  MAVS KO HA-Del MAVS CoV-2 F1 …   0.0829   0.190  mixed        0.67
+    3  MAVS KO HA-Del MAVS CoV-2 F2 …   0.0921   0.570  mixed        0.45
+  ──────────────────────────────────────────────────────────────────────────────
+  3 images                           3 scored, 0 rejected
+  index                              mean 0.334   median 0.240   sd 0.206   range 0.190–0.570
+  bands                              fragmented 0   mixed 3   elongated 0
+  pixel sizes                        2 different in this folder, 0.0829 to 0.0921 um
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/09-09-2024 MAVS oe MAVS KO__MAVS KO HA-Del MAVS CoV-2.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/09-09-2024 MAVS oe MAVS KO__MAVS KO HA-Del MAVS CoV-2_summary.csv

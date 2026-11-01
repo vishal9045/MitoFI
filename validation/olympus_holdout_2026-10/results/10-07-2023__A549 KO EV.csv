@@ -1,0 +1,13 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+A549 KO PUNO 100X F1,True,,0.0573,elongated,0.897,0.0573,0.0504,5.743,3.59,0.0044,2.35,58,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 8 planes
+A549 KO PUNO 100X F10,True,,0.4195,mixed,0.444,0.4195,0.0557,3.72,6.74,0.0001,4.07,94,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 11 planes
+A549 KO PUNO 100X F11,True,,0.459,mixed,0.465,0.459,0.0459,4.113,2.83,0.0335,2.13,59,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 15 planes
+A549 KO PUNO 100X F12,True,,0.7091,mixed,0.559,0.7091,0.1234,3.651,3.29,0.0002,3.23,255,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 12 planes
+A549 KO PUNO 100X F2,True,,0.2574,mixed,0.619,0.2574,0.0575,4.275,2.16,0.0165,1.91,88,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 11 planes
+A549 KO PUNO 100X F3,True,,0.003,elongated,0.994,0.003,0.0321,2.748,2.74,0.006,1.61,36,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes
+A549 KO PUNO 100X F4,True,,0.6264,mixed,0.432,0.6264,0.0583,3.982,2.07,0.045,2.27,85,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes
+A549 KO PUNO 100X F5,True,,0.1255,mixed,0.8,0.1255,0.0544,5.199,2.83,0.0087,2.12,78,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 8 planes
+A549 KO PUNO 100X F6,True,,0.0418,elongated,0.918,0.0418,0.107,4.415,1.51,0.0436,2.03,107,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 8 planes
+A549 KO PUNO 100X F7,True,,0.0122,elongated,0.977,0.0122,0.0419,4.977,1.82,0.028,1.51,48,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 7 planes
+A549 KO PUNO 100X F8,True,,0.0008,elongated,0.998,0.0008,0.0422,4.121,1.03,0.044,1.28,57,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 7 planes
+A549 KO PUNO 100X F9,True,,0.0652,elongated,0.902,0.0652,0.0547,3.241,3.77,0.0005,2.38,65,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 15 planes

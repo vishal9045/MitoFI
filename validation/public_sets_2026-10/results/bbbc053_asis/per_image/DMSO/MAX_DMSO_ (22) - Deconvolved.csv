@@ -1,0 +1,2 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+MAX_DMSO_ (22) - Deconvolved,True,,0.1561,mixed,0.759,0.1561,0.0902,2.345,1.8,0.0017,1.78,361,0.020074601233102455,background,"2D image, used as is; background subtracted, rolling ball 2.5 um"

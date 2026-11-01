@@ -1,0 +1,21 @@
+pixel size: read from each file
+
+    #  image                      um/px   index  band         conf  notes
+  ───────────────────────────────────────────────────────────────────────
+    1  Infected 24 hpi 100x F1   0.0497   0.122  mixed        0.76
+    2  Infected 24 hpi 100x F2   0.0497   0.024  elongated    0.95
+    3  Infected 24 hpi 100x F3   0.0497   0.782  mixed        0.62
+    4  Infected 24 hpi 100x F4   0.0497   0.878  fragmented   0.78
+    5  Infected 24 hpi 100x F5   0.0497   0.202  mixed        0.62
+    6  Mock 24 hpi 100x F1       0.0497   0.458  mixed        0.42
+    7  Mock 24 hpi 100x F2       0.0497   0.326  mixed        0.52
+    8  Mock 24 hpi 100x F3       0.0497   0.181  mixed        0.64
+    9  Mock 24 hpi 100x F4       0.0497   0.286  mixed        0.50
+   10  Mock 24 hpi 100x F5       0.0497   0.347  mixed        0.62
+  ───────────────────────────────────────────────────────────────────────
+  10 images                   10 scored, 0 rejected
+  index                       mean 0.361   median 0.306   sd 0.277   range 0.024–0.878
+  bands                       fragmented 1   mixed 8   elongated 1
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/17-07-2023__MAVS 24 HPI.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/17-07-2023__MAVS 24 HPI_summary.csv

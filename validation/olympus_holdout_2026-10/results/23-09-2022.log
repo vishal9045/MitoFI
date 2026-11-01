@@ -1,0 +1,41 @@
+pixel size: read from each file
+
+    #  image                        um/px   index  band         conf  notes
+  ─────────────────────────────────────────────────────────────────────────
+    1  huh-7 A2a B3 2.5x zoom 2    0.0829       —  —               —  too much diffuse background: 36.8% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    2  huh-7 A2a B3 2.5x zoom 3    0.0829       —  —               —  too much diffuse background: 37.5% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    3  huh-7 A2a B3 2.5x zoom 4    0.0829       —  —               —  too much diffuse background: 33.4% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    4  huh-7 A2a B3 F1 2.5x zoom   0.0829       —  —               —  too much diffuse background: 28.0% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    5  huh-7 Mock B2 2.5x zoom1    0.0829       —  —               —  too much diffuse background: 23.4% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    6  huh-7 Mock B2 2.5x zoom2    0.0829       —  —               —  too much diffuse background: 23.5% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    7  huh-7 Mock B3 2.5x ZOOM 5   0.0829       —  —               —  too much diffuse background: 30.5% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    8  huh-7 Mock B3 2.5x ZOOM 6   0.0829       —  —               —  too much diffuse background: 37.6% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    9  huh-7 Mock B3 2.5x zoom 2   0.0829       —  —               —  too much diffuse background: 28.9% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   10  huh-7 Mock B3 2.5x zoom 3   0.0829       —  —               —  too much diffuse background: 29.3% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   11  huh-7 Mock B3 2.5x zoom 4   0.0829       —  —               —  too much diffuse background: 35.5% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   12  huh-7 Mock B3 2.5x zoom     0.0829       —  —               —  too much diffuse background: 31.9% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+
+12 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  huh-7 A2a B3 2.5x zoom 2    0.0829   0.054  elongated    0.90
+    2  huh-7 A2a B3 2.5x zoom 3    0.0829   0.027  elongated    0.95
+    3  huh-7 A2a B3 2.5x zoom 4    0.0829   0.043  elongated    0.92
+    4  huh-7 A2a B3 F1 2.5x zoom   0.0829   0.077  elongated    0.85
+    5  huh-7 Mock B2 2.5x zoom1    0.0829       —  —               —  mask looks like noise texture: large objects stand only 1.0 x their surrounding noise (limit 1.16)
+    6  huh-7 Mock B2 2.5x zoom2    0.0829       —  —               —  mask looks like noise texture: large objects stand only 0.7 x their surrounding noise (limit 1.16)
+    7  huh-7 Mock B3 2.5x ZOOM 5   0.0829   0.038  elongated    0.92
+    8  huh-7 Mock B3 2.5x ZOOM 6   0.0829   0.025  elongated    0.95
+    9  huh-7 Mock B3 2.5x zoom 2   0.0829   0.004  elongated    0.99
+   10  huh-7 Mock B3 2.5x zoom 3   0.0829   0.028  elongated    0.94
+   11  huh-7 Mock B3 2.5x zoom 4   0.0829   0.021  elongated    0.96
+   12  huh-7 Mock B3 2.5x zoom     0.0829   0.044  elongated    0.91
+
+2 field(s) are refused by the quality gate. Setting a black point at the cytoplasm level -- what setting the minimum in Fiji's Brightness/Contrast does, with the level read from each image -- lets many more be scored. It keeps the order between fields that all had it, but reads about 0.2 higher than untouched fields (median +0.21 to +0.24 on fields that already pass), so rows are marked "black point" in the rescue column: compare them with each other, not with untouched fields.
+    1  huh-7 Mock B2 2.5x zoom1    0.0829   0.101  elongated    0.82
+    2  huh-7 Mock B2 2.5x zoom2    0.0829   0.000  elongated    1.00
+  ─────────────────────────────────────────────────────────────────────────
+  12 images                     12 scored, 0 rejected
+  index                         mean 0.039   median 0.033   sd 0.029   range 0.000–0.101
+  bands                         fragmented 0   mixed 0   elongated 12
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/23-09-2022.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/23-09-2022_summary.csv

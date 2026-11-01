@@ -1,0 +1,94 @@
+pixel size: 0.198 um, given on the command line
+
+    #  image                      um/px   index  band         conf  notes
+  ───────────────────────────────────────────────────────────────────────
+    1  YFP0145_29_cell1_2048     0.1980   0.000  elongated    1.00
+    2  YFP0145_29_cell2_2048     0.1980   0.000  elongated    1.00
+    3  YFP0145_29_cell3_2048     0.1980       —  —               —  too much diffuse background: 7.4% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    4  YFP0145_29_cell4_2048     0.1980       —  —               —  too much diffuse background: 6.6% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    5  YFP0145_34_cell1_2048     0.1980       —  —               —  too much diffuse background: 6.6% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    6  YFP0145_34_cell2_2048     0.1980   0.016  elongated    0.97
+    7  YFP0145_34_cell3_2048     0.1980   0.166  mixed        0.68
+    8  YFP0145_34_cell4_2048     0.1980   0.014  elongated    0.97
+    9  YFP0145_34_cell5_2048     0.1980   0.128  mixed        0.74
+   10  YFP0145_34_cell6_2048     0.1980       —  —               —  too much diffuse background: 6.9% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   11  YFP0145_34_cell7_2048     0.1980       —  —               —  mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16)
+   12  YFP0145_34_cell8_2048     0.1980       —  —               —  too much diffuse background: 6.3% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   13  YFP0145_39_cell1_2048     0.1980       —  —               —  too much diffuse background: 31.9% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   14  YFP0145_39_cell2_2048     0.1980       —  —               —  too much diffuse background: 17.1% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   15  YFP0145_39_cell3_2048     0.1980       —  —               —  too much diffuse background: 19.7% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   16  YFP0145_40_cell1_2048     0.1980       —  —               —  too much diffuse background: 15.6% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   17  YFP0145_40_cell2_2048     0.1980       —  —               —  too much diffuse background: 18.0% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   18  YFP145-1_19_cell1_2048    0.1980       —  —               —  too much diffuse background: 6.8% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   19  YFP145-1_19_cell2_2048    0.1980   0.003  elongated    0.99
+   20  YFP145-1_19_cell3_2048    0.1980       —  —               —  mask looks like noise texture: large objects stand only 1.0 x their surrounding noise (limit 1.16)
+   21  YFP145-1_21_cell1_2048    0.1980   0.003  elongated    0.99
+   22  YFP145-1_21_cell2_2048    0.1980       —  —               —  too much diffuse background: 9.7% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   23  YFP145-1_26_cell10_2048   0.1980       —  —               —  too much diffuse background: 6.4% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   24  YFP145-1_26_cell11_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.16%
+   25  YFP145-1_26_cell13_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.77%
+   26  YFP145-1_26_cell15_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.75%
+   27  YFP145-1_26_cell16_2048   0.1980       —  —               —  too much diffuse background: 6.1% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   28  YFP145-1_26_cell18_2048   0.1980       —  —               —  mask looks like noise texture: large objects stand only 0.4 x their surrounding noise (limit 1.16)
+   29  YFP145-1_26_cell19_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.35%
+   30  YFP145-1_26_cell20_2048   0.1980       —  —               —  mask looks like noise texture: large objects stand only 1.0 x their surrounding noise (limit 1.16)
+   31  YFP145-1_26_cell21_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.97%
+   32  YFP145-1_26_cell22_2048   0.1980       —  —               —  mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16)
+   33  YFP145-1_26_cell23_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.07%
+
+25 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  YFP0145_29_cell3_2048     0.1980   0.034  elongated    0.93
+    2  YFP0145_29_cell4_2048     0.1980   0.097  elongated    0.82
+    3  YFP0145_34_cell1_2048     0.1980   0.005  elongated    0.99
+    4  YFP0145_34_cell6_2048     0.1980       —  —               —  segmentation collapsed: foreground 0.71%
+    5  YFP0145_34_cell7_2048     0.1980   0.000  elongated    1.00
+    6  YFP0145_34_cell8_2048     0.1980       —  —               —  segmentation collapsed: foreground 0.50%
+    7  YFP0145_39_cell1_2048     0.1980       —  —               —  segmentation collapsed: foreground 0.55%
+    8  YFP0145_39_cell2_2048     0.1980   0.001  elongated    1.00
+    9  YFP0145_39_cell3_2048     0.1980       —  —               —  mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16)
+   10  YFP0145_40_cell1_2048     0.1980   0.069  elongated    0.86
+   11  YFP0145_40_cell2_2048     0.1980   0.011  elongated    0.98
+   12  YFP145-1_19_cell1_2048    0.1980   0.000  elongated    1.00
+   13  YFP145-1_19_cell3_2048    0.1980       —  —               —  mask looks like noise texture: large objects stand only 1.0 x their surrounding noise (limit 1.16)
+   14  YFP145-1_21_cell2_2048    0.1980   0.208  mixed        0.59
+   15  YFP145-1_26_cell10_2048   0.1980   0.001  elongated    1.00
+   16  YFP145-1_26_cell11_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.18%
+   17  YFP145-1_26_cell13_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.78%
+   18  YFP145-1_26_cell15_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.74%
+   19  YFP145-1_26_cell16_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.77%
+   20  YFP145-1_26_cell18_2048   0.1980   0.481  mixed        0.96
+   21  YFP145-1_26_cell19_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.34%
+   22  YFP145-1_26_cell20_2048   0.1980       —  —               —  mask looks like noise texture: large objects stand only 0.9 x their surrounding noise (limit 1.16)
+   23  YFP145-1_26_cell21_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.96%
+   24  YFP145-1_26_cell22_2048   0.1980       —  —               —  mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16)
+   25  YFP145-1_26_cell23_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.10%
+
+14 field(s) are refused by the quality gate. Setting a black point at the cytoplasm level -- what setting the minimum in Fiji's Brightness/Contrast does, with the level read from each image -- lets many more be scored. It keeps the order between fields that all had it, but reads about 0.2 higher than untouched fields (median +0.21 to +0.24 on fields that already pass), so rows are marked "black point" in the rescue column: compare them with each other, not with untouched fields.
+    1  YFP0145_34_cell6_2048     0.1980       —  —               —  segmentation collapsed: foreground 0.13%
+    2  YFP0145_34_cell8_2048     0.1980       —  —               —  segmentation collapsed: foreground 0.32%
+    3  YFP0145_39_cell1_2048     0.1980       —  —               —  mask looks like noise texture: large objects stand only 1.0 x their surrounding noise (limit 1.16)
+    4  YFP0145_39_cell3_2048     0.1980       —  —               —  segmentation collapsed: foreground 0.97%
+    5  YFP145-1_19_cell3_2048    0.1980       —  —               —  segmentation collapsed: foreground 0.61%
+    6  YFP145-1_26_cell11_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.56%
+    7  YFP145-1_26_cell13_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.42%
+    8  YFP145-1_26_cell15_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.43%
+    9  YFP145-1_26_cell16_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.50%
+   10  YFP145-1_26_cell19_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.24%
+   11  YFP145-1_26_cell20_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.59%
+   12  YFP145-1_26_cell21_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.52%
+   13  YFP145-1_26_cell22_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.73%
+   14  YFP145-1_26_cell23_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.93%
+  ───────────────────────────────────────────────────────────────────────
+  33 images                   19 scored, 14 rejected
+  index                       mean 0.065   median 0.011   sd 0.119   range 0.000–0.481
+  bands                       fragmented 0   mixed 4   elongated 15
+                              averages cover the scored images only
+
+  why 14 image(s) were refused:
+    13  almost nothing segmented: under 1% of the field was called mitochondria. Usually the wrong channel, an empty field, or a very dim one.
+     1  noise texture: what was segmented is pixel noise across the cell body, not mitochondria: too little signal over a bright, noisy cell.
+
+  NOTE: 11 of 19 scored fields were rescued (background 11, black point 0); the rest were not. Check that a difference between conditions holds without the rescued rows.
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/mitohacker_cells_0.198/145.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/mitohacker_cells_0.198/145_summary.csv

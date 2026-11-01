@@ -1,0 +1,151 @@
+Every series of every .lif, scored once as PLAN.md fixes.
+
+496 series; scored as is 106, after the rescue 271 (55%); refused 225
+  refused by reason: noise texture 110, speckle 107, nothing segmented 4, almost nothing segmented 4
+  bands of scored: elongated 107, mixed 158, fragmented 6; median index 0.285
+  channel source of scored: laser line 189, by eye, per file (contact sheet) 82
+
+## CDKi treatment + CoV-2.lif  (37 series, 30 scored)
+condition                                n  as is  +resc  median           IQR    e/m/f  refused
+mark_and_find                            1      0      0                                 nothing segmented 1
+veh inf for cdki                         5      0      4   0.304   0.24-0.41   1/3/0  noise texture 1
+cdki inf                                26      7     21   0.079   0.03-0.25  14/7/0  noise texture 5
+cdki inf ctrl treated in one field .     1      0      1   0.508   0.51-0.51   0/1/0  
+veh cdki inf                             4      2      4   0.655   0.49-0.81   0/4/0  
+
+## Huh-7 WT for MFN1 KO .lif  (5 series, 5 scored)
+condition                                n  as is  +resc  median           IQR    e/m/f  refused
+mark_and_find                            5      5      5   0.378   0.38-0.42   0/5/0  
+
+## col7 mito morph.lif  (9 series, 8 scored)
+condition                                n  as is  +resc  median           IQR    e/m/f  refused
+col mito morph                           8      7      7   0.477   0.19-0.77   2/5/0  speckle 1
+mark_and_find                            1      1      1   0.423   0.42-0.42   0/1/0  
+
+## colony 7 mfn1 ko.lif  (14 series, 14 scored)
+condition                                n  as is  +resc  median           IQR    e/m/f  refused
+col mfn1 ko                              3      2      3   0.392   0.25-0.56   1/2/0  
+col7 mito morph                         11     11     11   0.725   0.55-0.80   0/11/0  
+
+## colony 9 mfn1 ko mito.lif  (7 series, 7 scored)
+condition                                n  as is  +resc  median           IQR    e/m/f  refused
+col mfn1 ko                              7      7      7   0.815   0.70-0.84   0/7/0  
+
+## huh7 mfn1 ko pool.lif  (12 series, 9 scored)
+condition                                n  as is  +resc  median           IQR    e/m/f  refused
+mark_and_find                           12      8      9   0.670   0.48-0.79   0/9/0  noise texture 3
+
+## mfn1 ko pyruvate treatment.lif  (27 series, 13 scored)
+condition                                n  as is  +resc  median           IQR    e/m/f  refused
+mfn1 ko normal media inf                13      2      3   0.554   0.53-0.64   0/3/0  noise texture 6, speckle 4
+220mg pyruvate mfn1 ko                   2      2      2   0.160   0.15-0.17   1/1/0  
+220mg pyruvate mfn1 ko inf               5      1      2   0.066   0.05-0.09   2/0/0  noise texture 3
+0mg pyruvate mfn1 ko inf                 3      3      3   0.508   0.39-0.73   0/3/0  
+110mg pyruvate mfn1 ko inf               4      2      3   0.691   0.58-0.72   0/3/0  speckle 1
+
+## wt mock pyruvate treatment.lif  (21 series, 0 scored)
+condition                                n  as is  +resc  median           IQR    e/m/f  refused
+wt 0mg pyruvate mock                     5      0      0                                 speckle 3, noise texture 2
+wt 110mg pyruvate mock                   6      0      0                                 speckle 4, noise texture 2
+wt 220mg pyruvate mock                  10      0      0                                 speckle 8, noise texture 2
+
+## 2nd feb 2023 mef wt and ko.lif  (66 series, 50 scored)
+condition                                n  as is  +resc  median           IQR    e/m/f  refused
+series001                                1      0      0                                 almost nothing segmented 1
+post met inf nuc                         1      0      0                                 noise texture 1
+mef wt 48hpi                             7      1      7   0.168   0.11-0.38   4/3/0  
+series003                                1      0      0                                 almost nothing segmented 1
+mark_and_find                            6      2      2   0.259   0.15-0.37   1/1/0  noise texture 2, nothing segmented 1, speckle 1
+mef ko 48hpi                             8      3      6   0.081   0.01-0.20   4/2/0  speckle 2
+mef wt mock                              6      0      0                                 noise texture 6
+image005                                 1      0      0                                 noise texture 1
+mef ko mock                              7      0      7   0.155   0.12-0.28   4/3/0  
+mef 48h mavs ko mock                    11      3     11   0.120   0.09-0.19   7/4/0  
+mef wt 24h mock                         11      0     11   0.028   0.01-0.04  11/0/0  
+mef wt                                   2      0      2   0.034   0.02-0.05   2/0/0  
+mef wt mock inf                          1      0      1   0.231   0.23-0.23   0/1/0  
+mef mavs ko 24h mock inf                 3      1      3   0.145   0.09-0.17   2/1/0  
+
+## mfn2 ko and wt veh mock and inf.lif  (17 series, 6 scored)
+condition                                n  as is  +resc  median           IQR    e/m/f  refused
+mark_and_find                            2      0      0                                 almost nothing segmented 1, nothing segmented 1
+mfn2 ko veh inf                          5      0      0                                 noise texture 4, speckle 1
+mfn2 ko veh mock                         6      0      6   0.762   0.48-0.91   0/5/1  
+mef wt mock veh                          4      0      0                                 speckle 3, noise texture 1
+
+## mfn1 ko kinetics dsrna mfn2.lif  (6 series, 5 scored)
+condition                                n  as is  +resc  median           IQR    e/m/f  refused
+12hpi mfn1 ko dsrna mfn2                 2      0      1   0.473   0.47-0.47   0/1/0  speckle 1
+12h mock mfn1 ko dsrna mfn2              1      0      1   0.313   0.31-0.31   0/1/0  
+24hpi mfn1 ko dsrna mfn2                 2      0      2   0.525   0.47-0.58   0/2/0  
+48hpi mfn1 ko dsrna mfn2                 1      0      1   0.092   0.09-0.09   1/0/0  
+
+## pampk in mef cells 161223.lif  (68 series, 20 scored)
+condition                                n  as is  +resc  median           IQR    e/m/f  refused
+wt veh mock pampk                       16      0      0                                 noise texture 9, speckle 7
+wt met mock pampk                       11      0      0                                 speckle 6, noise texture 5
+wt veh mock                              1      0      0                                 noise texture 1
+mfn2 ko veh mock pampk                  10      1      8   0.212   0.00-0.94   4/4/0  speckle 2
+mfn2 ko met mock pampk                  10      0      7   0.003   0.00-0.30   5/2/0  speckle 2, noise texture 1
+mfn1 ko veh mock pampk                  10      2      4   0.550   0.52-0.58   0/4/0  noise texture 6
+mfn1 ko met mock pampk                  10      0      1   0.000   0.00-0.00   1/0/0  noise texture 6, speckle 3
+
+## MFN1 KO pool exon 4+ 10 mito.lif  (4 series, 4 scored)
+condition                                n  as is  +resc  median           IQR    e/m/f  refused
+mfn1 ko exon + pool                      3      3      3   0.759   0.71-0.81   0/3/0  
+mfn1 ko pool                             1      1      1   0.912   0.91-0.91   0/1/0  
+
+## Mfn1 KO Mdivi august.lif  (25 series, 12 scored)
+condition                                n  as is  +resc  median           IQR    e/m/f  refused
+mfn1 ko mdivi mock                       5      2      4   0.351   0.24-0.53   0/4/0  speckle 1
+mfn1 ko veh mock                         5      0      1   0.936   0.94-0.94   0/1/0  speckle 4
+mfn1 ko mdivi inf                        5      1      1   0.285   0.29-0.29   0/1/0  speckle 4
+mfn1 ko veh inf                         10      3      6   0.593   0.52-0.70   0/6/0  speckle 4
+
+## NEM 2 quant.lif  (35 series, 28 scored)
+condition                                n  as is  +resc  median           IQR    e/m/f  refused
+mark_and_find                            2      0      0                                 speckle 1, noise texture 1
+nuc                                      5      0      4   0.068   0.02-0.14   3/1/0  noise texture 1
+mem                                     10      1      8   0.058   0.05-0.20   5/3/0  speckle 1, noise texture 1
+env                                     18      3     16   0.111   0.04-0.16  12/4/0  noise texture 2
+
+## mavs ko veh mdivi  quant.lif  (18 series, 6 scored)
+condition                                n  as is  +resc  median           IQR    e/m/f  refused
+mavs ko veh                              7      0      2   0.253   0.21-0.29   1/1/0  noise texture 5
+mark_and_find                            1      0      0                                 speckle 1
+mavs ko mdivi                           10      0      4   0.438   0.36-0.48   1/3/0  noise texture 6
+
+## mdivi mef wt and mavs ko.lif  (25 series, 4 scored)
+condition                                n  as is  +resc  median           IQR    e/m/f  refused
+mark_and_find                            2      0      0                                 speckle 1, nothing segmented 1
+huh-7 mavs ko mock veh                   1      0      0                                 speckle 1
+mavs ko veh inf                          7      0      4   0.329   0.28-0.35   1/3/0  noise texture 2, speckle 1
+mef mavs ko mdivi inf                    4      0      0                                 speckle 4
+mef wt veh inf                           6      0      0                                 speckle 6
+mef wt mdivi inf                         5      0      0                                 speckle 4, noise texture 1
+
+## mef all cells mavs localizatio test.lif  (17 series, 16 scored)
+condition                                n  as is  +resc  median           IQR    e/m/f  refused
+wt test                                  2      0      2   0.281   0.14-0.42   1/1/0  
+wt mock                                  8      6      8   0.222   0.11-0.39   4/4/0  
+mfn1 ko mock                             3      2      2   0.983   0.98-0.99   0/0/2  speckle 1
+dual ko mock                             2      0      2   0.728   0.65-0.80   0/2/0  
+mfn2 ko mock                             1      1      1   0.935   0.94-0.94   0/1/0  
+mark_and_find                            1      1      1   0.273   0.27-0.27   0/1/0  
+
+## mef wt mfn2 ko mavs localization.lif  (18 series, 15 scored)
+condition                                n  as is  +resc  median           IQR    e/m/f  refused
+mfn2 ko mock                             5      4      4   0.999   0.97-1.00   0/1/3  almost nothing segmented 1
+wt mock                                  7      1      5   0.386   0.36-0.47   1/4/0  speckle 2
+mark_and_find                            6      4      6   0.312   0.17-0.41   2/4/0  
+
+## mfn1 ko mdivi mock.lif  (46 series, 1 scored)
+condition                                n  as is  +resc  median           IQR    e/m/f  refused
+mfn1 ko veh                             13      0      1   0.095   0.09-0.09   1/0/0  speckle 9, noise texture 3
+mark_and_find                            1      0      0                                 speckle 1
+mfn1 ko mdivi                            9      0      0                                 speckle 9
+mfn2 ko mdivi                           23      0      0                                 noise texture 20, speckle 3
+
+## nem quant 3.lif  (19 series, 18 scored)
+condition                                n  as is  +resc  median           IQR    e/m/f  refused
+nuc                                     19      0     18   0.200   0.11-0.33   8/10/0  noise texture 1

@@ -1,0 +1,14 @@
+{
+ "channel": null,
+ "channel_ex": 500.0,
+ "images": "/mnt/d/My ideas/mitofi/olympus_holdout/converted/24-04-2024",
+ "index_model_sha256": "4dfdd1c65e9dfda2be0cde9d543689a289c6cc13c8c5cd96d7eaff074b82156f",
+ "mask_suffix": null,
+ "masks": null,
+ "mitofi": "1.0.0",
+ "pixel_model_sha256": "820cd4855402c109d9c26b5487e5d16775ade85f42499714da0b16f70de028db",
+ "rescue": true,
+ "subtract_background": null,
+ "suffix": ".ome.tif",
+ "timepoint": 0
+}

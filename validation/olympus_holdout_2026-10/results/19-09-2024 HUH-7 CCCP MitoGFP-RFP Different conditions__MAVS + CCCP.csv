@@ -1,0 +1,9 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+Huh-7 HA MAVS oe + CCCP F1,True,,0.9841,fragmented,0.968,0.9841,0.0855,3.013,12.41,0.0,11.07,718,0.103580094900373,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 4; max projection over 16 planes
+Huh-7 HA MAVS oe + CCCP F2 R,True,,0.9518,fragmented,0.91,0.9518,0.03,2.785,8.64,0.0001,4.89,202,0.082533940159659,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 4; max projection over 11 planes
+Huh-7 HA MAVS oe + CCCP F3,True,,0.9834,fragmented,0.967,0.9834,0.0285,2.883,14.85,0.0001,5.67,199,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 4; max projection over 20 planes
+Huh-7 HA MAVS oe + CCCP F4R,True,,0.5131,mixed,0.491,0.5131,0.0988,3.833,2.13,0.0156,2.98,564,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 4; max projection over 15 planes
+Huh-7 HA MAVS oe + CCCP F5R,True,,0.7917,mixed,0.606,0.7917,0.0232,3.434,19.85,0.0,6.54,121,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 4; max projection over 15 planes
+Huh-7 HA MAVS oe + CCCP F6,True,,0.9339,fragmented,0.87,0.9339,0.0461,2.904,15.16,0.0,8.07,301,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 4; max projection over 13 planes
+Huh-7 HA MAVS oe + CCCP F7,True,,0.9921,fragmented,0.984,0.9921,0.0624,2.156,9.09,0.0,8.49,529,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 4; max projection over 19 planes
+Huh-7 HA MAVS oe + CCCP F8,False,segmentation collapsed: foreground 0.37%,,qc_fail,0.647,0.8177,0.0037,2.086,60.73,0.0,60.67,46,0.082864075920298,black point,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 4; max projection over 16 planes; black point at the cytoplasm peak (4087 on the 12-bit scale)

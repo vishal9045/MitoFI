@@ -1,0 +1,23 @@
+pixel size: read from each file
+
+    #  image                    um/px   index  band         conf  notes
+  ─────────────────────────────────────────────────────────────────────
+    1  A549 KO PUNO 100X F1    0.0497   0.057  elongated    0.90
+    2  A549 KO PUNO 100X F10   0.0497   0.419  mixed        0.44
+    3  A549 KO PUNO 100X F11   0.0497   0.459  mixed        0.47
+    4  A549 KO PUNO 100X F12   0.0497   0.709  mixed        0.56
+    5  A549 KO PUNO 100X F2    0.0497   0.257  mixed        0.62
+    6  A549 KO PUNO 100X F3    0.0497   0.003  elongated    0.99
+    7  A549 KO PUNO 100X F4    0.0497   0.626  mixed        0.43
+    8  A549 KO PUNO 100X F5    0.0497   0.126  mixed        0.80
+    9  A549 KO PUNO 100X F6    0.0497   0.042  elongated    0.92
+   10  A549 KO PUNO 100X F7    0.0497   0.012  elongated    0.98
+   11  A549 KO PUNO 100X F8    0.0497   0.001  elongated    1.00
+   12  A549 KO PUNO 100X F9    0.0497   0.065  elongated    0.90
+  ─────────────────────────────────────────────────────────────────────
+  12 images                 12 scored, 0 rejected
+  index                     mean 0.231   median 0.095   sd 0.258   range 0.001–0.709
+  bands                     fragmented 0   mixed 6   elongated 6
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/10-07-2023__A549 KO EV.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/10-07-2023__A549 KO EV_summary.csv

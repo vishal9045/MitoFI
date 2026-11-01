@@ -1,0 +1,21 @@
+pixel size: read from each file
+
+    #  image                um/px   index  band         conf  notes
+  ─────────────────────────────────────────────────────────────────
+    1  JEV 48 hpi B1 F1    0.0829   0.675  mixed        0.47
+    2  JEV 48 hpi B1 F10   0.0829   0.966  fragmented   0.93
+    3  JEV 48 hpi B1 F2    0.0829   0.466  mixed        0.53
+    4  JEV 48 hpi B1 F3    0.0829   0.600  mixed        0.56
+    5  JEV 48 hpi B1 F4    0.0829   0.931  fragmented   0.86
+    6  JEV 48 hpi B1 F5    0.0829   0.729  mixed        0.50
+    7  JEV 48 hpi B1 F6    0.0829   0.959  fragmented   0.92
+    8  JEV 48 hpi B1 F7    0.0829   0.902  fragmented   0.81
+    9  JEV 48 hpi B1 F8    0.0829   0.983  fragmented   0.97
+   10  JEV 48 hpi B1 F9    0.0829   0.971  fragmented   0.94
+  ─────────────────────────────────────────────────────────────────
+  10 images             10 scored, 0 rejected
+  index                 mean 0.818   median 0.916   sd 0.186   range 0.466–0.983
+  bands                 fragmented 6   mixed 4   elongated 0
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/24-04-2023.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/24-04-2023_summary.csv

@@ -1,0 +1,22 @@
+pixel size: read from each file
+
+    #  image                             um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────────────────
+    1  Del CARD MAVS ha inf F1 B1       0.0829   0.639  mixed        0.43
+    2  Del CARD MAVS ha inf F1 B3       0.0829   0.028  elongated    0.95
+    3  Del CARD MAVS ha inf F3 B1       0.0829   0.966  fragmented   0.93
+    4  Del CARD MAVS ha inf F4 B1       0.0829   0.641  mixed        0.46
+    5  Del CARD MAVS ha inf F5 B1 bo…   0.0829   0.212  mixed        0.64
+    6  Del CARD MAVS ha inf F6 B1 bo…   0.0829   0.946  fragmented   0.89
+    7  Del CARD MAVS ha inf F7 B1       0.0829   0.620  mixed        0.43
+    8  Del CARD MAVS ha inf F8 B1       0.0829   0.829  mixed        0.69
+    9  Del CARD MAVS ha inf F9 B1 bo…   0.0973   0.733  mixed        0.54
+   10  Del CARD MAVS no ha inf F2 B1    0.0829   0.704  mixed        0.48
+  ──────────────────────────────────────────────────────────────────────────────
+  10 images                          10 scored, 0 rejected
+  index                              mean 0.632   median 0.672   sd 0.299   range 0.028–0.966
+  bands                              fragmented 2   mixed 7   elongated 1
+  pixel sizes                        2 different in this folder, 0.0829 to 0.0973 um
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/26-02-2023.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/26-02-2023_summary.csv

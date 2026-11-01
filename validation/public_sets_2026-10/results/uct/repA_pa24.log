@@ -1,0 +1,25 @@
+pixel size: read from each file
+
+    #  image     um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────
+    1  AP24_a   0.0659       —  —               —  too much diffuse background: 8.4% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    2  AP24_b   0.0659       —  —               —  too much diffuse background: 11.1% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    3  AP24_c   0.0659       —  —               —  too much diffuse background: 8.1% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    4  AP24_d   0.0659       —  —               —  too much diffuse background: 9.5% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    5  AP24_e   0.0659       —  —               —  too much diffuse background: 8.8% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    6  AP24_f   0.0659       —  —               —  too much diffuse background: 9.0% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+
+6 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  AP24_a   0.0659   0.007  elongated    0.99
+    2  AP24_b   0.0659   0.009  elongated    0.98
+    3  AP24_c   0.0659   0.000  elongated    1.00
+    4  AP24_d   0.0659   0.000  elongated    1.00
+    5  AP24_e   0.0659   0.000  elongated    1.00
+    6  AP24_f   0.0659   0.000  elongated    1.00
+  ──────────────────────────────────────────────────────
+  6 images   6 scored, 0 rejected
+  index      mean 0.003   median 0.000   sd 0.004   range 0.000–0.009
+  bands      fragmented 0   mixed 0   elongated 6
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/uct/repA_pa24.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/uct/repA_pa24_summary.csv

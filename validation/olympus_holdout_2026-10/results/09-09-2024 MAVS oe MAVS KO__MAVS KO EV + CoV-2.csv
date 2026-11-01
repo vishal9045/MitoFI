@@ -1,0 +1,3 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+Huh-7 MAVS KO EV + CoV-2 F1,True,,0.6211,mixed,0.536,0.6211,0.1086,4.499,6.42,0.0009,4.72,336,0.082864075920298,,channel 1 chosen by excitation at 570 nm; axes ZCYX; channel 1 of 3; max projection over 15 planes
+Huh-7 MAVS KO EV + CoV-2 F2,True,,0.8475,mixed,0.727,0.8475,0.0998,4.223,7.31,0.0003,4.81,347,0.082864075920298,,channel 1 chosen by excitation at 570 nm; axes ZCYX; channel 1 of 3; max projection over 17 planes

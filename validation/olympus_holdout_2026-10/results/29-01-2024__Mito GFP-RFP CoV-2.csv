@@ -1,0 +1,7 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+huh-7 Mito-gfp-rfp CoV-2 F20 B2,True,,0.2079,mixed,0.657,0.2079,0.1239,4.531,1.22,0.0409,2.05,443,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 4; max projection over 16 planes
+huh-7 Mito-gfp-rfp CoV-2 F21 B2,True,,0.0,elongated,1.0,0.0,0.0802,4.513,1.32,0.0068,2.04,87,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 4; max projection over 17 planes
+huh-7 Mito-gfp-rfp CoV-2 F22 B2,True,,0.6056,mixed,0.595,0.6056,0.1757,3.074,2.48,0.0001,4.12,1052,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 4; max projection over 14 planes
+huh-7 Mito-gfp-rfp CoV-2 F23 B2,True,,0.8062,mixed,0.66,0.8062,0.0648,3.167,4.16,0.0002,3.63,392,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 4; max projection over 14 planes
+huh-7 Mito-gfp-rfp CoV-2 F24 B2,True,,0.0329,elongated,0.938,0.0329,0.0887,3.383,2.95,0.0005,4.35,242,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 4; max projection over 13 planes
+huh-7 Mito-gfp-rfp CoV-2 F25 B2,True,,0.3595,mixed,0.614,0.3595,0.0204,4.496,12.83,0.0001,5.9,83,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 4; max projection over 11 planes

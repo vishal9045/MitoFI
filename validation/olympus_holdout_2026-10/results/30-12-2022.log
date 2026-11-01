@@ -1,0 +1,29 @@
+pixel size: read from each file
+
+    #  image                  um/px   index  band         conf  notes
+  ───────────────────────────────────────────────────────────────────
+    1  huh-7 48 hpi inf 1    0.0829   0.395  mixed        0.46
+    2  huh-7 48 hpi inf 2    0.0829   0.424  mixed        0.47
+    3  huh-7 48 hpi inf 3    0.0829   0.278  mixed        0.53
+    4  huh-7 48 hpi inf 4    0.0829   0.196  mixed        0.64
+    5  huh-7 48 hpi inf 5    0.0829   0.164  mixed        0.70
+    6  huh-7 48 hpi inf 6    0.0829   0.225  mixed        0.60
+    7  huh-7 48 hpi mock 1   0.0829       —  —               —  too much diffuse background: 13.9% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    8  huh-7 48 hpi mock 2   0.0829   0.064  elongated    0.88
+    9  huh-7 48 hpi mock 3   0.0829   0.037  elongated    0.93
+   10  huh-7 48 hpi mock 4   0.0829   0.119  mixed        0.77
+   11  huh-7 48 hpi mock 5   0.0791       —  —               —  mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16)
+
+2 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  huh-7 48 hpi mock 1   0.0829   0.013  elongated    0.97
+    2  huh-7 48 hpi mock 5   0.0791   0.022  elongated    0.96
+  ───────────────────────────────────────────────────────────────────
+  11 images               11 scored, 0 rejected
+  index                   mean 0.176   median 0.164   sd 0.144   range 0.013–0.424
+  bands                   fragmented 0   mixed 7   elongated 4
+  pixel sizes             2 different in this folder, 0.0791 to 0.0829 um
+
+  NOTE: 2 of 11 scored fields were rescued (background 2, black point 0); the rest were not. Check that a difference between conditions holds without the rescued rows.
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/30-12-2022.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/30-12-2022_summary.csv

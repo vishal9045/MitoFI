@@ -1,0 +1,109 @@
+pixel size: 0.198 um, given on the command line
+
+    #  image                     um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────────
+    1  YFP0143-2_1_cell1_2048   0.1980   0.553  mixed        0.58
+    2  YFP0143-2_1_cell2_2048   0.1980   0.204  mixed        0.62
+    3  YFP0143-2_1_cell3_2048   0.1980   0.290  mixed        0.58
+    4  YFP0143-2_1_cell4_2048   0.1980   0.539  mixed        0.50
+    5  YFP0143_12_cell10_2048   0.1980       —  —               —  too much diffuse background: 7.9% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    6  YFP0143_12_cell11_2048   0.1980   0.481  mixed        0.47
+    7  YFP0143_12_cell12_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.58%
+    8  YFP0143_12_cell13_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.29%
+    9  YFP0143_12_cell15_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.73%
+   10  YFP0143_12_cell16_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.25%
+   11  YFP0143_12_cell17_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.10%
+   12  YFP0143_12_cell18_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.72%
+   13  YFP0143_12_cell19_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.63%
+   14  YFP0143_12_cell20_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.13%
+   15  YFP0143_12_cell22_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.06%
+   16  YFP0143_12_cell24_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.73%
+   17  YFP0143_12_cell4_2048    0.1980       —  —               —  segmentation collapsed: foreground 0.21%
+   18  YFP0143_12_cell5_2048    0.1980       —  —               —  segmentation collapsed: foreground 0.25%
+   19  YFP0143_12_cell6_2048    0.1980       —  —               —  segmentation collapsed: foreground 0.12%
+   20  YFP0143_12_cell7_2048    0.1980       —  —               —  segmentation collapsed: foreground 0.81%
+   21  YFP0143_12_cell8_2048    0.1980       —  —               —  segmentation collapsed: foreground 0.55%
+   22  YFP0143_15_cell10_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.80%
+   23  YFP0143_15_cell4_2048    0.1980       —  —               —  segmentation collapsed: foreground 0.73%
+   24  YFP0143_15_cell6_2048    0.1980       —  —               —  segmentation collapsed: foreground 0.79%
+   25  YFP0143_15_cell8_2048    0.1980       —  —               —  segmentation collapsed: foreground 0.94%
+   26  YFP0143_27_cell1_2048    0.1980       —  —               —  segmentation collapsed: foreground 0.63%
+   27  YFP0143_27_cell2_2048    0.1980       —  —               —  too much diffuse background: 12.0% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   28  YFP0143_27_cell3_2048    0.1980       —  —               —  segmentation collapsed: foreground 0.39%
+   29  YFP0143_27_cell4_2048    0.1980       —  —               —  too much diffuse background: 10.8% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   30  YFP0143_27_cell5_2048    0.1980       —  —               —  segmentation collapsed: foreground 0.33%
+   31  YFP0143_27_cell6_2048    0.1980       —  —               —  too much diffuse background: 7.2% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   32  YFP0143_27_cell7_2048    0.1980   0.375  mixed        0.52
+   33  YFP0143_27_cell8_2048    0.1980       —  —               —  too much diffuse background: 6.3% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   34  YFP0143_27_cell9_2048    0.1980       —  —               —  segmentation collapsed: foreground 0.35%
+
+28 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  YFP0143_12_cell10_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.16%
+    2  YFP0143_12_cell12_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.59%
+    3  YFP0143_12_cell13_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.27%
+    4  YFP0143_12_cell15_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.73%
+    5  YFP0143_12_cell16_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.26%
+    6  YFP0143_12_cell17_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.10%
+    7  YFP0143_12_cell18_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.69%
+    8  YFP0143_12_cell19_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.62%
+    9  YFP0143_12_cell20_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.17%
+   10  YFP0143_12_cell22_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.07%
+   11  YFP0143_12_cell24_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.71%
+   12  YFP0143_12_cell4_2048    0.1980       —  —               —  segmentation collapsed: foreground 0.20%
+   13  YFP0143_12_cell5_2048    0.1980       —  —               —  segmentation collapsed: foreground 0.24%
+   14  YFP0143_12_cell6_2048    0.1980       —  —               —  segmentation collapsed: foreground 0.12%
+   15  YFP0143_12_cell7_2048    0.1980       —  —               —  segmentation collapsed: foreground 0.82%
+   16  YFP0143_12_cell8_2048    0.1980       —  —               —  segmentation collapsed: foreground 0.57%
+   17  YFP0143_15_cell10_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.80%
+   18  YFP0143_15_cell4_2048    0.1980       —  —               —  segmentation collapsed: foreground 0.71%
+   19  YFP0143_15_cell6_2048    0.1980       —  —               —  segmentation collapsed: foreground 0.79%
+   20  YFP0143_15_cell8_2048    0.1980       —  —               —  segmentation collapsed: foreground 0.94%
+   21  YFP0143_27_cell1_2048    0.1980       —  —               —  segmentation collapsed: foreground 0.61%
+   22  YFP0143_27_cell2_2048    0.1980   0.011  elongated    0.98
+   23  YFP0143_27_cell3_2048    0.1980       —  —               —  segmentation collapsed: foreground 0.36%
+   24  YFP0143_27_cell4_2048    0.1980   0.175  mixed        0.67
+   25  YFP0143_27_cell5_2048    0.1980       —  —               —  segmentation collapsed: foreground 0.34%
+   26  YFP0143_27_cell6_2048    0.1980   0.497  mixed        0.67
+   27  YFP0143_27_cell8_2048    0.1980       —  —               —  segmentation collapsed: foreground 0.82%
+   28  YFP0143_27_cell9_2048    0.1980       —  —               —  segmentation collapsed: foreground 0.36%
+
+25 field(s) are refused by the quality gate. Setting a black point at the cytoplasm level -- what setting the minimum in Fiji's Brightness/Contrast does, with the level read from each image -- lets many more be scored. It keeps the order between fields that all had it, but reads about 0.2 higher than untouched fields (median +0.21 to +0.24 on fields that already pass), so rows are marked "black point" in the rescue column: compare them with each other, not with untouched fields.
+    1  YFP0143_12_cell10_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.94%
+    2  YFP0143_12_cell12_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.30%
+    3  YFP0143_12_cell13_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.50%
+    4  YFP0143_12_cell15_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.41%
+    5  YFP0143_12_cell16_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.31%
+    6  YFP0143_12_cell17_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.15%
+    7  YFP0143_12_cell18_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.35%
+    8  YFP0143_12_cell19_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.28%
+    9  YFP0143_12_cell20_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.70%
+   10  YFP0143_12_cell22_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.10%
+   11  YFP0143_12_cell24_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.39%
+   12  YFP0143_12_cell4_2048    0.1980       —  —               —  segmentation collapsed: foreground 0.11%
+   13  YFP0143_12_cell5_2048    0.1980       —  —               —  segmentation collapsed: foreground 0.51%
+   14  YFP0143_12_cell6_2048    0.1980       —  —               —  segmentation collapsed: foreground 0.18%
+   15  YFP0143_12_cell7_2048    0.1980       —  —               —  segmentation collapsed: foreground 0.48%
+   16  YFP0143_12_cell8_2048    0.1980       —  —               —  segmentation collapsed: foreground 0.30%
+   17  YFP0143_15_cell10_2048   0.1980       —  —               —  segmentation collapsed: foreground 0.39%
+   18  YFP0143_15_cell4_2048    0.1980       —  —               —  segmentation collapsed: foreground 0.26%
+   19  YFP0143_15_cell6_2048    0.1980       —  —               —  segmentation collapsed: foreground 0.35%
+   20  YFP0143_15_cell8_2048    0.1980       —  —               —  segmentation collapsed: foreground 0.41%
+   21  YFP0143_27_cell1_2048    0.1980       —  —               —  segmentation collapsed: foreground 0.29%
+   22  YFP0143_27_cell3_2048    0.1980       —  —               —  segmentation collapsed: foreground 0.29%
+   23  YFP0143_27_cell5_2048    0.1980       —  —               —  segmentation collapsed: foreground 0.18%
+   24  YFP0143_27_cell8_2048    0.1980       —  —               —  segmentation collapsed: foreground 0.50%
+   25  YFP0143_27_cell9_2048    0.1980       —  —               —  segmentation collapsed: foreground 0.30%
+  ──────────────────────────────────────────────────────────────────────
+  34 images                  9 scored, 25 rejected
+  index                      mean 0.347   median 0.375   sd 0.189   range 0.011–0.553
+  bands                      fragmented 0   mixed 8   elongated 1
+                             averages cover the scored images only
+                             WARNING: more images were rejected than scored. These averages describe the survivors, which is not the same as describing the experiment.
+
+  why 25 image(s) were refused:
+    25  almost nothing segmented: under 1% of the field was called mitochondria. Usually the wrong channel, an empty field, or a very dim one.
+
+  NOTE: 3 of 9 scored fields were rescued (background 3, black point 0); the rest were not. Check that a difference between conditions holds without the rescued rows.
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/mitohacker_cells_0.198/143.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/mitohacker_cells_0.198/143_summary.csv

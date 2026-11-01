@@ -1,0 +1,19 @@
+pixel size: read from each file
+
+    #  image                 um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────
+    1  Slide D-3-4-24 C c   0.0659       —  —               —  too much diffuse background: 6.9% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    2  Slide D-3-4-24 C d   0.0659       —  —               —  too much diffuse background: 8.5% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    3  Slide D-3-4-24 C e   0.0659       —  —               —  too much diffuse background: 6.9% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+
+3 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  Slide D-3-4-24 C c   0.0659   0.000  elongated    1.00
+    2  Slide D-3-4-24 C d   0.0659   0.000  elongated    1.00
+    3  Slide D-3-4-24 C e   0.0659   0.007  elongated    0.98
+  ──────────────────────────────────────────────────────────────────
+  3 images               3 scored, 0 rejected
+  index                  mean 0.003   median 0.000   sd 0.004   range 0.000–0.007
+  bands                  fragmented 0   mixed 0   elongated 3
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/uct/repD_control.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/uct/repD_control_summary.csv

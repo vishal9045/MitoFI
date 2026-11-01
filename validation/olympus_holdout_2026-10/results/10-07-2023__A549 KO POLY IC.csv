@@ -1,0 +1,16 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+A549 KO Poly IC 100X F1,True,,0.857,mixed,0.748,0.857,0.0644,3.034,10.0,0.0001,5.93,159,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 8 planes
+A549 KO Poly IC 100X F10,True,,0.8079,mixed,0.725,0.8079,0.0466,3.054,11.05,0.0001,4.52,86,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes
+A549 KO Poly IC 100X F11,True,,0.3162,mixed,0.474,0.3162,0.0454,3.189,9.53,0.0,5.84,106,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 12 planes
+A549 KO Poly IC 100X F12,True,,0.8588,mixed,0.765,0.8588,0.0516,3.016,9.4,0.0001,4.98,122,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes
+A549 KO Poly IC 100X F13,True,,0.1143,mixed,0.772,0.1143,0.0414,2.694,8.83,0.0001,4.43,71,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes
+A549 KO Poly IC 100X F14,True,,0.6648,mixed,0.453,0.6648,0.0712,3.061,8.15,0.0001,5.72,199,0.062148056940223,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes
+A549 KO Poly IC 100X F15,True,,0.8243,mixed,0.684,0.8243,0.0652,2.917,7.28,0.0001,7.05,158,0.062148056940223,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes
+A549 KO Poly IC 100X F2,True,,0.3353,mixed,0.45,0.3353,0.0633,3.319,6.76,0.0001,5.07,131,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes
+A549 KO Poly IC 100X F3,True,,0.6574,mixed,0.524,0.6574,0.031,3.944,8.38,0.0002,6.57,47,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 13 planes
+A549 KO Poly IC 100X F4,True,,0.7161,mixed,0.589,0.7161,0.0283,1.836,8.74,0.0001,6.55,75,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 13 planes
+A549 KO Poly IC 100X F5,True,,0.0617,elongated,0.898,0.0617,0.0628,3.581,6.6,0.0001,5.38,128,0.062148056940223,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes
+A549 KO Poly IC 100X F6,True,,0.5113,mixed,0.356,0.5113,0.0527,4.282,7.56,0.0001,4.84,93,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 8 planes
+A549 KO Poly IC 100X F7,True,,0.0031,elongated,0.994,0.0031,0.0597,2.968,4.26,0.0001,3.81,79,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes
+A549 KO Poly IC 100X F8,True,,0.0524,elongated,0.902,0.0524,0.1118,3.186,3.68,0.0001,4.62,168,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes
+A549 KO Poly IC 100X F9,True,,0.1844,mixed,0.681,0.1844,0.0377,2.993,13.35,0.0001,6.17,68,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes

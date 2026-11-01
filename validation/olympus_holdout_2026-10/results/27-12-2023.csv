@@ -1,0 +1,5 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+Huh-7 MAVS oe CCCP endo LC3 B1 F1,True,,0.5892,mixed,0.406,0.5892,0.1075,3.329,1.73,0.0016,2.71,501,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 12 planes
+Huh-7 MAVS oe CCCP endo LC3 B1 F2,True,,0.6053,mixed,0.538,0.6053,0.0426,3.613,1.73,0.0005,2.51,188,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 12 planes
+Huh-7 MAVS oe CCCP endo LC3 B1 F3 BOTH,True,,0.8575,mixed,0.731,0.8575,0.0488,3.822,6.88,0.0001,5.82,288,0.092071195466998,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 12 planes
+Huh-7 MAVS oe CCCP endo LC3 B1 F4,True,,0.8128,mixed,0.671,0.8128,0.0871,3.26,3.04,0.0006,3.5,382,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 13 planes

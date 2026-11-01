@@ -1,0 +1,21 @@
+pixel size: read from each file
+
+    #  image                             um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────────────────
+    1  A549 KO MAVS TF HA Calnexin F1   0.0829       —  —               —  mask is speckle: objects average 2.244 um and stand only 3.5 background SD above their surroundings
+    2  A549 WT MAVS TF HA Calnexin F4   0.0829   0.503  mixed        0.43
+
+1 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  A549 KO MAVS TF HA Calnexin F1   0.0829       —  —               —  mask is speckle: objects average 2.079 um and stand only 3.9 background SD above their surroundings
+
+1 field(s) are refused by the quality gate. Setting a black point at the cytoplasm level -- what setting the minimum in Fiji's Brightness/Contrast does, with the level read from each image -- lets many more be scored. It keeps the order between fields that all had it, but reads about 0.2 higher than untouched fields (median +0.21 to +0.24 on fields that already pass), so rows are marked "black point" in the rescue column: compare them with each other, not with untouched fields.
+    1  A549 KO MAVS TF HA Calnexin F1   0.0829   0.458  mixed        0.38
+  ──────────────────────────────────────────────────────────────────────────────
+  2 images                           2 scored, 0 rejected
+  index                              mean 0.481   median 0.481   sd 0.032   range 0.458–0.503
+  bands                              fragmented 0   mixed 2   elongated 0
+
+  NOTE: 1 of 2 scored fields were rescued (background 0, black point 1); the rest were not. Black-point rows read about 0.2 higher than untouched ones: compare conditions within the same rescue, or check that a difference holds without the black-point rows.
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/17-03-2023.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/17-03-2023_summary.csv

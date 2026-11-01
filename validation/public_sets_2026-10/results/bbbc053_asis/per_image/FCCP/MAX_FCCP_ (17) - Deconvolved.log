@@ -1,0 +1,18 @@
+pixel size: read from each file
+
+    #  image                           um/px   index  band         conf  notes
+  ────────────────────────────────────────────────────────────────────────────
+    1  MAX_FCCP_ (17) - Deconvolved   0.0201       —  —               —  segmentation collapsed: foreground 0.06%
+
+1 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  MAX_FCCP_ (17) - Deconvolved   0.0201       —  —               —  segmentation collapsed: foreground 0.07%
+
+1 field(s) are refused by the quality gate. Setting a black point at the cytoplasm level -- what setting the minimum in Fiji's Brightness/Contrast does, with the level read from each image -- lets many more be scored. It keeps the order between fields that all had it, but reads about 0.2 higher than untouched fields (median +0.21 to +0.24 on fields that already pass), so rows are marked "black point" in the rescue column: compare them with each other, not with untouched fields.
+    1  MAX_FCCP_ (17) - Deconvolved   0.0201   0.451  mixed        0.45
+  ────────────────────────────────────────────────────────────────────────────
+  1 images                         1 scored, 0 rejected
+  index                            mean 0.451   median 0.451   sd —   range 0.451–0.451
+  bands                            fragmented 0   mixed 1   elongated 0
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/bbbc053_asis/per_image/FCCP/MAX_FCCP_ (17) - Deconvolved.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/bbbc053_asis/per_image/FCCP/MAX_FCCP_ (17) - Deconvolved_summary.csv

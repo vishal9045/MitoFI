@@ -1,0 +1,7 @@
+Step 1: leave one source out on the strokes (balanced accuracy, fields equal)
+
+held out   fields   (a) raw  (b) ratio      v5
+olympus        15     0.764      0.795   0.883
+leica          15     0.821      0.802   0.789
+allen           7     0.502      0.509   0.506
+v5 was trained on the montage tiles, which are part of the olympus row.

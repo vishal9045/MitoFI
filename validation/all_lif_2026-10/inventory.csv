@@ -1,0 +1,497 @@
+lif,series,name,x,y,z,t,m,c,bits,px_um,channel_names,excitation_nm,mito_channel,channel_source
+For Vishal/For Vishal/CDKi treatment + CoV-2.lif,0,Mark_and_Find 001/Position001,1024,1024,4,1,1,4,8,0.09015,Leica/Mito Tracker Red|Leica/ALEXA 633|Leica/ALEXA 488|Leica/DAPI,|561.0|496.0|,1,laser line
+For Vishal/For Vishal/CDKi treatment + CoV-2.lif,1,Veh b3 inf for cdki /Position001,1024,1024,4,1,1,3,8,0.09015,|Leica/ALEXA 633|Leica/Mito Tracker Red,|488.0|,1,"by eye, per file (contact sheet)"
+For Vishal/For Vishal/CDKi treatment + CoV-2.lif,2,Veh b3 inf for cdki /Position002,1024,1024,4,1,1,3,8,0.09015,Leica/DAPI|Leica/ALEXA 633|Leica/Mito Tracker Red,|488.0|,1,"by eye, per file (contact sheet)"
+For Vishal/For Vishal/CDKi treatment + CoV-2.lif,3,Veh b3 inf for cdki /Position003,1024,1024,4,1,1,3,8,0.09015,|Leica/ALEXA 633|Leica/Mito Tracker Red,|488.0|,1,"by eye, per file (contact sheet)"
+For Vishal/For Vishal/CDKi treatment + CoV-2.lif,4,Veh b3 inf for cdki /Position004,1024,1024,5,1,1,3,8,0.09015,Leica/DAPI|Leica/ALEXA 633|Leica/Mito Tracker Red,|488.0|,1,"by eye, per file (contact sheet)"
+For Vishal/For Vishal/CDKi treatment + CoV-2.lif,5,Veh b3 inf for cdki /Position005,1024,1024,6,1,1,3,8,0.09015,|Leica/ALEXA 633|Leica/Mito Tracker Red,|488.0|,1,"by eye, per file (contact sheet)"
+For Vishal/For Vishal/CDKi treatment + CoV-2.lif,6,CDKi b1 inf  2 zoom/Position001,1024,1024,8,1,1,3,8,0.0903,Leica/DAPI|Leica/ALEXA 633|Leica/Mito Tracker Red,|488.0|,1,"by eye, per file (contact sheet)"
+For Vishal/For Vishal/CDKi treatment + CoV-2.lif,7,CDKi b1 inf  2/Position001,1024,1024,6,1,1,3,8,0.0903,|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+For Vishal/For Vishal/CDKi treatment + CoV-2.lif,8,CDKi b1 inf  2/Position002,1024,1024,6,1,1,3,8,0.0903,Leica/Mito Tracker Red|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+For Vishal/For Vishal/CDKi treatment + CoV-2.lif,9,CDKi b1 inf  2/Position003,1024,1024,6,1,1,3,8,0.0903,|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+For Vishal/For Vishal/CDKi treatment + CoV-2.lif,10,cdki b2 inf/Position001,1024,1024,6,1,1,3,8,0.09,Leica/Mito Tracker Red|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+For Vishal/For Vishal/CDKi treatment + CoV-2.lif,11,cdki b2 inf/Position002,1024,1024,5,1,1,3,8,0.09,|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+For Vishal/For Vishal/CDKi treatment + CoV-2.lif,12,cdki b2 inf/Position003,1024,1024,6,1,1,3,8,0.09,Leica/Mito Tracker Red|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+For Vishal/For Vishal/CDKi treatment + CoV-2.lif,13,cdki b2 inf/Position004,1024,1024,6,1,1,3,8,0.09,|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+For Vishal/For Vishal/CDKi treatment + CoV-2.lif,14,cdki b2 inf/Position005,1024,1024,6,1,1,3,8,0.09,Leica/Mito Tracker Red|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+For Vishal/For Vishal/CDKi treatment + CoV-2.lif,15,cdki b2 inf/Position006,1024,1024,6,1,1,3,8,0.09,|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+For Vishal/For Vishal/CDKi treatment + CoV-2.lif,16,cdki b2 inf/Position007,1024,1024,10,1,1,3,8,0.09,Leica/Mito Tracker Red|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+For Vishal/For Vishal/CDKi treatment + CoV-2.lif,17,cdki b2 inf/Position008,1024,1024,6,1,1,3,8,0.09,|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+For Vishal/For Vishal/CDKi treatment + CoV-2.lif,18,cdki b3 inf/Position001,1024,1024,5,1,1,3,8,0.09005,Leica/Mito Tracker Red|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+For Vishal/For Vishal/CDKi treatment + CoV-2.lif,19,cdki b3 inf/Position002,1024,1024,4,1,1,3,8,0.09005,|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+For Vishal/For Vishal/CDKi treatment + CoV-2.lif,20,cdki inf b3/Position001,1024,1024,6,1,1,3,8,0.09025,Leica/Mito Tracker Red|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+For Vishal/For Vishal/CDKi treatment + CoV-2.lif,21,cdki inf b3/Position002,1024,1024,6,1,1,3,8,0.09025,|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+For Vishal/For Vishal/CDKi treatment + CoV-2.lif,22,cdki inf b3/Position003,1024,1024,5,1,1,3,8,0.09025,Leica/Mito Tracker Red|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+For Vishal/For Vishal/CDKi treatment + CoV-2.lif,23,cdki inf b3/Position004,1024,1024,8,1,1,3,8,0.09025,|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+For Vishal/For Vishal/CDKi treatment + CoV-2.lif,24,cdki inf b3/Position005,1024,1024,6,1,1,3,8,0.09025,Leica/Mito Tracker Red|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+For Vishal/For Vishal/CDKi treatment + CoV-2.lif,25,cdki inf b3/Position006,1024,1024,5,1,1,3,8,0.09025,|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+For Vishal/For Vishal/CDKi treatment + CoV-2.lif,26,cdk i inf rep 1 2.5 zoom/Position002,1024,1024,5,1,1,3,8,0.07319,Leica/ALEXA 633|Leica/Mito Tracker Red|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+For Vishal/For Vishal/CDKi treatment + CoV-2.lif,27,cdki inf b3 2.5 zoom rep 2/Position008,1024,1024,5,1,1,3,8,0.07228,|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+For Vishal/For Vishal/CDKi treatment + CoV-2.lif,28,cdki inf b3 2.5 zoom rep 2/Position009,1024,1024,4,1,1,3,8,0.07228,Leica/Mito Tracker Red|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+For Vishal/For Vishal/CDKi treatment + CoV-2.lif,29,cdki inf b3 2.5 zoom rep 2/Position010,1024,1024,4,1,1,3,8,0.07228,|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+For Vishal/For Vishal/CDKi treatment + CoV-2.lif,30,cdki inf b3 2.5 zoom rep 2/ctrl cells,1024,1024,7,1,1,3,8,0.07228,Leica/Mito Tracker Red|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+For Vishal/For Vishal/CDKi treatment + CoV-2.lif,31,cdki inf b3 2.5 zoom rep 2/Position012,1024,1024,4,1,1,3,8,0.07228,|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+For Vishal/For Vishal/CDKi treatment + CoV-2.lif,32,cdki inf b2 ctrl treated in one field 1.5/Position001,1024,1024,5,1,1,3,8,0.12496,Leica/Mito Tracker Red|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+For Vishal/For Vishal/CDKi treatment + CoV-2.lif,33,veh cdk i inf b2 2 zoom/Position001,1024,1024,5,1,1,3,8,0.08997,|Leica/ALEXA 633|Leica/Mito Tracker Red,|488.0|,1,"by eye, per file (contact sheet)"
+For Vishal/For Vishal/CDKi treatment + CoV-2.lif,34,veh cdki inf b2 zoom 2/Position001,1024,1024,5,1,1,3,8,0.09028,Leica/Mito Tracker Red|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+For Vishal/For Vishal/CDKi treatment + CoV-2.lif,35,veh cdki inf b2 zoom 2/Position002,1024,1024,5,1,1,3,8,0.09028,|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+For Vishal/For Vishal/CDKi treatment + CoV-2.lif,36,veh cdk i b2 inf 2.5 zoom rep/Position001,1024,1024,5,1,1,3,8,0.07202,Leica/ALEXA 633|Leica/Mito Tracker Red|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+For Vishal/For Vishal/Huh-7 WT for MFN1 KO .lif,0,Mark_and_Find 001/Position001,1024,1024,6,1,1,3,8,0.07209,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/Huh-7 WT for MFN1 KO .lif,1,Mark_and_Find 001/Position002,1024,1024,7,1,1,3,8,0.07209,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/Huh-7 WT for MFN1 KO .lif,2,Mark_and_Find 001/Position003,1024,1024,6,1,1,3,8,0.07209,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/Huh-7 WT for MFN1 KO .lif,3,Mark_and_Find 001/Position004,1024,1024,6,1,1,3,8,0.07209,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/Huh-7 WT for MFN1 KO .lif,4,Mark_and_Find 001/Position005,1024,1024,7,1,1,3,8,0.07209,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/col7 mito morph.lif,0,col 7 mito morph 1/Position001,1024,1024,7,1,1,3,8,0.07214,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/col7 mito morph.lif,1,col 7 mito morph 1/Position004,1024,1024,7,1,1,3,8,0.07214,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/col7 mito morph.lif,2,Mark_and_Find 002/Position001,1024,1024,9,1,1,3,8,0.07217,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/col7 mito morph.lif,3,col 7 mito morph 2/Position001,1024,1024,9,1,1,3,8,0.07217,|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/col7 mito morph.lif,4,col 7 mito morph 2/Position002,1024,1024,6,1,1,3,8,0.07217,Leica/DAPI|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/col7 mito morph.lif,5,col 7 mito morph 2/Position003,1024,1024,6,1,1,3,8,0.07217,|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/col7 mito morph.lif,6,col 7 mito morph 2/Position004,1024,1024,7,1,1,3,8,0.07217,Leica/DAPI|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/col7 mito morph.lif,7,col 7 mito morph 2/Position005,1024,1024,7,1,1,3,8,0.07217,|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/col7 mito morph.lif,8,col 7 mito morph 2/Position006,1024,1024,7,1,1,3,8,0.07217,Leica/DAPI|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/colony 7 mfn1 ko.lif,0,col 7 MFN1 KO 1/Position001,1024,1024,5,1,1,3,8,0.0722,Leica/DAPI|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/colony 7 mfn1 ko.lif,1,col 7 MFN1 KO 1/Position002,1024,1024,6,1,1,3,8,0.0722,|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/colony 7 mfn1 ko.lif,2,col 7 MFN1 KO 1/Position003,1024,1024,5,1,1,3,8,0.0722,Leica/DAPI|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/colony 7 mfn1 ko.lif,3,col7 mito morph 3/Position001,1024,1024,6,1,1,3,8,0.07217,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/colony 7 mfn1 ko.lif,4,col7 mito morph 3/Position002,1024,1024,7,1,1,3,8,0.07217,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/colony 7 mfn1 ko.lif,5,col7 mito morph 3/Position003,1024,1024,9,1,1,3,8,0.07217,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/colony 7 mfn1 ko.lif,6,col7 mito morph 3/Position004,1024,1024,10,1,1,3,8,0.07217,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/colony 7 mfn1 ko.lif,7,col7 mito morph 3/Position005,1024,1024,8,1,1,3,8,0.07217,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/colony 7 mfn1 ko.lif,8,col7 mito morph 3/Position006,1024,1024,8,1,1,3,8,0.07217,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/colony 7 mfn1 ko.lif,9,col7 mito morph 3/Position007,1024,1024,7,1,1,3,8,0.07217,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/colony 7 mfn1 ko.lif,10,col7 mito morph 3/Position008,1024,1024,7,1,1,3,8,0.07217,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/colony 7 mfn1 ko.lif,11,col7 mito morph 3/Position009,1024,1024,7,1,1,3,8,0.07217,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/colony 7 mfn1 ko.lif,12,col7 mito morph 3/Position010,1024,1024,8,1,1,3,8,0.07217,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/colony 7 mfn1 ko.lif,13,col7 mito morph 3/Position011,1024,1024,8,1,1,3,8,0.07217,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/colony 9 mfn1 ko mito.lif,0,col 9 mfn1 ko/Position001,1024,1024,6,1,1,3,8,0.07211,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/colony 9 mfn1 ko mito.lif,1,col 9 mfn1 ko/Position002,1024,1024,7,1,1,3,8,0.07211,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/colony 9 mfn1 ko mito.lif,2,col 9 mfn1 ko/Position003,1024,1024,7,1,1,3,8,0.07211,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/colony 9 mfn1 ko mito.lif,3,col 9 mfn1 ko/Position004,1024,1024,6,1,1,3,8,0.07211,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/colony 9 mfn1 ko mito.lif,4,col 9 mfn1 ko/Position005,1024,1024,9,1,1,3,8,0.07211,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/colony 9 mfn1 ko mito.lif,5,col 9 mfn1 ko/Position006,1024,1024,9,1,1,3,8,0.07211,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/colony 9 mfn1 ko mito.lif,6,col 9 mfn1 ko/Position007,1024,1024,11,1,1,3,8,0.07211,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/huh7 mfn1 ko pool.lif,0,Mark_and_Find 002/Position001,1024,1024,8,1,1,3,8,0.07211,Leica/ALEXA 488|Leica/Mito Tracker Red|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/huh7 mfn1 ko pool.lif,1,Mark_and_Find 002/Position002,1024,1024,5,1,1,3,8,0.07211,|Leica/Mito Tracker Red|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/huh7 mfn1 ko pool.lif,2,Mark_and_Find 002/Position003,1024,1024,5,1,1,3,8,0.07211,Leica/ALEXA 488|Leica/Mito Tracker Red|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/huh7 mfn1 ko pool.lif,3,Mark_and_Find 002/Position004,1024,1024,5,1,1,3,8,0.07211,|Leica/Mito Tracker Red|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/huh7 mfn1 ko pool.lif,4,Mark_and_Find 002/Position005,1024,1024,5,1,1,3,8,0.07211,Leica/ALEXA 488|Leica/Mito Tracker Red|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/huh7 mfn1 ko pool.lif,5,Mark_and_Find 002/Position006,1024,1024,5,1,1,3,8,0.07211,|Leica/Mito Tracker Red|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/huh7 mfn1 ko pool.lif,6,Mark_and_Find 002/Position007,1024,1024,5,1,1,3,8,0.07211,Leica/ALEXA 488|Leica/Mito Tracker Red|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/huh7 mfn1 ko pool.lif,7,Mark_and_Find 002/Position008,1024,1024,5,1,1,3,8,0.07211,|Leica/Mito Tracker Red|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/huh7 mfn1 ko pool.lif,8,Mark_and_Find 002/Position009,1024,1024,4,1,1,3,8,0.07211,Leica/ALEXA 488|Leica/Mito Tracker Red|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/huh7 mfn1 ko pool.lif,9,Mark_and_Find 002/Position010,1024,1024,4,1,1,3,8,0.07211,|Leica/Mito Tracker Red|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/huh7 mfn1 ko pool.lif,10,Mark_and_Find 002/Position011,1024,1024,4,1,1,3,8,0.07211,Leica/ALEXA 488|Leica/Mito Tracker Red|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/huh7 mfn1 ko pool.lif,11,Mark_and_Find 002/Position012,1024,1024,4,1,1,3,8,0.07211,|Leica/Mito Tracker Red|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,0,mfn1 ko normal media inf 1,1024,1024,6,1,1,4,8,0.07207,Leica/DAPI|Leica/ALEXA 647|Leica/Mito Tracker Red|Leica/ALEXA 488,|561.0|496.0|,1,laser line
+For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,1,mfn1 ko normal media inf 1 p1 p4 3 zoom/Position001,1024,1024,6,1,1,3,8,0.06012,|Leica/Mito Tracker Red|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,2,mfn1 ko normal media inf 1 p1 p4 3 zoom/Position002,1024,1024,6,1,1,3,8,0.06012,Leica/ALEXA 488|Leica/Mito Tracker Red|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,3,mfn1 ko normal media inf 1 p1 p4 3 zoom/Position003,1024,1024,7,1,1,3,8,0.06012,|Leica/Mito Tracker Red|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,4,mfn1 ko normal media inf 1 p1 p4 3 zoom/Position004,1024,1024,7,1,1,3,8,0.06012,Leica/ALEXA 488|Leica/Mito Tracker Red|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,5,220mg pyruvate mfn1 ko i1 3.5 zoom/Position001,1024,1024,6,1,1,3,8,0.05147,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,6,220mg pyruvate mfn1 ko i1 3.5 zoom/Position002,1024,1024,7,1,1,3,8,0.05147,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,7,1ko normal media inf 1 p5  3.5 zoom/Position001,1024,1024,9,1,1,3,8,0.05161,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,8,1ko normal media inf 1 p5  3.5 zoom/Position002,1024,1024,7,1,1,3,8,0.05161,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,9,1ko normal media inf 1 p5 p8 3.5 zoom/Position002,1024,1024,7,1,1,3,8,0.05161,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,10,1ko normal media inf 1 p5 p8 3.5 zoom/Position003,1024,1024,9,1,1,3,8,0.05161,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,11,1ko normal media inf 1 p5 p8 3.5 zoom/Position004,1024,1024,8,1,1,3,8,0.05161,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,12,1ko normal media inf 1 p5 p8 3.5 zoom/Position005,1024,1024,11,1,1,3,8,0.05161,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,13,1ko normal media inf 1 p9 p10/Position001,1024,1024,6,1,1,3,8,0.05154,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,14,1ko normal media inf 1 p9 p10/Position002,1024,1024,8,1,1,3,8,0.05154,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,15,220 mg pyruvate mfn1 ko inf1 p3 -p8/Position001,1024,1024,7,1,1,3,8,0.05159,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,16,220 mg pyruvate mfn1 ko inf1 p3 -p8/Position002,1024,1024,8,1,1,3,8,0.05159,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,17,220 mg pyruvate mfn1 ko inf1 p3 -p8/Position003,1024,1024,8,1,1,3,8,0.05159,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,18,220 mg pyruvate mfn1 ko inf1 p3 -p8/Position004,1024,1024,9,1,1,3,8,0.05159,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,19,220 mg pyruvate mfn1 ko inf1 p3 -p8/Position005,1024,1024,9,1,1,3,8,0.05159,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,20,0mg pyru mfn1 ko inf 1 p1 p2/Position001,1024,1024,11,1,1,3,8,0.05152,Leica/DAPI|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,21,0mg pyru mfn1 ko inf 1 p1 p2/Position002,1024,1024,11,1,1,3,8,0.05152,|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,22,0mg pyruvate mfn1 ko inf 1 p3/Position001,1024,1024,8,1,1,3,8,0.05149,Leica/DAPI|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,23,110mg pyruvate mfn1 ko inf 1 p1/Position001,1024,1024,9,1,1,3,8,0.05153,|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,24,110mg pyruvate mfn1 ko inf 2 p1/Position001,1024,1024,9,1,1,3,8,0.05158,Leica/DAPI|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,25,110 mg pyruvate mfn1 ko inf 2 p2/Position001,1024,1024,10,1,1,3,8,0.05154,|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,26,110mg pyruvate mfn1 ko inf 2 p3/Position001,1024,1024,10,1,1,3,8,0.05156,Leica/DAPI|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/wt mock pyruvate treatment.lif,0,wt 0mg pyruvtae mock 1/Position001,1024,1024,5,1,1,3,8,0.0516,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/wt mock pyruvate treatment.lif,1,wt 0mg pyruvtae mock 1/Position002,1024,1024,5,1,1,3,8,0.0516,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/wt mock pyruvate treatment.lif,2,wt 0mg pyruvtae mock 1/Position003,1024,1024,7,1,1,3,8,0.0516,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/wt mock pyruvate treatment.lif,3,wt 0mg pyruvtae mock 1/Position004,1024,1024,5,1,1,3,8,0.0516,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/wt mock pyruvate treatment.lif,4,wt 0mg pyruvtae mock 1/Position005,1024,1024,5,1,1,3,8,0.0516,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/wt mock pyruvate treatment.lif,5,wt 110 mg pyruvate mock 2/Position001,1024,1024,6,1,1,3,8,0.05154,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/wt mock pyruvate treatment.lif,6,wt 110 mg pyruvate mock 2/Position002,1024,1024,6,1,1,3,8,0.05154,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/wt mock pyruvate treatment.lif,7,wt 110 mg pyruvate mock 2/Position003,1024,1024,7,1,1,3,8,0.05154,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/wt mock pyruvate treatment.lif,8,wt 110 mg pyruvate mock 2/Position004,1024,1024,6,1,1,3,8,0.05154,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/wt mock pyruvate treatment.lif,9,wt 110 mg pyruvate mock 2/Position005,1024,1024,7,1,1,3,8,0.05154,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/wt mock pyruvate treatment.lif,10,wt 110 mg pyruvate mock 2/Position006,1024,1024,6,1,1,3,8,0.05154,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/wt mock pyruvate treatment.lif,11,wt 220mg pyruvate mock 2/Position001,1024,1024,8,1,1,3,8,0.0516,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/wt mock pyruvate treatment.lif,12,wt 220mg pyruvate mock 2/Position002,1024,1024,9,1,1,3,8,0.0516,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/wt mock pyruvate treatment.lif,13,wt 220mg pyruvate mock 2/Position003,1024,1024,7,1,1,3,8,0.0516,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/wt mock pyruvate treatment.lif,14,wt 220mg pyruvate mock 2/Position004,1024,1024,8,1,1,3,8,0.0516,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/wt mock pyruvate treatment.lif,15,wt 220mg pyruvate mock 2/Position005,1024,1024,8,1,1,3,8,0.0516,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/wt mock pyruvate treatment.lif,16,wt 220mg pyruvate mock 2/Position006,1024,1024,6,1,1,3,8,0.0516,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/wt mock pyruvate treatment.lif,17,wt 220mg pyruvate mock 2/Position007,1024,1024,6,1,1,3,8,0.0516,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/wt mock pyruvate treatment.lif,18,wt 220mg pyruvate mock 2/Position008,1024,1024,9,1,1,3,8,0.0516,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/wt mock pyruvate treatment.lif,19,wt 220mg pyruvate mock 2/Position009,1024,1024,7,1,1,3,8,0.0516,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+For Vishal/For Vishal/wt mock pyruvate treatment.lif,20,wt 220mg pyruvate mock 2/Position010,1024,1024,11,1,1,3,8,0.0516,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,0,Series001,2048,2048,2,1,1,3,8,0.09014,Leica/ALEXA 488|Leica/Mito Tracker Red|Leica/DAPI,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,1,post met inf nuc,1024,1024,26,1,1,3,8,0.18038,|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,2,mef wt 48hpi/mef wt 48hpi 1,1024,1024,15,1,1,3,8,0.07215,Leica/DAPI|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,3,mef wt 48hpi/mef wt 48hpi 2,1024,1024,10,1,1,3,8,0.07215,|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,4,mef wt 48hpi/mef wt 48hpi 3,1024,1024,12,1,1,3,8,0.07215,Leica/DAPI|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,5,mef wt 48hpi/mef wt 48hpi 4,1024,1024,1,1,1,3,8,0.07215,|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,6,mef wt 48hpi/mef wt 48hpi 5,1024,1024,12,1,1,3,8,0.07215,Leica/DAPI|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,7,mef wt 48hpi/mef wt 48hpi 6,1024,1024,14,1,1,3,8,0.07215,|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,8,Series003,1024,1024,1,1,1,3,8,0.18038,Leica/ALEXA 488|Leica/Mito Tracker Red|Leica/DAPI,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,9,mef wt 48hpi,1024,1024,11,1,1,3,8,0.18038,|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,10,Mark_and_Find 001/Position001,1024,1024,7,1,1,3,8,0.07215,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,11,mef ko 48hpi/mef ko 48hpi 1,1024,1024,6,1,1,3,8,0.07215,|Leica/ALEXA 488|Leica/DAPI,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,12,mef ko 48hpi/mef ko 48hpi 2,1024,1024,5,1,1,3,8,0.07215,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,13,mef ko 48hpi/mef ko 48hpi 3,1024,1024,10,1,1,3,8,0.07215,|Leica/ALEXA 488|Leica/DAPI,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,14,mef ko 48hpi/mef ko 48hpi 4,1024,1024,6,1,1,3,8,0.07215,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,15,mef ko 48hpi/mef ko 48hpi 5,1024,1024,6,1,1,3,8,0.07215,|Leica/ALEXA 488|Leica/DAPI,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,16,mef ko 48hpi/mef ko 48hpi 6,1024,1024,6,1,1,3,8,0.07215,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,17,mef ko 48hpi 21/mef ko 48hpi 21 1,1024,1024,8,1,1,3,8,0.2405,|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,18,mef ko 48hpi 21/mef ko 48hpi 21 2,1024,1024,9,1,1,3,8,0.2405,Leica/DAPI|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,19,Mark_and_Find 002/Position001,1024,1024,10,1,1,3,8,0.07215,|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,20,MEF WT Mock/MEF WT Mock 1,1024,1024,10,1,1,3,8,0.07215,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,21,MEF WT Mock/MEF WT Mock 2,1024,1024,9,1,1,3,8,0.07215,|Leica/ALEXA 488|Leica/DAPI,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,22,MEF WT Mock/MEF WT Mock 3,1024,1024,7,1,1,3,8,0.07215,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,23,MEF WT Mock/MEF WT Mock 4,1024,1024,7,1,1,3,8,0.07215,|Leica/ALEXA 488|Leica/DAPI,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,24,MEF WT Mock/MEF WT Mock 5,1024,1024,7,1,1,3,8,0.07215,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,25,MEF WT Mock/MEF WT Mock 6,1024,1024,7,1,1,3,8,0.07215,|Leica/ALEXA 488|Leica/DAPI,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,26,Image005,1024,1024,1,1,1,1,8,0.07215,Leica/DAPI,,0,single channel
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,27,MEF KO MOCK /MEF KO MOCK 1,1024,1024,9,1,1,3,8,0.07215,Leica/DAPI|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,28,MEF KO MOCK /MEF KO MOCK  2,1024,1024,9,1,1,3,8,0.07215,|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,29,MEF KO MOCK /MEF KO MOCK  3,1024,1024,8,1,1,3,8,0.07215,Leica/DAPI|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,30,MEF KO MOCK /MEF KO MOCK  4,1024,1024,8,1,1,3,8,0.07215,|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,31,MEF KO MOCK /MEF KO MOCK  5,1024,1024,7,1,1,3,8,0.07215,Leica/DAPI|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,32,MEF KO MOCK /MEF KO MOCK  6,1024,1024,7,1,1,3,8,0.07215,|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,33,MEF KO MOCK /MEF KO MOCK  7,1024,1024,8,1,1,3,8,0.07215,Leica/DAPI|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,34,MEF 48h MAVS KO Mock/MEF 48h MAVS KO Mock 1,1024,1024,6,1,1,3,8,0.05911,|Leica/ALEXA 488|Leica/DAPI,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,35,MEF 48h MAVS KO Mock/MEF 48h MAVS KO Mock 2,1024,1024,6,1,1,3,8,0.05911,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,36,MEF 48h MAVS KO Mock/MEF 48h MAVS KO Mock 3,1024,1024,6,1,1,3,8,0.05911,|Leica/ALEXA 488|Leica/DAPI,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,37,MEF 48h MAVS KO Mock/MEF 48h MAVS KO Mock 4,1024,1024,6,1,1,3,8,0.05911,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,38,MEF 48h MAVS KO Mock/MEF 48h MAVS KO Mock 5,1024,1024,6,1,1,3,8,0.05911,|Leica/ALEXA 488|Leica/DAPI,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,39,MEF 48h MAVS KO Mock rep/Position001,1024,1024,4,1,1,3,8,0.0569,Leica/DAPI|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,40,MEF 48h MAVS KO Mock 1.5 zoom/MEF 48h MAVS KO Mock 1.5 zoom 1,1024,1024,11,1,1,3,8,0.11995,|Leica/ALEXA 488|Leica/DAPI,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,41,MEF 48h MAVS KO Mock 1.5 zoom/MEF 48h MAVS KO Mock 1.5 zoom 2,1024,1024,11,1,1,3,8,0.11995,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,42,MEF 48h MAVS KO Mock 1.5 zoom/MEF 48h MAVS KO Mock 1.5 zoom 3,1024,1024,11,1,1,3,8,0.11995,|Leica/ALEXA 488|Leica/DAPI,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,43,MEF 48h MAVS KO Mock 1.5 zoom/MEF 48h MAVS KO Mock 1.5 zoom 4,1024,1024,11,1,1,3,8,0.11995,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,44,MEF 48h MAVS KO Mock 1.5 zoom/MEF 48h MAVS KO Mock 1.5 zoom 5,1024,1024,11,1,1,3,8,0.11995,|Leica/ALEXA 488|Leica/DAPI,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,45,Mark_and_Find 003/Position001,1024,1024,128,1,1,3,8,0.06036,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,46,MEF WT 24h mock/MEF WT 24h mock 1,1024,1024,7,1,1,3,8,0.06036,|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,47,MEF WT 24h mock/MEF WT 24h mock 1 2,1024,1024,7,1,1,3,8,0.06036,Leica/DAPI|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,48,MEF WT 24h mock/MEF WT 24h mock 1 3,1024,1024,7,1,1,3,8,0.06036,|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,49,MEF WT 24h mock/MEF WT 24h mock 1 4,1024,1024,7,1,1,3,8,0.06036,Leica/DAPI|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,50,MEF WT 24h mock/MEF WT 24h mock 1 5,1024,1024,7,1,1,3,8,0.06036,|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,51,MEF WT 24h mock/MEF WT 24h mock 1 7,1024,1024,7,1,1,3,8,0.06036,Leica/DAPI|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,52,MEF WT rep image 1/MEF WT rep image,1024,1024,6,1,1,3,8,0.04502,|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,53,Mark_and_Find 004/Position001,512,512,5,1,1,3,8,0.12035,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,54,MEF WT rep image 1 2/Position001,1024,1024,5,1,1,3,8,0.06011,|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,55,MEF WT 1.5 zoom 24h mock/ MEF WT 1.5 zoom 24h mock 1,1024,1024,10,1,1,3,8,0.12049,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,56,MEF WT 1.5 zoom 24h mock/ MEF WT 1.5 zoom 24h mock 2,1024,1024,9,1,1,3,8,0.12049,|Leica/ALEXA 488|Leica/DAPI,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,57,MEF WT 1.5 zoom 24h mock/ MEF WT 1.5 zoom 24h mock 3,1024,1024,9,1,1,3,8,0.12049,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,58,MEF WT 1.5 zoom 24h mock/ MEF WT 1.5 zoom 24h mock 4,1024,1024,7,1,1,3,8,0.12049,|Leica/ALEXA 488|Leica/DAPI,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,59,MEF WT 1.5 zoom 24h mock/ MEF WT 1.5 zoom 24h mock 5,1024,1024,8,1,1,3,8,0.12049,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,60,Mark_and_Find 005/Position001,1024,1024,5,1,1,3,8,0.2405,|Leica/ALEXA 488|Leica/DAPI,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,61,MEF WT Mock inf  rep image/Position001,1024,1024,7,1,1,3,8,0.06006,Leica/DAPI|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,62,Mark_and_Find 007/Position001,1024,1024,6,1,1,3,8,0.08702,|Leica/ALEXA 488|Leica/DAPI,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,63,MEF MAVS KO 24h mock inf rep/Position001,1024,1024,6,1,1,3,8,0.06008,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,64,MEF MAVS KO 24h mock inf rep/Position002,1024,1024,6,1,1,3,8,0.06008,|Leica/ALEXA 488|Leica/DAPI,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,65,MEF MAVS KO 24h mock inf rep/Position003,1024,1024,4,1,1,3,8,0.06008,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0||488.0,0,laser line
+mef cells microscopy/mef cells microscopy/MEF/mfn2 ko and wt veh mock and inf.lif,0,Mark_and_Find 001/Position001,1024,1024,15,1,1,4,8,0.07204,Leica/Mito Tracker Red|Leica/ALEXA 647|Leica/ALEXA 488|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/MEF/mfn2 ko and wt veh mock and inf.lif,1,Mark_and_Find 002/Position001,1024,1024,5,1,1,4,8,0.07204,|Leica/ALEXA 647|Leica/ALEXA 488|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/MEF/mfn2 ko and wt veh mock and inf.lif,2,MFN2 KO veh inf /MFN2 KO veh inf  1,1024,1024,6,1,1,4,8,0.07204,Leica/Mito Tracker Red|Leica/ALEXA 647|Leica/ALEXA 488|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/MEF/mfn2 ko and wt veh mock and inf.lif,3,MFN2 KO veh inf /MFN2 KO veh inf  2,1024,1024,5,1,1,4,8,0.07204,|Leica/ALEXA 647|Leica/ALEXA 488|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/MEF/mfn2 ko and wt veh mock and inf.lif,4,MFN2 KO veh inf /MFN2 KO veh inf  3,1024,1024,5,1,1,4,8,0.07204,Leica/Mito Tracker Red|Leica/ALEXA 647|Leica/ALEXA 488|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/MEF/mfn2 ko and wt veh mock and inf.lif,5,MFN2 KO veh inf /MFN2 KO veh inf  4,1024,1024,5,1,1,4,8,0.07204,|Leica/ALEXA 647|Leica/ALEXA 488|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/MEF/mfn2 ko and wt veh mock and inf.lif,6,MFN2 KO veh inf /MFN2 KO veh inf  5,1024,1024,6,1,1,4,8,0.07204,Leica/Mito Tracker Red|Leica/ALEXA 647|Leica/ALEXA 488|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/MEF/mfn2 ko and wt veh mock and inf.lif,7,MFN2  KO veh mock/MFN2  KO veh mock 1,1024,1024,5,1,1,4,8,0.07204,|Leica/ALEXA 647|Leica/ALEXA 488|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/MEF/mfn2 ko and wt veh mock and inf.lif,8,MFN2  KO veh mock/MFN2  KO veh mock 2,1024,1024,7,1,1,4,8,0.07204,Leica/Mito Tracker Red|Leica/ALEXA 647|Leica/ALEXA 488|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/MEF/mfn2 ko and wt veh mock and inf.lif,9,MFN2  KO veh mock 2/MFN2  KO veh mock 2 1,1024,1024,4,1,1,4,8,0.07204,|Leica/ALEXA 647|Leica/ALEXA 488|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/MEF/mfn2 ko and wt veh mock and inf.lif,10,MFN2  KO veh mock 2/MFN2  KO veh mock 2 2,1024,1024,5,1,1,4,8,0.07204,Leica/Mito Tracker Red|Leica/ALEXA 647|Leica/ALEXA 488|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/MEF/mfn2 ko and wt veh mock and inf.lif,11,MFN2  KO veh mock 2/MFN2  KO veh mock 2 3,1024,1024,4,1,1,4,8,0.07204,|Leica/ALEXA 647|Leica/ALEXA 488|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/MEF/mfn2 ko and wt veh mock and inf.lif,12,MFN2  KO veh mock 2/MFN2  KO veh mock 2 4,1024,1024,5,1,1,4,8,0.07204,Leica/Mito Tracker Red|Leica/ALEXA 647|Leica/ALEXA 488|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/MEF/mfn2 ko and wt veh mock and inf.lif,13,MEF WT mock veh/MEF WT mock veh1,1024,1024,6,1,1,4,8,0.07228,|Leica/ALEXA 647|Leica/ALEXA 488|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/MEF/mfn2 ko and wt veh mock and inf.lif,14,MEF WT mock veh/MEF WT mock veh 2,1024,1024,4,1,1,4,8,0.07228,Leica/Mito Tracker Red|Leica/ALEXA 647|Leica/ALEXA 488|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/MEF/mfn2 ko and wt veh mock and inf.lif,15,MEF WT mock veh/MEF WT mock veh 3,1024,1024,4,1,1,4,8,0.07228,|Leica/ALEXA 647|Leica/ALEXA 488|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/MEF/mfn2 ko and wt veh mock and inf.lif,16,MEF WT mock veh/MEF WT mock veh 4,1024,1024,5,1,1,4,8,0.07228,Leica/Mito Tracker Red|Leica/ALEXA 647|Leica/ALEXA 488|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/mfn1 ko kinetics dsrna mfn2.lif,0,12hpi 1 ko dsrna mfn2 2.5 zoom/12hpi 1 ko dsrna mfn2 2.5 zoom 1,1024,1024,5,1,1,4,8,0.07204,Leica/MP - mRFP|Leica/ALEXA 647|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/mfn1 ko kinetics dsrna mfn2.lif,1,12hpi 1 ko dsrna mfn2 2.5 zoom/12hpi 1 ko dsrna mfn2 2.5 zoom 2,1024,1024,1,1,1,4,8,0.07204,Leica/MP - mRFP|Leica/ALEXA 647|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/mfn1 ko kinetics dsrna mfn2.lif,2,12h mock 1 ko dsrna mfn2/Position001,1024,1024,5,1,1,4,8,0.07204,Leica/DAPI|Leica/ALEXA 647|Leica/MP - mRFP|Leica/FITC,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/mfn1 ko kinetics dsrna mfn2.lif,3,24hpi 1 ko dsrna mfn2 2.5 zoom/24hpi 1 ko dsrna mfn2,1024,1024,6,1,1,4,8,0.07211,Leica/ALEXA 647|Leica/MP - mRFP|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/mfn1 ko kinetics dsrna mfn2.lif,4,24h hpi 1 ko dsrna mfn2,1024,1024,4,1,1,4,8,0.10148,Leica/DAPI|Leica/ALEXA 647|Leica/MP - mRFP|Leica/FITC,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/mfn1 ko kinetics dsrna mfn2.lif,5,48hpi 2.5 zoom 1 ko dsrna mfn2,512,512,5,1,1,4,8,0.14442,Leica/ALEXA 647|Leica/MP - mRFP|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,0,wt veh mock pampk b1 guess/Position001,1024,1024,6,1,1,4,8,0.2405,Leica/ALEXA 647|Leica/MP - mRFP|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,1,wt veh mock pampk b1 guess/Position002,1024,1024,9,1,1,4,8,0.2405,Leica/ALEXA 647|Leica/MP - mRFP|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,2,wt veh mock pampk b1 guess/Position003,1024,1024,8,1,1,4,8,0.2405,Leica/ALEXA 647|Leica/MP - mRFP|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,3,wt veh mock pampk b1 guess/Position004,1024,1024,10,1,1,4,8,0.2405,Leica/ALEXA 647|Leica/MP - mRFP|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,4,wt met mock pampk b1 guess/Position001,1024,1024,9,1,1,4,8,0.2405,Leica/MP - mRFP|Leica/ALEXA 647|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,5,wt met mock pampk b1 guess/Position002,1024,1024,9,1,1,4,8,0.2405,Leica/MP - mRFP|Leica/ALEXA 647|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,6,wt met mock pampk b1 guess/Position003,1024,1024,8,1,1,4,8,0.2405,Leica/MP - mRFP|Leica/ALEXA 647|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,7,wt met mock pampk b1 guess/Position004,1024,1024,7,1,1,4,8,0.2405,Leica/MP - mRFP|Leica/ALEXA 647|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,8,wt met mock pampk b1 guess/Position005,1024,1024,7,1,1,4,8,0.2405,Leica/MP - mRFP|Leica/ALEXA 647|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,9,wt veh mock/Position001,1024,1024,6,1,1,4,8,0.2405,Leica/ALEXA 647|Leica/MP - mRFP|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,10,wt veh mock pampk b2 guess/Position002,1024,1024,8,1,1,4,8,0.2405,Leica/MP - mRFP|Leica/ALEXA 647|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,11,wt veh mock pampk b2 guess/Position003,1024,1024,10,1,1,4,8,0.2405,Leica/MP - mRFP|Leica/ALEXA 647|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,12,wt veh mock pampk b2 guess/Position004,1024,1024,8,1,1,4,8,0.2405,Leica/MP - mRFP|Leica/ALEXA 647|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,13,wt veh mock pampk b2 guess/Position005,1024,1024,8,1,1,4,8,0.2405,Leica/MP - mRFP|Leica/ALEXA 647|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,14,wt veh mock pampk b2 guess rep/Position001,1024,1024,6,1,1,4,8,0.07216,Leica/MP - mRFP|Leica/ALEXA 647|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,15,wt veh mock pampk b2 guess rep 2/Position001,1024,1024,7,1,1,4,8,0.07205,Leica/DAPI|Leica/ALEXA 647|Leica/MP - mRFP|Leica/FITC,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,16,wt veh mock pampk b2 guess rep 3/Position001,1024,1024,3,1,1,4,8,0.07205,Leica/MP - mRFP|Leica/ALEXA 647|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,17,2 ko veh mock pampk b1/Position001,1024,1024,5,1,1,4,8,0.2405,Leica/ALEXA 647|Leica/MP - mRFP|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,18,2 ko veh mock pampk b1/Position002,1024,1024,6,1,1,4,8,0.2405,Leica/ALEXA 647|Leica/MP - mRFP|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,19,2 ko veh mock pampk b1/Position003,1024,1024,7,1,1,4,8,0.2405,Leica/ALEXA 647|Leica/MP - mRFP|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,20,2 ko veh mock pampk b1/Position004,1024,1024,7,1,1,4,8,0.2405,Leica/ALEXA 647|Leica/MP - mRFP|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,21,2 ko veh mock pampk b1/Position005,1024,1024,7,1,1,4,8,0.2405,Leica/ALEXA 647|Leica/MP - mRFP|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,22,2ko met mock pampk b1 /Position001,1024,1024,5,1,1,4,8,0.2405,Leica/MP - mRFP|Leica/ALEXA 647|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,23,2ko met mock pampk b1 /Position002,1024,1024,5,1,1,4,8,0.2405,Leica/MP - mRFP|Leica/ALEXA 647|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,24,2ko met mock pampk b1 /Position003,1024,1024,6,1,1,4,8,0.2405,Leica/MP - mRFP|Leica/ALEXA 647|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,25,2ko met mock pampk b1 /Position004,1024,1024,5,1,1,4,8,0.2405,Leica/MP - mRFP|Leica/ALEXA 647|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,26,2ko met mock pampk b1 /Position005,1024,1024,6,1,1,4,8,0.2405,Leica/MP - mRFP|Leica/ALEXA 647|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,27,1ko veh  mock pampk b1/Position001,1024,1024,6,1,1,4,8,0.2405,Leica/ALEXA 647|Leica/MP - mRFP|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,28,1ko veh mock pampk b1 2/Position002,1024,1024,6,1,1,4,8,0.2405,Leica/DAPI|Leica/ALEXA 647|Leica/MP - mRFP|Leica/FITC,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,29,1ko veh mock pampk b1 2/Position003,1024,1024,9,1,1,4,8,0.2405,Leica/DAPI|Leica/ALEXA 647|Leica/MP - mRFP|Leica/FITC,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,30,1ko veh mock pampk b1 2/Position004,1024,1024,8,1,1,4,8,0.2405,Leica/DAPI|Leica/ALEXA 647|Leica/MP - mRFP|Leica/FITC,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,31,1ko veh mock pampk b1 2/Position005,1024,1024,6,1,1,4,8,0.2405,Leica/DAPI|Leica/ALEXA 647|Leica/MP - mRFP|Leica/FITC,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,32,1ko veh mock pampk b1 2.5 zoom/Position001,1024,1024,5,1,1,4,8,0.07213,Leica/DAPI|Leica/ALEXA 647|Leica/MP - mRFP|Leica/FITC,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,33,1ko veh mock pampk b1 2.5 zoom/Position002,1024,1024,5,1,1,4,8,0.07213,Leica/DAPI|Leica/ALEXA 647|Leica/MP - mRFP|Leica/FITC,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,34,1ko veh mock pampk b1 2.5 zoom/Position003,1024,1024,4,1,1,4,8,0.07213,Leica/DAPI|Leica/ALEXA 647|Leica/MP - mRFP|Leica/FITC,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,35,1ko veh mock pampk b1 2.5 zoom/Position004,1024,1024,4,1,1,4,8,0.07213,Leica/DAPI|Leica/ALEXA 647|Leica/MP - mRFP|Leica/FITC,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,36,1ko veh mock pampk b1 2.5 zoom/Position005,1024,1024,6,1,1,4,8,0.07213,Leica/DAPI|Leica/ALEXA 647|Leica/MP - mRFP|Leica/FITC,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,37,1 ko met mock pampk b1/Position001,1024,1024,9,1,1,4,8,0.2405,Leica/ALEXA 647|Leica/MP - mRFP|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,38,1 ko met mock pampk b1/Position002,1024,1024,11,1,1,4,8,0.2405,Leica/ALEXA 647|Leica/MP - mRFP|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,39,1 ko met mock pampk b1/Position003,1024,1024,9,1,1,4,8,0.2405,Leica/ALEXA 647|Leica/MP - mRFP|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,40,1 ko met mock pampk b1/Position004,1024,1024,12,1,1,4,8,0.2405,Leica/ALEXA 647|Leica/MP - mRFP|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,41,1 ko met mock pampk b1/Position005,1024,1024,11,1,1,4,8,0.2405,Leica/ALEXA 647|Leica/MP - mRFP|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,42,1 ko met mock pampk b1 2.5 zoom/Position001,1024,1024,4,1,1,4,8,0.07205,Leica/MP - mRFP|Leica/ALEXA 647|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,43,1 ko met mock pampk b1 2.5 zoom/Position002,1024,1024,4,1,1,4,8,0.07205,Leica/MP - mRFP|Leica/ALEXA 647|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,44,1 ko met mock pampk b1 2.5 zoom/Position003,1024,1024,6,1,1,4,8,0.07205,Leica/MP - mRFP|Leica/ALEXA 647|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,45,1 ko met mock pampk b1 2.5 zoom/Position004,1024,1024,6,1,1,4,8,0.07205,Leica/MP - mRFP|Leica/ALEXA 647|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,46,1 ko met mock pampk b1 2.5 zoom/Position005,1024,1024,5,1,1,4,8,0.07205,Leica/MP - mRFP|Leica/ALEXA 647|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,47,2ko veh mock pampk b1 2.5 zoom/Position002,1024,1024,5,1,1,4,8,0.07205,Leica/MP - mRFP|Leica/ALEXA 647|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,48,2ko veh mock pampk b1 2.5 zoom/Position003,1024,1024,7,1,1,4,8,0.07205,Leica/MP - mRFP|Leica/ALEXA 647|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,49,2ko veh mock pampk b1 2.5 zoom/Position004,1024,1024,6,1,1,4,8,0.07205,Leica/MP - mRFP|Leica/ALEXA 647|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,50,2ko veh mock pampk b1 2.5 zoom/Position005,1024,1024,6,1,1,4,8,0.07205,Leica/MP - mRFP|Leica/ALEXA 647|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,51,2ko veh mock pampk b1 2.5 zoom/Position006,1024,1024,6,1,1,4,8,0.07205,Leica/MP - mRFP|Leica/ALEXA 647|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,52,2ko met mock pampk b1 2.5 zoom /Position001,1024,1024,5,1,1,4,8,0.07205,Leica/MP - mRFP|Leica/ALEXA 647|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,53,2ko met mock pampk b1 2.5 zoom /Position002,1024,1024,6,1,1,4,8,0.07205,Leica/MP - mRFP|Leica/ALEXA 647|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,54,2ko met mock pampk b1 2.5 zoom /Position003,1024,1024,6,1,1,4,8,0.07205,Leica/MP - mRFP|Leica/ALEXA 647|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,55,2ko met mock pampk b1 2.5 zoom /Position004,1024,1024,4,1,1,4,8,0.07205,Leica/MP - mRFP|Leica/ALEXA 647|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,56,2ko met mock pampk b1 2.5 zoom /Position005,1024,1024,8,1,1,4,8,0.07205,Leica/MP - mRFP|Leica/ALEXA 647|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,57,wt veh mock pampk b1 2.5 zoom/Position001,1024,1024,6,1,1,4,8,0.07213,Leica/MP - mRFP|Leica/ALEXA 647|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,58,wt veh mock pampk b1 2.5 zoom/Position002,1024,1024,8,1,1,4,8,0.07213,Leica/MP - mRFP|Leica/ALEXA 647|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,59,wt veh mock pampk b1 2.5 zoom/Position003,1024,1024,4,1,1,4,8,0.07213,Leica/MP - mRFP|Leica/ALEXA 647|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,60,wt veh mock pampk b1 2.5 zoom/Position004,1024,1024,7,1,1,4,8,0.07213,Leica/MP - mRFP|Leica/ALEXA 647|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,61,wt veh mock pampk b1 2.5 zoom/Position005,1024,1024,6,1,1,4,8,0.07213,Leica/MP - mRFP|Leica/ALEXA 647|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,62,wt met mock  pampk b1 2.5 zoom/Position001,1024,1024,5,1,1,4,8,0.07213,Leica/FITC|Leica/ALEXA 647|Leica/MP - mRFP|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,63,wt met mock pampk b1 2.5 zoom 2/Position001,1024,1024,6,1,1,4,8,0.07213,Leica/ALEXA 647|Leica/MP - mRFP|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,64,wt met mock pampk b1 2.5 zoom 2/Position002,1024,1024,5,1,1,4,8,0.07213,Leica/ALEXA 647|Leica/MP - mRFP|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,65,wt met mock pampk b1 2.5 zoom 2/Position003,1024,1024,4,1,1,4,8,0.07213,Leica/ALEXA 647|Leica/MP - mRFP|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,66,wt met mock pampk b1 2.5 zoom 2/Position004,1024,1024,4,1,1,4,8,0.07213,Leica/ALEXA 647|Leica/MP - mRFP|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,67,wt met mock pampk b1 2.5 zoom 2/Position005,1024,1024,5,1,1,4,8,0.07213,Leica/ALEXA 647|Leica/MP - mRFP|Leica/FITC|Leica/DAPI,|561.0|496.0|,1,laser line
+testing 2/testing 2/MFN1 KO pool exon 4+ 10 mito.lif,0,mfn1 ko exon 4+ 10 pool,1024,1024,7,1,1,3,8,0.07209,Leica/DAPI|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/MFN1 KO pool exon 4+ 10 mito.lif,1,mfn1 ko exon 4+ 10 pool 2,1024,1024,5,1,1,3,8,0.07209,|Leica/Mito Tracker Red|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/MFN1 KO pool exon 4+ 10 mito.lif,2,mfn1 ko exon 4+ 10 pool 3,512,512,6,1,1,3,8,0.14421,Leica/DAPI|Leica/Mito Tracker Red|Leica/ALEXA 488,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/MFN1 KO pool exon 4+ 10 mito.lif,3,mfn1 ko poool 4,512,512,6,1,1,3,8,0.14427,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/Mfn1 KO Mdivi august.lif,0,MFN1 KO Mdivi-1 Mock/Position001,1024,1024,5,1,1,3,8,0.06011,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/Mfn1 KO Mdivi august.lif,1,MFN1 KO Mdivi-1 Mock/Position002,1024,1024,6,1,1,3,8,0.06011,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/Mfn1 KO Mdivi august.lif,2,MFN1 KO Mdivi-1 Mock/Position003,1024,1024,6,1,1,3,8,0.06011,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/Mfn1 KO Mdivi august.lif,3,MFN1 KO Mdivi-1 Mock/Position004,1024,1024,7,1,1,3,8,0.06011,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/Mfn1 KO Mdivi august.lif,4,MFN1 KO Mdivi-1 Mock/Position005,1024,1024,7,1,1,3,8,0.06011,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/Mfn1 KO Mdivi august.lif,5,MFN1 KO Vehicle Mock/Position001,1024,1024,7,1,1,3,8,0.06016,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/Mfn1 KO Mdivi august.lif,6,MFN1 KO Vehicle Mock/Position002,1024,1024,7,1,1,3,8,0.06016,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/Mfn1 KO Mdivi august.lif,7,MFN1 KO Vehicle Mock/Position003,1024,1024,5,1,1,3,8,0.06016,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/Mfn1 KO Mdivi august.lif,8,MFN1 KO Vehicle Mock/Position004,1024,1024,8,1,1,3,8,0.06016,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/Mfn1 KO Mdivi august.lif,9,MFN1 KO Vehicle Mock/Position005,1024,1024,5,1,1,3,8,0.06016,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/Mfn1 KO Mdivi august.lif,10,MFN1 KO Mdivi inf/Position001,1024,1024,6,1,1,3,8,0.0602,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/Mfn1 KO Mdivi august.lif,11,MFN1 KO Mdivi inf/Position002,1024,1024,6,1,1,3,8,0.0602,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/Mfn1 KO Mdivi august.lif,12,MFN1 KO Mdivi inf/Position003,1024,1024,5,1,1,3,8,0.0602,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/Mfn1 KO Mdivi august.lif,13,MFN1 KO Mdivi inf/Position004,1024,1024,6,1,1,3,8,0.0602,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/Mfn1 KO Mdivi august.lif,14,MFN1 KO Mdivi inf/Position005,1024,1024,6,1,1,3,8,0.0602,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/Mfn1 KO Mdivi august.lif,15,MFN1 KO veh inf b1/Position001,1024,1024,6,1,1,3,8,0.06017,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/Mfn1 KO Mdivi august.lif,16,MFN1 KO veh inf b1/Position002,1024,1024,6,1,1,3,8,0.06017,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/Mfn1 KO Mdivi august.lif,17,MFN1 KO veh inf b1/Position003,1024,1024,6,1,1,3,8,0.06017,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/Mfn1 KO Mdivi august.lif,18,MFN1 KO veh inf b1/Position004,1024,1024,6,1,1,3,8,0.06017,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/Mfn1 KO Mdivi august.lif,19,MFN1 KO veh inf b1/Position005,1024,1024,6,1,1,3,8,0.06017,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/Mfn1 KO Mdivi august.lif,20,MFN1 KO veh inf b1 2/Position006,1024,1024,8,1,1,3,8,0.06017,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/Mfn1 KO Mdivi august.lif,21,MFN1 KO veh inf b1 2/Position007,1024,1024,7,1,1,3,8,0.06017,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/Mfn1 KO Mdivi august.lif,22,MFN1 KO veh inf b1 2/Position008,1024,1024,9,1,1,3,8,0.06017,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/Mfn1 KO Mdivi august.lif,23,MFN1 KO veh inf b1 2/Position009,1024,1024,9,1,1,3,8,0.06017,|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/Mfn1 KO Mdivi august.lif,24,MFN1 KO veh inf b1 2/Position010,1024,1024,6,1,1,3,8,0.06017,Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/NEM 2 quant.lif,0,Mark_and_Find 001/Position001,1024,1024,6,1,1,3,8,0.0977,Leica/Mito Tracker Red|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/NEM 2 quant.lif,1,nuc b2 2 zoom/Position001,1024,1024,6,1,1,3,8,0.09015,|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/NEM 2 quant.lif,2,nuc b2 2 zoom/Position002,1024,1024,7,1,1,3,8,0.09015,Leica/Mito Tracker Red|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/NEM 2 quant.lif,3,nuc b3/Position001,1024,1024,5,1,1,3,8,0.0903,|Leica/ALEXA 633|Leica/Mito Tracker Red,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/NEM 2 quant.lif,4,nuc b1/Position001,1024,1024,5,1,1,3,8,0.0904,Leica/ALEXA 633|Leica/Mito Tracker Red|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/NEM 2 quant.lif,5,nuc b1/Position002,1024,1024,6,1,1,3,8,0.0904,|Leica/Mito Tracker Red|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/NEM 2 quant.lif,6,Mem b2/Position001,1024,1024,4,1,1,3,8,0.07229,Leica/Mito Tracker Red|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/NEM 2 quant.lif,7,Mem b2/Position002,1024,1024,5,1,1,3,8,0.07229,|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/NEM 2 quant.lif,8,Mem b2/Position003,1024,1024,6,1,1,3,8,0.07229,Leica/Mito Tracker Red|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/NEM 2 quant.lif,9,Mem b2/Position004,1024,1024,7,1,1,3,8,0.07229,|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/NEM 2 quant.lif,10,Mem b2/Position005,1024,1024,5,1,1,3,8,0.07229,Leica/Mito Tracker Red|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/NEM 2 quant.lif,11,Mem b2/Position006,1024,1024,5,1,1,3,8,0.07229,|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/NEM 2 quant.lif,12,Mem b2/Position007,1024,1024,4,1,1,3,8,0.07229,Leica/Mito Tracker Red|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/NEM 2 quant.lif,13,Mem b2/Position008,1024,1024,5,1,1,3,8,0.07229,|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/NEM 2 quant.lif,14,Mem b2/Position009,1024,1024,4,1,1,3,8,0.07229,Leica/Mito Tracker Red|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/NEM 2 quant.lif,15,Mem b2/Position010,1024,1024,6,1,1,3,8,0.07229,|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/NEM 2 quant.lif,16,Mark_and_Find 002/Position001,1024,1024,6,1,1,3,8,0.09017,Leica/Mito Tracker Red|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/NEM 2 quant.lif,17,env b2/Position001,1024,1024,6,1,1,3,8,0.09017,|Leica/ALEXA 633|Leica/Mito Tracker Red,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/NEM 2 quant.lif,18,env b2/Position002,1024,1024,5,1,1,3,8,0.09017,Leica/DAPI|Leica/ALEXA 633|Leica/Mito Tracker Red,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/NEM 2 quant.lif,19,env b2/Position003,1024,1024,6,1,1,3,8,0.09017,|Leica/ALEXA 633|Leica/Mito Tracker Red,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/NEM 2 quant.lif,20,env b2/Position004,1024,1024,7,1,1,3,8,0.09017,Leica/DAPI|Leica/ALEXA 633|Leica/Mito Tracker Red,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/NEM 2 quant.lif,21,env b2/Position005,1024,1024,5,1,1,3,8,0.09017,|Leica/ALEXA 633|Leica/Mito Tracker Red,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/NEM 2 quant.lif,22,env b2 2.5 zoom/Position001,1024,1024,5,1,1,3,8,0.07207,Leica/ALEXA 633|Leica/Mito Tracker Red|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/NEM 2 quant.lif,23,env b2 2.5 zoom/Position002,1024,1024,6,1,1,3,8,0.07207,|Leica/Mito Tracker Red|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/NEM 2 quant.lif,24,env b2 2.5 zoom/Position003,1024,1024,5,1,1,3,8,0.07207,Leica/ALEXA 633|Leica/Mito Tracker Red|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/NEM 2 quant.lif,25,env b2 2.5 zoom/Position004,1024,1024,4,1,1,3,8,0.07207,|Leica/Mito Tracker Red|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/NEM 2 quant.lif,26,env b2 2.5 zoom/Position005,1024,1024,5,1,1,3,8,0.07207,Leica/ALEXA 633|Leica/Mito Tracker Red|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/NEM 2 quant.lif,27,env b1 1.5 zoom/Position001,1024,1024,5,1,1,3,8,0.12047,|Leica/Mito Tracker Red|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/NEM 2 quant.lif,28,env b1 1.5 zoom/Position002,1024,1024,5,1,1,3,8,0.12047,Leica/ALEXA 633|Leica/Mito Tracker Red|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/NEM 2 quant.lif,29,env b1 1.5 zoom/Position003,1024,1024,5,1,1,3,8,0.12047,|Leica/Mito Tracker Red|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/NEM 2 quant.lif,30,env b1 1.5 zoom/Position004,1024,1024,5,1,1,3,8,0.12047,Leica/ALEXA 633|Leica/Mito Tracker Red|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/NEM 2 quant.lif,31,env b1 1.5 zoom/Position005,1024,1024,4,1,1,3,8,0.12047,|Leica/Mito Tracker Red|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/NEM 2 quant.lif,32,env b1 1.5 zoom/Position006,1024,1024,5,1,1,3,8,0.12047,Leica/ALEXA 633|Leica/Mito Tracker Red|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/NEM 2 quant.lif,33,env b1 1.5 zoom/Position007,1024,1024,5,1,1,3,8,0.12047,|Leica/Mito Tracker Red|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/NEM 2 quant.lif,34,env b1 1.5 zoom/Position008,1024,1024,5,1,1,3,8,0.12047,Leica/ALEXA 633|Leica/Mito Tracker Red|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/mavs ko veh mdivi  quant.lif,0,mavs ko veh b1/Position001,1024,1024,4,1,1,3,8,0.09015,Leica/Mito Tracker Red|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/mavs ko veh mdivi  quant.lif,1,mavs ko veh b1/Position002,1024,1024,6,1,1,3,8,0.09015,|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/mavs ko veh mdivi  quant.lif,2,mavs ko veh b1/Position003,1024,1024,5,1,1,3,8,0.09015,Leica/Mito Tracker Red|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/mavs ko veh mdivi  quant.lif,3,mavs ko veh b1/Position004,1024,1024,4,1,1,3,8,0.09015,|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/mavs ko veh mdivi  quant.lif,4,mavs ko veh b1/Position005,1024,1024,6,1,1,3,8,0.09015,Leica/Mito Tracker Red|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/mavs ko veh mdivi  quant.lif,5,mavs ko veh b1/Position006,1024,1024,6,1,1,3,8,0.09015,|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/mavs ko veh mdivi  quant.lif,6,mavs ko veh b1/Position007,1024,1024,5,1,1,3,8,0.09015,Leica/Mito Tracker Red|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/mavs ko veh mdivi  quant.lif,7,Mark_and_Find 001/Position001,1024,1024,4,1,1,3,8,0.09037,|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/mavs ko veh mdivi  quant.lif,8,mavs ko mdivi b2/Position001,1024,1024,4,1,1,3,8,0.09037,Leica/ALEXA 633|Leica/Mito Tracker Red|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/mavs ko veh mdivi  quant.lif,9,mavs ko mdivi b2/Position002,1024,1024,5,1,1,3,8,0.09037,|Leica/Mito Tracker Red|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/mavs ko veh mdivi  quant.lif,10,mavs ko mdivi b2/Position003,1024,1024,5,1,1,3,8,0.09037,Leica/ALEXA 633|Leica/Mito Tracker Red|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/mavs ko veh mdivi  quant.lif,11,mavs ko mdivi b2/Position004,1024,1024,4,1,1,3,8,0.09037,|Leica/Mito Tracker Red|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/mavs ko veh mdivi  quant.lif,12,mavs ko mdivi b2/Position005,1024,1024,5,1,1,3,8,0.09037,Leica/ALEXA 633|Leica/Mito Tracker Red|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/mavs ko veh mdivi  quant.lif,13,mavs ko mdivi b2/Position006,1024,1024,5,1,1,3,8,0.09037,|Leica/Mito Tracker Red|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/mavs ko veh mdivi  quant.lif,14,mavs ko mdivi b2/Position007,1024,1024,6,1,1,3,8,0.09037,Leica/ALEXA 633|Leica/Mito Tracker Red|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/mavs ko veh mdivi  quant.lif,15,mavs ko mdivi b2/Position008,1024,1024,5,1,1,3,8,0.09037,|Leica/Mito Tracker Red|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/mavs ko veh mdivi  quant.lif,16,mavs ko mdivi b2/Position009,1024,1024,4,1,1,3,8,0.09037,Leica/ALEXA 633|Leica/Mito Tracker Red|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/mavs ko veh mdivi  quant.lif,17,mavs ko mdivi b2/Position010,1024,1024,5,1,1,3,8,0.09037,|Leica/Mito Tracker Red|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/mdivi mef wt and mavs ko.lif,0,Mark_and_Find 001/Position001,1024,1024,15,1,1,4,8,0.11273,Leica/ALEXA 633|Leica/Mito Tracker Red|Leica/ALEXA 488|Leica/DAPI,|561.0|496.0|,1,laser line
+testing 2/testing 2/mdivi mef wt and mavs ko.lif,1,huh-7 mavs ko mock veh 1/Position001,1024,1024,5,1,1,4,8,0.11273,|Leica/ALEXA 633|Leica/Mito Tracker Red|Leica/ALEXA 488,|561.0|496.0|,1,laser line
+testing 2/testing 2/mdivi mef wt and mavs ko.lif,2,Mark_and_Find 002/Position001,1024,1024,6,1,1,4,8,0.1203,Leica/ALEXA 488|Leica/ALEXA 633|Leica/Mito Tracker Red|Leica/DAPI,|561.0|496.0|,1,laser line
+testing 2/testing 2/mdivi mef wt and mavs ko.lif,3,mavs ko veh b3 inf/Position001,1024,1024,8,1,1,4,8,0.0601,|Leica/ALEXA 633|Leica/ALEXA 488|Leica/DAPI,|561.0|496.0|,1,laser line
+testing 2/testing 2/mdivi mef wt and mavs ko.lif,4,mavs ko veh b3 inf/Position002,1024,1024,8,1,1,4,8,0.0601,Leica/Mito Tracker Red|Leica/ALEXA 633|Leica/ALEXA 488|Leica/DAPI,|561.0|496.0|,1,laser line
+testing 2/testing 2/mdivi mef wt and mavs ko.lif,5,mavs ko veh b3 inf/Position003,1024,1024,6,1,1,4,8,0.0601,|Leica/ALEXA 633|Leica/ALEXA 488|Leica/DAPI,|561.0|496.0|,1,laser line
+testing 2/testing 2/mdivi mef wt and mavs ko.lif,6,mavs ko veh b3 inf/Position004,1024,1024,5,1,1,4,8,0.0601,Leica/Mito Tracker Red|Leica/ALEXA 633|Leica/ALEXA 488|Leica/DAPI,|561.0|496.0|,1,laser line
+testing 2/testing 2/mdivi mef wt and mavs ko.lif,7,mavs ko veh b3 inf/Position005,1024,1024,4,1,1,4,8,0.0601,|Leica/ALEXA 633|Leica/ALEXA 488|Leica/DAPI,|561.0|496.0|,1,laser line
+testing 2/testing 2/mdivi mef wt and mavs ko.lif,8,mavs ko veh b3 inf/Position006,1024,1024,4,1,1,4,8,0.0601,Leica/Mito Tracker Red|Leica/ALEXA 633|Leica/ALEXA 488|Leica/DAPI,|561.0|496.0|,1,laser line
+testing 2/testing 2/mdivi mef wt and mavs ko.lif,9,mavs ko veh b3 inf/Position007,1024,1024,7,1,1,4,8,0.0601,|Leica/ALEXA 633|Leica/ALEXA 488|Leica/DAPI,|561.0|496.0|,1,laser line
+testing 2/testing 2/mdivi mef wt and mavs ko.lif,10,mef mavs ko mdivi 1 inf/Position005,1024,1024,4,1,1,4,8,0.06006,Leica/Mito Tracker Red|Leica/ALEXA 633|Leica/ALEXA 488|Leica/DAPI,|561.0|496.0|,1,laser line
+testing 2/testing 2/mdivi mef wt and mavs ko.lif,11,mef mavs ko mdivi 1 inf/Position006,1024,1024,4,1,1,4,8,0.06006,|Leica/ALEXA 633|Leica/ALEXA 488|Leica/DAPI,|561.0|496.0|,1,laser line
+testing 2/testing 2/mdivi mef wt and mavs ko.lif,12,mef mavs ko mdivi 1 inf/Position007,1024,1024,5,1,1,4,8,0.06006,Leica/Mito Tracker Red|Leica/ALEXA 633|Leica/ALEXA 488|Leica/DAPI,|561.0|496.0|,1,laser line
+testing 2/testing 2/mdivi mef wt and mavs ko.lif,13,mef mavs ko mdivi 1 inf/Position008,1024,1024,5,1,1,4,8,0.06006,|Leica/ALEXA 633|Leica/ALEXA 488|Leica/DAPI,|561.0|496.0|,1,laser line
+testing 2/testing 2/mdivi mef wt and mavs ko.lif,14,mef wt veh inf b3/Position001,1024,1024,6,1,1,3,8,0.06016,Leica/Mito Tracker Red|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/mdivi mef wt and mavs ko.lif,15,mef wt veh inf b3/Position002,1024,1024,6,1,1,3,8,0.06016,|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/mdivi mef wt and mavs ko.lif,16,mef wt veh inf b3/Position003,1024,1024,5,1,1,3,8,0.06016,Leica/Mito Tracker Red|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/mdivi mef wt and mavs ko.lif,17,mef wt veh inf b3/Position004,1024,1024,4,1,1,3,8,0.06016,|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/mdivi mef wt and mavs ko.lif,18,mef wt veh inf b3/Position005,1024,1024,4,1,1,3,8,0.06016,Leica/Mito Tracker Red|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/mdivi mef wt and mavs ko.lif,19,mef wt veh inf b3/Position006,1024,1024,6,1,1,3,8,0.06016,|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/mdivi mef wt and mavs ko.lif,20,mef wt mdivi inf b1/Position001,1024,1024,4,1,1,3,8,0.06006,Leica/DAPI|Leica/ALEXA 633|Leica/Mito Tracker Red,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/mdivi mef wt and mavs ko.lif,21,mef wt mdivi b1 2 inf/Position001,1024,1024,6,1,1,3,8,0.08957,|Leica/Mito Tracker Red|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/mdivi mef wt and mavs ko.lif,22,mef wt mdivi b1 3 inf/Position002,1024,1024,4,1,1,3,8,0.06004,Leica/DAPI|Leica/ALEXA 633|Leica/Mito Tracker Red,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/mdivi mef wt and mavs ko.lif,23,mef wt mdivi b3 inf/Position001,1024,1024,5,1,1,3,8,0.06005,|Leica/ALEXA 633|Leica/Mito Tracker Red,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/mdivi mef wt and mavs ko.lif,24,mef wt mdivi inf b3 2/Position001,1024,1024,5,1,1,3,8,0.06016,Leica/DAPI|Leica/ALEXA 633|Leica/Mito Tracker Red,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/mef all cells mavs localizatio test.lif,0,wt test 1/Position001,1024,1024,14,1,1,3,8,0.04509,Leica/DAPI|Leica/Mito Tracker Red|Leica/EGFP,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/mef all cells mavs localizatio test.lif,1,wt test 2/Position001,1024,1024,13,1,1,3,8,0.06011,|Leica/Mito Tracker Red|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/mef all cells mavs localizatio test.lif,2,wt mock 2/Position001,1024,1024,12,1,1,3,8,0.05158,Leica/EGFP|Leica/Mito Tracker Red|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/mef all cells mavs localizatio test.lif,3,wt mock 2/Position002,1024,1024,5,1,1,3,8,0.05158,|Leica/Mito Tracker Red|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/mef all cells mavs localizatio test.lif,4,wt mock 2/Position003,1024,1024,4,1,1,3,8,0.05158,Leica/EGFP|Leica/Mito Tracker Red|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/mef all cells mavs localizatio test.lif,5,wt mock 2/Position004,1024,1024,8,1,1,3,8,0.05158,|Leica/Mito Tracker Red|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/mef all cells mavs localizatio test.lif,6,wt mock 2/Position005,1024,1024,9,1,1,3,8,0.05158,Leica/EGFP|Leica/Mito Tracker Red|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/mef all cells mavs localizatio test.lif,7,1ko mock 1/Position001,1024,1024,4,1,1,3,8,0.0515,|Leica/Mito Tracker Red|Leica/EGFP,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/mef all cells mavs localizatio test.lif,8,1ko mock 1 2/Position001,1024,1024,5,1,1,3,8,0.0515,Leica/DAPI|Leica/Mito Tracker Red|Leica/EGFP,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/mef all cells mavs localizatio test.lif,9,wt mock 2 2 /Position001,1024,1024,5,1,1,3,8,0.06021,|Leica/Mito Tracker Red|Leica/EGFP,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/mef all cells mavs localizatio test.lif,10,dual ko mock /Position001,1024,1024,5,1,1,3,8,0.06003,Leica/DAPI|Leica/Mito Tracker Red|Leica/EGFP,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/mef all cells mavs localizatio test.lif,11,dual ko mock 1/Position001,1024,1024,6,1,1,3,8,0.2405,|Leica/Mito Tracker Red|Leica/EGFP,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/mef all cells mavs localizatio test.lif,12,mfn2 ko mock 1/Position001,1024,1024,5,1,1,3,8,0.0601,Leica/DAPI|Leica/Mito Tracker Red|Leica/EGFP,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/mef all cells mavs localizatio test.lif,13,mfn1 ko mock 1/Position001,1024,1024,6,1,1,3,8,0.06018,|Leica/Mito Tracker Red|Leica/EGFP,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/mef all cells mavs localizatio test.lif,14,Mark_and_Find 001/Position001,1024,1024,5,1,1,3,8,0.06019,Leica/Mito Tracker Red|Leica/EGFP|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/mef all cells mavs localizatio test.lif,15,wt mock rep/Position001,1024,1024,5,1,1,3,8,0.06019,|Leica/Mito Tracker Red|Leica/EGFP,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/mef all cells mavs localizatio test.lif,16,wt mock rep/Position002,1024,1024,4,1,1,3,8,0.06019,Leica/DAPI|Leica/Mito Tracker Red|Leica/EGFP,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/mef wt mfn2 ko mavs localization.lif,0,mfn2 ko mock 3/Position001,1024,1024,5,1,1,3,8,0.06011,Leica/EGFP|Leica/Mito Tracker Red|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/mef wt mfn2 ko mavs localization.lif,1,mfn2 ko mock 3/Position002,1024,1024,5,1,1,3,8,0.06011,|Leica/Mito Tracker Red|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/mef wt mfn2 ko mavs localization.lif,2,mfn2 ko mock 3/Position003,1024,1024,5,1,1,3,8,0.06011,Leica/EGFP|Leica/Mito Tracker Red|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/mef wt mfn2 ko mavs localization.lif,3,mfn2 ko mock 3/Position004,1024,1024,5,1,1,3,8,0.06011,|Leica/Mito Tracker Red|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/mef wt mfn2 ko mavs localization.lif,4,mfn2 ko mock 3/Position005,1024,1024,6,1,1,3,8,0.06011,Leica/EGFP|Leica/Mito Tracker Red|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/mef wt mfn2 ko mavs localization.lif,5,wt mock 2/Position001,1024,1024,9,1,1,3,8,0.06011,|Leica/Mito Tracker Red|Leica/EGFP,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/mef wt mfn2 ko mavs localization.lif,6,wt mock2 2/Position001,1024,1024,7,1,1,3,8,0.06018,Leica/EGFP|Leica/Mito Tracker Red|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/mef wt mfn2 ko mavs localization.lif,7,wt mock2 2/Position002,1024,1024,6,1,1,3,8,0.06018,|Leica/Mito Tracker Red|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/mef wt mfn2 ko mavs localization.lif,8,wt mock2 2/Position003,1024,1024,7,1,1,3,8,0.06018,Leica/EGFP|Leica/Mito Tracker Red|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/mef wt mfn2 ko mavs localization.lif,9,wt mock2 2/Position004,1024,1024,11,1,1,3,8,0.06018,|Leica/Mito Tracker Red|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/mef wt mfn2 ko mavs localization.lif,10,wt mock2 2/Position005,1024,1024,9,1,1,3,8,0.06018,Leica/EGFP|Leica/Mito Tracker Red|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/mef wt mfn2 ko mavs localization.lif,11,wt mock2 2/Position006,1024,1024,10,1,1,3,8,0.06018,|Leica/Mito Tracker Red|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/mef wt mfn2 ko mavs localization.lif,12,Mark_and_Find 001/Position001,1024,1024,7,1,1,3,8,0.06017,Leica/EGFP|Leica/Mito Tracker Red|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/mef wt mfn2 ko mavs localization.lif,13,Mark_and_Find 001/Position002,1024,1024,5,1,1,3,8,0.06017,|Leica/Mito Tracker Red|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/mef wt mfn2 ko mavs localization.lif,14,Mark_and_Find 001/Position003,1024,1024,6,1,1,3,8,0.06017,Leica/EGFP|Leica/Mito Tracker Red|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/mef wt mfn2 ko mavs localization.lif,15,Mark_and_Find 001/Position005,1024,1024,8,1,1,3,8,0.06017,|Leica/Mito Tracker Red|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/mef wt mfn2 ko mavs localization.lif,16,Mark_and_Find 001/Position006,1024,1024,7,1,1,3,8,0.06017,Leica/EGFP|Leica/Mito Tracker Red|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/mef wt mfn2 ko mavs localization.lif,17,Mark_and_Find 001/Position007,1024,1024,8,1,1,3,8,0.06017,|Leica/Mito Tracker Red|Leica/DAPI,594.0|514.0|488.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,0,mfn1 ko veh b1,1024,1024,13,1,1,2,8,0.05154,Leica/Mito Tracker Red|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,1,mfn1 ko veh b1 2/Position004,1024,1024,6,1,1,2,8,0.05154,|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,2,mfn1 ko veh b1 2/Position005,1024,1024,10,1,1,2,8,0.05154,Leica/Mito Tracker Red|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,3,mfn1 ko veh b1 2/Position006,1024,1024,8,1,1,2,8,0.05154,|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,4,mfn1 ko veh b1 2/Position007,1024,1024,8,1,1,2,8,0.05154,Leica/Mito Tracker Red|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,5,mfn1 ko veh b1 2/Position008,1024,1024,7,1,1,2,8,0.05154,|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,6,mfn1 ko veh b1 2/Position009,1024,1024,8,1,1,2,8,0.05154,Leica/Mito Tracker Red|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,7,Mark_and_Find 001/Position001,1024,1024,17,1,1,2,8,0.05149,|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,8,mfn1 ko veh b3 /Position001,1024,1024,8,1,1,2,8,0.05155,Leica/Mito Tracker Red|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,9,mfn1 ko veh b3 /Position002,1024,1024,8,1,1,2,8,0.05155,|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,10,mfn1 ko veh b3 /Position003,1024,1024,11,1,1,2,8,0.05155,Leica/Mito Tracker Red|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,11,mfn1 ko veh b3 /Position004,1024,1024,7,1,1,2,8,0.05155,|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,12,mfn1 ko veh b3 /Position005,1024,1024,9,1,1,2,8,0.05155,Leica/Mito Tracker Red|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,13,mfn1 ko veh b3 /Position006,1024,1024,7,1,1,2,8,0.05155,|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,14,mfn1 ko Mdivi b1/Position001,1024,1024,7,1,1,2,8,0.05148,Leica/Mito Tracker Red|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,15,mfn1 ko Mdivi b1/Position002,1024,1024,6,1,1,2,8,0.05148,|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,16,mfn1 ko Mdivi b1/Position003,1024,1024,8,1,1,2,8,0.05148,Leica/Mito Tracker Red|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,17,mfn1 ko Mdivi b1/Position004,1024,1024,6,1,1,2,8,0.05148,|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,18,mfn1 ko Mdivi b1/Position005,1024,1024,7,1,1,2,8,0.05148,Leica/Mito Tracker Red|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,19,mfn1 ko Mdivi b1/Position006,1024,1024,9,1,1,2,8,0.05148,|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,20,mfn1 ko Mdivi b1/Position007,1024,1024,5,1,1,2,8,0.05148,Leica/Mito Tracker Red|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,21,mfn1 ko Mdivi b1/Position008,1024,1024,8,1,1,2,8,0.05148,|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,22,mfn1 ko Mdivi b1/Position009,1024,1024,8,1,1,2,8,0.05148,Leica/Mito Tracker Red|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,23,mfn2 ko mdivi b1/Position001,1024,1024,9,1,1,2,8,0.06006,|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,24,mfn2 ko mdivi b1/Position003,1024,1024,4,1,1,2,8,0.06006,Leica/Mito Tracker Red|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,25,mfn2 ko Mdivi b1 2 3 zoom/Position001,1024,1024,8,1,1,2,8,0.06016,|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,26,mfn2 ko Mdivi b1 2 3 zoom/Position002,1024,1024,10,1,1,2,8,0.06016,Leica/Mito Tracker Red|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,27,mfn2 ko Mdivi b1 2 3 zoom/Position003,1024,1024,8,1,1,2,8,0.06016,|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,28,mfn2 ko Mdivi b1 2 3 zoom/Position004,1024,1024,10,1,1,2,8,0.06016,Leica/Mito Tracker Red|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,29,mfn2 ko Mdivi b1 2 3 zoom/Position005,1024,1024,8,1,1,2,8,0.06016,|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,30,mfn2 ko Mdivi b1 2 3 zoom/Position006,1024,1024,11,1,1,2,8,0.06016,Leica/Mito Tracker Red|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,31,mfn2 ko Mdivi b1 2 3 zoom/Position007,1024,1024,6,1,1,2,8,0.06016,|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,32,mfn2 ko Mdivi b1 2 3 zoom/Position008,1024,1024,9,1,1,2,8,0.06016,Leica/Mito Tracker Red|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,33,mfn2 ko Mdivi b1 2 3 zoom/Position009,1024,1024,8,1,1,2,8,0.06016,|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,34,mfn2 ko Mdivi b1 2 3 zoom/Position010,1024,1024,5,1,1,2,8,0.06016,Leica/Mito Tracker Red|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,35,mfn2 ko Mdivi b1 2 3 zoom/Position011,1024,1024,8,1,1,2,8,0.06016,|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,36,mfn2 ko Mdivi b1 2 3 zoom/Position012,1024,1024,9,1,1,2,8,0.06016,Leica/Mito Tracker Red|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,37,mfn2 ko Mdivi b1 2 3 zoom/Position013,1024,1024,10,1,1,2,8,0.06016,|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,38,mfn2 ko Mdivi b1 2 3 zoom/Position014,1024,1024,6,1,1,2,8,0.06016,Leica/Mito Tracker Red|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,39,mfn2 ko Mdivi b1 2 3 zoom/Position015,1024,1024,8,1,1,2,8,0.06016,|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,40,mfn2 ko mdivi b2/Position001,1024,1024,7,1,1,2,8,0.06019,Leica/Mito Tracker Red|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,41,mfn2 ko mdivi b2/Position002,1024,1024,9,1,1,2,8,0.06019,|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,42,mfn2 ko mdivi b2/Position003,1024,1024,6,1,1,2,8,0.06019,Leica/Mito Tracker Red|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,43,mfn2 ko mdivi b2/Position004,1024,1024,13,1,1,2,8,0.06019,|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,44,mfn2 ko mdivi b2/Position005,1024,1024,8,1,1,2,8,0.06019,Leica/Mito Tracker Red|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/mfn1 ko mdivi mock.lif,45,mfn2 ko mdivi b2/Position006,1024,1024,5,1,1,2,8,0.06019,|Leica/DAPI,594.0|476.0,0,laser line
+testing 2/testing 2/nem quant 3.lif,0,nuc b1 oe/Position001,1024,1024,6,1,1,3,8,0.0903,Leica/ALEXA 633|Leica/Mito Tracker Red|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/nem quant 3.lif,1,nuc b1 oe/Position002,1024,1024,7,1,1,3,8,0.0903,|Leica/Mito Tracker Red|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/nem quant 3.lif,2,nuc b1 oe/Position003,1024,1024,7,1,1,3,8,0.0903,Leica/ALEXA 633|Leica/Mito Tracker Red|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/nem quant 3.lif,3,nuc b1 oe/Position004,1024,1024,6,1,1,3,8,0.0903,|Leica/Mito Tracker Red|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/nem quant 3.lif,4,nuc b1 oe/Position005,1024,1024,5,1,1,3,8,0.0903,Leica/ALEXA 633|Leica/Mito Tracker Red|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/nem quant 3.lif,5,nuc b1 oe/Position006,1024,1024,4,1,1,3,8,0.0903,|Leica/Mito Tracker Red|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/nem quant 3.lif,6,nuc b1 oe/Position007,1024,1024,6,1,1,3,8,0.0903,Leica/ALEXA 633|Leica/Mito Tracker Red|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/nem quant 3.lif,7,nuc b1 oe/Position008,1024,1024,5,1,1,3,8,0.0903,|Leica/Mito Tracker Red|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/nem quant 3.lif,8,nuc b1 oe/Position009,1024,1024,6,1,1,3,8,0.0903,Leica/ALEXA 633|Leica/Mito Tracker Red|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/nem quant 3.lif,9,nuc b1 oe/Position010,1024,1024,7,1,1,3,8,0.0903,|Leica/Mito Tracker Red|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/nem quant 3.lif,10,nuc b1 oe/Position011,1024,1024,7,1,1,3,8,0.0903,Leica/ALEXA 633|Leica/Mito Tracker Red|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/nem quant 3.lif,11,nuc b1 oe/Position012,1024,1024,6,1,1,3,8,0.0903,|Leica/Mito Tracker Red|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/nem quant 3.lif,12,nuc b1 oe/Position013,1024,1024,5,1,1,3,8,0.0903,Leica/ALEXA 633|Leica/Mito Tracker Red|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/nem quant 3.lif,13,nuc b3/Position001,1024,1024,5,1,1,3,8,0.09,|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/nem quant 3.lif,14,nuc b3/Position002,1024,1024,7,1,1,3,8,0.09,Leica/Mito Tracker Red|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/nem quant 3.lif,15,nuc b3/Position003,1024,1024,6,1,1,3,8,0.09,|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/nem quant 3.lif,16,nuc b3/Position004,1024,1024,5,1,1,3,8,0.09,Leica/Mito Tracker Red|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/nem quant 3.lif,17,nuc b3/Position005,1024,1024,8,1,1,3,8,0.09,|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"
+testing 2/testing 2/nem quant 3.lif,18,nuc b3/Position006,1024,1024,5,1,1,3,8,0.09,Leica/Mito Tracker Red|Leica/ALEXA 633|Leica/DAPI,|488.0|,1,"by eye, per file (contact sheet)"

@@ -1,0 +1,11 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+Huh-7 IFN treatment mitochondria F1,True,,0.1617,mixed,0.682,0.1617,0.0646,6.153,11.03,0.0001,7.38,219,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 3; max projection over 10 planes
+Huh-7 IFN treatment mitochondria F10,True,,0.0062,elongated,0.988,0.0062,0.0886,5.298,11.12,0.0001,9.48,297,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 3; max projection over 9 planes
+Huh-7 IFN treatment mitochondria F2,True,,0.5289,mixed,0.578,0.5289,0.0935,3.739,8.93,0.0001,6.34,507,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 3; max projection over 10 planes
+Huh-7 IFN treatment mitochondria F3,True,,0.321,mixed,0.491,0.321,0.071,4.566,6.76,0.001,4.61,290,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 3; max projection over 10 planes
+Huh-7 IFN treatment mitochondria F4,True,,0.0201,elongated,0.96,0.0201,0.1086,6.487,8.86,0.0001,7.76,321,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 3; max projection over 9 planes
+Huh-7 IFN treatment mitochondria F5,True,,0.0222,elongated,0.956,0.0222,0.0679,6.295,12.36,0.0,8.77,227,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 3; max projection over 10 planes
+Huh-7 IFN treatment mitochondria F6,True,,0.0099,elongated,0.98,0.0099,0.0645,7.569,15.02,0.0,10.52,194,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 3; max projection over 6 planes
+Huh-7 IFN treatment mitochondria F7,True,,0.0304,elongated,0.939,0.0304,0.0779,4.856,11.61,0.0001,9.63,323,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 3; max projection over 8 planes
+Huh-7 IFN treatment mitochondria F8,True,,0.0459,elongated,0.908,0.0459,0.042,4.764,7.98,0.0001,5.89,152,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 3; max projection over 8 planes
+Huh-7 IFN treatment mitochondria F9,True,,0.0758,elongated,0.849,0.0758,0.0809,5.352,11.87,0.0,9.23,345,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 3; max projection over 7 planes

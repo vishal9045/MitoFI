@@ -1,0 +1,13 @@
+pixel size: read from each file
+
+    #  image                             um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────────────────
+    1  HUH-7 MOICK TF HA MAVS ENDO M…   0.0829   0.114  mixed        0.79
+    2  HUH-7 MOICK TF HA MAVS ENDO M…   0.0829   0.036  elongated    0.93
+  ──────────────────────────────────────────────────────────────────────────────
+  2 images                           2 scored, 0 rejected
+  index                              mean 0.075   median 0.075   sd 0.055   range 0.036–0.114
+  bands                              fragmented 0   mixed 1   elongated 1
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/05-02-2023.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/05-02-2023_summary.csv

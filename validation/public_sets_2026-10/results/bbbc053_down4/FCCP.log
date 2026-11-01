@@ -1,0 +1,90 @@
+pixel size: read from each file
+
+    #  image                           um/px   index  band         conf  notes
+  ────────────────────────────────────────────────────────────────────────────
+    1  MAX_FCCP_ (1) - Deconvolved    0.0803   0.033  elongated    0.94
+    2  MAX_FCCP_ (10) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.10%
+    3  MAX_FCCP_ (11) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.20%
+    4  MAX_FCCP_ (12) - Deconvolved   0.0803   0.123  mixed        0.77
+    5  MAX_FCCP_ (13) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.32%
+    6  MAX_FCCP_ (14) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.07%
+    7  MAX_FCCP_ (15) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.12%
+    8  MAX_FCCP_ (16) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.25%
+    9  MAX_FCCP_ (17) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.03%
+   10  MAX_FCCP_ (18) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.06%
+   11  MAX_FCCP_ (19) - Deconvolved   0.0803   0.018  elongated    0.96
+   12  MAX_FCCP_ (2) - Deconvolved    0.0803       —  —               —  segmentation collapsed: foreground 0.12%
+   13  MAX_FCCP_ (20) - Deconvolved   0.0803   0.702  mixed        0.47
+   14  MAX_FCCP_ (21) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.65%
+   15  MAX_FCCP_ (22) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.32%
+   16  MAX_FCCP_ (23) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.02%
+   17  MAX_FCCP_ (24) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.04%
+   18  MAX_FCCP_ (25) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.23%
+   19  MAX_FCCP_ (26) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.22%
+   20  MAX_FCCP_ (27) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.46%
+   21  MAX_FCCP_ (28) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.18%
+   22  MAX_FCCP_ (29) - Deconvolved   0.0803   0.009  elongated    0.98
+   23  MAX_FCCP_ (3) - Deconvolved    0.0803   0.010  elongated    0.98
+   24  MAX_FCCP_ (4) - Deconvolved    0.0803       —  —               —  segmentation collapsed: foreground 0.18%
+   25  MAX_FCCP_ (5) - Deconvolved    0.0803       —  —               —  segmentation collapsed: foreground 0.16%
+   26  MAX_FCCP_ (6) - Deconvolved    0.0803       —  —               —  segmentation collapsed: foreground 0.13%
+   27  MAX_FCCP_ (7) - Deconvolved    0.0803   0.140  mixed        0.72
+   28  MAX_FCCP_ (8) - Deconvolved    0.0803       —  —               —  segmentation collapsed: foreground 0.11%
+   29  MAX_FCCP_ (9) - Deconvolved    0.0803       —  —               —  mask is speckle: objects average 1.492 um and stand only 3.0 background SD above their surroundings
+
+22 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  MAX_FCCP_ (10) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.11%
+    2  MAX_FCCP_ (11) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.20%
+    3  MAX_FCCP_ (13) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.37%
+    4  MAX_FCCP_ (14) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.08%
+    5  MAX_FCCP_ (15) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.09%
+    6  MAX_FCCP_ (16) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.28%
+    7  MAX_FCCP_ (17) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.05%
+    8  MAX_FCCP_ (18) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.05%
+    9  MAX_FCCP_ (2) - Deconvolved    0.0803       —  —               —  segmentation collapsed: foreground 0.14%
+   10  MAX_FCCP_ (21) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.70%
+   11  MAX_FCCP_ (22) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.38%
+   12  MAX_FCCP_ (23) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.02%
+   13  MAX_FCCP_ (24) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.05%
+   14  MAX_FCCP_ (25) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.26%
+   15  MAX_FCCP_ (26) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.28%
+   16  MAX_FCCP_ (27) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.48%
+   17  MAX_FCCP_ (28) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.22%
+   18  MAX_FCCP_ (4) - Deconvolved    0.0803       —  —               —  segmentation collapsed: foreground 0.20%
+   19  MAX_FCCP_ (5) - Deconvolved    0.0803       —  —               —  segmentation collapsed: foreground 0.16%
+   20  MAX_FCCP_ (6) - Deconvolved    0.0803       —  —               —  segmentation collapsed: foreground 0.15%
+   21  MAX_FCCP_ (8) - Deconvolved    0.0803       —  —               —  segmentation collapsed: foreground 0.12%
+   22  MAX_FCCP_ (9) - Deconvolved    0.0803       —  —               —  mask is speckle: objects average 1.514 um and stand only 3.0 background SD above their surroundings
+
+22 field(s) are refused by the quality gate. Setting a black point at the cytoplasm level -- what setting the minimum in Fiji's Brightness/Contrast does, with the level read from each image -- lets many more be scored. It keeps the order between fields that all had it, but reads about 0.2 higher than untouched fields (median +0.21 to +0.24 on fields that already pass), so rows are marked "black point" in the rescue column: compare them with each other, not with untouched fields.
+    1  MAX_FCCP_ (10) - Deconvolved   0.0803   0.916  fragmented   0.84
+    2  MAX_FCCP_ (11) - Deconvolved   0.0803   0.857  mixed        0.75
+    3  MAX_FCCP_ (13) - Deconvolved   0.0803   0.718  mixed        0.56
+    4  MAX_FCCP_ (14) - Deconvolved   0.0803   0.953  fragmented   0.91
+    5  MAX_FCCP_ (15) - Deconvolved   0.0803   0.825  mixed        0.67
+    6  MAX_FCCP_ (16) - Deconvolved   0.0803   0.954  fragmented   0.92
+    7  MAX_FCCP_ (17) - Deconvolved   0.0803   0.658  mixed        0.48
+    8  MAX_FCCP_ (18) - Deconvolved   0.0803   0.490  mixed        0.45
+    9  MAX_FCCP_ (2) - Deconvolved    0.0803   0.736  mixed        0.59
+   10  MAX_FCCP_ (21) - Deconvolved   0.0803   0.348  mixed        0.44
+   11  MAX_FCCP_ (22) - Deconvolved   0.0803   0.569  mixed        0.47
+   12  MAX_FCCP_ (23) - Deconvolved   0.0803   0.737  mixed        0.58
+   13  MAX_FCCP_ (24) - Deconvolved   0.0803   0.394  mixed        0.41
+   14  MAX_FCCP_ (25) - Deconvolved   0.0803   0.888  fragmented   0.79
+   15  MAX_FCCP_ (26) - Deconvolved   0.0803   0.824  mixed        0.69
+   16  MAX_FCCP_ (27) - Deconvolved   0.0803   0.698  mixed        0.55
+   17  MAX_FCCP_ (28) - Deconvolved   0.0803   0.805  mixed        0.67
+   18  MAX_FCCP_ (4) - Deconvolved    0.0803   0.627  mixed        0.43
+   19  MAX_FCCP_ (5) - Deconvolved    0.0803   0.680  mixed        0.52
+   20  MAX_FCCP_ (6) - Deconvolved    0.0803   0.426  mixed        0.44
+   21  MAX_FCCP_ (8) - Deconvolved    0.0803   0.161  mixed        0.69
+   22  MAX_FCCP_ (9) - Deconvolved    0.0803   0.935  fragmented   0.88
+  ────────────────────────────────────────────────────────────────────────────
+  29 images                        29 scored, 0 rejected
+  index                            mean 0.560   median 0.680   sd 0.323   range 0.009–0.954
+  bands                            fragmented 5   mixed 20   elongated 4
+
+  NOTE: 22 of 29 scored fields were rescued (background 0, black point 22); the rest were not. Black-point rows read about 0.2 higher than untouched ones: compare conditions within the same rescue, or check that a difference holds without the black-point rows.
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/bbbc053_down4/FCCP.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/bbbc053_down4/FCCP_summary.csv

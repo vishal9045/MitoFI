@@ -1,0 +1,21 @@
+pixel size: read from each file
+
+    #  image                             um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────────────────
+    1  Huh-7 IFN treatment mitochond…   0.0829   0.162  mixed        0.68
+    2  Huh-7 IFN treatment mitochond…   0.0829   0.006  elongated    0.99
+    3  Huh-7 IFN treatment mitochond…   0.0829   0.529  mixed        0.58
+    4  Huh-7 IFN treatment mitochond…   0.0829   0.321  mixed        0.49
+    5  Huh-7 IFN treatment mitochond…   0.0829   0.020  elongated    0.96
+    6  Huh-7 IFN treatment mitochond…   0.0829   0.022  elongated    0.96
+    7  Huh-7 IFN treatment mitochond…   0.0829   0.010  elongated    0.98
+    8  Huh-7 IFN treatment mitochond…   0.0829   0.030  elongated    0.94
+    9  Huh-7 IFN treatment mitochond…   0.0829   0.046  elongated    0.91
+   10  Huh-7 IFN treatment mitochond…   0.0829   0.076  elongated    0.85
+  ──────────────────────────────────────────────────────────────────────────────
+  10 images                          10 scored, 0 rejected
+  index                              mean 0.122   median 0.038   sd 0.173   range 0.006–0.529
+  bands                              fragmented 0   mixed 3   elongated 7
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/29-04-2024.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/29-04-2024_summary.csv

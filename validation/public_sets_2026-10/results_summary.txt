@@ -1,0 +1,107 @@
+Public sets scored with MitoFI 1.0.0 (pixel v6, index v8). Plan: PLAN.md.
+
+== bbbc053_asis
+   group                images scored  median          IQR  e/m/f      as is/bg/bp   refused
+   DMSO                     29     12   0.107   0.07-0.19   6/6/0        2/1/9       speckle 17
+   FCCP                     29     27   0.309   0.25-0.46   3/24/0        2/0/25      speckle 2
+   P1 FCCP > DMSO: predicted higher 0.309 (n 27) vs predicted lower 0.107 (n 12), one-sided p = 0.0007  -> HOLDS
+      rescue mix: higher as is 2, background 0, black point 25; lower as is 2, background 1, black point 9; chi-square p = 0.2
+      within black point: 0.328 (n 25) vs 0.118 (n 9), p = 0.0033
+
+== bbbc053_down4
+   group                images scored  median          IQR  e/m/f      as is/bg/bp   refused
+   DMSO                     29     29   0.253   0.10-0.73   8/17/4        3/1/25      
+   FCCP                     29     29   0.680   0.35-0.82   4/20/5        7/0/22      
+   P2 FCCP > DMSO: predicted higher 0.680 (n 29) vs predicted lower 0.253 (n 29), one-sided p = 0.041  -> HOLDS
+      rescue mix: higher as is 7, background 0, black point 22; lower as is 3, background 1, black point 25; chi-square p = 0.25
+      within as is: 0.033 (n 7) vs 0.000 (n 3), p = 0.011
+      within black point: 0.727 (n 22) vs 0.341 (n 25), p = 0.0069
+
+== mitohacker crops, 0.132 um (primary)
+   group                images scored  median          IQR  e/m/f      as is/bg/bp   refused
+   145                      33     22   0.002   0.00-0.04  20/2/0       16/6/0       almost nothing segmented 10, noise texture 1
+   143                      34      9   0.408   0.24-0.63   1/8/0        7/2/0       almost nothing segmented 25
+   253                      26     18   0.253   0.07-0.43   5/13/0       15/3/0       almost nothing segmented 8
+   P3 Drp1-/- (145) below Drp1+/+ (253): predicted higher 0.253 (n 18) vs predicted lower 0.002 (n 22), one-sided p = 4.3e-06  -> HOLDS
+      rescue mix: higher as is 15, background 3; lower as is 16, background 6; chi-square p = 0.68
+      within as is: 0.295 (n 15) vs 0.012 (n 16), p = 1.3e-05
+      within background: 0.023 (n 3) vs 0.001 (n 6), p = 0.024
+   P4 index rises with Drp1 copies: Spearman +0.638, one-sided p = 4.2e-07
+
+== mitohacker crops, 0.088 um (sensitivity)
+   group                images scored  median          IQR  e/m/f      as is/bg/bp   refused
+   145                      33     23   0.007   0.00-0.03  22/1/0       18/4/1       almost nothing segmented 10
+   143                      34      9   0.610   0.42-0.69   1/8/0        9/0/0       almost nothing segmented 25
+   253                      26     19   0.323   0.09-0.57   5/14/0       19/0/0       almost nothing segmented 7
+   P3 Drp1-/- (145) below Drp1+/+ (253): predicted higher 0.323 (n 19) vs predicted lower 0.007 (n 23), one-sided p = 3.8e-06  -> HOLDS
+      rescue mix: higher as is 19, background 0, black point 0; lower as is 18, background 4, black point 1; chi-square p = 0.096
+      within as is: 0.323 (n 19) vs 0.006 (n 18), p = 1.7e-05
+   P4 index rises with Drp1 copies: Spearman +0.632, one-sided p = 3.2e-07
+
+== mitohacker crops, 0.198 um (sensitivity)
+   group                images scored  median          IQR  e/m/f      as is/bg/bp   refused
+   145                      33     19   0.011   0.00-0.08  15/4/0        8/11/0       almost nothing segmented 13, noise texture 1
+   143                      34      9   0.375   0.20-0.50   1/8/0        6/3/0       almost nothing segmented 25
+   253                      26     18   0.263   0.05-0.39   6/12/0       11/7/0       almost nothing segmented 8
+   P3 Drp1-/- (145) below Drp1+/+ (253): predicted higher 0.263 (n 18) vs predicted lower 0.011 (n 19), one-sided p = 0.0002  -> HOLDS
+      rescue mix: higher as is 11, background 7; lower as is 8, background 11; chi-square p = 0.41
+      within as is: 0.276 (n 11) vs 0.008 (n 8), p = 0.00025
+      within background: 0.093 (n 7) vs 0.011 (n 11), p = 0.051
+   P4 index rises with Drp1 copies: Spearman +0.517, one-sided p = 0.00012
+
+== mitohacker fields, 0.066 um
+   group                images scored  median          IQR  e/m/f      as is/bg/bp   refused
+   145                       7      7   0.059   0.00-0.09   7/0/0        7/0/0       
+   143                       4      4   0.699   0.56-0.81   0/4/0        3/1/0       
+   253                       6      6   0.770   0.60-0.84   0/5/1        5/1/0       
+   P5 Drp1-/- (145) below Drp1+/+ (253): predicted higher 0.770 (n 6) vs predicted lower 0.059 (n 7), one-sided p = 0.00058  -> HOLDS
+      rescue mix: higher as is 5, background 1; lower as is 7, background 0; chi-square p = 0.94
+      within as is: 0.816 (n 5) vs 0.059 (n 7), p = 0.0013
+
+== mitohacker fields, 0.044 um
+   group                images scored  median          IQR  e/m/f      as is/bg/bp   refused
+   145                       7      7   0.047   0.00-0.06   7/0/0        7/0/0       
+   143                       4      4   0.676   0.39-0.89   1/2/1        3/0/1       
+   253                       6      6   0.827   0.70-0.87   0/3/3        6/0/0       
+   P5 Drp1-/- (145) below Drp1+/+ (253): predicted higher 0.827 (n 6) vs predicted lower 0.047 (n 7), one-sided p = 0.00058  -> HOLDS
+
+== mitohacker fields, 0.099 um
+   group                images scored  median          IQR  e/m/f      as is/bg/bp   refused
+   145                       7      7   0.057   0.03-0.09   6/1/0        2/4/1       
+   143                       4      4   0.534   0.42-0.67   0/4/0        3/1/0       
+   253                       6      6   0.716   0.52-0.76   0/6/0        3/3/0       
+   P5 Drp1-/- (145) below Drp1+/+ (253): predicted higher 0.716 (n 6) vs predicted lower 0.057 (n 7), one-sided p = 0.0012  -> HOLDS
+      rescue mix: higher as is 3, background 3, black point 0; lower as is 2, background 4, black point 1; chi-square p = 0.53
+      within background: 0.466 (n 3) vs 0.054 (n 4), p = 0.029
+
+== Cape Town
+   group                images scored  median          IQR  e/m/f      as is/bg/bp   refused
+   repA_control              6      6   0.002   0.00-0.01   6/0/0        0/6/0       
+   repA_fccp                 6      5   0.010   0.01-0.05   4/1/0        0/5/0       speckle 1
+   repA_pa24                 6      6   0.000   0.00-0.01   6/0/0        0/6/0       
+   repA_pa72                 5      5   0.000   0.00-0.00   5/0/0        0/3/2       
+   repC_control              5      5   0.002   0.00-0.00   5/0/0        1/4/0       
+   repC_fccp                 5      3   0.036   0.03-0.24   2/1/0        0/1/2       speckle 1, almost nothing segmented 1
+   repC_pa24                 5      5   0.002   0.00-0.00   5/0/0        0/3/2       
+   repC_pa72                 5      4   0.001   0.00-0.00   4/0/0        0/2/2       speckle 1
+   repD_control              3      3   0.000   0.00-0.00   3/0/0        0/3/0       
+   repD_CT_unlabelled        3      3   0.339   0.17-0.61   1/1/1        1/2/0       
+   repD_fccp                 5      4   0.008   0.01-0.02   4/0/0        0/0/4       noise texture 1
+   repD_pa24                 5      5   0.000   0.00-0.00   5/0/0        1/4/0       
+   repD_pa72                 5      5   0.000   0.00-0.00   5/0/0        2/3/0       
+   P6 FCCP > control, pooled (primary): predicted higher 0.017 (n 12) vs predicted lower 0.002 (n 14), one-sided p = 0.00083  -> HOLDS
+      rescue mix: higher as is 0, background 6, black point 6; lower as is 1, background 13, black point 0; chi-square p = 0.0087
+      within background: 0.017 (n 6) vs 0.002 (n 13), p = 0.006
+   P7 repeat A: FCCP 0.010 (n 5) vs control 0.002 (n 6) -> FCCP higher
+   P7 repeat C: FCCP 0.036 (n 3) vs control 0.002 (n 5) -> FCCP higher
+   P7 repeat D: FCCP 0.008 (n 4) vs control 0.000 (n 3) -> FCCP higher
+   sensitivity: CT counted as control: predicted higher 0.017 (n 12) vs predicted lower 0.003 (n 17), one-sided p = 0.0083  -> HOLDS
+      rescue mix: higher as is 0, background 6, black point 6; lower as is 2, background 15, black point 0; chi-square p = 0.0035
+      within background: 0.017 (n 6) vs 0.002 (n 15), p = 0.016
+   propionic acid 24 h, repeat A: median 0.000 (n 6), no prediction
+   propionic acid 72 h, repeat A: median 0.000 (n 5), no prediction
+   propionic acid 24 h, repeat C: median 0.002 (n 5), no prediction
+   propionic acid 72 h, repeat C: median 0.001 (n 4), no prediction
+   propionic acid 24 h, repeat D: median 0.000 (n 5), no prediction
+   propionic acid 72 h, repeat D: median 0.000 (n 5), no prediction
+

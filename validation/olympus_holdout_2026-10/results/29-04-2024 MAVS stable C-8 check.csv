@@ -1,0 +1,2 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+MAVS stable C-8 CHECK HA F1,True,,0.8798,fragmented,0.785,0.8798,0.0522,4.15,9.29,0.0002,4.56,184,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 17 planes

@@ -1,0 +1,16 @@
+pixel size: read from each file
+
+    #  image                             um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────────────────
+    1  huh-7 Mito GFP-RFP JEV 24 hpi…   0.0829   0.225  mixed        0.62
+    2  huh-7 Mito GFP-RFP JEV 24 hpi…   0.0829   0.754  mixed        0.58
+    3  huh-7 Mito GFP-RFP JEV 24 hpi…   0.0829   0.006  elongated    0.99
+    4  huh-7 Mito GFP-RFP JEV 24 hpi…   0.0829   0.000  elongated    1.00
+    5  huh-7 Mito GFP-RFP JEV 24 hpi…   0.0829   0.000  elongated    1.00
+  ──────────────────────────────────────────────────────────────────────────────
+  5 images                           5 scored, 0 rejected
+  index                              mean 0.197   median 0.006   sd 0.326   range 0.000–0.754
+  bands                              fragmented 0   mixed 2   elongated 3
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/27-12-2023__Mito GFP-RFP__JEV 24 hpi.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/27-12-2023__Mito GFP-RFP__JEV 24 hpi_summary.csv

@@ -1,0 +1,30 @@
+pixel size: read from each file
+
+    #  image                      um/px   index  band         conf  notes
+  ───────────────────────────────────────────────────────────────────────
+    1  HUH-7 CCCP 1 in 200 F1    0.0829   0.621  mixed        0.50
+    2  HUH-7 CCCP 1 in 200 F10   0.0829   0.912  fragmented   0.84
+    3  HUH-7 CCCP 1 in 200 F2    0.1036   0.628  mixed        0.52
+    4  HUH-7 CCCP 1 in 200 F3    0.0829   0.898  fragmented   0.80
+    5  HUH-7 CCCP 1 in 200 F5    0.0829   0.938  fragmented   0.88
+    6  HUH-7 CCCP 1 in 200 F6    0.0829   0.964  fragmented   0.93
+    7  HUH-7 CCCP 1 in 200 F7    0.0829   0.951  fragmented   0.90
+    8  HUH-7 CCCP 1 in 200 F8    0.0829   0.964  fragmented   0.93
+    9  HUH-7 CCCP 1 in 200 F9    0.0829   0.844  mixed        0.71
+   10  HUH-7 Mock 1 in 200 F10   0.0829   0.432  mixed        0.78
+   11  HUH-7 Mock 1 in 200 F2    0.0829   0.305  mixed        0.59
+   12  HUH-7 Mock 1 in 200 F3    0.0829   0.015  elongated    0.97
+   13  HUH-7 Mock 1 in 200 F4    0.0829   0.002  elongated    0.99
+   14  HUH-7 Mock 1 in 200 F5    0.0829   0.354  mixed        0.47
+   15  HUH-7 Mock 1 in 200 F6    0.0829   0.499  mixed        0.63
+   16  HUH-7 Mock 1 in 200 F7    0.0829   0.402  mixed        0.48
+   17  HUH-7 Mock 1 in 200 F8    0.0829   0.364  mixed        0.61
+   18  HUH-7 Mock 1 in 200 F9    0.0829   0.519  mixed        0.66
+  ───────────────────────────────────────────────────────────────────────
+  18 images                   18 scored, 0 rejected
+  index                       mean 0.590   median 0.570   sd 0.319   range 0.002–0.964
+  bands                       fragmented 6   mixed 10   elongated 2
+  pixel sizes                 2 different in this folder, 0.0829 to 0.1036 um
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/06-11-2023.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/06-11-2023_summary.csv

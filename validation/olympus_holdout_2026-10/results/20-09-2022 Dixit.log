@@ -1,0 +1,22 @@
+pixel size: read from each file
+
+    #  image                             um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────────────────
+    1  huh-7 Mock 12 hpi B1 2.5X zoom   0.0829   0.297  mixed        0.53
+    2  huh-7 Mock 12 hpi B1 2.5x zoo…   0.0816   0.574  mixed        0.62
+    3  huh-7 a2a 12 hpi B1 2.5X zoom…   0.0829       —  —               —  too much diffuse background: 10.5% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    4  huh-7 a2a 12 hpi B1 2.5x zoom    0.0829       —  —               —  too much diffuse background: 14.8% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+
+2 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  huh-7 a2a 12 hpi B1 2.5X zoom…   0.0829   0.035  elongated    0.93
+    2  huh-7 a2a 12 hpi B1 2.5x zoom    0.0829   0.172  mixed        0.67
+  ──────────────────────────────────────────────────────────────────────────────
+  4 images                           4 scored, 0 rejected
+  index                              mean 0.270   median 0.234   sd 0.229   range 0.035–0.574
+  bands                              fragmented 0   mixed 3   elongated 1
+  pixel sizes                        2 different in this folder, 0.0816 to 0.0829 um
+
+  NOTE: 2 of 4 scored fields were rescued (background 2, black point 0); the rest were not. Check that a difference between conditions holds without the rescued rows.
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/20-09-2022 Dixit.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/20-09-2022 Dixit_summary.csv

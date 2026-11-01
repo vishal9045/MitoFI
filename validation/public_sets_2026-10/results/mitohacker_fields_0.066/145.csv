@@ -1,0 +1,8 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+YFP0145_29,True,,0.0058,elongated,0.988,0.0058,0.1026,6.453,1.8,0.0518,2.56,608,0.066,,"2D image, used as is; 8-bit data scaled x16.06 to the 12-bit range the classifier was trained on"
+YFP0145_34,True,,0.0736,elongated,0.853,0.0736,0.0814,6.933,3.29,0.0054,2.8,473,0.066,,"2D image, used as is; 8-bit data scaled x16.06 to the 12-bit range the classifier was trained on"
+YFP0145_39,True,,0.1067,elongated,0.794,0.1067,0.0369,5.63,1.87,0.0466,1.92,302,0.066,,"2D image, used as is; 8-bit data scaled x16.06 to the 12-bit range the classifier was trained on"
+YFP0145_40,True,,0.0589,elongated,0.887,0.0589,0.0544,4.603,0.91,0.0384,1.45,559,0.066,,"2D image, used as is; 8-bit data scaled x16.06 to the 12-bit range the classifier was trained on"
+YFP145-1_19,True,,0.0014,elongated,0.997,0.0014,0.0567,6.171,2.04,0.0235,2.13,329,0.066,,"2D image, used as is; 8-bit data scaled x16.06 to the 12-bit range the classifier was trained on"
+YFP145-1_21,True,,0.1021,elongated,0.797,0.1021,0.0355,5.365,1.42,0.0339,1.51,324,0.066,,"2D image, used as is; 8-bit data scaled x16.06 to the 12-bit range the classifier was trained on"
+YFP145-1_26,True,,0.0001,elongated,1.0,0.0001,0.067,7.822,1.58,0.0014,1.68,325,0.066,,"2D image, used as is; 8-bit data scaled x16.06 to the 12-bit range the classifier was trained on"

@@ -1,0 +1,34 @@
+pixel size: read from each file
+
+    #  image      um/px   index  band         conf  notes
+  ───────────────────────────────────────────────────────
+    1  C1_CF_a   0.0659       —  —               —  too much diffuse background: 8.7% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    2  C1_CF_b   0.0659       —  —               —  too much diffuse background: 10.8% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    3  C1_CF_c   0.0659       —  —               —  too much diffuse background: 9.1% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    4  C1_CF_d   0.0659       —  —               —  too much diffuse background: 9.2% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    5  C1_CF_e   0.0659       —  —               —  too much diffuse background: 10.0% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+
+5 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  C1_CF_a   0.0659       —  —               —  segmentation collapsed: foreground 0.07%
+    2  C1_CF_b   0.0659       —  —               —  segmentation collapsed: foreground 0.68%
+    3  C1_CF_c   0.0659       —  —               —  segmentation collapsed: foreground 0.67%
+    4  C1_CF_d   0.0659       —  —               —  segmentation collapsed: foreground 1.00%
+    5  C1_CF_e   0.0659   0.025  elongated    0.95
+
+4 field(s) are refused by the quality gate. Setting a black point at the cytoplasm level -- what setting the minimum in Fiji's Brightness/Contrast does, with the level read from each image -- lets many more be scored. It keeps the order between fields that all had it, but reads about 0.2 higher than untouched fields (median +0.21 to +0.24 on fields that already pass), so rows are marked "black point" in the rescue column: compare them with each other, not with untouched fields.
+    1  C1_CF_a   0.0659   0.453  mixed        0.37
+    2  C1_CF_b   0.0659       —  —               —  mask is speckle: objects average 2.118 um and stand only 2.1 background SD above their surroundings
+    3  C1_CF_c   0.0659       —  —               —  segmentation collapsed: foreground 0.85%
+    4  C1_CF_d   0.0659   0.036  elongated    0.93
+  ───────────────────────────────────────────────────────
+  5 images    3 scored, 2 rejected
+  index       mean 0.171   median 0.036   sd 0.244   range 0.025–0.453
+  bands       fragmented 0   mixed 1   elongated 2
+              averages cover the scored images only
+
+  why 2 image(s) were refused:
+     1  almost nothing segmented: under 1% of the field was called mitochondria. Usually the wrong channel, an empty field, or a very dim one.
+     1  speckle: the objects are small and barely brighter than their surroundings: too dim or noisy to read, or genuinely tiny mitochondria at low contrast, which this cannot tell apart.
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/uct/repC_fccp.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/uct/repC_fccp_summary.csv

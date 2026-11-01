@@ -1,0 +1,11 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+huh-7 HA Endo MAVS F1,True,,0.9005,fragmented,0.817,0.9005,0.0671,2.879,1.79,0.0096,2.36,341,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 12 planes
+huh-7 HA Endo MAVS F2R,True,,0.9789,fragmented,0.958,0.9789,0.038,2.296,10.74,0.0001,5.05,284,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 13 planes
+huh-7 HA Endo MAVS F4,True,,0.6705,mixed,0.507,0.6705,0.1331,4.218,1.9,0.0038,2.62,544,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 16 planes
+huh-7 Inf dsRNA HA-Rabbit C11 F8,True,,0.0,elongated,1.0,0.0,0.1144,6.271,7.69,0.0001,7.25,204,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes
+huh-7 Inf dsRNA HA-Rabbit C11 F9,True,,0.0328,elongated,0.934,0.0328,0.0881,7.708,10.32,0.0001,5.94,161,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes
+huh-7 Inf dsRNA HA-Rabbit WT F1,True,,0.9701,fragmented,0.94,0.9701,0.0631,3.039,11.99,0.0001,7.11,333,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 13 planes
+huh-7 Inf dsRNA HA-Rabbit WT F7,True,,0.8119,mixed,0.631,0.8119,0.1382,4.111,6.84,0.0002,5.37,481,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes
+huh-7 Inf dsRNA HA-Rabbit WT F8,True,,0.9849,fragmented,0.97,0.9849,0.063,4.0,8.62,0.0003,4.41,221,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 12 planes
+huh-7 Inf dsRNA HA-Rabbit c11 F1,True,,0.0319,elongated,0.937,0.0319,0.1183,6.218,8.49,0.0001,7.7,322,0.092071195466998,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes
+huh-7 Inf dsRNA HA-Rabbit c11 F2,True,,0.0013,elongated,0.997,0.0013,0.0915,7.555,9.5,0.0001,9.14,133,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes

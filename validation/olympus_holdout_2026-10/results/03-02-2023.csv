@@ -1,0 +1,6 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+huh-7 HA-MAVS Mock T Calnexin F3,True,,0.5924,mixed,0.423,0.5924,0.088,4.291,8.76,0.0002,6.28,357,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 6 planes
+huh-7 HA-MAVS Mock T Calnexin F4,True,,0.0207,elongated,0.959,0.0207,0.0901,3.878,0.99,0.0066,1.45,356,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 7 planes
+huh-7 HA-MAVS Mock T Calnexin F5,True,,0.0017,elongated,0.997,0.0017,0.0823,5.462,2.0,0.0042,1.92,284,0.103580094900373,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 6 planes
+huh-7 HA-MAVS Mock T Calnexin F6,True,,0.0081,elongated,0.984,0.0081,0.028,4.553,5.6,0.0007,2.65,55,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 8 planes
+huh-7 HA-MAVS Mock T Calnexin F7,True,,0.0161,elongated,0.968,0.0161,0.0317,7.456,12.93,0.0002,5.82,103,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 5 planes

@@ -1,0 +1,21 @@
+pixel size: read from each file
+
+    #  image                             um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────────────────
+    1  huh-7 Mock HA MAVS PMP70 B1 F1   0.0829   0.039  elongated    0.93
+    2  huh-7 Mock HA MAVS PMP70 B1 F2   0.0829   0.033  elongated    0.94
+    3  huh-7 Mock HA MAVS PMP70 B1 F3   0.0829   0.391  mixed        0.50
+    4  huh-7 Mock HA MAVS PMP70 B1 F…   0.0829   0.198  mixed        0.65
+    5  huh-7 Mock HA MAVS PMP70 B1 F4   0.0829   0.046  elongated    0.92
+    6  huh-7 Mock HA MAVS PMP70 B1 F5   0.0829   0.017  elongated    0.97
+    7  huh-7 Mock HA MAVS PMP70 B1 F6   0.0829   0.212  mixed        0.61
+    8  huh-7 Mock HA MAVS PMP70 B1 F7   0.0829   0.681  mixed        0.49
+    9  huh-7 Mock HA MAVS calnexin B…   0.0829   0.140  mixed        0.75
+   10  huh-7 Mock HA MAVS calnexin B…   0.0829   0.000  elongated    1.00
+  ──────────────────────────────────────────────────────────────────────────────
+  10 images                          10 scored, 0 rejected
+  index                              mean 0.176   median 0.093   sd 0.215   range 0.000–0.681
+  bands                              fragmented 0   mixed 5   elongated 5
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/02-02-2023.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/02-02-2023_summary.csv

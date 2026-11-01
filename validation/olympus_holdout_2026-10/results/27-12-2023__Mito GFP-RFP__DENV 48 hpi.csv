@@ -1,0 +1,6 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+huh-7 Mito GFP-RFP DENV 48 hpi B1 F1,True,,0.2422,mixed,0.52,0.2422,0.0663,5.896,12.5,0.0,10.33,219,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 4; max projection over 11 planes
+huh-7 Mito GFP-RFP DENV 48 hpi B1 F2,True,,0.0031,elongated,0.994,0.0031,0.1162,6.772,5.38,0.0004,6.46,197,0.069053396600248,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 4; max projection over 12 planes
+huh-7 Mito GFP-RFP DENV 48 hpi B1 F3,True,,0.2029,mixed,0.642,0.2029,0.1081,6.343,6.6,0.0001,7.27,292,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 4; max projection over 21 planes
+huh-7 Mito GFP-RFP DENV 48 hpi B1 F4,True,,0.0426,elongated,0.915,0.0426,0.0683,6.669,16.27,0.0,9.67,187,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 4; max projection over 10 planes
+huh-7 Mito GFP-RFP DENV 48 hpi B1 F5,True,,0.183,mixed,0.643,0.183,0.0774,7.129,10.29,0.0001,6.21,149,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 4; max projection over 13 planes

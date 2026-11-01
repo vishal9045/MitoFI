@@ -1,0 +1,32 @@
+pixel size: read from each file
+
+    #  image                           um/px   index  band         conf  notes
+  ────────────────────────────────────────────────────────────────────────────
+    1  MEF MAVS KO MitoGFP-RFP F10    0.0829       —  —               —  segmentation collapsed: foreground 0.38%
+    2  MEF MAVS KO MitoGFP-RFP F11    0.0829       —  —               —  segmentation collapsed: foreground 0.29%
+    3  MEF MAVS KO MitoGFP-RFP F12R   0.1036   0.965  fragmented   0.93
+    4  MEF MAVS KO MitoGFP-RFP F13    0.0829       —  —               —  segmentation collapsed: foreground 0.12%
+    5  MEF MAVS KO MitoGFP-RFP F9     0.0829   0.067  elongated    0.87
+
+3 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  MEF MAVS KO MitoGFP-RFP F10    0.0829       —  —               —  segmentation collapsed: foreground 0.38%
+    2  MEF MAVS KO MitoGFP-RFP F11    0.0829       —  —               —  segmentation collapsed: foreground 0.29%
+    3  MEF MAVS KO MitoGFP-RFP F13    0.0829       —  —               —  segmentation collapsed: foreground 0.12%
+
+3 field(s) are refused by the quality gate. Setting a black point at the cytoplasm level -- what setting the minimum in Fiji's Brightness/Contrast does, with the level read from each image -- lets many more be scored. It keeps the order between fields that all had it, but reads about 0.2 higher than untouched fields (median +0.21 to +0.24 on fields that already pass), so rows are marked "black point" in the rescue column: compare them with each other, not with untouched fields.
+    1  MEF MAVS KO MitoGFP-RFP F10    0.0829       —  —               —  segmentation collapsed: foreground 0.36%
+    2  MEF MAVS KO MitoGFP-RFP F11    0.0829       —  —               —  segmentation collapsed: foreground 0.54%
+    3  MEF MAVS KO MitoGFP-RFP F13    0.0829       —  —               —  segmentation collapsed: foreground 0.13%
+  ────────────────────────────────────────────────────────────────────────────
+  5 images                         2 scored, 3 rejected
+  index                            mean 0.516   median 0.516   sd 0.635   range 0.067–0.965
+  bands                            fragmented 1   mixed 0   elongated 1
+  pixel sizes                      2 different in this folder, 0.0829 to 0.1036 um
+                                   averages cover the scored images only
+                                   WARNING: more images were rejected than scored. These averages describe the survivors, which is not the same as describing the experiment.
+
+  why 3 image(s) were refused:
+     3  almost nothing segmented: under 1% of the field was called mitochondria. Usually the wrong channel, an empty field, or a very dim one.
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/Primary MEF WT MAVS KO MitoGFP-RFP__MEF MAVS KO.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/Primary MEF WT MAVS KO MitoGFP-RFP__MEF MAVS KO_summary.csv

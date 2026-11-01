@@ -1,0 +1,12 @@
+pixel size: read from each file
+
+    #  image                           um/px   index  band         conf  notes
+  ────────────────────────────────────────────────────────────────────────────
+    1  MAX_FCCP_ (29) - Deconvolved   0.0201   0.098  elongated    0.84
+  ────────────────────────────────────────────────────────────────────────────
+  1 images                         1 scored, 0 rejected
+  index                            mean 0.098   median 0.098   sd —   range 0.098–0.098
+  bands                            fragmented 0   mixed 0   elongated 1
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/bbbc053_asis/per_image/FCCP/MAX_FCCP_ (29) - Deconvolved.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/bbbc053_asis/per_image/FCCP/MAX_FCCP_ (29) - Deconvolved_summary.csv

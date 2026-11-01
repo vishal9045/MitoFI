@@ -1,0 +1,97 @@
+pixel size: read from each file
+
+    #  image                           um/px   index  band         conf  notes
+  ────────────────────────────────────────────────────────────────────────────
+    1  MAX_DMSO_ (1) - Deconvolved    0.0803       —  —               —  segmentation collapsed: foreground 0.06%
+    2  MAX_DMSO_ (11) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.14%
+    3  MAX_DMSO_ (12) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.06%
+    4  MAX_DMSO_ (13) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.24%
+    5  MAX_DMSO_ (14) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.24%
+    6  MAX_DMSO_ (15) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.35%
+    7  MAX_DMSO_ (16) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.35%
+    8  MAX_DMSO_ (17) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.45%
+    9  MAX_DMSO_ (18) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.17%
+   10  MAX_DMSO_ (19) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.08%
+   11  MAX_DMSO_ (2) - Deconvolved    0.0803       —  —               —  too much diffuse background: 8.2% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   12  MAX_DMSO_ (20) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.23%
+   13  MAX_DMSO_ (21) - Deconvolved   0.0803   0.001  elongated    1.00
+   14  MAX_DMSO_ (22) - Deconvolved   0.0803   0.000  elongated    1.00
+   15  MAX_DMSO_ (23) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.08%
+   16  MAX_DMSO_ (24) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.06%
+   17  MAX_DMSO_ (25) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.09%
+   18  MAX_DMSO_ (26) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.13%
+   19  MAX_DMSO_ (27) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.06%
+   20  MAX_DMSO_ (28) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.28%
+   21  MAX_DMSO_ (29) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.54%
+   22  MAX_DMSO_ (3) - Deconvolved    0.0803       —  —               —  segmentation collapsed: foreground 0.17%
+   23  MAX_DMSO_ (30) - Deconvolved   0.0803   0.000  elongated    1.00
+   24  MAX_DMSO_ (4) - Deconvolved    0.0803       —  —               —  segmentation collapsed: foreground 0.30%
+   25  MAX_DMSO_ (5) - Deconvolved    0.0803       —  —               —  segmentation collapsed: foreground 0.07%
+   26  MAX_DMSO_ (6) - Deconvolved    0.0803       —  —               —  segmentation collapsed: foreground 0.20%
+   27  MAX_DMSO_ (7) - Deconvolved    0.0803       —  —               —  segmentation collapsed: foreground 0.34%
+   28  MAX_DMSO_ (8) - Deconvolved    0.0803       —  —               —  segmentation collapsed: foreground 0.70%
+   29  MAX_DMSO_ (9) - Deconvolved    0.0803       —  —               —  segmentation collapsed: foreground 0.08%
+
+26 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  MAX_DMSO_ (1) - Deconvolved    0.0803       —  —               —  segmentation collapsed: foreground 0.09%
+    2  MAX_DMSO_ (11) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.14%
+    3  MAX_DMSO_ (12) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.06%
+    4  MAX_DMSO_ (13) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.23%
+    5  MAX_DMSO_ (14) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.26%
+    6  MAX_DMSO_ (15) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.41%
+    7  MAX_DMSO_ (16) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.41%
+    8  MAX_DMSO_ (17) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.49%
+    9  MAX_DMSO_ (18) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.25%
+   10  MAX_DMSO_ (19) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.09%
+   11  MAX_DMSO_ (2) - Deconvolved    0.0803   0.007  elongated    0.98
+   12  MAX_DMSO_ (20) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.27%
+   13  MAX_DMSO_ (23) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.11%
+   14  MAX_DMSO_ (24) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.07%
+   15  MAX_DMSO_ (25) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.12%
+   16  MAX_DMSO_ (26) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.15%
+   17  MAX_DMSO_ (27) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.12%
+   18  MAX_DMSO_ (28) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.28%
+   19  MAX_DMSO_ (29) - Deconvolved   0.0803       —  —               —  segmentation collapsed: foreground 0.59%
+   20  MAX_DMSO_ (3) - Deconvolved    0.0803       —  —               —  segmentation collapsed: foreground 0.16%
+   21  MAX_DMSO_ (4) - Deconvolved    0.0803       —  —               —  segmentation collapsed: foreground 0.33%
+   22  MAX_DMSO_ (5) - Deconvolved    0.0803       —  —               —  segmentation collapsed: foreground 0.08%
+   23  MAX_DMSO_ (6) - Deconvolved    0.0803       —  —               —  segmentation collapsed: foreground 0.25%
+   24  MAX_DMSO_ (7) - Deconvolved    0.0803       —  —               —  segmentation collapsed: foreground 0.38%
+   25  MAX_DMSO_ (8) - Deconvolved    0.0803       —  —               —  segmentation collapsed: foreground 0.73%
+   26  MAX_DMSO_ (9) - Deconvolved    0.0803       —  —               —  segmentation collapsed: foreground 0.09%
+
+25 field(s) are refused by the quality gate. Setting a black point at the cytoplasm level -- what setting the minimum in Fiji's Brightness/Contrast does, with the level read from each image -- lets many more be scored. It keeps the order between fields that all had it, but reads about 0.2 higher than untouched fields (median +0.21 to +0.24 on fields that already pass), so rows are marked "black point" in the rescue column: compare them with each other, not with untouched fields.
+    1  MAX_DMSO_ (1) - Deconvolved    0.0803   0.937  fragmented   0.89
+    2  MAX_DMSO_ (11) - Deconvolved   0.0803   0.149  mixed        0.78
+    3  MAX_DMSO_ (12) - Deconvolved   0.0803   0.286  mixed        0.60
+    4  MAX_DMSO_ (13) - Deconvolved   0.0803   0.341  mixed        0.50
+    5  MAX_DMSO_ (14) - Deconvolved   0.0803   0.043  elongated    0.92
+    6  MAX_DMSO_ (15) - Deconvolved   0.0803   0.171  mixed        0.68
+    7  MAX_DMSO_ (16) - Deconvolved   0.0803   0.171  mixed        0.68
+    8  MAX_DMSO_ (17) - Deconvolved   0.0803   0.050  elongated    0.92
+    9  MAX_DMSO_ (18) - Deconvolved   0.0803   0.433  mixed        0.40
+   10  MAX_DMSO_ (19) - Deconvolved   0.0803   0.118  mixed        0.77
+   11  MAX_DMSO_ (20) - Deconvolved   0.0803   0.889  fragmented   0.83
+   12  MAX_DMSO_ (23) - Deconvolved   0.0803   0.397  mixed        0.44
+   13  MAX_DMSO_ (24) - Deconvolved   0.0803   0.863  mixed        0.75
+   14  MAX_DMSO_ (25) - Deconvolved   0.0803   0.870  fragmented   0.77
+   15  MAX_DMSO_ (26) - Deconvolved   0.0803   0.820  mixed        0.70
+   16  MAX_DMSO_ (27) - Deconvolved   0.0803   0.105  elongated    0.80
+   17  MAX_DMSO_ (28) - Deconvolved   0.0803   0.725  mixed        0.54
+   18  MAX_DMSO_ (29) - Deconvolved   0.0803   0.253  mixed        0.56
+   19  MAX_DMSO_ (3) - Deconvolved    0.0803   0.675  mixed        0.51
+   20  MAX_DMSO_ (4) - Deconvolved    0.0803   0.739  mixed        0.65
+   21  MAX_DMSO_ (5) - Deconvolved    0.0803   0.702  mixed        0.59
+   22  MAX_DMSO_ (6) - Deconvolved    0.0803   0.057  elongated    0.89
+   23  MAX_DMSO_ (7) - Deconvolved    0.0803   0.893  fragmented   0.83
+   24  MAX_DMSO_ (8) - Deconvolved    0.0803   0.149  mixed        0.72
+   25  MAX_DMSO_ (9) - Deconvolved    0.0803   0.210  mixed        0.60
+  ────────────────────────────────────────────────────────────────────────────
+  29 images                        29 scored, 0 rejected
+  index                            mean 0.381   median 0.253   sd 0.340   range 0.000–0.937
+  bands                            fragmented 4   mixed 17   elongated 8
+
+  NOTE: 26 of 29 scored fields were rescued (background 1, black point 25); the rest were not. Black-point rows read about 0.2 higher than untouched ones: compare conditions within the same rescue, or check that a difference holds without the black-point rows.
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/bbbc053_down4/DMSO.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/bbbc053_down4/DMSO_summary.csv

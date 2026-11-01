@@ -1,0 +1,14 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+A549 WT PUNO 100X F1,True,,0.8749,fragmented,0.782,0.8749,0.0357,2.764,8.88,0.0,4.2,129,0.049718445552178,black point,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 20 planes; black point at the cytoplasm peak (740 on the 12-bit scale)
+A549 WT PUNO 100X F10,True,,0.0605,elongated,0.885,0.0605,0.0579,4.107,4.83,0.0001,2.65,84,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 15 planes
+A549 WT PUNO 100X F11,True,,0.2208,mixed,0.718,0.2208,0.029,3.592,6.69,0.0001,3.21,48,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 12 planes
+A549 WT PUNO 100X F12,True,,0.149,mixed,0.786,0.149,0.0276,3.307,2.65,0.0002,2.02,40,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes
+A549 WT PUNO 100X F13,True,,0.9646,fragmented,0.933,0.9646,0.0209,3.061,13.84,0.0,4.66,55,0.049718445552178,black point,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 13 planes; black point at the cytoplasm peak (646 on the 12-bit scale)
+A549 WT PUNO 100X F2,True,,0.0124,elongated,0.975,0.0124,0.1191,3.494,4.25,0.0001,4.57,315,0.062148056940223,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 15 planes
+A549 WT PUNO 100X F3,True,,0.0051,elongated,0.99,0.0051,0.0356,4.759,6.67,0.0001,3.42,40,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 12 planes
+A549 WT PUNO 100X F4,True,,0.3285,mixed,0.543,0.3285,0.0541,2.929,5.25,0.0001,3.47,78,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 12 planes
+A549 WT PUNO 100X F5,True,,0.0515,elongated,0.909,0.0515,0.0513,3.771,6.76,0.0001,3.44,66,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 12 planes
+A549 WT PUNO 100X F6,True,,0.216,mixed,0.654,0.216,0.044,3.923,3.73,0.0003,2.5,72,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 20 planes
+A549 WT PUNO 100X F7,True,,0.8806,fragmented,0.826,0.8806,0.0194,2.426,5.82,0.0001,5.16,41,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 14 planes
+A549 WT PUNO 100X F8,True,,0.1215,mixed,0.85,0.1215,0.0232,2.262,4.45,0.0002,2.41,27,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 15 planes
+A549 WT PUNO 100X F9,True,,0.2378,mixed,0.568,0.2378,0.105,2.68,1.99,0.0038,3.99,255,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 24 planes

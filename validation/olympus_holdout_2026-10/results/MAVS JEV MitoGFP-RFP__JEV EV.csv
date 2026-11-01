@@ -1,0 +1,10 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+EV JEV MitoGFP F1,True,,0.9653,fragmented,0.931,0.9653,0.0329,3.033,7.15,0.0001,6.84,200,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 4; max projection over 16 planes
+EV JEV MitoGFP F2,True,,0.9637,fragmented,0.928,0.9637,0.0454,3.241,9.29,0.0,8.32,245,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 4; max projection over 11 planes
+EV JEV MitoGFP F3,True,,0.9716,fragmented,0.944,0.9716,0.0511,2.837,14.78,0.0,9.84,302,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 4; max projection over 15 planes
+EV JEV MitoGFP F4,True,,0.9306,fragmented,0.87,0.9306,0.0414,3.425,19.25,0.0,9.15,201,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 4; max projection over 10 planes
+EV JEV MitoGFP F5,True,,0.9136,fragmented,0.837,0.9136,0.077,3.612,6.95,0.0001,5.84,389,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 4; max projection over 9 planes
+EV JEV MitoGFP F6,True,,0.7781,mixed,0.601,0.7781,0.0576,3.616,13.07,0.0,8.02,291,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 4; max projection over 15 planes
+EV JEV MitoGFP F7,True,,0.98,fragmented,0.961,0.98,0.0231,3.105,20.14,0.0,9.46,128,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 4; max projection over 13 planes
+EV JEV MitoGFP F8,True,,0.9918,fragmented,0.984,0.9918,0.0337,2.488,20.63,0.0,13.38,224,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 4; max projection over 11 planes
+EV JEV MitoGFP F9,True,,0.6548,mixed,0.591,0.6548,0.0485,3.948,12.64,0.0,7.9,247,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 4; max projection over 13 planes

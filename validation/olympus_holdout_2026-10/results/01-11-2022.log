@@ -1,0 +1,19 @@
+pixel size: read from each file
+
+    #  image                       um/px   index  band         conf  notes
+  ────────────────────────────────────────────────────────────────────────
+    1  HUH-7 POLY-IC 2.5x zoom5   0.0829       —  —               —  too much diffuse background: 8.1% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    2  HUH-7 POLY-IC 3.61x zoom   0.0574   0.026  elongated    0.95
+
+1 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  HUH-7 POLY-IC 2.5x zoom5   0.0829   0.000  elongated    1.00
+  ────────────────────────────────────────────────────────────────────────
+  2 images                     2 scored, 0 rejected
+  index                        mean 0.013   median 0.013   sd 0.018   range 0.000–0.026
+  bands                        fragmented 0   mixed 0   elongated 2
+  pixel sizes                  2 different in this folder, 0.0574 to 0.0829 um
+
+  NOTE: 1 of 2 scored fields were rescued (background 1, black point 0); the rest were not. Check that a difference between conditions holds without the rescued rows.
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/01-11-2022.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/01-11-2022_summary.csv

@@ -1,0 +1,5 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+huh-7 Mock 12 hpi B1 2.5X zoom,True,,0.2968,mixed,0.53,0.2968,0.0599,2.759,1.2,0.0127,1.48,490,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 4 planes
+huh-7 Mock 12 hpi B1 2.5x zoom 2,True,,0.5741,mixed,0.618,0.5741,0.0245,2.315,1.98,0.0031,1.99,233,0.081559129842813,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 3 planes
+huh-7 a2a 12 hpi B1 2.5X zoom 2,True,,0.0353,elongated,0.93,0.0353,0.1641,5.388,1.5,0.018,1.95,328,0.082864075920298,background,"channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 3 planes; background subtracted, rolling ball 2.5 um"
+huh-7 a2a 12 hpi B1 2.5x zoom,True,,0.1718,mixed,0.665,0.1718,0.213,6.564,1.25,0.0225,1.78,399,0.082864075920298,background,"channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 7 planes; background subtracted, rolling ball 2.5 um"

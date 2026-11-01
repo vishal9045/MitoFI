@@ -1,0 +1,2 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+MAX_FCCP_ (10) - Deconvolved,True,,0.7344,mixed,0.649,0.7344,0.0414,1.387,6.74,0.0,4.4,288,0.020074601233102455,black point,"2D image, used as is; 16-bit data scaled x0.06249 to the 12-bit range the classifier was trained on; black point at the cytoplasm peak (51 on the 12-bit scale)"

@@ -1,0 +1,23 @@
+pixel size: 0.044 um, given on the command line
+
+    #  image          um/px   index  band         conf  notes
+  ───────────────────────────────────────────────────────────
+    1  YFP0143-2_1   0.0440   0.865  mixed        0.75
+    2  YFP0143_12    0.0440   0.099  elongated    0.83
+    3  YFP0143_15    0.0440       —  —               —  mask is speckle: objects average 2.038 um and stand only 3.1 background SD above their surroundings
+    4  YFP0143_27    0.0440   0.486  mixed        0.48
+
+1 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  YFP0143_15    0.0440       —  —               —  mask is speckle: objects average 2.022 um and stand only 3.4 background SD above their surroundings
+
+1 field(s) are refused by the quality gate. Setting a black point at the cytoplasm level -- what setting the minimum in Fiji's Brightness/Contrast does, with the level read from each image -- lets many more be scored. It keeps the order between fields that all had it, but reads about 0.2 higher than untouched fields (median +0.21 to +0.24 on fields that already pass), so rows are marked "black point" in the rescue column: compare them with each other, not with untouched fields.
+    1  YFP0143_15    0.0440   0.962  fragmented   0.93
+  ───────────────────────────────────────────────────────────
+  4 images        4 scored, 0 rejected
+  index           mean 0.603   median 0.676   sd 0.394   range 0.099–0.962
+  bands           fragmented 1   mixed 2   elongated 1
+
+  NOTE: 1 of 4 scored fields were rescued (background 0, black point 1); the rest were not. Black-point rows read about 0.2 higher than untouched ones: compare conditions within the same rescue, or check that a difference holds without the black-point rows.
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/mitohacker_fields_0.044/143.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/mitohacker_fields_0.044/143_summary.csv

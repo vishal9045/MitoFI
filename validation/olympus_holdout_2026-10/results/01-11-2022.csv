@@ -1,0 +1,3 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+HUH-7 POLY-IC 2.5x zoom5,True,,0.0004,elongated,0.999,0.0004,0.2238,4.745,0.63,0.0118,1.33,396,0.082864075920298,background,"channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 4 planes; background subtracted, rolling ball 2.5 um"
+HUH-7 POLY-IC 3.61x zoom,True,,0.0263,elongated,0.948,0.0263,0.2251,4.277,0.51,0.0588,1.28,430,0.05738509412763,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 5 planes

@@ -1,0 +1,19 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+HUH-7 CCCP 1 in 200 F1,True,,0.621,mixed,0.503,0.621,0.0816,3.3,1.4,0.0039,2.08,463,0.082864075920298,,channel 1 chosen by excitation at 570 nm; axes ZCYX; channel 1 of 3; max projection over 10 planes
+HUH-7 CCCP 1 in 200 F10,True,,0.912,fragmented,0.837,0.912,0.0226,3.382,15.51,0.0001,5.12,115,0.082864075920298,,channel 1 chosen by excitation at 570 nm; axes ZCYX; channel 1 of 3; max projection over 10 planes
+HUH-7 CCCP 1 in 200 F2,True,,0.6277,mixed,0.521,0.6277,0.0677,3.648,2.14,0.0058,2.17,507,0.103580094900373,,channel 1 chosen by excitation at 570 nm; axes ZCYX; channel 1 of 3; max projection over 10 planes
+HUH-7 CCCP 1 in 200 F3,True,,0.8979,fragmented,0.8,0.8979,0.0665,2.768,11.07,0.0002,6.87,420,0.082864075920298,,channel 1 chosen by excitation at 570 nm; axes ZCYX; channel 1 of 3; max projection over 10 planes
+HUH-7 CCCP 1 in 200 F5,True,,0.9379,fragmented,0.883,0.9379,0.032,4.394,11.41,0.0002,5.02,118,0.082864075920298,,channel 1 chosen by excitation at 570 nm; axes ZCYX; channel 1 of 3; max projection over 10 planes
+HUH-7 CCCP 1 in 200 F6,True,,0.9643,fragmented,0.93,0.9643,0.0446,4.351,14.37,0.0001,5.89,156,0.082864075920298,,channel 1 chosen by excitation at 570 nm; axes ZCYX; channel 1 of 3; max projection over 10 planes
+HUH-7 CCCP 1 in 200 F7,True,,0.951,fragmented,0.904,0.951,0.0363,3.408,14.53,0.0001,5.81,196,0.082864075920298,,channel 1 chosen by excitation at 570 nm; axes ZCYX; channel 1 of 3; max projection over 10 planes
+HUH-7 CCCP 1 in 200 F8,True,,0.9642,fragmented,0.93,0.9642,0.0355,3.452,15.64,0.0001,5.8,181,0.082864075920298,,channel 1 chosen by excitation at 570 nm; axes ZCYX; channel 1 of 3; max projection over 10 planes
+HUH-7 CCCP 1 in 200 F9,True,,0.8443,mixed,0.71,0.8443,0.0272,3.563,16.77,0.0001,5.99,108,0.082864075920298,,channel 1 chosen by excitation at 570 nm; axes ZCYX; channel 1 of 3; max projection over 10 planes
+HUH-7 Mock 1 in 200 F10,True,,0.4321,mixed,0.776,0.4321,0.0642,5.565,12.5,0.0001,8.48,186,0.082864075920298,,channel 1 chosen by excitation at 570 nm; axes ZCYX; channel 1 of 3; max projection over 10 planes
+HUH-7 Mock 1 in 200 F2,True,,0.3053,mixed,0.587,0.3053,0.083,7.0,8.33,0.0006,6.47,192,0.082864075920298,,channel 1 chosen by excitation at 570 nm; axes ZCYX; channel 1 of 3; max projection over 10 planes
+HUH-7 Mock 1 in 200 F3,True,,0.0155,elongated,0.969,0.0155,0.0835,5.129,4.96,0.002,5.46,166,0.082864075920298,,channel 1 chosen by excitation at 570 nm; axes ZCYX; channel 1 of 3; max projection over 10 planes
+HUH-7 Mock 1 in 200 F4,True,,0.0024,elongated,0.995,0.0024,0.0689,5.005,8.45,0.0003,5.52,126,0.082864075920298,,channel 1 chosen by excitation at 570 nm; axes ZCYX; channel 1 of 3; max projection over 10 planes
+HUH-7 Mock 1 in 200 F5,True,,0.3537,mixed,0.475,0.3537,0.05,5.445,8.23,0.0007,4.02,104,0.082864075920298,,channel 1 chosen by excitation at 570 nm; axes ZCYX; channel 1 of 3; max projection over 10 planes
+HUH-7 Mock 1 in 200 F6,True,,0.4991,mixed,0.628,0.4991,0.0605,6.512,9.96,0.0002,5.15,147,0.082864075920298,,channel 1 chosen by excitation at 570 nm; axes ZCYX; channel 1 of 3; max projection over 10 planes
+HUH-7 Mock 1 in 200 F7,True,,0.4016,mixed,0.483,0.4016,0.0535,4.475,9.22,0.0004,4.63,109,0.082864075920298,,channel 1 chosen by excitation at 570 nm; axes ZCYX; channel 1 of 3; max projection over 10 planes
+HUH-7 Mock 1 in 200 F8,True,,0.3641,mixed,0.611,0.3641,0.0543,6.262,9.18,0.0003,4.85,101,0.082864075920298,,channel 1 chosen by excitation at 570 nm; axes ZCYX; channel 1 of 3; max projection over 10 planes
+HUH-7 Mock 1 in 200 F9,True,,0.5188,mixed,0.656,0.5188,0.0338,4.323,12.34,0.0003,5.05,71,0.082864075920298,,channel 1 chosen by excitation at 570 nm; axes ZCYX; channel 1 of 3; max projection over 10 planes

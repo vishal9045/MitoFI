@@ -1,0 +1,6 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+Huh-7 Mito GFP RFP Del CARD + CCCP F1,True,,0.9189,fragmented,0.841,0.9189,0.063,3.3,11.01,0.0001,6.38,383,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 4; max projection over 12 planes
+Huh-7 Mito GFP RFP Del CARD + CCCP F2,True,,0.9691,fragmented,0.939,0.9691,0.0426,2.891,8.98,0.0001,6.0,278,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 4; max projection over 12 planes
+Huh-7 Mito GFP RFP Del CARD + CCCP F3,True,,0.0218,elongated,0.957,0.0218,0.0315,4.169,11.54,0.0001,5.48,70,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 4; max projection over 12 planes
+Huh-7 Mito GFP RFP Del CARD + CCCP F4,True,,0.9955,fragmented,0.991,0.9955,0.0427,2.024,4.26,0.0,4.46,381,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 4; max projection over 9 planes
+Huh-7 Mito GFP RFP Del CARD + CCCP F5,True,,0.8648,mixed,0.749,0.8648,0.0657,3.234,6.37,0.0001,4.73,371,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 4; max projection over 16 planes

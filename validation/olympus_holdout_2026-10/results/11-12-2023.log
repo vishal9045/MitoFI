@@ -1,0 +1,19 @@
+pixel size: read from each file
+
+    #  image                             um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────────────────
+    1  HUH-7 CoV-2 Inf 48 hpi B3 LC3…   0.0829   0.725  mixed        0.50
+    2  HUH-7 CoV-2 Inf 48 hpi B3 LC3…   0.0829   0.562  mixed        0.50
+    3  HUH-7 CoV-2 Inf 48 hpi B3 LC3…   0.0829   0.404  mixed        0.53
+    4  HUH-7 CoV-2 Inf 48 hpi B3 LC3…   0.0829   0.555  mixed        0.52
+    5  HUH-7 CoV-2 Inf 48 hpi B3 LC3…   0.0829   0.407  mixed        0.41
+    6  HUH-7 CoV-2 Inf 48 hpi B3 LC3…   0.0829   0.900  fragmented   0.81
+    7  HUH-7 CoV-2 Inf 48 hpi B3 LC3…   0.0829   0.948  fragmented   0.90
+    8  HUH-7 CoV-2 Inf 48 hpi B3 LC3…   0.0829   0.944  fragmented   0.89
+  ──────────────────────────────────────────────────────────────────────────────
+  8 images                           8 scored, 0 rejected
+  index                              mean 0.680   median 0.643   sd 0.231   range 0.404–0.948
+  bands                              fragmented 3   mixed 5   elongated 0
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/11-12-2023.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/11-12-2023_summary.csv

@@ -1,0 +1,38 @@
+pixel size: read from each file
+
+    #  image                             um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────────────────
+    1  Huh-7 MAVS KO Mock MitoGFP-RF…   0.0829   0.004  elongated    0.99
+    2  Huh-7 MAVS KO Mock MitoGFP-RF…   0.0829   0.884  fragmented   0.78
+    3  Huh-7 MAVS KO Mock MitoGFP-RF…   0.0829   0.272  mixed        0.51
+    4  Huh-7 MAVS KO Mock MitoGFP-RF…   0.0829   0.090  elongated    0.82
+    5  Huh-7 MAVS KO Mock MitoGFP-RF…   0.0829   0.713  mixed        0.48
+    6  Huh-7 MAVS KO Mock MitoGFP-RF…   0.0829   0.368  mixed        0.70
+    7  Huh-7 MAVS KO Mock MitoGFP-RF…   0.0829   0.447  mixed        0.70
+    8  Huh-7 MAVS KO Mock MitoGFP-RF…   0.0829   0.357  mixed        0.56
+    9  Huh-7 MAVS KO Mock MitoGFP-RF…   0.0829   0.829  mixed        0.68
+   10  Huh-7 MAVS KO Mock MitoGFP-RF…   0.0829   0.194  mixed        0.61
+   11  Huh-7 MAVS KO Mock MitoGFP-RF…   0.0829   0.218  mixed        0.63
+   12  Huh-7 MAVS KO Mock MitoGFP-RF…   0.0829   0.637  mixed        0.44
+   13  Huh-7 MAVS KO Mock MitoGFP-RF…   0.0829   0.145  mixed        0.76
+   14  Huh-7 MAVS KO Mock MitoGFP-RF…   0.0829   0.299  mixed        0.57
+   15  Huh-7 MAVS KO Mock MitoGFP-RF…   0.0829   0.540  mixed        0.58
+   16  Huh-7 MAVS KO Mock MitoGFP-RF…   0.0829   0.616  mixed        0.42
+   17  Huh-7 MAVS KO Mock MitoGFP-RF…   0.0829   0.123  mixed        0.76
+   18  Huh-7 WT Mock MitoGFP-RFP F1     0.0829   0.263  mixed        0.51
+   19  Huh-7 WT Mock MitoGFP-RFP F10    0.0829   0.000  elongated    1.00
+   20  Huh-7 WT Mock MitoGFP-RFP F2     0.0829   0.000  elongated    1.00
+   21  Huh-7 WT Mock MitoGFP-RFP F3     0.0829   0.145  mixed        0.72
+   22  Huh-7 WT Mock MitoGFP-RFP F4     0.0829   0.921  fragmented   0.84
+   23  Huh-7 WT Mock MitoGFP-RFP F5     0.0829   0.086  elongated    0.83
+   24  Huh-7 WT Mock MitoGFP-RFP F6 R   0.0829   0.001  elongated    1.00
+   25  Huh-7 WT Mock MitoGFP-RFP F7 R   0.0829   0.012  elongated    0.98
+   26  Huh-7 WT Mock MitoGFP-RFP F8 R   0.0829   0.000  elongated    1.00
+   27  Huh-7 WT Mock MitoGFP-RFP F9     0.0829   0.001  elongated    1.00
+  ──────────────────────────────────────────────────────────────────────────────
+  27 images                          27 scored, 0 rejected
+  index                              mean 0.302   median 0.218   sd 0.296   range 0.000–0.921
+  bands                              fragmented 2   mixed 16   elongated 9
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/09-05-2024 Mito GFP RFP WT KO.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/09-05-2024 Mito GFP RFP WT KO_summary.csv

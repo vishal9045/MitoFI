@@ -1,0 +1,43 @@
+{
+ "features": {
+  "globals": {
+   "channelSetting": "SINGLE",
+   "numDimensions": 2,
+   "sigmas": [
+    1.0,
+    2.0,
+    4.0,
+    8.0
+   ],
+   "pixelSize": [
+    1.0,
+    1.0
+   ]
+  },
+  "ops": [
+   {
+    "class": "sc.fiji.labkit.pixel_classification.pixel_feature.filter.identity.IdentityFeature"
+   },
+   {
+    "class": "sc.fiji.labkit.pixel_classification.pixel_feature.filter.gauss.GaussianBlurFeature"
+   },
+   {
+    "class": "sc.fiji.labkit.pixel_classification.pixel_feature.filter.dog2.DifferenceOfGaussiansFeature"
+   },
+   {
+    "class": "sc.fiji.labkit.pixel_classification.pixel_feature.filter.gradient.GaussianGradientMagnitudeFeature"
+   },
+   {
+    "class": "sc.fiji.labkit.pixel_classification.pixel_feature.filter.laplacian.LaplacianOfGaussianFeature"
+   },
+   {
+    "class": "sc.fiji.labkit.pixel_classification.pixel_feature.filter.hessian.HessianEigenvaluesFeature"
+   }
+  ]
+ },
+ "classNames": [
+  "background",
+  "Mitochondria"
+ ],
+ "note": "The trained forest is omitted here: it is a Java-serialised Weka FastRandomForest and not loadable from Python. The feature specification and class names are the whole of what is portable."
+}

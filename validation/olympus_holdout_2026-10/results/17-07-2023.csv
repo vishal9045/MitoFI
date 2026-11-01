@@ -1,0 +1,6 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+Del MAVS Endo HA F1 100X,True,,0.8581,mixed,0.753,0.8581,0.0761,2.928,8.13,0.0,5.97,251,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes
+Del MAVS Endo HA F2 100X,True,,0.6866,mixed,0.485,0.6866,0.0609,3.308,9.48,0.0,4.92,198,0.062148056940223,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes
+Del MAVS Endo HA F3 100X,True,,0.354,mixed,0.531,0.354,0.1199,3.346,5.56,0.0001,4.05,281,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 12 planes
+Del MAVS Endo HA F4 100X,True,,0.0068,elongated,0.986,0.0068,0.0412,2.739,7.02,0.0001,5.97,66,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 8 planes
+Del MAVS Endo HA both F1 100X,True,,0.8577,mixed,0.737,0.8577,0.0996,3.563,4.87,0.0007,4.17,698,0.099436891104357,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes

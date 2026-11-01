@@ -1,0 +1,11 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+Del CARD MAVS ha inf F1 B1,True,,0.6388,mixed,0.434,0.6388,0.0538,3.665,2.59,0.017,2.81,285,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 8 planes
+Del CARD MAVS ha inf F1 B3,True,,0.0275,elongated,0.946,0.0275,0.0884,7.641,11.67,0.0001,8.65,179,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 7 planes
+Del CARD MAVS ha inf F3 B1,True,,0.9655,fragmented,0.932,0.9655,0.0739,2.654,4.25,0.0001,4.03,492,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 5 planes
+Del CARD MAVS ha inf F4 B1,True,,0.6406,mixed,0.457,0.6406,0.0203,4.164,9.12,0.0002,3.9,85,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 7 planes
+Del CARD MAVS ha inf F5 B1 both conditions,True,,0.2124,mixed,0.639,0.2124,0.0758,4.258,2.84,0.0113,2.87,268,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 7 planes
+Del CARD MAVS ha inf F6 B1 both conditions,True,,0.9458,fragmented,0.894,0.9458,0.1206,2.966,5.83,0.0002,5.52,717,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes
+Del CARD MAVS ha inf F7 B1,True,,0.6199,mixed,0.433,0.6199,0.1364,3.61,2.0,0.0064,3.18,717,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 6 planes
+Del CARD MAVS ha inf F8 B1,True,,0.8292,mixed,0.689,0.8292,0.0923,3.523,4.59,0.0002,5.27,435,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 6 planes
+Del CARD MAVS ha inf F9 B1 both conditions,True,,0.7334,mixed,0.538,0.7334,0.1022,3.831,2.06,0.0171,3.39,628,0.097258305070772,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 6 planes
+Del CARD MAVS no ha inf F2 B1,True,,0.7044,mixed,0.481,0.7044,0.0674,3.286,7.54,0.0019,4.74,411,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 7 planes

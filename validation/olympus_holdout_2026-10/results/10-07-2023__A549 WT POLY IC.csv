@@ -1,0 +1,12 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+A549 WT Poly IC 100X F1,True,,0.3832,mixed,0.437,0.3832,0.1218,2.905,0.83,0.0144,1.94,332,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes
+A549 WT Poly IC 100X F10,True,,0.0596,elongated,0.911,0.0596,0.1132,3.323,2.6,0.0003,3.4,146,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 12 planes
+A549 WT Poly IC 100X F11,True,,0.9639,fragmented,0.932,0.9639,0.0417,3.425,4.12,0.0001,3.73,100,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 5 planes
+A549 WT Poly IC 100X F2,True,,0.0231,elongated,0.957,0.0231,0.0454,4.133,2.08,0.0389,1.91,76,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 15 planes
+A549 WT Poly IC 100X F3,True,,0.077,elongated,0.88,0.077,0.0774,2.714,1.14,0.0231,1.83,200,0.062148056940223,background,"channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes; background subtracted, rolling ball 2.5 um"
+A549 WT Poly IC 100X F4,True,,0.0653,elongated,0.901,0.0653,0.0374,3.273,2.94,0.0181,2.72,68,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes
+A549 WT Poly IC 100X F5,True,,0.9688,fragmented,0.941,0.9688,0.0558,2.779,4.14,0.0001,4.34,151,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 8 planes
+A549 WT Poly IC 100X F6,True,,0.1432,mixed,0.747,0.1432,0.0454,3.518,1.54,0.0397,2.09,89,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes
+A549 WT Poly IC 100X F7,True,,0.0193,elongated,0.962,0.0193,0.0251,3.228,2.79,0.0026,1.69,52,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes
+A549 WT Poly IC 100X F8,True,,0.7974,mixed,0.665,0.7974,0.0699,2.967,3.46,0.0085,2.75,170,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 15 planes
+A549 WT Poly IC 100X F9,True,,0.0163,elongated,0.97,0.0163,0.072,4.045,5.92,0.0001,3.55,88,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 6 planes

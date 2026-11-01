@@ -1,0 +1,74 @@
+Rescue options, one at a time (DEVELOPMENT). PLAN.md fixes the settings and the D23 rule.
+
+== Safety, Olympus: 100 development fields that pass as is
+   background   still pass 100/100 shift median -0.000  p90 |shift| 0.024  band changed 3%  SAFE
+   black point  still pass  92/100 shift median +0.209  p90 |shift| 0.820  band changed 59%  fails D23
+   offset       still pass 100/100 shift median +0.000  p90 |shift| 0.000  band changed 0%  SAFE
+   ball 1um     still pass 100/100 shift median -0.005  p90 |shift| 0.065  band changed 5%  SAFE
+   denoise      still pass 100/100 shift median +0.000  p90 |shift| 0.000  band changed 0%  SAFE
+   deconv       still pass 100/100 shift median -0.009  p90 |shift| 0.112  band changed 11%  fails D23
+   imagej auto  still pass 100/100 shift median +0.000  p90 |shift| 0.056  band changed 8%  SAFE
+   offset+stretch still pass  99/100 shift median +0.001  p90 |shift| 0.065  band changed 5%  SAFE
+   background+stretch still pass 100/100 shift median -0.001  p90 |shift| 0.069  band changed 7%  SAFE
+
+== Safety, Leica: series that pass as is
+   background   still pass 125/129 shift median -0.018  p90 |shift| 0.121  band changed 6%  SAFE
+   black point  still pass 125/129 shift median +0.244  p90 |shift| 0.541  band changed 42%  fails D23
+   ball 1um     still pass 118/129 shift median -0.044  p90 |shift| 0.184  band changed 11%  fails D23
+   imagej auto  still pass 108/129 shift median -0.003  p90 |shift| 0.245  band changed 9%  SAFE
+   offset+stretch still pass 108/129 shift median +0.001  p90 |shift| 0.229  band changed 7%  SAFE
+   slab+black point still pass 122/128 shift median +0.249  p90 |shift| 0.560  band changed 54%  fails D23
+   background+stretch still pass 107/129 shift median -0.023  p90 |shift| 0.276  band changed 9%  SAFE
+
+== Rescue, Leica (whole field)
+   refused as is: 329 of 458 (px <= 0.2 um)
+   background   rescues 234/329
+   as is + background         scored 363  holds 6/7  0.06/0.29 p7e-05 | 0.59/0.62! p0.5 | 0.62/0.62 p0.8 | 0.90/0.12 p0.01 | 1.00/0.12 p0.003 | 0.11/0.03 p0.001 | 0.17/0.03 p0.0001
+   black point  rescues 272/329
+   as is + black point        scored 401  holds 6/7  0.12/0.66 p0.0003 | 0.61/0.62! p0.9 | 0.62/0.62 p0.8 | 0.94/0.14 p0.01 | 1.00/0.14 p0.003 | 0.71/0.14 p0.0002 | 0.86/0.14 p4e-05
+   ball 1um     rescues 230/329
+   as is + ball 1um           scored 359  holds 6/7  0.03/0.39 p6e-05 | 0.59/0.62! p0.5 | 0.62/0.62 p0.8 | 0.90/0.08 p0.01 | 1.00/0.04 p0.003 | 0.09/0.02 p0.0005 | 0.18/0.02 p0.0004
+   as is, background, ball 1um scored 381  holds 6/7  0.06/0.29 p5e-05 | 0.59/0.62! p0.5 | 0.62/0.62 p0.8 | 0.90/0.12 p0.01 | 1.00/0.12 p0.003 | 0.11/0.03 p0.0007 | 0.17/0.03 p6e-05
+   imagej auto  rescues  22/329
+   as is + imagej auto        scored 151  holds 4/7  0.06/0.69 p0.07 | 0.59/0.62! p0.5 | 0.62/0.62 p0.8 | 0.90/0.08 p0.2 | 1.00/0.17 p0.3 | n/a | n/a
+   as is, background, imagej auto scored 365  holds 6/7  0.06/0.29 p7e-05 | 0.59/0.62! p0.5 | 0.62/0.62 p0.8 | 0.90/0.12 p0.01 | 1.00/0.12 p0.003 | 0.11/0.03 p0.001 | 0.17/0.03 p0.0001
+   offset+stretch rescues   6/329
+   as is + offset+stretch     scored 135  holds 3/7  0.06/0.69 p0.1 | 0.61/0.62! p0.7 | 0.62/0.62 p0.8 | 0.90/0.20 p0.3 | n/a | n/a | n/a
+   as is, background, offset+stretch scored 365  holds 6/7  0.06/0.29 p7e-05 | 0.59/0.62! p0.5 | 0.62/0.62 p0.8 | 0.90/0.12 p0.01 | 1.00/0.12 p0.003 | 0.11/0.03 p0.001 | 0.17/0.03 p0.0001
+   slab+black point rescues 259/329
+   as is + slab+black point   scored 388  holds 6/7  0.14/0.71 p0.001 | 0.61/0.62! p0.9 | 0.62/0.62 p0.8 | 0.96/0.19 p0.01 | 1.00/0.33 p0.003 | 0.67/0.08 p0.0004 | 0.78/0.08 p5e-05
+   as is, background, slab+black point scored 400  holds 6/7  0.06/0.29 p0.0002 | 0.59/0.62! p0.5 | 0.62/0.62 p0.8 | 0.90/0.12 p0.01 | 1.00/0.12 p0.003 | 0.11/0.03 p0.001 | 0.17/0.03 p5e-05
+   background+stretch rescues 215/329
+   as is + background+stretch scored 344  holds 6/7  0.06/0.22 p0.0007 | 0.59/0.62! p0.5 | 0.62/0.62 p0.8 | 0.90/0.14 p0.2 | 1.00/0.31 p0.004 | 0.13/0.05 p0.003 | 0.17/0.05 p0.0003
+   as is, background, background+stretch scored 378  holds 6/7  0.06/0.29 p6e-05 | 0.59/0.62! p0.5 | 0.62/0.62 p0.8 | 0.90/0.12 p0.01 | 1.00/0.12 p0.003 | 0.11/0.03 p0.002 | 0.17/0.03 p0.0002
+   shipped chain (bg, black pt) scored 411  holds 6/7  0.06/0.29 p5e-05 | 0.59/0.62! p0.5 | 0.62/0.62 p0.8 | 0.90/0.12 p0.01 | 1.00/0.12 p0.003 | 0.11/0.03 p0.003 | 0.17/0.03 p0.0002
+   comparisons, in order: CDKi < vehicle; Huh7 MFN1 KO pool > WT; Huh7 colony 9 > WT; MEF MFN1 KO > WT, all-cells file; MEF MFN2 KO > WT, localization; MEF MFN1 KO > WT, 2 Feb; MEF MAVS KO > WT, 2 Feb ("!" = wrong direction)
+
+== Allen, 238 cells, each option alone
+   -- cell
+   as is        scored   0/238
+   background   scored  17/238  mitotic 0.043 vs interphase 0.029 p 0.37    [M0 0.03 M1M2 0.01 M3 0.27 M4M5 0.29]
+   black point  scored 211/238  mitotic 0.242 vs interphase 0.103 p 0.0011  pairs 92 +0.087 p 0.004  [M0 0.10 M1M2 0.13 M3 0.38 M4M5 0.25]
+   offset       scored   7/238  mitotic 0.139 vs interphase 0.046 p 0.31    [M0 0.05 M1M2 nan M3 0.00 M4M5 0.55]
+   ball 1um     scored  26/238  mitotic 0.103 vs interphase 0.048 p 0.098    [M0 0.05 M1M2 0.09 M3 0.13 M4M5 0.50]
+   denoise      scored   0/238
+   deconv       scored   0/238
+   slab         scored   0/238
+   imagej auto  scored  36/238  mitotic 0.010 vs interphase 0.004 p 0.054    [M0 0.00 M1M2 0.01 M3 0.00 M4M5 0.04]
+   offset+stretch scored 163/238  mitotic 0.004 vs interphase 0.003 p 0.15  pairs 59 +0.000 p 0.65  [M0 0.00 M1M2 0.00 M3 0.02 M4M5 0.01]
+   slab+black point scored 223/238  mitotic 0.427 vs interphase 0.118 p 1.5e-08  pairs 107 +0.279 p 2.1e-07  [M0 0.12 M1M2 0.25 M3 0.52 M4M5 0.66]
+   background+stretch scored 211/238  mitotic 0.003 vs interphase 0.004 p 0.77  pairs 93 -0.000 p 0.44  [M0 0.00 M1M2 0.00 M3 0.01 M4M5 0.00]
+   -- whole
+   as is        scored   0/238
+   background   scored  71/238  mitotic 0.208 vs interphase 0.192 p 0.31  pairs 15 -0.064 p 0.89  [M0 0.19 M1M2 0.28 M3 0.04 M4M5 0.19]
+   black point  scored 238/238  mitotic 0.359 vs interphase 0.396 p 0.75  pairs 119 -0.006 p 0.55  [M0 0.40 M1M2 0.33 M3 0.34 M4M5 0.38]
+   offset       scored  41/238  mitotic 0.183 vs interphase 0.188 p 0.75  pairs 6 -0.022 p 0.69  [M0 0.19 M1M2 0.29 M3 0.01 M4M5 0.18]
+   ball 1um     scored 101/238  mitotic 0.220 vs interphase 0.303 p 0.66  pairs 25 -0.019 p 0.49  [M0 0.30 M1M2 0.20 M3 0.11 M4M5 0.37]
+   denoise      scored   0/238
+   deconv       scored   0/238
+   slab         scored   0/238
+   imagej auto  scored  51/238  mitotic 0.028 vs interphase 0.033 p 0.58  pairs 9 +0.001 p 0.73  [M0 0.03 M1M2 0.02 M3 0.03 M4M5 0.05]
+   offset+stretch scored 210/238  mitotic 0.021 vs interphase 0.035 p 0.82  pairs 98 -0.002 p 0.87  [M0 0.03 M1M2 0.01 M3 0.02 M4M5 0.02]
+   slab+black point scored 238/238  mitotic 0.547 vs interphase 0.499 p 0.057  pairs 119 +0.060 p 0.092  [M0 0.50 M1M2 0.53 M3 0.51 M4M5 0.58]
+   background+stretch scored 238/238  mitotic 0.020 vs interphase 0.022 p 0.76  pairs 119 +0.001 p 0.6  [M0 0.02 M1M2 0.02 M3 0.03 M4M5 0.02]
+

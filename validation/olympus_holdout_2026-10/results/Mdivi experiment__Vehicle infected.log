@@ -1,0 +1,41 @@
+pixel size: read from each file
+
+    #  image                        um/px   index  band         conf  notes
+  ─────────────────────────────────────────────────────────────────────────
+    1  Huh7 Vehicle Infected F1    0.1154   0.836  mixed        0.71
+    2  Huh7 Vehicle Infected F10   0.1090   0.403  mixed        0.57
+    3  Huh7 Vehicle Infected F11   0.1187   0.783  mixed        0.59
+    4  Huh7 Vehicle Infected F12   0.1594   0.723  mixed        0.48
+    5  Huh7 Vehicle Infected F13   0.1315   0.430  mixed        0.62
+    6  Huh7 Vehicle Infected F14   0.1052   0.341  mixed        0.47
+    7  Huh7 Vehicle Infected F15   0.1367   0.255  mixed        0.54
+    8  Huh7 Vehicle Infected F17   0.1229   0.543  mixed        0.66
+    9  Huh7 Vehicle Infected F18   0.1618   0.426  mixed        0.44
+   10  Huh7 Vehicle Infected F19   0.1244   0.925  fragmented   0.86
+   11  Huh7 Vehicle Infected F2    0.1252   0.151  mixed        0.76
+   12  Huh7 Vehicle Infected F20   0.1429   0.462  mixed        0.63
+   13  Huh7 Vehicle Infected F21   0.1229   0.210  mixed        0.62
+   14  Huh7 Vehicle Infected F22   0.1197   0.394  mixed        0.53
+   15  Huh7 Vehicle Infected F23   0.1090   0.111  mixed        0.78
+   16  Huh7 Vehicle Infected F24   0.1734   0.459  mixed        0.52
+   17  Huh7 Vehicle Infected F25   0.1381   0.315  mixed        0.46
+   18  Huh7 Vehicle Infected F26   0.1267   0.654  mixed        0.47
+   19  Huh7 Vehicle Infected F27   0.1535   0.629  mixed        0.45
+   20  Huh7 Vehicle Infected F28   0.1275   0.631  mixed        0.63
+   21  Huh7 Vehicle Infected F29   0.1439   0.552  mixed        0.39
+   22  Huh7 Vehicle Infected F3    0.1108   0.865  mixed        0.74
+   23  Huh7 Vehicle Infected F30   0.1341   0.253  mixed        0.54
+   24  Huh7 Vehicle Infected F4    0.1090   0.053  elongated    0.90
+   25  Huh7 Vehicle Infected F5    0.1350   0.563  mixed        0.59
+   26  Huh7 Vehicle Infected F6    0.1003   0.722  mixed        0.56
+   27  Huh7 Vehicle Infected F7    0.1400   0.586  mixed        0.44
+   28  Huh7 Vehicle Infected F8    0.1295   0.602  mixed        0.70
+   29  Huh7 Vehicle Infected F9    0.1180   0.736  mixed        0.51
+  ─────────────────────────────────────────────────────────────────────────
+  29 images                     29 scored, 0 rejected
+  index                         mean 0.504   median 0.543   sd 0.233   range 0.053–0.925
+  bands                         fragmented 1   mixed 27   elongated 1
+  pixel sizes                   26 different in this folder, 0.1003 to 0.1734 um
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/Mdivi experiment__Vehicle infected.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/Mdivi experiment__Vehicle infected_summary.csv

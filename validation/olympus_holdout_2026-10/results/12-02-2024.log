@@ -1,0 +1,13 @@
+pixel size: read from each file
+
+    #  image                             um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────────────────
+    1  Huh-7 Endogenous MAVS KO C-18…   0.0829   0.573  mixed        0.66
+    2  Huh-7 Endogenous MAVS KO C-18…   0.0829   0.841  mixed        0.72
+  ──────────────────────────────────────────────────────────────────────────────
+  2 images                           2 scored, 0 rejected
+  index                              mean 0.707   median 0.707   sd 0.190   range 0.573–0.841
+  bands                              fragmented 0   mixed 2   elongated 0
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/12-02-2024.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/12-02-2024_summary.csv

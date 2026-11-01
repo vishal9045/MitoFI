@@ -1,0 +1,30 @@
+pixel size: 0.099 um, given on the command line
+
+    #  image          um/px   index  band         conf  notes
+  ───────────────────────────────────────────────────────────
+    1  YFP0145_29    0.0990       —  —               —  too much diffuse background: 8.0% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    2  YFP0145_34    0.0990   0.098  elongated    0.81
+    3  YFP0145_39    0.0990       —  —               —  too much diffuse background: 7.2% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    4  YFP0145_40    0.0990       —  —               —  too much diffuse background: 6.0% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    5  YFP145-1_19   0.0990   0.001  elongated    1.00
+    6  YFP145-1_21   0.0990       —  —               —  too much diffuse background: 6.0% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    7  YFP145-1_26   0.0990       —  —               —  mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16)
+
+5 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  YFP0145_29    0.0990   0.008  elongated    0.98
+    2  YFP0145_39    0.0990   0.057  elongated    0.89
+    3  YFP0145_40    0.0990   0.052  elongated    0.90
+    4  YFP145-1_21   0.0990   0.075  elongated    0.85
+    5  YFP145-1_26   0.0990       —  —               —  mask looks like noise texture: large objects stand only 1.0 x their surrounding noise (limit 1.16)
+
+1 field(s) are refused by the quality gate. Setting a black point at the cytoplasm level -- what setting the minimum in Fiji's Brightness/Contrast does, with the level read from each image -- lets many more be scored. It keeps the order between fields that all had it, but reads about 0.2 higher than untouched fields (median +0.21 to +0.24 on fields that already pass), so rows are marked "black point" in the rescue column: compare them with each other, not with untouched fields.
+    1  YFP145-1_26   0.0990   0.194  mixed        0.63
+  ───────────────────────────────────────────────────────────
+  7 images        7 scored, 0 rejected
+  index           mean 0.069   median 0.057   sd 0.065   range 0.001–0.194
+  bands           fragmented 0   mixed 1   elongated 6
+
+  NOTE: 5 of 7 scored fields were rescued (background 4, black point 1); the rest were not. Black-point rows read about 0.2 higher than untouched ones: compare conditions within the same rescue, or check that a difference holds without the black-point rows.
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/mitohacker_fields_0.099/145.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/mitohacker_fields_0.099/145_summary.csv

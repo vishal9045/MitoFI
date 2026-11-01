@@ -1,0 +1,24 @@
+pixel size: read from each file
+
+    #  image               um/px   index  band         conf  notes
+  ────────────────────────────────────────────────────────────────
+    1  poly ic 12 hpi 1   0.0829       —  —               —  too much diffuse background: 6.0% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    2  poly ic 12 hpi 2   0.0829   0.155  mixed        0.69
+    3  poly ic 12 hpi 3   0.0829   0.053  elongated    0.90
+    4  vehicle 12 hpi 1   0.0829       —  —               —  too much diffuse background: 8.3% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    5  vehicle 12 hpi 2   0.0829   0.054  elongated    0.89
+    6  vehicle 12 hpi 3   0.0829       —  —               —  mask looks like noise texture: large objects stand only 0.9 x their surrounding noise (limit 1.16)
+
+3 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  poly ic 12 hpi 1   0.0829   0.032  elongated    0.94
+    2  vehicle 12 hpi 1   0.0829   0.057  elongated    0.89
+    3  vehicle 12 hpi 3   0.0829   0.031  elongated    0.94
+  ────────────────────────────────────────────────────────────────
+  6 images             6 scored, 0 rejected
+  index                mean 0.064   median 0.054   sd 0.046   range 0.031–0.155
+  bands                fragmented 0   mixed 1   elongated 5
+
+  NOTE: 3 of 6 scored fields were rescued (background 3, black point 0); the rest were not. Check that a difference between conditions holds without the rescued rows.
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/21-12-2022.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/21-12-2022_summary.csv

@@ -1,0 +1,11 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+huh-7 JEV LC3 F1,True,,0.7384,mixed,0.569,0.7384,0.0728,4.292,5.78,0.0018,3.45,252,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 9 planes
+huh-7 JEV LC3 F10,True,,0.5556,mixed,0.488,0.5556,0.1282,3.786,1.33,0.0049,2.14,771,0.092071195466998,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 9 planes
+huh-7 JEV LC3 F2,True,,0.5172,mixed,0.55,0.5172,0.099,3.699,2.24,0.0289,4.54,688,0.127092140982052,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes
+huh-7 JEV LC3 F3,True,,0.87,fragmented,0.748,0.87,0.0692,3.702,3.99,0.0141,2.81,371,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes
+huh-7 JEV LC3 F4,True,,0.7954,mixed,0.626,0.7954,0.0784,3.739,7.88,0.0011,4.73,366,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 9 planes
+huh-7 JEV LC3 F5,True,,0.8256,mixed,0.68,0.8256,0.0759,3.627,6.76,0.0049,3.82,332,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 11 planes
+huh-7 JEV LC3 F6,True,,0.3947,mixed,0.456,0.3947,0.2926,3.587,1.05,0.0281,2.07,1026,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes
+huh-7 JEV LC3 F7,True,,0.2198,mixed,0.63,0.2198,0.1824,3.509,0.78,0.0217,1.91,917,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes
+huh-7 JEV LC3 F8,True,,0.5912,mixed,0.548,0.5912,0.0783,2.534,1.1,0.0064,2.3,474,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes
+huh-7 JEV LC3 F9,True,,0.4683,mixed,0.439,0.4683,0.1246,2.793,0.58,0.0335,1.7,541,0.069053396600248,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes

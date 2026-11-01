@@ -1,0 +1,13 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+Infected 48  hpi 100x F1,True,,0.5238,mixed,0.512,0.5238,0.1433,2.902,2.09,0.0001,2.23,384,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 7 planes
+Infected 48  hpi 100x F2,True,,0.7296,mixed,0.514,0.7296,0.1317,2.321,4.18,0.0,4.22,474,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 8 planes
+Infected 48  hpi 100x F3,True,,0.911,fragmented,0.83,0.911,0.0696,2.379,9.81,0.0,6.18,230,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 7 planes
+Infected 48  hpi 100x F4,True,,0.8588,mixed,0.74,0.8588,0.0901,2.629,8.01,0.0001,4.68,274,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 7 planes
+Infected 48  hpi 100x F5,True,,0.8487,mixed,0.719,0.8487,0.0741,2.427,6.4,0.0001,4.18,262,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 7 planes
+Infected 48  hpi 100x F6,True,,0.7525,mixed,0.574,0.7525,0.1366,2.754,2.99,0.0001,3.11,399,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 7 planes
+Infected 48  hpi 100x F7,True,,0.7825,mixed,0.624,0.7825,0.1569,2.742,2.68,0.0001,3.12,453,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 8 planes
+Mock 48  hpi 100x F1,True,,0.2221,mixed,0.624,0.2221,0.1491,2.753,1.44,0.0008,2.08,444,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 6 planes
+Mock 48  hpi 100x F2,True,,0.0246,elongated,0.952,0.0246,0.1044,2.408,1.07,0.0003,1.42,294,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 6 planes
+Mock 48  hpi 100x F3,True,,0.0038,elongated,0.992,0.0038,0.1087,3.34,1.2,0.0002,1.71,251,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 6 planes
+Mock 48  hpi 100x F4,True,,0.0113,elongated,0.978,0.0113,0.1527,2.737,0.62,0.0028,1.32,404,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 6 planes
+Mock 48  hpi 100x F5,True,,0.2521,mixed,0.578,0.2521,0.0892,2.74,1.55,0.0,1.64,332,0.049718445552178,black point,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 5 planes; black point at the cytoplasm peak (424 on the 12-bit scale)

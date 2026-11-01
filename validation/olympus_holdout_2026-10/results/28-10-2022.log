@@ -1,0 +1,29 @@
+pixel size: read from each file
+
+    #  image                             um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────────────────
+    1  huh-7 Poly IC 12 hpi 2.5x zoo…   0.0829       —  —               —  too much diffuse background: 9.2% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    2  huh-7 Poly IC 12 hpi 2.5x zoo…   0.0829       —  —               —  too much diffuse background: 8.8% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    3  huh-7 Poly IC 12 hpi 2.5x zoo…   0.0829       —  —               —  too much diffuse background: 12.1% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    4  huh-7 Poly IC 12 hpi 2.5x zoo…   0.0829       —  —               —  too much diffuse background: 7.8% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    5  huh-7 Poly IC 12 hpi 2.5x zoo…   0.0829       —  —               —  too much diffuse background: 11.5% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    6  huh-7 Poly IC 12 hpi 2.5x zoo…   0.0829       —  —               —  too much diffuse background: 17.0% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    7  huh-7 Poly IC 24 hpi B1 2.5x …   0.0829       —  —               —  too much diffuse background: 16.3% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    8  huh-7 Poly IC 24 hpi B1 2.5x …   0.0829       —  —               —  too much diffuse background: 17.9% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+
+8 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  huh-7 Poly IC 12 hpi 2.5x zoo…   0.0829   0.001  elongated    1.00
+    2  huh-7 Poly IC 12 hpi 2.5x zoo…   0.0829   0.001  elongated    1.00
+    3  huh-7 Poly IC 12 hpi 2.5x zoo…   0.0829   0.027  elongated    0.95
+    4  huh-7 Poly IC 12 hpi 2.5x zoo…   0.0829   0.162  mixed        0.73
+    5  huh-7 Poly IC 12 hpi 2.5x zoo…   0.0829   0.028  elongated    0.94
+    6  huh-7 Poly IC 12 hpi 2.5x zoo…   0.0829   0.001  elongated    1.00
+    7  huh-7 Poly IC 24 hpi B1 2.5x …   0.0829   0.059  elongated    0.89
+    8  huh-7 Poly IC 24 hpi B1 2.5x …   0.0829   0.052  elongated    0.90
+  ──────────────────────────────────────────────────────────────────────────────
+  8 images                           8 scored, 0 rejected
+  index                              mean 0.042   median 0.028   sd 0.054   range 0.001–0.162
+  bands                              fragmented 0   mixed 1   elongated 7
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/28-10-2022.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/28-10-2022_summary.csv

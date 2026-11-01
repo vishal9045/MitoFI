@@ -1,0 +1,33 @@
+pixel size: read from each file
+
+    #  image                             um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────────────────
+    1  HUH-7 C-13 MAVS KO  24 hpi en…   0.0829       —  —               —  too much diffuse background: 9.7% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    2  HUH-7 C-13 MAVS KO  24 hpi en…   0.0829   0.456  mixed        0.50
+    3  HUH-7 C-13 MAVS KO  24 hpi en…   0.0829   0.152  mixed        0.76
+    4  HUH-7 C-13 MAVS KO 24 hpi end…   0.0829   0.266  mixed        0.56
+    5  HUH-7 C-13 MAVS KO 24 hpi end…   0.0829       —  —               —  too much diffuse background: 15.1% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    6  HUH-7 C-13 MAVS KO 24 hpi end…   0.0829       —  —               —  too much diffuse background: 10.0% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    7  HUH-7 C-13 MAVS KO 24 hpi end…   0.0829       —  —               —  too much diffuse background: 10.0% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    8  HUH-7 WT 24 hpi endo MAVS CoV…   0.0829   0.944  fragmented   0.89
+    9  HUH-7 WT 24 hpi endo MAVS CoV…   0.0829   0.121  mixed        0.81
+   10  HUH-7 WT 24 hpi endo MAVS CoV…   0.0829   0.960  fragmented   0.92
+   11  HUH-7 WT 24 hpi endo MAVS CoV…   0.0829   0.333  mixed        0.63
+   12  HUH-7 WT 24 hpi endo MAVS Moc…   0.0829   0.131  mixed        0.74
+   13  HUH-7 WT 24 hpi endo MAVS Moc…   0.0829   0.288  mixed        0.56
+   14  HUH-7 WT 24 hpi endo MAVS Moc…   0.0829   0.237  mixed        0.53
+
+4 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  HUH-7 C-13 MAVS KO  24 hpi en…   0.0829   0.114  mixed        0.79
+    2  HUH-7 C-13 MAVS KO 24 hpi end…   0.0829   0.746  mixed        0.58
+    3  HUH-7 C-13 MAVS KO 24 hpi end…   0.0829   0.241  mixed        0.63
+    4  HUH-7 C-13 MAVS KO 24 hpi end…   0.0829   0.380  mixed        0.43
+  ──────────────────────────────────────────────────────────────────────────────
+  14 images                          14 scored, 0 rejected
+  index                              mean 0.384   median 0.277   sd 0.292   range 0.114–0.960
+  bands                              fragmented 2   mixed 12   elongated 0
+
+  NOTE: 4 of 14 scored fields were rescued (background 4, black point 0); the rest were not. Check that a difference between conditions holds without the rescued rows.
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/22-01-2024.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/22-01-2024_summary.csv

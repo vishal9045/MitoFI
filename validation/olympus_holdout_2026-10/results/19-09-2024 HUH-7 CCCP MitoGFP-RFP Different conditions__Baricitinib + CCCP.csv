@@ -1,0 +1,5 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+Huh-7 Mito GFP RFP Baricitinib + CCCP F1,True,,0.9816,fragmented,0.963,0.9816,0.0318,2.568,19.8,0.0,9.26,232,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 3; max projection over 15 planes
+Huh-7 Mito GFP RFP Baricitinib + CCCP F2,True,,0.9542,fragmented,0.909,0.9542,0.0409,2.583,7.97,0.0,4.88,301,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 3; max projection over 12 planes
+Huh-7 Mito GFP RFP Baricitinib + CCCP F3,True,,0.995,fragmented,0.99,0.995,0.0482,1.888,10.98,0.0,9.35,471,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 4; max projection over 12 planes
+Huh-7 Mito GFP RFP Baricitinib + CCCP F4R,True,,0.9295,fragmented,0.863,0.9295,0.0316,2.788,9.91,0.0,5.93,221,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 3; max projection over 9 planes

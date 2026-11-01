@@ -1,0 +1,17 @@
+pixel size: read from each file
+
+    #  image                            um/px   index  band         conf  notes
+  ─────────────────────────────────────────────────────────────────────────────
+    1  Del MAVS Endo HA F1 100X        0.0497   0.858  mixed        0.75
+    2  Del MAVS Endo HA F2 100X        0.0621   0.687  mixed        0.48
+    3  Del MAVS Endo HA F3 100X        0.0497   0.354  mixed        0.53
+    4  Del MAVS Endo HA F4 100X        0.0497   0.007  elongated    0.99
+    5  Del MAVS Endo HA both F1 100X   0.0994   0.858  mixed        0.74
+  ─────────────────────────────────────────────────────────────────────────────
+  5 images                          5 scored, 0 rejected
+  index                             mean 0.553   median 0.687   sd 0.368   range 0.007–0.858
+  bands                             fragmented 0   mixed 4   elongated 1
+  pixel sizes                       3 different in this folder, 0.0497 to 0.0994 um
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/17-07-2023.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/17-07-2023_summary.csv

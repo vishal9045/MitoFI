@@ -1,0 +1,2 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+MAX_DMSO_ (18) - Deconvolved,True,,0.2759,mixed,0.64,0.2759,0.0413,1.81,4.98,0.0,3.51,192,0.020074601233102455,black point,"2D image, used as is; 16-bit data scaled x0.06249 to the 12-bit range the classifier was trained on; black point at the cytoplasm peak (59 on the 12-bit scale)"

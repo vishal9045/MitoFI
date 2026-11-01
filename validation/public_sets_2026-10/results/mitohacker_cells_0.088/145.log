@@ -1,0 +1,80 @@
+pixel size: 0.088 um, given on the command line
+
+    #  image                      um/px   index  band         conf  notes
+  ───────────────────────────────────────────────────────────────────────
+    1  YFP0145_29_cell1_2048     0.0880   0.000  elongated    1.00
+    2  YFP0145_29_cell2_2048     0.0880   0.000  elongated    1.00
+    3  YFP0145_29_cell3_2048     0.0880   0.041  elongated    0.92
+    4  YFP0145_29_cell4_2048     0.0880   0.046  elongated    0.92
+    5  YFP0145_34_cell1_2048     0.0880   0.015  elongated    0.97
+    6  YFP0145_34_cell2_2048     0.0880   0.011  elongated    0.98
+    7  YFP0145_34_cell3_2048     0.0880   0.111  mixed        0.81
+    8  YFP0145_34_cell4_2048     0.0880   0.052  elongated    0.92
+    9  YFP0145_34_cell5_2048     0.0880   0.066  elongated    0.87
+   10  YFP0145_34_cell6_2048     0.0880       —  —               —  segmentation collapsed: foreground 0.68%
+   11  YFP0145_34_cell7_2048     0.0880   0.000  elongated    1.00
+   12  YFP0145_34_cell8_2048     0.0880       —  —               —  segmentation collapsed: foreground 0.47%
+   13  YFP0145_39_cell1_2048     0.0880       —  —               —  too much diffuse background: 20.6% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   14  YFP0145_39_cell2_2048     0.0880       —  —               —  too much diffuse background: 9.6% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   15  YFP0145_39_cell3_2048     0.0880       —  —               —  too much diffuse background: 11.4% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   16  YFP0145_40_cell1_2048     0.0880       —  —               —  too much diffuse background: 8.7% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   17  YFP0145_40_cell2_2048     0.0880       —  —               —  too much diffuse background: 6.5% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   18  YFP145-1_19_cell1_2048    0.0880   0.000  elongated    1.00
+   19  YFP145-1_19_cell2_2048    0.0880   0.015  elongated    0.97
+   20  YFP145-1_19_cell3_2048    0.0880   0.000  elongated    1.00
+   21  YFP145-1_21_cell1_2048    0.0880   0.000  elongated    1.00
+   22  YFP145-1_21_cell2_2048    0.0880   0.084  elongated    0.86
+   23  YFP145-1_26_cell10_2048   0.0880   0.000  elongated    1.00
+   24  YFP145-1_26_cell11_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.16%
+   25  YFP145-1_26_cell13_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.77%
+   26  YFP145-1_26_cell15_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.75%
+   27  YFP145-1_26_cell16_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.77%
+   28  YFP145-1_26_cell18_2048   0.0880       —  —               —  mask looks like noise texture: large objects stand only 0.7 x their surrounding noise (limit 1.16)
+   29  YFP145-1_26_cell19_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.35%
+   30  YFP145-1_26_cell20_2048   0.0880   0.000  elongated    1.00
+   31  YFP145-1_26_cell21_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.97%
+   32  YFP145-1_26_cell22_2048   0.0880   0.000  elongated    1.00
+   33  YFP145-1_26_cell23_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.07%
+
+15 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  YFP0145_34_cell6_2048     0.0880       —  —               —  segmentation collapsed: foreground 0.68%
+    2  YFP0145_34_cell8_2048     0.0880       —  —               —  segmentation collapsed: foreground 0.47%
+    3  YFP0145_39_cell1_2048     0.0880       —  —               —  segmentation collapsed: foreground 0.55%
+    4  YFP0145_39_cell2_2048     0.0880   0.006  elongated    0.99
+    5  YFP0145_39_cell3_2048     0.0880   0.012  elongated    0.98
+    6  YFP0145_40_cell1_2048     0.0880   0.013  elongated    0.97
+    7  YFP0145_40_cell2_2048     0.0880   0.004  elongated    0.99
+    8  YFP145-1_26_cell11_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.16%
+    9  YFP145-1_26_cell13_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.77%
+   10  YFP145-1_26_cell15_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.75%
+   11  YFP145-1_26_cell16_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.77%
+   12  YFP145-1_26_cell18_2048   0.0880       —  —               —  mask looks like noise texture: large objects stand only 0.8 x their surrounding noise (limit 1.16)
+   13  YFP145-1_26_cell19_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.35%
+   14  YFP145-1_26_cell21_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.97%
+   15  YFP145-1_26_cell23_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.08%
+
+11 field(s) are refused by the quality gate. Setting a black point at the cytoplasm level -- what setting the minimum in Fiji's Brightness/Contrast does, with the level read from each image -- lets many more be scored. It keeps the order between fields that all had it, but reads about 0.2 higher than untouched fields (median +0.21 to +0.24 on fields that already pass), so rows are marked "black point" in the rescue column: compare them with each other, not with untouched fields.
+    1  YFP0145_34_cell6_2048     0.0880       —  —               —  segmentation collapsed: foreground 0.13%
+    2  YFP0145_34_cell8_2048     0.0880       —  —               —  segmentation collapsed: foreground 0.27%
+    3  YFP0145_39_cell1_2048     0.0880   0.007  elongated    0.99
+    4  YFP145-1_26_cell11_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.56%
+    5  YFP145-1_26_cell13_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.47%
+    6  YFP145-1_26_cell15_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.53%
+    7  YFP145-1_26_cell16_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.53%
+    8  YFP145-1_26_cell18_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.57%
+    9  YFP145-1_26_cell19_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.25%
+   10  YFP145-1_26_cell21_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.55%
+   11  YFP145-1_26_cell23_2048   0.0880       —  —               —  segmentation collapsed: foreground 0.93%
+  ───────────────────────────────────────────────────────────────────────
+  33 images                   23 scored, 10 rejected
+  index                       mean 0.021   median 0.007   sd 0.031   range 0.000–0.111
+  bands                       fragmented 0   mixed 1   elongated 22
+                              averages cover the scored images only
+
+  why 10 image(s) were refused:
+    10  almost nothing segmented: under 1% of the field was called mitochondria. Usually the wrong channel, an empty field, or a very dim one.
+
+  NOTE: 5 of 23 scored fields were rescued (background 4, black point 1); the rest were not. Black-point rows read about 0.2 higher than untouched ones: compare conditions within the same rescue, or check that a difference holds without the black-point rows.
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/mitohacker_cells_0.088/145.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/mitohacker_cells_0.088/145_summary.csv

@@ -1,0 +1,6 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+Huh-7 Mito GFP RFP IFN + CCCP F1,True,,0.9911,fragmented,0.982,0.9911,0.0252,2.29,5.64,0.0,4.79,196,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 3; max projection over 8 planes
+Huh-7 Mito GFP RFP IFN + CCCP F2,True,,0.9858,fragmented,0.972,0.9858,0.1044,2.371,5.28,0.0001,6.63,833,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 3; max projection over 16 planes
+Huh-7 Mito GFP RFP IFN + CCCP F3,True,,0.9678,fragmented,0.936,0.9678,0.0235,2.488,23.55,0.0,8.63,181,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 3; max projection over 7 planes
+Huh-7 Mito GFP RFP IFN + CCCP F4,True,,0.9128,fragmented,0.83,0.9128,0.0389,2.654,7.38,0.0,7.43,282,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 3; max projection over 14 planes
+Huh-7 Mito GFP RFP IFN + CCCP F5,True,,0.9285,fragmented,0.859,0.9285,0.0247,2.772,21.9,0.0,9.19,171,0.082864075920298,,channel 1 chosen by excitation at 500 nm; axes ZCYX; channel 1 of 3; max projection over 9 planes

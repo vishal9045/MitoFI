@@ -1,0 +1,31 @@
+pixel size: read from each file
+
+    #  image                  um/px   index  band         conf  notes
+  ───────────────────────────────────────────────────────────────────
+    1  Inf 12 hpi F1 100x    0.0497   0.347  mixed        0.59
+    2  Inf 12 hpi F2 100x    0.0497   0.264  mixed        0.55
+    3  Inf 12 hpi F3 100x    0.0497   0.287  mixed        0.52
+    4  Inf 12 hpi F4 100x    0.0497   0.784  mixed        0.64
+    5  Inf 12 hpi F5 100x    0.0497   0.490  mixed        0.46
+    6  Mock 12 hpi F1 100x   0.0497   0.366  mixed        0.58
+    7  Mock 12 hpi F2 100x   0.0497       —  —               —  mask is speckle: objects average 2.010 um and stand only 2.5 background SD above their surroundings
+    8  Mock 12 hpi F3 100x   0.0497   0.268  mixed        0.51
+    9  Mock 12 hpi F4 100x   0.0497   0.272  mixed        0.53
+   10  Mock 12 hpi F5 100x   0.0497   0.264  mixed        0.52
+
+1 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  Mock 12 hpi F2 100x   0.0497       —  —               —  mask is speckle: objects average 2.008 um and stand only 2.5 background SD above their surroundings
+
+1 field(s) are refused by the quality gate. Setting a black point at the cytoplasm level -- what setting the minimum in Fiji's Brightness/Contrast does, with the level read from each image -- lets many more be scored. It keeps the order between fields that all had it, but reads about 0.2 higher than untouched fields (median +0.21 to +0.24 on fields that already pass), so rows are marked "black point" in the rescue column: compare them with each other, not with untouched fields.
+    1  Mock 12 hpi F2 100x   0.0497       —  —               —  mask is speckle: objects average 1.939 um and stand only 2.5 background SD above their surroundings
+  ───────────────────────────────────────────────────────────────────
+  10 images               9 scored, 1 rejected
+  index                   mean 0.371   median 0.287   sd 0.172   range 0.264–0.784
+  bands                   fragmented 0   mixed 9   elongated 0
+                          averages cover the scored images only
+
+  why 1 image(s) were refused:
+     1  speckle: the objects are small and barely brighter than their surroundings: too dim or noisy to read, or genuinely tiny mitochondria at low contrast, which this cannot tell apart.
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/17-07-2023__MAVS 12 HPI.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/17-07-2023__MAVS 12 HPI_summary.csv

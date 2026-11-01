@@ -1,0 +1,11 @@
+Slab thickness on Allen (inside the cell, black point after the slab). DEVELOPMENT.
+
+  slab   scored   mitotic   interph     gap   by stage M0 / M1M2 / M3 / M4M5
+   (medians of cells that pass; "raw" = same, all cells, gate ignored)
+   0.5  219/238     0.495     0.204  +0.292   0.20 / 0.27 / 0.52 / 0.64   raw 0.523 / 0.201
+   1.0  217/238     0.498     0.160  +0.338   0.16 / 0.20 / 0.64 / 0.68   raw 0.525 / 0.148
+   2.0  223/238     0.427     0.118  +0.309   0.12 / 0.25 / 0.52 / 0.66   raw 0.375 / 0.121
+   4.0  217/238     0.303     0.092  +0.211   0.09 / 0.12 / 0.32 / 0.52   raw 0.297 / 0.080
+  full  211/238     0.242     0.103  +0.140   0.10 / 0.13 / 0.38 / 0.25   raw 0.252 / 0.097
+
+2 vs 4 um: mitotic moves 0.125, interphase 0.027 -> no plateau (rule not met)

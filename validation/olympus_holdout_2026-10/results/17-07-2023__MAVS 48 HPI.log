@@ -1,0 +1,31 @@
+pixel size: read from each file
+
+    #  image                       um/px   index  band         conf  notes
+  ────────────────────────────────────────────────────────────────────────
+    1  Infected 48  hpi 100x F1   0.0497   0.524  mixed        0.51
+    2  Infected 48  hpi 100x F2   0.0497   0.730  mixed        0.51
+    3  Infected 48  hpi 100x F3   0.0497   0.911  fragmented   0.83
+    4  Infected 48  hpi 100x F4   0.0497   0.859  mixed        0.74
+    5  Infected 48  hpi 100x F5   0.0497   0.849  mixed        0.72
+    6  Infected 48  hpi 100x F6   0.0497   0.752  mixed        0.57
+    7  Infected 48  hpi 100x F7   0.0497   0.782  mixed        0.62
+    8  Mock 48  hpi 100x F1       0.0497   0.222  mixed        0.62
+    9  Mock 48  hpi 100x F2       0.0497   0.025  elongated    0.95
+   10  Mock 48  hpi 100x F3       0.0497   0.004  elongated    0.99
+   11  Mock 48  hpi 100x F4       0.0497   0.011  elongated    0.98
+   12  Mock 48  hpi 100x F5       0.0497       —  —               —  mask looks like noise texture: large objects stand only 1.0 x their surrounding noise (limit 1.16)
+
+1 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  Mock 48  hpi 100x F5       0.0497       —  —               —  mask looks like noise texture: large objects stand only 1.0 x their surrounding noise (limit 1.16)
+
+1 field(s) are refused by the quality gate. Setting a black point at the cytoplasm level -- what setting the minimum in Fiji's Brightness/Contrast does, with the level read from each image -- lets many more be scored. It keeps the order between fields that all had it, but reads about 0.2 higher than untouched fields (median +0.21 to +0.24 on fields that already pass), so rows are marked "black point" in the rescue column: compare them with each other, not with untouched fields.
+    1  Mock 48  hpi 100x F5       0.0497   0.252  mixed        0.58
+  ────────────────────────────────────────────────────────────────────────
+  12 images                    12 scored, 0 rejected
+  index                        mean 0.493   median 0.627   sd 0.365   range 0.004–0.911
+  bands                        fragmented 1   mixed 8   elongated 3
+
+  NOTE: 1 of 12 scored fields were rescued (background 0, black point 1); the rest were not. Black-point rows read about 0.2 higher than untouched ones: compare conditions within the same rescue, or check that a difference holds without the black-point rows.
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/17-07-2023__MAVS 48 HPI.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/17-07-2023__MAVS 48 HPI_summary.csv

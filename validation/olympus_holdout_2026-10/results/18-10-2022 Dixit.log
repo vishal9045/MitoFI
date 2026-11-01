@@ -1,0 +1,21 @@
+pixel size: read from each file
+
+    #  image                             um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────────────────
+    1  huh-7 Delta 12 hpi B2 2.5x zo…   0.0829       —  —               —  too much diffuse background: 24.1% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    2  huh-7 Delta 12 hpi B2 2.5x zo…   0.0829       —  —               —  too much diffuse background: 31.8% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    3  huh-7 Delta 12 hpi B2 2.5x zo…   0.0829       —  —               —  too much diffuse background: 29.5% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    4  huh-7 Delta 12 hpi B2 2.5x zo…   0.0829       —  —               —  too much diffuse background: 31.4% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+
+4 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  huh-7 Delta 12 hpi B2 2.5x zo…   0.0829   0.198  mixed        0.63
+    2  huh-7 Delta 12 hpi B2 2.5x zo…   0.0829   0.011  elongated    0.98
+    3  huh-7 Delta 12 hpi B2 2.5x zo…   0.0829   0.125  mixed        0.77
+    4  huh-7 Delta 12 hpi B2 2.5x zo…   0.0829   0.134  mixed        0.74
+  ──────────────────────────────────────────────────────────────────────────────
+  4 images                           4 scored, 0 rejected
+  index                              mean 0.117   median 0.130   sd 0.077   range 0.011–0.198
+  bands                              fragmented 0   mixed 3   elongated 1
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/18-10-2022 Dixit.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/18-10-2022 Dixit_summary.csv

@@ -1,0 +1,47 @@
+pixel size: read from each file
+
+    #  image                             um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────────────────
+    1  A549 KO MAVS OE F1 B3            0.0829   0.126  mixed        0.82
+    2  A549 KO MAVS OE F2 B3 2.5X       0.0829   0.065  elongated    0.88
+    3  A549 KO MAVS OE F3 B3 2.5X       0.0829   0.592  mixed        0.46
+    4  A549 KO MAVS OE F4 B3 2.5X       0.0829       —  —               —  too much diffuse background: 9.2% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    5  A549 KO MAVS OE F5 B3 2.5X       0.0829   0.153  mixed        0.74
+    6  A549 KO MAVS OE F6 B3 2.5X       0.0829       —  —               —  too much diffuse background: 6.9% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    7  A549 KO MAVS OE F6 B3 2.5X_00…   0.0829   0.005  elongated    0.99
+    8  A549 KO MAVS OE F7 B3 2.5X       0.0829       —  —               —  too much diffuse background: 10.5% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    9  A549 KO MAVS OE F8 B3 2.5X       0.0829       —  —               —  too much diffuse background: 8.9% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   10  A549 KO NORMAL CELLS F1 B3       0.0829       —  —               —  too much diffuse background: 14.5% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   11  A549 KO NORMAL CELLS F2 B3       0.0829       —  —               —  too much diffuse background: 9.6% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   12  A549 KO NORMAL CELLS F3 B3       0.0829   0.206  mixed        0.64
+   13  A549 KO NORMAL CELLS F4 B3       0.0829   0.182  mixed        0.71
+   14  A549 KO NORMAL CELLS F5 B3       0.0829   0.688  mixed        0.60
+   15  A549 KO NORMAL CELLS F6 B3       0.0829   0.246  mixed        0.68
+   16  A549 WT NORMAL CELLS F1 B3       0.0829   0.667  mixed        0.56
+   17  A549 WT NORMAL CELLS F10 B3      0.0829   0.161  mixed        0.70
+   18  A549 WT NORMAL CELLS F11 B3      0.0829   0.398  mixed        0.48
+   19  A549 WT NORMAL CELLS F2 B3       0.0829   0.021  elongated    0.96
+   20  A549 WT NORMAL CELLS F3 B3       0.0829   0.897  fragmented   0.81
+   21  A549 WT NORMAL CELLS F4 B3       0.0829   0.001  elongated    1.00
+   22  A549 WT NORMAL CELLS F5 B3       0.0829   0.950  fragmented   0.91
+   23  A549 WT NORMAL CELLS F6 B3       0.0829   0.182  mixed        0.72
+   24  A549 WT NORMAL CELLS F7 B3       0.0829   0.006  elongated    0.99
+   25  A549 WT NORMAL CELLS F8 B3       0.0829   0.750  mixed        0.62
+   26  A549 WT NORMAL CELLS F9 B3       0.0829   0.850  mixed        0.73
+
+6 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  A549 KO MAVS OE F4 B3 2.5X       0.0829   0.251  mixed        0.63
+    2  A549 KO MAVS OE F6 B3 2.5X       0.0829   0.004  elongated    0.99
+    3  A549 KO MAVS OE F7 B3 2.5X       0.0829   0.018  elongated    0.96
+    4  A549 KO MAVS OE F8 B3 2.5X       0.0829   0.008  elongated    0.98
+    5  A549 KO NORMAL CELLS F1 B3       0.0829   0.283  mixed        0.57
+    6  A549 KO NORMAL CELLS F2 B3       0.0829   0.249  mixed        0.52
+  ──────────────────────────────────────────────────────────────────────────────
+  26 images                          26 scored, 0 rejected
+  index                              mean 0.306   median 0.194   sd 0.312   range 0.001–0.950
+  bands                              fragmented 2   mixed 16   elongated 8
+
+  NOTE: 6 of 26 scored fields were rescued (background 6, black point 0); the rest were not. Check that a difference between conditions holds without the rescued rows.
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/09-06-2023__A549 MAVS OE.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/09-06-2023__A549 MAVS OE_summary.csv

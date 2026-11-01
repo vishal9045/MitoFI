@@ -1,0 +1,13 @@
+pixel size: read from each file
+
+    #  image                             um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────────────────
+    1  huh-7 HA-MAVS Mock oe F1         0.0829   0.038  elongated    0.93
+    2  huh-7 HA-MAVS Mock oe F2 Both…   0.0829   0.479  mixed        0.68
+  ──────────────────────────────────────────────────────────────────────────────
+  2 images                           2 scored, 0 rejected
+  index                              mean 0.258   median 0.258   sd 0.312   range 0.038–0.479
+  bands                              fragmented 0   mixed 1   elongated 1
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/27-08-2024 HA-MAVS oe Mock.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/27-08-2024 HA-MAVS oe Mock_summary.csv

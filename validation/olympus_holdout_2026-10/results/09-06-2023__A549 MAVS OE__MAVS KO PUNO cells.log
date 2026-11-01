@@ -1,0 +1,32 @@
+pixel size: read from each file
+
+    #  image                        um/px   index  band         conf  notes
+  ─────────────────────────────────────────────────────────────────────────
+    1  A549 MAVS KO PUNO F1        0.0829   0.044  elongated    0.91
+    2  A549 MAVS KO PUNO F10 REP   0.0829   0.010  elongated    0.98
+    3  A549 MAVS KO PUNO F11       0.0829   0.066  elongated    0.87
+    4  A549 MAVS KO PUNO F12       0.0829       —  —               —  too much diffuse background: 7.2% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    5  A549 MAVS KO PUNO F2        0.0829       —  —               —  too much diffuse background: 9.6% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    6  A549 MAVS KO PUNO F3        0.0829       —  —               —  too much diffuse background: 6.8% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    7  A549 MAVS KO PUNO F4        0.0829       —  —               —  too much diffuse background: 6.7% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    8  A549 MAVS KO PUNO F5        0.0829       —  —               —  too much diffuse background: 7.8% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    9  A549 MAVS KO PUNO F6        0.0829   0.732  mixed        0.64
+   10  A549 MAVS KO PUNO F7        0.0829   0.016  elongated    0.97
+   11  A549 MAVS KO PUNO F8        0.0829   0.004  elongated    0.99
+   12  A549 MAVS KO PUNO F9 REP    0.0829   0.070  elongated    0.87
+
+5 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  A549 MAVS KO PUNO F12       0.0829   0.150  mixed        0.74
+    2  A549 MAVS KO PUNO F2        0.0829   0.002  elongated    1.00
+    3  A549 MAVS KO PUNO F3        0.0829   0.086  elongated    0.87
+    4  A549 MAVS KO PUNO F4        0.0829   0.001  elongated    1.00
+    5  A549 MAVS KO PUNO F5        0.0829   0.015  elongated    0.97
+  ─────────────────────────────────────────────────────────────────────────
+  12 images                     12 scored, 0 rejected
+  index                         mean 0.100   median 0.030   sd 0.204   range 0.001–0.732
+  bands                         fragmented 0   mixed 2   elongated 10
+
+  NOTE: 5 of 12 scored fields were rescued (background 5, black point 0); the rest were not. Check that a difference between conditions holds without the rescued rows.
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/09-06-2023__A549 MAVS OE__MAVS KO PUNO cells.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/09-06-2023__A549 MAVS OE__MAVS KO PUNO cells_summary.csv

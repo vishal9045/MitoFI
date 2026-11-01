@@ -1,0 +1,35 @@
+pixel size: read from each file
+
+    #  image                             um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────────────────
+    1  huh-7 DENV 48 HPI B1 F1 2X ZO…   0.1036   0.451  mixed        0.75
+    2  huh-7 DENV 48 HPI B1 F1          0.0829   0.298  mixed        0.52
+    3  huh-7 DENV 48 HPI B1 F2 2X ZO…   0.1036   0.094  elongated    0.83
+    4  huh-7 DENV 48 HPI B1 F2          0.0829   0.040  elongated    0.92
+    5  huh-7 DENV 48 HPI B1 F3 2X ZO…   0.1036       —  —               —  too much diffuse background: 6.6% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    6  huh-7 DENV 48 HPI B2 F1          0.0829   0.909  fragmented   0.82
+    7  huh-7 DENV 48 HPI B2 F2          0.0829       —  —               —  segmentation collapsed: foreground 0.80%
+    8  huh-7 DENV 48 HPI B2 F3          0.1036       —  —               —  too much diffuse background: 8.5% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    9  huh-7 DENV 48 HPI B3 F2          0.1036   0.287  mixed        0.52
+   10  huh-7 DENV 48 HPI B3 F3          0.0829   0.000  elongated    1.00
+   11  huh-7 DENV 48 HPI B3 F4          0.0829   0.262  mixed        0.53
+   12  huh-7 DENV 48 HPI B3 F5 2X ZO…   0.1036       —  —               —  too much diffuse background: 8.6% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+
+4 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  huh-7 DENV 48 HPI B1 F3 2X ZO…   0.1036   0.277  mixed        0.49
+    2  huh-7 DENV 48 HPI B2 F2          0.0829       —  —               —  segmentation collapsed: foreground 0.80%
+    3  huh-7 DENV 48 HPI B2 F3          0.1036   0.000  elongated    1.00
+    4  huh-7 DENV 48 HPI B3 F5 2X ZO…   0.1036   0.007  elongated    0.98
+
+1 field(s) are refused by the quality gate. Setting a black point at the cytoplasm level -- what setting the minimum in Fiji's Brightness/Contrast does, with the level read from each image -- lets many more be scored. It keeps the order between fields that all had it, but reads about 0.2 higher than untouched fields (median +0.21 to +0.24 on fields that already pass), so rows are marked "black point" in the rescue column: compare them with each other, not with untouched fields.
+    1  huh-7 DENV 48 HPI B2 F2          0.0829   0.962  fragmented   0.93
+  ──────────────────────────────────────────────────────────────────────────────
+  12 images                          12 scored, 0 rejected
+  index                              mean 0.299   median 0.270   sd 0.332   range 0.000–0.962
+  bands                              fragmented 2   mixed 5   elongated 5
+  pixel sizes                        2 different in this folder, 0.0829 to 0.1036 um
+
+  NOTE: 4 of 12 scored fields were rescued (background 3, black point 1); the rest were not. Black-point rows read about 0.2 higher than untouched ones: compare conditions within the same rescue, or check that a difference holds without the black-point rows.
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/19-04-2023.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/19-04-2023_summary.csv

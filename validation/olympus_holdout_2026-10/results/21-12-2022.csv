@@ -1,0 +1,7 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+poly ic 12 hpi 1,True,,0.032,elongated,0.937,0.032,0.2608,5.547,0.63,0.0112,1.52,770,0.082864075920298,background,"channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 4 planes; background subtracted, rolling ball 2.5 um"
+poly ic 12 hpi 2,True,,0.1551,mixed,0.695,0.1551,0.1422,5.277,4.04,0.0004,4.57,398,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 4 planes
+poly ic 12 hpi 3,True,,0.0534,elongated,0.896,0.0534,0.235,6.24,2.06,0.0041,3.19,449,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 6 planes
+vehicle 12 hpi 1,True,,0.0574,elongated,0.887,0.0574,0.2843,5.345,0.67,0.0132,1.34,838,0.082864075920298,background,"channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 7 planes; background subtracted, rolling ball 2.5 um"
+vehicle 12 hpi 2,True,,0.054,elongated,0.893,0.054,0.2054,5.232,0.89,0.0542,1.67,494,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 8 planes
+vehicle 12 hpi 3,True,,0.0308,elongated,0.94,0.0308,0.1307,4.989,0.8,0.0083,1.21,415,0.082864075920298,background,"channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 6 planes; background subtracted, rolling ball 2.5 um"

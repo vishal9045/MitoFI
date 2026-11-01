@@ -1,0 +1,32 @@
+pixel size: read from each file
+
+    #  image        um/px   index  band         conf  notes
+  ─────────────────────────────────────────────────────────
+    1  C2_CP72_a   0.0659       —  —               —  too much diffuse background: 10.4% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    2  C2_CP72_b   0.0659       —  —               —  too much diffuse background: 8.8% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    3  C2_CP72_c   0.0659       —  —               —  too much diffuse background: 8.4% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    4  C2_CP72_d   0.0659       —  —               —  too much diffuse background: 10.7% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    5  C2_CP72_e   0.0659       —  —               —  too much diffuse background: 13.3% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+
+5 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  C2_CP72_a   0.0659   0.000  elongated    1.00
+    2  C2_CP72_b   0.0659       —  —               —  mask is speckle: objects average 2.056 um and stand only 1.9 background SD above their surroundings
+    3  C2_CP72_c   0.0659   0.002  elongated    1.00
+    4  C2_CP72_d   0.0659       —  —               —  segmentation collapsed: foreground 0.58%
+    5  C2_CP72_e   0.0659       —  —               —  segmentation collapsed: foreground 0.16%
+
+3 field(s) are refused by the quality gate. Setting a black point at the cytoplasm level -- what setting the minimum in Fiji's Brightness/Contrast does, with the level read from each image -- lets many more be scored. It keeps the order between fields that all had it, but reads about 0.2 higher than untouched fields (median +0.21 to +0.24 on fields that already pass), so rows are marked "black point" in the rescue column: compare them with each other, not with untouched fields.
+    1  C2_CP72_b   0.0659   0.000  elongated    1.00
+    2  C2_CP72_d   0.0659       —  —               —  mask is speckle: objects average 2.210 um and stand only 2.3 background SD above their surroundings
+    3  C2_CP72_e   0.0659   0.003  elongated    0.99
+  ─────────────────────────────────────────────────────────
+  5 images      4 scored, 1 rejected
+  index         mean 0.001   median 0.001   sd 0.001   range 0.000–0.003
+  bands         fragmented 0   mixed 0   elongated 4
+                averages cover the scored images only
+
+  why 1 image(s) were refused:
+     1  speckle: the objects are small and barely brighter than their surroundings: too dim or noisy to read, or genuinely tiny mitochondria at low contrast, which this cannot tell apart.
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/uct/repC_pa72.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/uct/repC_pa72_summary.csv

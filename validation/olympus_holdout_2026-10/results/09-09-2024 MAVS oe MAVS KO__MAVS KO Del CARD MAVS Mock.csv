@@ -1,0 +1,3 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+Huh-7 MAVS KO Del MAVS oe Mock F1,True,,0.7155,mixed,0.517,0.7155,0.1133,4.085,3.85,0.0053,3.07,391,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 3; max projection over 21 planes
+Huh-7 MAVS KO Del MAVS oe Mock F2,True,,0.5499,mixed,0.503,0.5499,0.1497,3.842,3.5,0.0012,4.04,413,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 3; max projection over 12 planes

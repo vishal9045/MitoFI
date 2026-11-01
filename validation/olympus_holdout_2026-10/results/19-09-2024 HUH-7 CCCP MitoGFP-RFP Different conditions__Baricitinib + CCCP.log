@@ -1,0 +1,15 @@
+pixel size: read from each file
+
+    #  image                             um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────────────────
+    1  Huh-7 Mito GFP RFP Baricitini…   0.0829   0.982  fragmented   0.96
+    2  Huh-7 Mito GFP RFP Baricitini…   0.0829   0.954  fragmented   0.91
+    3  Huh-7 Mito GFP RFP Baricitini…   0.0829   0.995  fragmented   0.99
+    4  Huh-7 Mito GFP RFP Baricitini…   0.0829   0.929  fragmented   0.86
+  ──────────────────────────────────────────────────────────────────────────────
+  4 images                           4 scored, 0 rejected
+  index                              mean 0.965   median 0.968   sd 0.029   range 0.929–0.995
+  bands                              fragmented 4   mixed 0   elongated 0
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/19-09-2024 HUH-7 CCCP MitoGFP-RFP Different conditions__Baricitinib + CCCP.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/19-09-2024 HUH-7 CCCP MitoGFP-RFP Different conditions__Baricitinib + CCCP_summary.csv

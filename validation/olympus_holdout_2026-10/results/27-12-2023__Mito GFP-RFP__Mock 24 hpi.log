@@ -1,0 +1,72 @@
+pixel size: read from each file
+
+    #  image                             um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────────────────
+    1  huh-7 Mito GFP-RFP mock 24 hp…   0.0829   0.840  mixed        0.72
+    2  huh-7 Mito GFP-RFP mock 24 hp…   0.0829   0.000  elongated    1.00
+    3  huh-7 Mito GFP-RFP mock 24 hp…   0.0829   0.000  elongated    1.00
+    4  huh-7 Mito GFP-RFP mock 24 hp…   0.0829   0.000  elongated    1.00
+    5  huh-7 Mito GFP-RFP mock 24 hp…   0.0829   0.011  elongated    0.98
+    6  huh-7 Mito GFP-RFP mock 24 hp…   0.0829   0.014  elongated    0.97
+    7  huh-7 Mito GFP-RFP mock 24 hp…   0.0829   0.715  mixed        0.51
+    8  huh-7 Mito GFP-RFP mock 24 hp…   0.0829   0.000  elongated    1.00
+    9  huh-7 Mito GFP-RFP mock 24 hp…   0.0829   0.034  elongated    0.94
+   10  huh-7 Mito GFP-RFP mock 24 hp…   0.0829   0.000  elongated    1.00
+   11  huh-7 Mito GFP-RFP mock 24 hp…   0.0829   0.030  elongated    0.95
+   12  huh-7 Mito GFP-RFP mock 24 hp…   0.0829   0.000  elongated    1.00
+   13  huh-7 Mito GFP-RFP mock 24 hp…   0.0829       —  —               —  mask is speckle: objects average 1.682 um and stand only 2.9 background SD above their surroundings
+   14  huh-7 Mito GFP-RFP mock 24 hp…   0.0829   0.092  elongated    0.82
+   15  huh-7 Mito GFP-RFP mock 24 hp…   0.0829   0.029  elongated    0.94
+   16  huh-7 Mito GFP-RFP mock 24 hp…   0.0829   0.042  elongated    0.93
+   17  huh-7 Mito GFP-RFP mock 24 hp…   0.0829   0.023  elongated    0.95
+   18  huh-7 Mito GFP-RFP mock 24 hp…   0.0829   0.017  elongated    0.97
+   19  huh-7 Mito GFP-RFP mock 24 hp…   0.0829   0.000  elongated    1.00
+   20  huh-7 Mito GFP-RFP mock 24 hp…   0.0829   0.036  elongated    0.94
+   21  huh-7 Mito GFP-RFP mock 24 hp…   0.0829   0.158  mixed        0.72
+   22  huh-7 Mito GFP-RFP mock 24 hp…   0.0829   0.000  elongated    1.00
+   23  huh-7 Mito GFP-RFP mock 24 hp…   0.0829       —  —               —  mask is speckle: objects average 1.848 um and stand only 1.4 background SD above their surroundings
+   24  huh-7 Mito GFP-RFP mock 24 hp…   0.0829       —  —               —  mask is speckle: objects average 1.941 um and stand only 1.4 background SD above their surroundings
+   25  huh-7 Mito GFP-RFP mock 24 hp…   0.0829   0.001  elongated    1.00
+   26  huh-7 Mito GFP-RFP mock 24 hp…   0.0829   0.000  elongated    1.00
+   27  huh-7 Mito GFP-RFP mock 24 hp…   0.0829       —  —               —  too much diffuse background: 7.9% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   28  huh-7 Mito GFP-RFP mock 24 hp…   0.0829   0.001  elongated    1.00
+   29  huh-7 Mito GFP-RFP mock 24 hp…   0.0829   0.794  mixed        0.61
+   30  huh-7 Mito GFP-RFP mock 24 hp…   0.0829   0.000  elongated    1.00
+   31  huh-7 Mito GFP-RFP mock 24 hp…   0.0829       —  —               —  mask is speckle: objects average 1.501 um and stand only 2.0 background SD above their surroundings
+   32  huh-7 Mito GFP-RFP mock 24 hp…   0.0829   0.025  elongated    0.96
+   33  huh-7 Mito GFP-RFP mock 24 hp…   0.0829   0.916  fragmented   0.85
+   34  huh-7 Mito GFP-RFP mock 24 hp…   0.0829   0.006  elongated    0.99
+   35  huh-7 Mito GFP-RFP mock 24 hp…   0.0829   0.274  mixed        0.61
+   36  huh-7 Mito GFP-RFP mock 24 hp…   0.0829   0.000  elongated    1.00
+   37  huh-7 Mito GFP-RFP mock 24 hp…   0.0829   0.000  elongated    1.00
+   38  huh-7 Mito GFP-RFP mock 24 hp…   0.0829   0.003  elongated    1.00
+   39  huh-7 Mito GFP-RFP mock 24 hp…   0.0829   0.298  mixed        0.47
+   40  huh-7 Mito GFP-RFP mock 24 hp…   0.0829       —  —               —  mask is speckle: objects average 1.785 um and stand only 2.0 background SD above their surroundings
+
+6 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  huh-7 Mito GFP-RFP mock 24 hp…   0.0829       —  —               —  mask is speckle: objects average 1.685 um and stand only 2.5 background SD above their surroundings
+    2  huh-7 Mito GFP-RFP mock 24 hp…   0.0829       —  —               —  mask is speckle: objects average 1.848 um and stand only 1.4 background SD above their surroundings
+    3  huh-7 Mito GFP-RFP mock 24 hp…   0.0829       —  —               —  mask is speckle: objects average 1.970 um and stand only 1.5 background SD above their surroundings
+    4  huh-7 Mito GFP-RFP mock 24 hp…   0.0829   0.000  elongated    1.00
+    5  huh-7 Mito GFP-RFP mock 24 hp…   0.0829       —  —               —  mask is speckle: objects average 1.501 um and stand only 1.9 background SD above their surroundings
+    6  huh-7 Mito GFP-RFP mock 24 hp…   0.0829       —  —               —  mask is speckle: objects average 1.788 um and stand only 2.3 background SD above their surroundings
+
+5 field(s) are refused by the quality gate. Setting a black point at the cytoplasm level -- what setting the minimum in Fiji's Brightness/Contrast does, with the level read from each image -- lets many more be scored. It keeps the order between fields that all had it, but reads about 0.2 higher than untouched fields (median +0.21 to +0.24 on fields that already pass), so rows are marked "black point" in the rescue column: compare them with each other, not with untouched fields.
+    1  huh-7 Mito GFP-RFP mock 24 hp…   0.0829   0.066  elongated    0.87
+    2  huh-7 Mito GFP-RFP mock 24 hp…   0.0829   0.056  elongated    0.90
+    3  huh-7 Mito GFP-RFP mock 24 hp…   0.0829       —  —               —  segmentation collapsed: foreground 0.38%
+    4  huh-7 Mito GFP-RFP mock 24 hp…   0.0829       —  —               —  segmentation collapsed: foreground 0.55%
+    5  huh-7 Mito GFP-RFP mock 24 hp…   0.0829   0.024  elongated    0.95
+  ──────────────────────────────────────────────────────────────────────────────
+  40 images                          38 scored, 2 rejected
+  index                              mean 0.119   median 0.015   sd 0.253   range 0.000–0.916
+  bands                              fragmented 1   mixed 6   elongated 31
+                                     averages cover the scored images only
+
+  why 2 image(s) were refused:
+     2  almost nothing segmented: under 1% of the field was called mitochondria. Usually the wrong channel, an empty field, or a very dim one.
+
+  NOTE: 4 of 38 scored fields were rescued (background 1, black point 3); the rest were not. Black-point rows read about 0.2 higher than untouched ones: compare conditions within the same rescue, or check that a difference holds without the black-point rows.
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/27-12-2023__Mito GFP-RFP__Mock 24 hpi.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/27-12-2023__Mito GFP-RFP__Mock 24 hpi_summary.csv

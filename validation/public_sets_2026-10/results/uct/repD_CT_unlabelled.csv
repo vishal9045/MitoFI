@@ -1,0 +1,4 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+Slide D-3-4-24 CT a,True,,0.8765,fragmented,0.766,0.8765,0.0217,2.594,1.42,0.0584,2.76,111,0.06589,,axes ZYX; max projection over 12 planes; 8-bit data scaled x16.06 to the 12-bit range the classifier was trained on
+Slide D-3-4-24 CT b,True,,0.3394,mixed,0.526,0.3394,0.0173,5.7,4.2,0.0098,3.18,33,0.06589,background,"axes ZYX; max projection over 12 planes; 8-bit data scaled x16.06 to the 12-bit range the classifier was trained on; background subtracted, rolling ball 2.5 um"
+Slide D-3-4-24 CT c,True,,0.0038,elongated,0.992,0.0038,0.0271,7.991,2.11,0.0086,1.18,49,0.06589,background,"axes ZYX; max projection over 18 planes; 8-bit data scaled x16.06 to the 12-bit range the classifier was trained on; background subtracted, rolling ball 2.5 um"

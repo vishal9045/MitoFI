@@ -1,0 +1,26 @@
+pixel size: read from each file
+
+    #  image                             um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────────────────
+    1  MEF MAVS KO EV oe CoV-2 F1       0.1036       —  —               —  too much diffuse background: 8.5% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    2  MEF MAVS KO EV oe CoV-2 F2       0.0829       —  —               —  too much diffuse background: 24.6% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    3  MEF MAVS KO EV oe CoV-2 F3 REP   0.0829       —  —               —  too much diffuse background: 7.4% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    4  MEF MAVS KO MFN1 oe CoV-2 F1     0.1036   0.072  elongated    0.86
+    5  MEF MAVS KO MFN1 oe CoV-2 F2     0.1036   0.132  mixed        0.76
+    6  MEF MAVS KO MFN1 oe CoV-2 F3 …   0.1381   0.117  mixed        0.78
+    7  MEF MAVS KO MFN1 oe CoV-2 F4     0.0829   0.001  elongated    1.00
+
+3 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  MEF MAVS KO EV oe CoV-2 F1       0.1036   0.795  mixed        0.64
+    2  MEF MAVS KO EV oe CoV-2 F2       0.0829   0.000  elongated    1.00
+    3  MEF MAVS KO EV oe CoV-2 F3 REP   0.0829   0.600  mixed        0.42
+  ──────────────────────────────────────────────────────────────────────────────
+  7 images                           7 scored, 0 rejected
+  index                              mean 0.245   median 0.117   sd 0.318   range 0.000–0.795
+  bands                              fragmented 0   mixed 4   elongated 3
+  pixel sizes                        3 different in this folder, 0.0829 to 0.1381 um
+
+  NOTE: 3 of 7 scored fields were rescued (background 3, black point 0); the rest were not. Check that a difference between conditions holds without the rescued rows.
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/08-04-2024__MEF MAVS KO MFN1 oe.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/08-04-2024__MEF MAVS KO MFN1 oe_summary.csv

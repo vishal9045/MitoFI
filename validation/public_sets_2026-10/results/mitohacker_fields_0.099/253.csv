@@ -1,0 +1,7 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+YFP0253_1,True,,0.1716,mixed,0.675,0.1716,0.0388,5.199,1.99,0.02,1.72,513,0.099,background,"2D image, used as is; 8-bit data scaled x16.06 to the 12-bit range the classifier was trained on; background subtracted, rolling ball 2.5 um"
+YFP0253_22,True,,0.7003,mixed,0.473,0.7003,0.0984,4.829,2.15,0.0083,2.21,1492,0.099,background,"2D image, used as is; 8-bit data scaled x16.06 to the 12-bit range the classifier was trained on; background subtracted, rolling ball 2.5 um"
+YFP0253_24,True,,0.7309,mixed,0.52,0.7309,0.0198,4.219,4.49,0.0485,2.57,301,0.099,,"2D image, used as is; 8-bit data scaled x16.06 to the 12-bit range the classifier was trained on"
+YFP0253_32,True,,0.4659,mixed,0.581,0.4659,0.078,4.846,1.36,0.0129,1.87,1241,0.099,background,"2D image, used as is; 8-bit data scaled x16.06 to the 12-bit range the classifier was trained on; background subtracted, rolling ball 2.5 um"
+YFP0253_36,True,,0.776,mixed,0.601,0.776,0.0356,4.573,2.37,0.0117,2.21,604,0.099,,"2D image, used as is; 8-bit data scaled x16.06 to the 12-bit range the classifier was trained on"
+YFP0253_8,True,,0.8064,mixed,0.639,0.8064,0.0516,5.202,3.47,0.015,2.78,680,0.099,,"2D image, used as is; 8-bit data scaled x16.06 to the 12-bit range the classifier was trained on"

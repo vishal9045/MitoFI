@@ -1,0 +1,8 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+YFP0145_29,True,,0.0077,elongated,0.985,0.0077,0.1037,8.842,1.46,0.011,1.69,661,0.099,background,"2D image, used as is; 8-bit data scaled x16.06 to the 12-bit range the classifier was trained on; background subtracted, rolling ball 2.5 um"
+YFP0145_34,True,,0.0979,elongated,0.805,0.0979,0.0814,9.455,3.03,0.0147,2.37,541,0.099,,"2D image, used as is; 8-bit data scaled x16.06 to the 12-bit range the classifier was trained on"
+YFP0145_39,True,,0.057,elongated,0.889,0.057,0.037,7.763,1.96,0.0098,1.85,296,0.099,background,"2D image, used as is; 8-bit data scaled x16.06 to the 12-bit range the classifier was trained on; background subtracted, rolling ball 2.5 um"
+YFP0145_40,True,,0.052,elongated,0.898,0.052,0.0558,6.722,1.11,0.0084,1.4,506,0.099,background,"2D image, used as is; 8-bit data scaled x16.06 to the 12-bit range the classifier was trained on; background subtracted, rolling ball 2.5 um"
+YFP145-1_19,True,,0.0013,elongated,0.997,0.0013,0.0567,8.403,1.46,0.0388,1.65,388,0.099,,"2D image, used as is; 8-bit data scaled x16.06 to the 12-bit range the classifier was trained on"
+YFP145-1_21,True,,0.0746,elongated,0.851,0.0746,0.0354,8.243,1.98,0.0081,1.73,252,0.099,background,"2D image, used as is; 8-bit data scaled x16.06 to the 12-bit range the classifier was trained on; background subtracted, rolling ball 2.5 um"
+YFP145-1_26,True,,0.1943,mixed,0.628,0.1943,0.0322,4.839,6.54,0.0001,3.44,466,0.099,black point,"2D image, used as is; 8-bit data scaled x16.06 to the 12-bit range the classifier was trained on; black point at the cytoplasm peak (776 on the 12-bit scale)"

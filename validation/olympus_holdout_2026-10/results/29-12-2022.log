@@ -1,0 +1,43 @@
+pixel size: read from each file
+
+    #  image                         um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────────────
+    1  huh 12 hpi infected 1        0.0829   0.231  mixed        0.59
+    2  huh 12 hpi infected 2        0.0829   0.060  elongated    0.88
+    3  huh 12 hpi infected 3        0.0829       —  —               —  too much diffuse background: 6.4% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    4  huh 12 hpi infected 4        0.0829   0.140  mixed        0.74
+    5  huh 12 hpi infected 5        0.0829   0.141  mixed        0.73
+    6  huh 12 hpi mock 1            0.0829       —  —               —  too much diffuse background: 9.4% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    7  huh 12 hpi mock 2            0.0829   0.030  elongated    0.94
+    8  huh 12 hpi mock 3            0.0829       —  —               —  too much diffuse background: 6.4% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    9  huh 12 hpi mock 4            0.0829   0.106  elongated    0.81
+   10  huh-7 24 hpi infected 1      0.0829       —  —               —  too much diffuse background: 10.0% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   11  huh-7 24 hpi infected 2      0.0829       —  —               —  too much diffuse background: 6.2% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   12  huh-7 24 hpi infected 3      0.0829       —  —               —  too much diffuse background: 7.0% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   13  huh-7 24 hpi infected 4      0.0829       —  —               —  too much diffuse background: 10.7% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   14  huh-7 24 hpi infected 5      0.0829       —  —               —  too much diffuse background: 11.3% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   15  huh-7 24 hpi infected both   0.0829   0.046  elongated    0.91
+   16  huh-7 24 hpi mock 1          0.0829   0.154  mixed        0.71
+   17  huh-7 24 hpi mock 2          0.0829   0.090  elongated    0.82
+   18  huh-7 24 hpi mock 3          0.0829   0.248  mixed        0.53
+   19  huh-7 24 hpi mock 4          0.0829   0.124  mixed        0.77
+   20  huh-7 24 hpi mock 5          0.0829   0.109  mixed        0.79
+
+8 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  huh 12 hpi infected 3        0.0829   0.116  mixed        0.78
+    2  huh 12 hpi mock 1            0.0829   0.034  elongated    0.93
+    3  huh 12 hpi mock 3            0.0829   0.113  mixed        0.79
+    4  huh-7 24 hpi infected 1      0.0829   0.352  mixed        0.44
+    5  huh-7 24 hpi infected 2      0.0829   0.027  elongated    0.95
+    6  huh-7 24 hpi infected 3      0.0829   0.049  elongated    0.91
+    7  huh-7 24 hpi infected 4      0.0829   0.189  mixed        0.68
+    8  huh-7 24 hpi infected 5      0.0829   0.029  elongated    0.94
+  ──────────────────────────────────────────────────────────────────────────
+  20 images                      20 scored, 0 rejected
+  index                          mean 0.119   median 0.111   sd 0.085   range 0.027–0.352
+  bands                          fragmented 0   mixed 11   elongated 9
+
+  NOTE: 8 of 20 scored fields were rescued (background 8, black point 0); the rest were not. Check that a difference between conditions holds without the rescued rows.
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/29-12-2022.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/29-12-2022_summary.csv

@@ -1,0 +1,9 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+huh-7 DENV LC3 F10,True,,0.865,mixed,0.751,0.865,0.0621,3.515,2.93,0.0015,3.15,321,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes
+huh-7 DENV LC3 F3,True,,0.2954,mixed,0.502,0.2954,0.2283,3.63,0.63,0.024,1.78,1052,0.069053396600248,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes
+huh-7 DENV LC3 F4,True,,0.8712,fragmented,0.755,0.8712,0.076,3.107,1.36,0.007,2.62,463,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes
+huh-7 DENV LC3 F5,True,,0.2197,mixed,0.61,0.2197,0.1296,3.087,0.69,0.0096,1.73,551,0.069053396600248,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes
+huh-7 DENV LC3 F6,True,,0.2362,mixed,0.589,0.2362,0.1768,3.385,0.6,0.0371,1.5,764,0.069053396600248,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes
+huh-7 DENV LC3 F7,True,,0.6193,mixed,0.519,0.6193,0.1078,3.385,1.05,0.0357,2.09,702,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 11 planes
+huh-7 DENV LC3 F8,True,,0.2559,mixed,0.524,0.2559,0.1452,3.346,0.66,0.0212,1.62,785,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes
+huh-7 DENV LC3 F9,True,,0.3753,mixed,0.488,0.3753,0.1444,3.481,0.79,0.0134,1.9,749,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes

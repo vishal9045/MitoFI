@@ -1,0 +1,16 @@
+pixel size: read from each file
+
+    #  image                             um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────────────────
+    1  huh-7 Mito GFP-RFP DENV 24 hp…   0.0829   0.000  elongated    1.00
+    2  huh-7 Mito GFP-RFP DENV 24 hp…   0.0829   0.015  elongated    0.97
+    3  huh-7 Mito GFP-RFP DENV 24 hp…   0.0829   0.371  mixed        0.65
+    4  huh-7 Mito GFP-RFP DENV 24 hp…   0.0829   0.113  mixed        0.79
+    5  huh-7 Mito GFP-RFP DENV 24 hp…   0.0829   0.000  elongated    1.00
+  ──────────────────────────────────────────────────────────────────────────────
+  5 images                           5 scored, 0 rejected
+  index                              mean 0.100   median 0.015   sd 0.159   range 0.000–0.371
+  bands                              fragmented 0   mixed 2   elongated 3
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/27-12-2023__Mito GFP-RFP__DENV 24 hpi.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/27-12-2023__Mito GFP-RFP__DENV 24 hpi_summary.csv

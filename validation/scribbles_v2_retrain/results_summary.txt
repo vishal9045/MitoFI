@@ -1,0 +1,82 @@
+Step 2: Olympus development pool (444 three-rater fields, out of fold, GroupKFold by session)
+
+v7 recomputed from data/features_v5.csv (Labkit v5 masks): acc 0.721, kappa 0.548, AUC 0.951
+
+pixel model       acc  kappa    AUC  refused  haze   snr          band  acc - v7 (session bootstrap 95%)  pass
+v5              0.716  0.540  0.947    26/444  0.07  1.68  0.130-1.000  -0.005 (-0.038 to +0.025)     PASS
+a               0.723  0.555  0.978    11/444  0.06  1.16  0.108-0.869  +0.002 (-0.032 to +0.034)     PASS
+b               0.660  0.445  0.930    16/444  0.06   1.5  0.141-0.904  -0.061 (-0.089 to -0.030)     fail
+pass = acc >= 0.691, AUC >= 0.931, refused <= 26 (PLAN step 2). v5 row: the shipped pixel model with the index refit on its Python masks.
+
+Step 5: Allen fresh test, no black point (allen_a_v5.csv)
+
+== a  (238 cells, errors 0)
+   cell   black point rescued 194 more (not in the test): mitotic 0.242 (95), interphase 0.103 (99)
+   cell   scored 17/238 (as is 0, background 17); refused diffuse background 26, nothing segmented 1
+          M0    n  11  median 0.029  IQR 0.00-0.08
+          M1M2  n   2  median 0.007  IQR 0.01-0.01
+          M3    n   2  median 0.269  IQR 0.13-0.40
+          M4M5  n   2  median 0.291  IQR 0.18-0.40
+          mitotic 0.043 (6) vs interphase 0.029 (11), one-sided p 0.37
+          -> fail (needs mitotic > interphase, p < 0.05, as-is passes > 119)
+   whole  black point rescued 167 more (not in the test): mitotic 0.374 (78), interphase 0.396 (89)
+   whole  scored 71/238 (as is 0, background 71); refused 
+          M0    n  30  median 0.192  IQR 0.04-0.34
+          M1M2  n  13  median 0.276  IQR 0.21-0.48
+          M3    n   7  median 0.038  IQR 0.03-0.19
+          M4M5  n  21  median 0.187  IQR 0.10-0.35
+          mitotic 0.208 (41) vs interphase 0.192 (30), one-sided p 0.31
+          pairs 15: median mitotic - interphase -0.064, Wilcoxon p 0.89
+
+== v5  (238 cells, errors 0)
+   cell   black point rescued 156 more (not in the test): mitotic 0.296 (58), interphase 0.218 (98)
+   cell   scored 19/238 (as is 0, background 19); refused nothing segmented 43, diffuse background 20
+          M0    n   9  median 0.953  IQR 0.88-0.97
+          M1M2  n   5  median 0.801  IQR 0.79-0.91
+          M3    n   2  median 0.808  IQR 0.76-0.85
+          M4M5  n   3  median 0.910  IQR 0.91-0.95
+          mitotic 0.902 (10) vs interphase 0.953 (9), one-sided p 0.76
+          -> fail (needs mitotic > interphase, p < 0.05, as-is passes > 119)
+   whole  black point rescued 190 more (not in the test): mitotic 0.269 (92), interphase 0.286 (98)
+   whole  scored 37/238 (as is 0, background 37); refused diffuse background 9, nothing segmented 2
+          M0    n  18  median 0.980  IQR 0.95-0.98
+          M1M2  n   6  median 0.917  IQR 0.90-0.93
+          M3    n   3  median 0.964  IQR 0.96-0.97
+          M4M5  n  10  median 0.952  IQR 0.88-0.97
+          mitotic 0.950 (19) vs interphase 0.980 (18), one-sided p 0.99
+
+Step 3: Leica, all 496 series, no black point (leica_v5_a_b.csv)
+
+== v5: scored 256/496 (as is 105, background 151); refused diffuse background 152, pixels too coarse 38, speckle 31, noise texture 11, nothing segmented 5, almost nothing segmented 3
+   bands: elongated 96, mixed 154, fragmented 6
+   CDKi < vehicle                     0.08 (21) vs 0.48 (8)  p 0.00078  holds
+   Huh7 MFN1 KO pool > WT             0.67 (9) vs 0.38 (5)  p 0.042  holds
+   Huh7 colony 9 > WT                 0.82 (7) vs 0.38 (5)  p 0.03  holds
+   MEF MFN1 KO > WT, all-cells file   0.98 (2) vs 0.22 (8)  p 0.044  holds
+   MEF MFN2 KO > WT, localization     1.00 (4) vs 0.39 (5)  p 0.016  holds
+   MEF MFN1 KO > WT, 2 Feb            0.16 (7) vs 0.03 (11)  p 0.00094  holds
+   MEF MAVS KO > WT, 2 Feb            0.12 (11) vs 0.03 (11)  p 0.0005  holds
+   7/7 comparisons hold; scored 256 vs 256 needed -> fail
+
+== a: scored 363/496 (as is 129, background 234); refused diffuse background 69, pixels too coarse 38, noise texture 17, nothing segmented 6, almost nothing segmented 3
+   bands: elongated 117, mixed 227, fragmented 19
+   CDKi < vehicle                     0.06 (24) vs 0.29 (9)  p 6.8e-05  holds
+   Huh7 MFN1 KO pool > WT             0.59 (12) vs 0.62 (5)  p 0.51  REVERSED
+   Huh7 colony 9 > WT                 0.62 (7) vs 0.62 (5)  p 0.76  holds
+   MEF MFN1 KO > WT, all-cells file   0.90 (3) vs 0.12 (8)  p 0.012  holds
+   MEF MFN2 KO > WT, localization     1.00 (5) vs 0.12 (7)  p 0.0025  holds
+   MEF MFN1 KO > WT, 2 Feb            0.11 (7) vs 0.03 (14)  p 0.0012  holds
+   MEF MAVS KO > WT, 2 Feb            0.17 (11) vs 0.03 (14)  p 0.00011  holds
+   6/7 comparisons hold; scored 363 vs 256 needed -> fail
+
+== b: scored 236/496 (as is 96, background 140); refused diffuse background 128, noise texture 85, pixels too coarse 38, speckle 5, nothing segmented 2, almost nothing segmented 2
+   bands: elongated 80, mixed 155, fragmented 1
+   CDKi < vehicle                     0.07 (16) vs 0.18 (4)  p 0.022  holds
+   Huh7 MFN1 KO pool > WT             0.50 (7) vs 0.41 (1)  p 0.75  holds
+   Huh7 colony 9 > WT                 0.38 (7) vs 0.41 (1)  p 1  REVERSED
+   MEF MFN1 KO > WT, all-cells file   0.34 (3) vs 0.11 (3)  p 0.1  holds
+   MEF MFN2 KO > WT, localization     0.90 (3) vs 0.13 (5)  p 0.036  holds
+   MEF MFN1 KO > WT, 2 Feb            0.13 (7) vs 0.06 (11)  p 0.00044  holds
+   MEF MAVS KO > WT, 2 Feb            0.23 (9) vs 0.06 (11)  p 0.00027  holds
+   6/7 comparisons hold; scored 236 vs 256 needed -> fail
+

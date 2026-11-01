@@ -1,0 +1,17 @@
+pixel size: read from each file
+
+    #  image                       um/px   index  band         conf  notes
+  ────────────────────────────────────────────────────────────────────────
+    1  A549 WT PUNO T + I B1 F1   0.0829       —  —               —  too much diffuse background: 6.8% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    2  A549 WT PUNO T + I B1 F2   0.0829       —  —               —  too much diffuse background: 12.8% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+
+2 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  A549 WT PUNO T + I B1 F1   0.0829   0.048  elongated    0.91
+    2  A549 WT PUNO T + I B1 F2   0.0829   0.040  elongated    0.92
+  ────────────────────────────────────────────────────────────────────────
+  2 images                     2 scored, 0 rejected
+  index                        mean 0.044   median 0.044   sd 0.005   range 0.040–0.048
+  bands                        fragmented 0   mixed 0   elongated 2
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/17-04-2023.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/17-04-2023_summary.csv

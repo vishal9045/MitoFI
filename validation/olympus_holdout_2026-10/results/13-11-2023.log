@@ -1,0 +1,22 @@
+pixel size: read from each file
+
+    #  image                             um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────────────────
+    1  huh-7 HA Endo MAVS F1            0.0829   0.900  fragmented   0.82
+    2  huh-7 HA Endo MAVS F2R           0.0829   0.979  fragmented   0.96
+    3  huh-7 HA Endo MAVS F4            0.0829   0.670  mixed        0.51
+    4  huh-7 Inf dsRNA HA-Rabbit C11…   0.0829   0.000  elongated    1.00
+    5  huh-7 Inf dsRNA HA-Rabbit C11…   0.0829   0.033  elongated    0.93
+    6  huh-7 Inf dsRNA HA-Rabbit WT …   0.0829   0.970  fragmented   0.94
+    7  huh-7 Inf dsRNA HA-Rabbit WT …   0.0829   0.812  mixed        0.63
+    8  huh-7 Inf dsRNA HA-Rabbit WT …   0.0829   0.985  fragmented   0.97
+    9  huh-7 Inf dsRNA HA-Rabbit c11…   0.0921   0.032  elongated    0.94
+   10  huh-7 Inf dsRNA HA-Rabbit c11…   0.0829   0.001  elongated    1.00
+  ──────────────────────────────────────────────────────────────────────────────
+  10 images                          10 scored, 0 rejected
+  index                              mean 0.538   median 0.741   sd 0.459   range 0.000–0.985
+  bands                              fragmented 4   mixed 2   elongated 4
+  pixel sizes                        2 different in this folder, 0.0829 to 0.0921 um
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/13-11-2023.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/13-11-2023_summary.csv

@@ -1,0 +1,25 @@
+pixel size: read from each file
+
+    #  image                             um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────────────────
+    1  A549 KO T and I HA F3            0.0829       —  —               —  segmentation collapsed: foreground 0.89%
+    2  A549 KO T and I both conditio…   0.0829   0.385  mixed        0.43
+    3  A549 KO T and I both conditio…   0.0829   0.000  elongated    1.00
+    4  A549 KO T and I no HA F1         0.0829   0.035  elongated    0.93
+
+1 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  A549 KO T and I HA F3            0.0829       —  —               —  segmentation collapsed: foreground 0.89%
+
+1 field(s) are refused by the quality gate. Setting a black point at the cytoplasm level -- what setting the minimum in Fiji's Brightness/Contrast does, with the level read from each image -- lets many more be scored. It keeps the order between fields that all had it, but reads about 0.2 higher than untouched fields (median +0.21 to +0.24 on fields that already pass), so rows are marked "black point" in the rescue column: compare them with each other, not with untouched fields.
+    1  A549 KO T and I HA F3            0.0829       —  —               —  segmentation collapsed: foreground 0.58%
+  ──────────────────────────────────────────────────────────────────────────────
+  4 images                           3 scored, 1 rejected
+  index                              mean 0.140   median 0.035   sd 0.213   range 0.000–0.385
+  bands                              fragmented 0   mixed 1   elongated 2
+                                     averages cover the scored images only
+
+  why 1 image(s) were refused:
+     1  almost nothing segmented: under 1% of the field was called mitochondria. Usually the wrong channel, an empty field, or a very dim one.
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/15-03-2023.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/15-03-2023_summary.csv

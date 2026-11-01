@@ -1,0 +1,17 @@
+pixel size: 0.044 um, given on the command line
+
+    #  image         um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────
+    1  YFP0253_1    0.0440   0.195  mixed        0.65
+    2  YFP0253_22   0.0440   0.784  mixed        0.63
+    3  YFP0253_24   0.0440   0.871  fragmented   0.77
+    4  YFP0253_32   0.0440   0.678  mixed        0.47
+    5  YFP0253_36   0.0440   0.870  fragmented   0.77
+    6  YFP0253_8    0.0440   0.910  fragmented   0.83
+  ──────────────────────────────────────────────────────────
+  6 images       6 scored, 0 rejected
+  index          mean 0.718   median 0.827   sd 0.269   range 0.195–0.910
+  bands          fragmented 3   mixed 3   elongated 0
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/mitohacker_fields_0.044/253.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/mitohacker_fields_0.044/253_summary.csv

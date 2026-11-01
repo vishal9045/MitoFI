@@ -1,0 +1,54 @@
+pixel size: read from each file
+
+    #  image                    um/px   index  band         conf  notes
+  ─────────────────────────────────────────────────────────────────────
+    1  Huh7 Vehicle Mock F1    0.1350   0.475  mixed        0.79
+    2  Huh7 Vehicle Mock F10   0.1381   0.021  elongated    0.96
+    3  Huh7 Vehicle Mock F11   0.1569   0.270  mixed        0.50
+    4  Huh7 Vehicle Mock F12   0.1367   0.230  mixed        0.55
+    5  Huh7 Vehicle Mock F13   0.1390   0.048  elongated    0.91
+    6  Huh7 Vehicle Mock F14   0.1390   0.142  mixed        0.79
+    7  Huh7 Vehicle Mock F15   0.1299   0.004  elongated    0.99
+    8  Huh7 Vehicle Mock F16   0.1295   0.141  mixed        0.74
+    9  Huh7 Vehicle Mock F17   0.1180   0.568  mixed        0.48
+   10  Huh7 Vehicle Mock F18   0.1170   0.012  elongated    0.98
+   11  Huh7 Vehicle Mock F19   0.1154   0.394  mixed        0.66
+   12  Huh7 Vehicle Mock F2    0.1439   0.119  mixed        0.77
+   13  Huh7 Vehicle Mock F20   0.1211   0.696  mixed        0.47
+   14  Huh7 Vehicle Mock F21   0.1252   0.599  mixed        0.61
+   15  Huh7 Vehicle Mock F22   0.1485   0.399  mixed        0.78
+   16  Huh7 Vehicle Mock F23   0.1341   0.107  elongated    0.79
+   17  Huh7 Vehicle Mock F24   0.1529   0.490  mixed        0.46
+   18  Huh7 Vehicle Mock F25   0.1315   0.425  mixed        0.57
+   19  Huh7 Vehicle Mock F26   0.1324   0.028  elongated    0.94
+   20  Huh7 Vehicle Mock F27   0.1664   0.219  mixed        0.56
+   21  Huh7 Vehicle Mock F28   0.1581   0.374  mixed        0.42
+   22  Huh7 Vehicle Mock F29   0.1324   0.069  elongated    0.86
+   23  Huh7 Vehicle Mock F3    0.1424   0.382  mixed        0.51
+   24  Huh7 Vehicle Mock F30   0.1219   0.875  fragmented   0.76
+   25  Huh7 Vehicle Mock F31   0.1187   0.697  mixed        0.52
+   26  Huh7 Vehicle Mock F32   0.1138   0.494  mixed        0.58
+   27  Huh7 Vehicle Mock F33   0.1211   0.261  mixed        0.51
+   28  Huh7 Vehicle Mock F34   0.1295   0.279  mixed        0.51
+   29  Huh7 Vehicle Mock F35   0.1367   0.361  mixed        0.43
+   30  Huh7 Vehicle Mock F36   0.1332   0.183  mixed        0.68
+   31  Huh7 Vehicle Mock F37   0.1252   0.336  mixed        0.63
+   32  Huh7 Vehicle Mock F4    0.1283   0.022  elongated    0.95
+   33  Huh7 Vehicle Mock F5    0.1132   0.242  mixed        0.61
+   34  Huh7 Vehicle Mock F6    0.1439   0.080  elongated    0.85
+   35  Huh7 Vehicle Mock F7    0.1164   0.210  mixed        0.66
+   36  Huh7 Vehicle Mock F8    0.1350   0.091  elongated    0.82
+   37  Huh7 Vehicle Mock F9    0.1350       —  —               —  too much diffuse background: 6.4% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+
+1 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  Huh7 Vehicle Mock F9    0.1350   0.208  mixed        0.61
+  ─────────────────────────────────────────────────────────────────────
+  37 images                 37 scored, 0 rejected
+  index                     mean 0.285   median 0.242   sd 0.219   range 0.004–0.875
+  bands                     fragmented 1   mixed 26   elongated 10
+  pixel sizes               28 different in this folder, 0.1132 to 0.1664 um
+
+  NOTE: 1 of 37 scored fields were rescued (background 1, black point 0); the rest were not. Check that a difference between conditions holds without the rescued rows.
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/Mdivi experiment__Vehicle Mock.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/Mdivi experiment__Vehicle Mock_summary.csv

@@ -1,0 +1,35 @@
+pixel size: read from each file
+
+    #  image                    um/px   index  band         conf  notes
+  ─────────────────────────────────────────────────────────────────────
+    1  A549 WT PUNO 100X F1    0.0497       —  —               —  mask is speckle: objects average 1.705 um and stand only 2.8 background SD above their surroundings
+    2  A549 WT PUNO 100X F10   0.0497   0.060  elongated    0.89
+    3  A549 WT PUNO 100X F11   0.0497   0.221  mixed        0.72
+    4  A549 WT PUNO 100X F12   0.0497   0.149  mixed        0.79
+    5  A549 WT PUNO 100X F13   0.0497       —  —               —  mask is speckle: objects average 2.013 um and stand only 3.8 background SD above their surroundings
+    6  A549 WT PUNO 100X F2    0.0621   0.012  elongated    0.97
+    7  A549 WT PUNO 100X F3    0.0497   0.005  elongated    0.99
+    8  A549 WT PUNO 100X F4    0.0497   0.329  mixed        0.54
+    9  A549 WT PUNO 100X F5    0.0497   0.051  elongated    0.91
+   10  A549 WT PUNO 100X F6    0.0497   0.216  mixed        0.65
+   11  A549 WT PUNO 100X F7    0.0497   0.881  fragmented   0.83
+   12  A549 WT PUNO 100X F8    0.0497   0.121  mixed        0.85
+   13  A549 WT PUNO 100X F9    0.0497   0.238  mixed        0.57
+
+2 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  A549 WT PUNO 100X F1    0.0497       —  —               —  mask is speckle: objects average 1.704 um and stand only 2.8 background SD above their surroundings
+    2  A549 WT PUNO 100X F13   0.0497       —  —               —  mask is speckle: objects average 2.013 um and stand only 3.8 background SD above their surroundings
+
+2 field(s) are refused by the quality gate. Setting a black point at the cytoplasm level -- what setting the minimum in Fiji's Brightness/Contrast does, with the level read from each image -- lets many more be scored. It keeps the order between fields that all had it, but reads about 0.2 higher than untouched fields (median +0.21 to +0.24 on fields that already pass), so rows are marked "black point" in the rescue column: compare them with each other, not with untouched fields.
+    1  A549 WT PUNO 100X F1    0.0497   0.875  fragmented   0.78
+    2  A549 WT PUNO 100X F13   0.0497   0.965  fragmented   0.93
+  ─────────────────────────────────────────────────────────────────────
+  13 images                 13 scored, 0 rejected
+  index                     mean 0.317   median 0.216   sd 0.350   range 0.005–0.965
+  bands                     fragmented 3   mixed 6   elongated 4
+  pixel sizes               2 different in this folder, 0.0497 to 0.0621 um
+
+  NOTE: 2 of 13 scored fields were rescued (background 0, black point 2); the rest were not. Black-point rows read about 0.2 higher than untouched ones: compare conditions within the same rescue, or check that a difference holds without the black-point rows.
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/10-07-2023__A549 WT EV.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/10-07-2023__A549 WT EV_summary.csv

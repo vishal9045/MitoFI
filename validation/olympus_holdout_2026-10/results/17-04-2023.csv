@@ -1,0 +1,3 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+A549 WT PUNO T + I B1 F1,True,,0.0482,elongated,0.906,0.0482,0.0372,2.917,0.79,0.0167,1.82,168,0.082864075920298,background,"channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes; background subtracted, rolling ball 2.5 um"
+A549 WT PUNO T + I B1 F2,True,,0.0404,elongated,0.921,0.0404,0.0472,4.822,0.95,0.0255,1.74,150,0.082864075920298,background,"channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes; background subtracted, rolling ball 2.5 um"

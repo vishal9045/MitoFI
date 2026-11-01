@@ -1,0 +1,5 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+Huh-7 Vehicle mitochondria F1,True,,0.7106,mixed,0.486,0.7106,0.0669,2.777,7.69,0.0001,5.24,407,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 3; max projection over 7 planes
+Huh-7 Vehicle mitochondria F2,True,,0.9212,fragmented,0.845,0.9212,0.103,2.882,3.76,0.0001,4.95,620,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 3; max projection over 14 planes
+Huh-7 Vehicle mitochondria F3,True,,0.6732,mixed,0.46,0.6732,0.0798,3.224,3.72,0.0001,4.22,505,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 3; max projection over 11 planes
+Huh-7 Vehicle mitochondria F4,True,,0.77,mixed,0.569,0.77,0.0785,2.937,2.96,0.0001,3.87,576,0.082864075920298,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 3; max projection over 11 planes

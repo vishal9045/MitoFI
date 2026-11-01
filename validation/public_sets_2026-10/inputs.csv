@@ -1,0 +1,294 @@
+dataset,group,source,prepared,px_um,shape,note
+bbbc053,DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (1) - Deconvolved.tif,bbbc053/FCCP/DMSO/MAX_DMSO_ (1) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (1) - Deconvolved.tif,bbbc053/prepared/down4_DMSO/MAX_DMSO_ (1) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (11) - Deconvolved.tif,bbbc053/FCCP/DMSO/MAX_DMSO_ (11) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (11) - Deconvolved.tif,bbbc053/prepared/down4_DMSO/MAX_DMSO_ (11) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (12) - Deconvolved.tif,bbbc053/FCCP/DMSO/MAX_DMSO_ (12) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (12) - Deconvolved.tif,bbbc053/prepared/down4_DMSO/MAX_DMSO_ (12) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (13) - Deconvolved.tif,bbbc053/FCCP/DMSO/MAX_DMSO_ (13) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (13) - Deconvolved.tif,bbbc053/prepared/down4_DMSO/MAX_DMSO_ (13) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (14) - Deconvolved.tif,bbbc053/FCCP/DMSO/MAX_DMSO_ (14) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (14) - Deconvolved.tif,bbbc053/prepared/down4_DMSO/MAX_DMSO_ (14) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (15) - Deconvolved.tif,bbbc053/FCCP/DMSO/MAX_DMSO_ (15) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (15) - Deconvolved.tif,bbbc053/prepared/down4_DMSO/MAX_DMSO_ (15) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (16) - Deconvolved.tif,bbbc053/FCCP/DMSO/MAX_DMSO_ (16) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (16) - Deconvolved.tif,bbbc053/prepared/down4_DMSO/MAX_DMSO_ (16) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (17) - Deconvolved.tif,bbbc053/FCCP/DMSO/MAX_DMSO_ (17) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (17) - Deconvolved.tif,bbbc053/prepared/down4_DMSO/MAX_DMSO_ (17) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (18) - Deconvolved.tif,bbbc053/FCCP/DMSO/MAX_DMSO_ (18) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (18) - Deconvolved.tif,bbbc053/prepared/down4_DMSO/MAX_DMSO_ (18) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (19) - Deconvolved.tif,bbbc053/FCCP/DMSO/MAX_DMSO_ (19) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (19) - Deconvolved.tif,bbbc053/prepared/down4_DMSO/MAX_DMSO_ (19) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (2) - Deconvolved.tif,bbbc053/FCCP/DMSO/MAX_DMSO_ (2) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (2) - Deconvolved.tif,bbbc053/prepared/down4_DMSO/MAX_DMSO_ (2) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (20) - Deconvolved.tif,bbbc053/FCCP/DMSO/MAX_DMSO_ (20) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (20) - Deconvolved.tif,bbbc053/prepared/down4_DMSO/MAX_DMSO_ (20) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (21) - Deconvolved.tif,bbbc053/FCCP/DMSO/MAX_DMSO_ (21) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (21) - Deconvolved.tif,bbbc053/prepared/down4_DMSO/MAX_DMSO_ (21) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (22) - Deconvolved.tif,bbbc053/FCCP/DMSO/MAX_DMSO_ (22) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (22) - Deconvolved.tif,bbbc053/prepared/down4_DMSO/MAX_DMSO_ (22) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (23) - Deconvolved.tif,bbbc053/FCCP/DMSO/MAX_DMSO_ (23) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (23) - Deconvolved.tif,bbbc053/prepared/down4_DMSO/MAX_DMSO_ (23) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (24) - Deconvolved.tif,bbbc053/FCCP/DMSO/MAX_DMSO_ (24) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (24) - Deconvolved.tif,bbbc053/prepared/down4_DMSO/MAX_DMSO_ (24) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (25) - Deconvolved.tif,bbbc053/FCCP/DMSO/MAX_DMSO_ (25) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (25) - Deconvolved.tif,bbbc053/prepared/down4_DMSO/MAX_DMSO_ (25) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (26) - Deconvolved.tif,bbbc053/FCCP/DMSO/MAX_DMSO_ (26) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (26) - Deconvolved.tif,bbbc053/prepared/down4_DMSO/MAX_DMSO_ (26) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (27) - Deconvolved.tif,bbbc053/FCCP/DMSO/MAX_DMSO_ (27) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (27) - Deconvolved.tif,bbbc053/prepared/down4_DMSO/MAX_DMSO_ (27) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (28) - Deconvolved.tif,bbbc053/FCCP/DMSO/MAX_DMSO_ (28) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (28) - Deconvolved.tif,bbbc053/prepared/down4_DMSO/MAX_DMSO_ (28) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (29) - Deconvolved.tif,bbbc053/FCCP/DMSO/MAX_DMSO_ (29) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (29) - Deconvolved.tif,bbbc053/prepared/down4_DMSO/MAX_DMSO_ (29) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (3) - Deconvolved.tif,bbbc053/FCCP/DMSO/MAX_DMSO_ (3) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (3) - Deconvolved.tif,bbbc053/prepared/down4_DMSO/MAX_DMSO_ (3) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (30) - Deconvolved.tif,bbbc053/FCCP/DMSO/MAX_DMSO_ (30) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (30) - Deconvolved.tif,bbbc053/prepared/down4_DMSO/MAX_DMSO_ (30) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (4) - Deconvolved.tif,bbbc053/FCCP/DMSO/MAX_DMSO_ (4) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (4) - Deconvolved.tif,bbbc053/prepared/down4_DMSO/MAX_DMSO_ (4) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (5) - Deconvolved.tif,bbbc053/FCCP/DMSO/MAX_DMSO_ (5) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (5) - Deconvolved.tif,bbbc053/prepared/down4_DMSO/MAX_DMSO_ (5) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (6) - Deconvolved.tif,bbbc053/FCCP/DMSO/MAX_DMSO_ (6) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (6) - Deconvolved.tif,bbbc053/prepared/down4_DMSO/MAX_DMSO_ (6) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (7) - Deconvolved.tif,bbbc053/FCCP/DMSO/MAX_DMSO_ (7) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (7) - Deconvolved.tif,bbbc053/prepared/down4_DMSO/MAX_DMSO_ (7) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (8) - Deconvolved.tif,bbbc053/FCCP/DMSO/MAX_DMSO_ (8) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (8) - Deconvolved.tif,bbbc053/prepared/down4_DMSO/MAX_DMSO_ (8) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (9) - Deconvolved.tif,bbbc053/FCCP/DMSO/MAX_DMSO_ (9) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_DMSO,bbbc053/FCCP/DMSO/MAX_DMSO_ (9) - Deconvolved.tif,bbbc053/prepared/down4_DMSO/MAX_DMSO_ (9) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (1) - Deconvolved.tif,bbbc053/FCCP/FCCP/MAX_FCCP_ (1) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (1) - Deconvolved.tif,bbbc053/prepared/down4_FCCP/MAX_FCCP_ (1) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (10) - Deconvolved.tif,bbbc053/FCCP/FCCP/MAX_FCCP_ (10) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (10) - Deconvolved.tif,bbbc053/prepared/down4_FCCP/MAX_FCCP_ (10) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (11) - Deconvolved.tif,bbbc053/FCCP/FCCP/MAX_FCCP_ (11) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (11) - Deconvolved.tif,bbbc053/prepared/down4_FCCP/MAX_FCCP_ (11) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (12) - Deconvolved.tif,bbbc053/FCCP/FCCP/MAX_FCCP_ (12) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (12) - Deconvolved.tif,bbbc053/prepared/down4_FCCP/MAX_FCCP_ (12) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (13) - Deconvolved.tif,bbbc053/FCCP/FCCP/MAX_FCCP_ (13) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (13) - Deconvolved.tif,bbbc053/prepared/down4_FCCP/MAX_FCCP_ (13) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (14) - Deconvolved.tif,bbbc053/FCCP/FCCP/MAX_FCCP_ (14) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (14) - Deconvolved.tif,bbbc053/prepared/down4_FCCP/MAX_FCCP_ (14) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (15) - Deconvolved.tif,bbbc053/FCCP/FCCP/MAX_FCCP_ (15) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (15) - Deconvolved.tif,bbbc053/prepared/down4_FCCP/MAX_FCCP_ (15) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (16) - Deconvolved.tif,bbbc053/FCCP/FCCP/MAX_FCCP_ (16) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (16) - Deconvolved.tif,bbbc053/prepared/down4_FCCP/MAX_FCCP_ (16) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (17) - Deconvolved.tif,bbbc053/FCCP/FCCP/MAX_FCCP_ (17) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (17) - Deconvolved.tif,bbbc053/prepared/down4_FCCP/MAX_FCCP_ (17) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (18) - Deconvolved.tif,bbbc053/FCCP/FCCP/MAX_FCCP_ (18) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (18) - Deconvolved.tif,bbbc053/prepared/down4_FCCP/MAX_FCCP_ (18) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (19) - Deconvolved.tif,bbbc053/FCCP/FCCP/MAX_FCCP_ (19) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (19) - Deconvolved.tif,bbbc053/prepared/down4_FCCP/MAX_FCCP_ (19) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (2) - Deconvolved.tif,bbbc053/FCCP/FCCP/MAX_FCCP_ (2) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (2) - Deconvolved.tif,bbbc053/prepared/down4_FCCP/MAX_FCCP_ (2) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (20) - Deconvolved.tif,bbbc053/FCCP/FCCP/MAX_FCCP_ (20) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (20) - Deconvolved.tif,bbbc053/prepared/down4_FCCP/MAX_FCCP_ (20) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (21) - Deconvolved.tif,bbbc053/FCCP/FCCP/MAX_FCCP_ (21) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (21) - Deconvolved.tif,bbbc053/prepared/down4_FCCP/MAX_FCCP_ (21) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (22) - Deconvolved.tif,bbbc053/FCCP/FCCP/MAX_FCCP_ (22) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (22) - Deconvolved.tif,bbbc053/prepared/down4_FCCP/MAX_FCCP_ (22) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (23) - Deconvolved.tif,bbbc053/FCCP/FCCP/MAX_FCCP_ (23) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (23) - Deconvolved.tif,bbbc053/prepared/down4_FCCP/MAX_FCCP_ (23) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (24) - Deconvolved.tif,bbbc053/FCCP/FCCP/MAX_FCCP_ (24) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (24) - Deconvolved.tif,bbbc053/prepared/down4_FCCP/MAX_FCCP_ (24) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (25) - Deconvolved.tif,bbbc053/FCCP/FCCP/MAX_FCCP_ (25) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (25) - Deconvolved.tif,bbbc053/prepared/down4_FCCP/MAX_FCCP_ (25) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (26) - Deconvolved.tif,bbbc053/FCCP/FCCP/MAX_FCCP_ (26) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (26) - Deconvolved.tif,bbbc053/prepared/down4_FCCP/MAX_FCCP_ (26) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (27) - Deconvolved.tif,bbbc053/FCCP/FCCP/MAX_FCCP_ (27) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (27) - Deconvolved.tif,bbbc053/prepared/down4_FCCP/MAX_FCCP_ (27) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (28) - Deconvolved.tif,bbbc053/FCCP/FCCP/MAX_FCCP_ (28) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (28) - Deconvolved.tif,bbbc053/prepared/down4_FCCP/MAX_FCCP_ (28) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (29) - Deconvolved.tif,bbbc053/FCCP/FCCP/MAX_FCCP_ (29) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (29) - Deconvolved.tif,bbbc053/prepared/down4_FCCP/MAX_FCCP_ (29) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (3) - Deconvolved.tif,bbbc053/FCCP/FCCP/MAX_FCCP_ (3) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (3) - Deconvolved.tif,bbbc053/prepared/down4_FCCP/MAX_FCCP_ (3) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (4) - Deconvolved.tif,bbbc053/FCCP/FCCP/MAX_FCCP_ (4) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (4) - Deconvolved.tif,bbbc053/prepared/down4_FCCP/MAX_FCCP_ (4) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (5) - Deconvolved.tif,bbbc053/FCCP/FCCP/MAX_FCCP_ (5) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (5) - Deconvolved.tif,bbbc053/prepared/down4_FCCP/MAX_FCCP_ (5) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (6) - Deconvolved.tif,bbbc053/FCCP/FCCP/MAX_FCCP_ (6) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (6) - Deconvolved.tif,bbbc053/prepared/down4_FCCP/MAX_FCCP_ (6) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (7) - Deconvolved.tif,bbbc053/FCCP/FCCP/MAX_FCCP_ (7) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (7) - Deconvolved.tif,bbbc053/prepared/down4_FCCP/MAX_FCCP_ (7) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (8) - Deconvolved.tif,bbbc053/FCCP/FCCP/MAX_FCCP_ (8) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (8) - Deconvolved.tif,bbbc053/prepared/down4_FCCP/MAX_FCCP_ (8) - Deconvolved.tif,0.0803,512x512,4x block mean
+bbbc053,FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (9) - Deconvolved.tif,bbbc053/FCCP/FCCP/MAX_FCCP_ (9) - Deconvolved.tif,0.02007,2048x2048,as published
+bbbc053,down4_FCCP,bbbc053/FCCP/FCCP/MAX_FCCP_ (9) - Deconvolved.tif,bbbc053/prepared/down4_FCCP/MAX_FCCP_ (9) - Deconvolved.tif,0.0803,512x512,4x block mean
+mitohacker,fields_145,mitohacker/Mito-Hacker-master/Sample_images/Multi-Cell_images/145/YFP0145_29.tif,mitohacker/prepared/fields_145/YFP0145_29.tif,,2048x2048,green channel; field
+mitohacker,fields_145,mitohacker/Mito-Hacker-master/Sample_images/Multi-Cell_images/145/YFP0145_34.tif,mitohacker/prepared/fields_145/YFP0145_34.tif,,2048x2048,green channel; field
+mitohacker,fields_145,mitohacker/Mito-Hacker-master/Sample_images/Multi-Cell_images/145/YFP0145_39.tif,mitohacker/prepared/fields_145/YFP0145_39.tif,,2048x2048,green channel; field
+mitohacker,fields_145,mitohacker/Mito-Hacker-master/Sample_images/Multi-Cell_images/145/YFP0145_40.tif,mitohacker/prepared/fields_145/YFP0145_40.tif,,2048x2048,green channel; field
+mitohacker,fields_145,mitohacker/Mito-Hacker-master/Sample_images/Multi-Cell_images/145/YFP145-1_19.tif,mitohacker/prepared/fields_145/YFP145-1_19.tif,,2048x2048,green channel; field
+mitohacker,fields_145,mitohacker/Mito-Hacker-master/Sample_images/Multi-Cell_images/145/YFP145-1_21.tif,mitohacker/prepared/fields_145/YFP145-1_21.tif,,2048x2048,green channel; field
+mitohacker,fields_145,mitohacker/Mito-Hacker-master/Sample_images/Multi-Cell_images/145/YFP145-1_26.tif,mitohacker/prepared/fields_145/YFP145-1_26.tif,,2048x2048,green channel; field
+mitohacker,cells_145,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/145/Individual_cells/YFP0145_29_cell1_2048.tif,mitohacker/prepared/cells_145/YFP0145_29_cell1_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_145,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/145/Individual_cells/YFP0145_29_cell2_2048.tif,mitohacker/prepared/cells_145/YFP0145_29_cell2_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_145,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/145/Individual_cells/YFP0145_29_cell3_2048.tif,mitohacker/prepared/cells_145/YFP0145_29_cell3_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_145,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/145/Individual_cells/YFP0145_29_cell4_2048.tif,mitohacker/prepared/cells_145/YFP0145_29_cell4_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_145,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/145/Individual_cells/YFP0145_34_cell1_2048.tif,mitohacker/prepared/cells_145/YFP0145_34_cell1_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_145,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/145/Individual_cells/YFP0145_34_cell2_2048.tif,mitohacker/prepared/cells_145/YFP0145_34_cell2_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_145,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/145/Individual_cells/YFP0145_34_cell3_2048.tif,mitohacker/prepared/cells_145/YFP0145_34_cell3_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_145,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/145/Individual_cells/YFP0145_34_cell4_2048.tif,mitohacker/prepared/cells_145/YFP0145_34_cell4_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_145,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/145/Individual_cells/YFP0145_34_cell5_2048.tif,mitohacker/prepared/cells_145/YFP0145_34_cell5_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_145,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/145/Individual_cells/YFP0145_34_cell6_2048.tif,mitohacker/prepared/cells_145/YFP0145_34_cell6_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_145,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/145/Individual_cells/YFP0145_34_cell7_2048.tif,mitohacker/prepared/cells_145/YFP0145_34_cell7_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_145,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/145/Individual_cells/YFP0145_34_cell8_2048.tif,mitohacker/prepared/cells_145/YFP0145_34_cell8_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_145,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/145/Individual_cells/YFP0145_39_cell1_2048.tif,mitohacker/prepared/cells_145/YFP0145_39_cell1_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_145,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/145/Individual_cells/YFP0145_39_cell2_2048.tif,mitohacker/prepared/cells_145/YFP0145_39_cell2_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_145,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/145/Individual_cells/YFP0145_39_cell3_2048.tif,mitohacker/prepared/cells_145/YFP0145_39_cell3_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_145,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/145/Individual_cells/YFP0145_40_cell1_2048.tif,mitohacker/prepared/cells_145/YFP0145_40_cell1_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_145,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/145/Individual_cells/YFP0145_40_cell2_2048.tif,mitohacker/prepared/cells_145/YFP0145_40_cell2_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_145,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/145/Individual_cells/YFP145-1_19_cell1_2048.tif,mitohacker/prepared/cells_145/YFP145-1_19_cell1_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_145,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/145/Individual_cells/YFP145-1_19_cell2_2048.tif,mitohacker/prepared/cells_145/YFP145-1_19_cell2_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_145,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/145/Individual_cells/YFP145-1_19_cell3_2048.tif,mitohacker/prepared/cells_145/YFP145-1_19_cell3_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_145,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/145/Individual_cells/YFP145-1_21_cell1_2048.tif,mitohacker/prepared/cells_145/YFP145-1_21_cell1_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_145,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/145/Individual_cells/YFP145-1_21_cell2_2048.tif,mitohacker/prepared/cells_145/YFP145-1_21_cell2_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_145,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/145/Individual_cells/YFP145-1_26_cell10_2048.tif,mitohacker/prepared/cells_145/YFP145-1_26_cell10_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_145,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/145/Individual_cells/YFP145-1_26_cell11_2048.tif,mitohacker/prepared/cells_145/YFP145-1_26_cell11_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_145,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/145/Individual_cells/YFP145-1_26_cell13_2048.tif,mitohacker/prepared/cells_145/YFP145-1_26_cell13_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_145,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/145/Individual_cells/YFP145-1_26_cell15_2048.tif,mitohacker/prepared/cells_145/YFP145-1_26_cell15_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_145,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/145/Individual_cells/YFP145-1_26_cell16_2048.tif,mitohacker/prepared/cells_145/YFP145-1_26_cell16_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_145,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/145/Individual_cells/YFP145-1_26_cell18_2048.tif,mitohacker/prepared/cells_145/YFP145-1_26_cell18_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_145,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/145/Individual_cells/YFP145-1_26_cell19_2048.tif,mitohacker/prepared/cells_145/YFP145-1_26_cell19_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_145,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/145/Individual_cells/YFP145-1_26_cell20_2048.tif,mitohacker/prepared/cells_145/YFP145-1_26_cell20_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_145,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/145/Individual_cells/YFP145-1_26_cell21_2048.tif,mitohacker/prepared/cells_145/YFP145-1_26_cell21_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_145,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/145/Individual_cells/YFP145-1_26_cell22_2048.tif,mitohacker/prepared/cells_145/YFP145-1_26_cell22_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_145,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/145/Individual_cells/YFP145-1_26_cell23_2048.tif,mitohacker/prepared/cells_145/YFP145-1_26_cell23_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,fields_143,mitohacker/Mito-Hacker-master/Sample_images/Multi-Cell_images/143/YFP0143-2_1.tif,mitohacker/prepared/fields_143/YFP0143-2_1.tif,,2048x2048,green channel; field
+mitohacker,fields_143,mitohacker/Mito-Hacker-master/Sample_images/Multi-Cell_images/143/YFP0143_12.tif,mitohacker/prepared/fields_143/YFP0143_12.tif,,2048x2048,green channel; field
+mitohacker,fields_143,mitohacker/Mito-Hacker-master/Sample_images/Multi-Cell_images/143/YFP0143_15.tif,mitohacker/prepared/fields_143/YFP0143_15.tif,,2048x2048,green channel; field
+mitohacker,fields_143,mitohacker/Mito-Hacker-master/Sample_images/Multi-Cell_images/143/YFP0143_27.tif,mitohacker/prepared/fields_143/YFP0143_27.tif,,2048x2048,green channel; field
+mitohacker,cells_143,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/143/Individual_cells/YFP0143-2_1_cell1_2048.tif,mitohacker/prepared/cells_143/YFP0143-2_1_cell1_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_143,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/143/Individual_cells/YFP0143-2_1_cell2_2048.tif,mitohacker/prepared/cells_143/YFP0143-2_1_cell2_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_143,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/143/Individual_cells/YFP0143-2_1_cell3_2048.tif,mitohacker/prepared/cells_143/YFP0143-2_1_cell3_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_143,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/143/Individual_cells/YFP0143-2_1_cell4_2048.tif,mitohacker/prepared/cells_143/YFP0143-2_1_cell4_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_143,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/143/Individual_cells/YFP0143_12_cell10_2048.tif,mitohacker/prepared/cells_143/YFP0143_12_cell10_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_143,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/143/Individual_cells/YFP0143_12_cell11_2048.tif,mitohacker/prepared/cells_143/YFP0143_12_cell11_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_143,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/143/Individual_cells/YFP0143_12_cell12_2048.tif,mitohacker/prepared/cells_143/YFP0143_12_cell12_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_143,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/143/Individual_cells/YFP0143_12_cell13_2048.tif,mitohacker/prepared/cells_143/YFP0143_12_cell13_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_143,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/143/Individual_cells/YFP0143_12_cell15_2048.tif,mitohacker/prepared/cells_143/YFP0143_12_cell15_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_143,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/143/Individual_cells/YFP0143_12_cell16_2048.tif,mitohacker/prepared/cells_143/YFP0143_12_cell16_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_143,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/143/Individual_cells/YFP0143_12_cell17_2048.tif,mitohacker/prepared/cells_143/YFP0143_12_cell17_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_143,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/143/Individual_cells/YFP0143_12_cell18_2048.tif,mitohacker/prepared/cells_143/YFP0143_12_cell18_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_143,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/143/Individual_cells/YFP0143_12_cell19_2048.tif,mitohacker/prepared/cells_143/YFP0143_12_cell19_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_143,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/143/Individual_cells/YFP0143_12_cell20_2048.tif,mitohacker/prepared/cells_143/YFP0143_12_cell20_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_143,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/143/Individual_cells/YFP0143_12_cell22_2048.tif,mitohacker/prepared/cells_143/YFP0143_12_cell22_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_143,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/143/Individual_cells/YFP0143_12_cell24_2048.tif,mitohacker/prepared/cells_143/YFP0143_12_cell24_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_143,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/143/Individual_cells/YFP0143_12_cell4_2048.tif,mitohacker/prepared/cells_143/YFP0143_12_cell4_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_143,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/143/Individual_cells/YFP0143_12_cell5_2048.tif,mitohacker/prepared/cells_143/YFP0143_12_cell5_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_143,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/143/Individual_cells/YFP0143_12_cell6_2048.tif,mitohacker/prepared/cells_143/YFP0143_12_cell6_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_143,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/143/Individual_cells/YFP0143_12_cell7_2048.tif,mitohacker/prepared/cells_143/YFP0143_12_cell7_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_143,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/143/Individual_cells/YFP0143_12_cell8_2048.tif,mitohacker/prepared/cells_143/YFP0143_12_cell8_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_143,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/143/Individual_cells/YFP0143_15_cell10_2048.tif,mitohacker/prepared/cells_143/YFP0143_15_cell10_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_143,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/143/Individual_cells/YFP0143_15_cell4_2048.tif,mitohacker/prepared/cells_143/YFP0143_15_cell4_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_143,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/143/Individual_cells/YFP0143_15_cell6_2048.tif,mitohacker/prepared/cells_143/YFP0143_15_cell6_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_143,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/143/Individual_cells/YFP0143_15_cell8_2048.tif,mitohacker/prepared/cells_143/YFP0143_15_cell8_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_143,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/143/Individual_cells/YFP0143_27_cell1_2048.tif,mitohacker/prepared/cells_143/YFP0143_27_cell1_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_143,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/143/Individual_cells/YFP0143_27_cell2_2048.tif,mitohacker/prepared/cells_143/YFP0143_27_cell2_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_143,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/143/Individual_cells/YFP0143_27_cell3_2048.tif,mitohacker/prepared/cells_143/YFP0143_27_cell3_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_143,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/143/Individual_cells/YFP0143_27_cell4_2048.tif,mitohacker/prepared/cells_143/YFP0143_27_cell4_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_143,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/143/Individual_cells/YFP0143_27_cell5_2048.tif,mitohacker/prepared/cells_143/YFP0143_27_cell5_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_143,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/143/Individual_cells/YFP0143_27_cell6_2048.tif,mitohacker/prepared/cells_143/YFP0143_27_cell6_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_143,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/143/Individual_cells/YFP0143_27_cell7_2048.tif,mitohacker/prepared/cells_143/YFP0143_27_cell7_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_143,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/143/Individual_cells/YFP0143_27_cell8_2048.tif,mitohacker/prepared/cells_143/YFP0143_27_cell8_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_143,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/143/Individual_cells/YFP0143_27_cell9_2048.tif,mitohacker/prepared/cells_143/YFP0143_27_cell9_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,fields_253,mitohacker/Mito-Hacker-master/Sample_images/Multi-Cell_images/253/YFP0253_1.tif,mitohacker/prepared/fields_253/YFP0253_1.tif,,2048x2048,green channel; field
+mitohacker,fields_253,mitohacker/Mito-Hacker-master/Sample_images/Multi-Cell_images/253/YFP0253_22.tif,mitohacker/prepared/fields_253/YFP0253_22.tif,,2048x2048,green channel; field
+mitohacker,fields_253,mitohacker/Mito-Hacker-master/Sample_images/Multi-Cell_images/253/YFP0253_24.tif,mitohacker/prepared/fields_253/YFP0253_24.tif,,2048x2048,green channel; field
+mitohacker,fields_253,mitohacker/Mito-Hacker-master/Sample_images/Multi-Cell_images/253/YFP0253_32.tif,mitohacker/prepared/fields_253/YFP0253_32.tif,,2048x2048,green channel; field
+mitohacker,fields_253,mitohacker/Mito-Hacker-master/Sample_images/Multi-Cell_images/253/YFP0253_36.tif,mitohacker/prepared/fields_253/YFP0253_36.tif,,2048x2048,green channel; field
+mitohacker,fields_253,mitohacker/Mito-Hacker-master/Sample_images/Multi-Cell_images/253/YFP0253_8.tif,mitohacker/prepared/fields_253/YFP0253_8.tif,,2048x2048,green channel; field
+mitohacker,cells_253,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/253/Individual_cells/YFP0253_1_cell1_2048.tif,mitohacker/prepared/cells_253/YFP0253_1_cell1_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_253,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/253/Individual_cells/YFP0253_1_cell2_2048.tif,mitohacker/prepared/cells_253/YFP0253_1_cell2_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_253,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/253/Individual_cells/YFP0253_1_cell3_2048.tif,mitohacker/prepared/cells_253/YFP0253_1_cell3_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_253,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/253/Individual_cells/YFP0253_1_cell4_2048.tif,mitohacker/prepared/cells_253/YFP0253_1_cell4_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_253,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/253/Individual_cells/YFP0253_22_cell1_2048.tif,mitohacker/prepared/cells_253/YFP0253_22_cell1_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_253,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/253/Individual_cells/YFP0253_22_cell2_2048.tif,mitohacker/prepared/cells_253/YFP0253_22_cell2_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_253,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/253/Individual_cells/YFP0253_22_cell3_2048.tif,mitohacker/prepared/cells_253/YFP0253_22_cell3_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_253,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/253/Individual_cells/YFP0253_22_cell4_2048.tif,mitohacker/prepared/cells_253/YFP0253_22_cell4_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_253,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/253/Individual_cells/YFP0253_22_cell5_2048.tif,mitohacker/prepared/cells_253/YFP0253_22_cell5_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_253,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/253/Individual_cells/YFP0253_22_cell6_2048.tif,mitohacker/prepared/cells_253/YFP0253_22_cell6_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_253,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/253/Individual_cells/YFP0253_22_cell7_2048.tif,mitohacker/prepared/cells_253/YFP0253_22_cell7_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_253,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/253/Individual_cells/YFP0253_22_cell8_2048.tif,mitohacker/prepared/cells_253/YFP0253_22_cell8_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_253,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/253/Individual_cells/YFP0253_24_cell3_2048.tif,mitohacker/prepared/cells_253/YFP0253_24_cell3_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_253,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/253/Individual_cells/YFP0253_32_cell2_2048.tif,mitohacker/prepared/cells_253/YFP0253_32_cell2_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_253,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/253/Individual_cells/YFP0253_32_cell3_2048.tif,mitohacker/prepared/cells_253/YFP0253_32_cell3_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_253,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/253/Individual_cells/YFP0253_32_cell4_2048.tif,mitohacker/prepared/cells_253/YFP0253_32_cell4_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_253,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/253/Individual_cells/YFP0253_32_cell5_2048.tif,mitohacker/prepared/cells_253/YFP0253_32_cell5_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_253,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/253/Individual_cells/YFP0253_36_cell1_2048.tif,mitohacker/prepared/cells_253/YFP0253_36_cell1_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_253,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/253/Individual_cells/YFP0253_36_cell2_2048.tif,mitohacker/prepared/cells_253/YFP0253_36_cell2_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_253,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/253/Individual_cells/YFP0253_36_cell3_2048.tif,mitohacker/prepared/cells_253/YFP0253_36_cell3_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_253,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/253/Individual_cells/YFP0253_36_cell4_2048.tif,mitohacker/prepared/cells_253/YFP0253_36_cell4_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_253,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/253/Individual_cells/YFP0253_8_cell1_2048.tif,mitohacker/prepared/cells_253/YFP0253_8_cell1_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_253,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/253/Individual_cells/YFP0253_8_cell2_2048.tif,mitohacker/prepared/cells_253/YFP0253_8_cell2_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_253,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/253/Individual_cells/YFP0253_8_cell3_2048.tif,mitohacker/prepared/cells_253/YFP0253_8_cell3_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_253,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/253/Individual_cells/YFP0253_8_cell4_2048.tif,mitohacker/prepared/cells_253/YFP0253_8_cell4_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+mitohacker,cells_253,mitohacker/Mito-Hacker-master/Sample_images/Single-Cell_images/253/Individual_cells/YFP0253_8_cell5_2048.tif,mitohacker/prepared/cells_253/YFP0253_8_cell5_2048.tif,,1024x1024,"green channel; Mito-Hacker crop, field shrunk 2x"
+uct,repA_control,uct_figshare/Mitotracker Confocal 2023/A CZI/AC_a.czi,uct/prepared/repA_control/AC_a.tif,0.06589,15x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repA_control,uct_figshare/Mitotracker Confocal 2023/A CZI/AC_b.czi,uct/prepared/repA_control/AC_b.tif,0.06589,23x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repA_control,uct_figshare/Mitotracker Confocal 2023/A CZI/AC_c.czi,uct/prepared/repA_control/AC_c.tif,0.06589,21x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repA_control,uct_figshare/Mitotracker Confocal 2023/A CZI/AC_d.czi,uct/prepared/repA_control/AC_d.tif,0.06589,22x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repA_control,uct_figshare/Mitotracker Confocal 2023/A CZI/AC_e.czi,uct/prepared/repA_control/AC_e.tif,0.06589,23x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repA_control,uct_figshare/Mitotracker Confocal 2023/A CZI/AC_f.czi,uct/prepared/repA_control/AC_f.tif,0.06589,18x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repA_fccp,uct_figshare/Mitotracker Confocal 2023/A CZI/AF25_a.czi,uct/prepared/repA_fccp/AF25_a.tif,0.06589,19x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repA_fccp,uct_figshare/Mitotracker Confocal 2023/A CZI/AF25_b.czi,uct/prepared/repA_fccp/AF25_b.tif,0.06589,19x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,excluded,uct_figshare/Mitotracker Confocal 2023/A CZI/AF25_c slow.czi,,,,second scan of a field already in the set
+uct,repA_fccp,uct_figshare/Mitotracker Confocal 2023/A CZI/AF25_c.czi,uct/prepared/repA_fccp/AF25_c.tif,0.06589,25x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repA_fccp,uct_figshare/Mitotracker Confocal 2023/A CZI/AF25_d.czi,uct/prepared/repA_fccp/AF25_d.tif,0.06589,19x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repA_fccp,uct_figshare/Mitotracker Confocal 2023/A CZI/AF25_e.czi,uct/prepared/repA_fccp/AF25_e.tif,0.06589,13x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,excluded,uct_figshare/Mitotracker Confocal 2023/A CZI/AF25_f slow.czi,,,,second scan of a field already in the set
+uct,repA_fccp,uct_figshare/Mitotracker Confocal 2023/A CZI/AF25_f.czi,uct/prepared/repA_fccp/AF25_f.tif,0.06589,13x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repA_pa24,uct_figshare/Mitotracker Confocal 2023/A CZI/AP24_a.czi,uct/prepared/repA_pa24/AP24_a.tif,0.06589,16x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repA_pa24,uct_figshare/Mitotracker Confocal 2023/A CZI/AP24_b.czi,uct/prepared/repA_pa24/AP24_b.tif,0.06589,14x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repA_pa24,uct_figshare/Mitotracker Confocal 2023/A CZI/AP24_c.czi,uct/prepared/repA_pa24/AP24_c.tif,0.06589,14x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repA_pa24,uct_figshare/Mitotracker Confocal 2023/A CZI/AP24_d.czi,uct/prepared/repA_pa24/AP24_d.tif,0.06589,14x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repA_pa24,uct_figshare/Mitotracker Confocal 2023/A CZI/AP24_e.czi,uct/prepared/repA_pa24/AP24_e.tif,0.06589,15x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repA_pa24,uct_figshare/Mitotracker Confocal 2023/A CZI/AP24_f.czi,uct/prepared/repA_pa24/AP24_f.tif,0.06589,17x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repA_pa72,uct_figshare/Mitotracker Confocal 2023/A CZI/AP72_a.czi,,,,unreadable: 0 bytes in the deposited zip
+uct,repA_pa72,uct_figshare/Mitotracker Confocal 2023/A CZI/AP72_b.czi,uct/prepared/repA_pa72/AP72_b.tif,0.06589,16x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repA_pa72,uct_figshare/Mitotracker Confocal 2023/A CZI/AP72_c.czi,uct/prepared/repA_pa72/AP72_c.tif,0.06589,18x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repA_pa72,uct_figshare/Mitotracker Confocal 2023/A CZI/AP72_d.czi,uct/prepared/repA_pa72/AP72_d.tif,0.06589,28x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repA_pa72,uct_figshare/Mitotracker Confocal 2023/A CZI/AP72_e.czi,uct/prepared/repA_pa72/AP72_e.tif,0.06589,36x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repA_pa72,uct_figshare/Mitotracker Confocal 2023/A CZI/AP72_f.czi,uct/prepared/repA_pa72/AP72_f.tif,0.06589,49x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repC_control,uct_figshare/Mitotracker Confocal 2023/C CZI/C1_CC_a.czi,uct/prepared/repC_control/C1_CC_a.tif,0.06589,10x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repC_control,uct_figshare/Mitotracker Confocal 2023/C CZI/C1_CC_b.czi,uct/prepared/repC_control/C1_CC_b.tif,0.06589,10x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repC_control,uct_figshare/Mitotracker Confocal 2023/C CZI/C1_CC_c.czi,uct/prepared/repC_control/C1_CC_c.tif,0.06589,10x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repC_control,uct_figshare/Mitotracker Confocal 2023/C CZI/C1_CC_d.czi,uct/prepared/repC_control/C1_CC_d.tif,0.06589,10x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repC_control,uct_figshare/Mitotracker Confocal 2023/C CZI/C1_CC_e.czi,uct/prepared/repC_control/C1_CC_e.tif,0.06589,10x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repC_fccp,uct_figshare/Mitotracker Confocal 2023/C CZI/C1_CF_a.czi,uct/prepared/repC_fccp/C1_CF_a.tif,0.06589,10x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repC_fccp,uct_figshare/Mitotracker Confocal 2023/C CZI/C1_CF_b.czi,uct/prepared/repC_fccp/C1_CF_b.tif,0.06589,10x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repC_fccp,uct_figshare/Mitotracker Confocal 2023/C CZI/C1_CF_c.czi,uct/prepared/repC_fccp/C1_CF_c.tif,0.06589,10x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repC_fccp,uct_figshare/Mitotracker Confocal 2023/C CZI/C1_CF_d.czi,uct/prepared/repC_fccp/C1_CF_d.tif,0.06589,10x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repC_fccp,uct_figshare/Mitotracker Confocal 2023/C CZI/C1_CF_e.czi,uct/prepared/repC_fccp/C1_CF_e.tif,0.06589,10x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repC_pa24,uct_figshare/Mitotracker Confocal 2023/C CZI/C2_CP24_a.czi,uct/prepared/repC_pa24/C2_CP24_a.tif,0.06589,10x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repC_pa24,uct_figshare/Mitotracker Confocal 2023/C CZI/C2_CP24_b.czi,uct/prepared/repC_pa24/C2_CP24_b.tif,0.06589,10x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repC_pa24,uct_figshare/Mitotracker Confocal 2023/C CZI/C2_CP24_c.czi,uct/prepared/repC_pa24/C2_CP24_c.tif,0.06589,10x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repC_pa24,uct_figshare/Mitotracker Confocal 2023/C CZI/C2_CP24_d.czi,uct/prepared/repC_pa24/C2_CP24_d.tif,0.06589,10x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repC_pa24,uct_figshare/Mitotracker Confocal 2023/C CZI/C2_CP24_e.czi,uct/prepared/repC_pa24/C2_CP24_e.tif,0.06589,10x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repC_pa72,uct_figshare/Mitotracker Confocal 2023/C CZI/C2_CP72_a.czi,uct/prepared/repC_pa72/C2_CP72_a.tif,0.06589,10x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repC_pa72,uct_figshare/Mitotracker Confocal 2023/C CZI/C2_CP72_b.czi,uct/prepared/repC_pa72/C2_CP72_b.tif,0.06589,10x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repC_pa72,uct_figshare/Mitotracker Confocal 2023/C CZI/C2_CP72_c.czi,uct/prepared/repC_pa72/C2_CP72_c.tif,0.06589,10x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repC_pa72,uct_figshare/Mitotracker Confocal 2023/C CZI/C2_CP72_d.czi,uct/prepared/repC_pa72/C2_CP72_d.tif,0.06589,10x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repC_pa72,uct_figshare/Mitotracker Confocal 2023/C CZI/C2_CP72_e.czi,uct/prepared/repC_pa72/C2_CP72_e.tif,0.06589,10x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repD_control,uct_figshare/Mitotracker Confocal 2023/D CZI/Slide D-3-4-24 C c.czi,uct/prepared/repD_control/Slide D-3-4-24 C c.tif,0.06589,13x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repD_control,uct_figshare/Mitotracker Confocal 2023/D CZI/Slide D-3-4-24 C d.czi,uct/prepared/repD_control/Slide D-3-4-24 C d.tif,0.06589,16x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repD_control,uct_figshare/Mitotracker Confocal 2023/D CZI/Slide D-3-4-24 C e.czi,uct/prepared/repD_control/Slide D-3-4-24 C e.tif,0.06589,14x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repD_CT_unlabelled,uct_figshare/Mitotracker Confocal 2023/D CZI/Slide D-3-4-24 CT a.czi,uct/prepared/repD_CT_unlabelled/Slide D-3-4-24 CT a.tif,0.06589,12x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repD_CT_unlabelled,uct_figshare/Mitotracker Confocal 2023/D CZI/Slide D-3-4-24 CT b.czi,uct/prepared/repD_CT_unlabelled/Slide D-3-4-24 CT b.tif,0.06589,12x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repD_CT_unlabelled,uct_figshare/Mitotracker Confocal 2023/D CZI/Slide D-3-4-24 CT c.czi,uct/prepared/repD_CT_unlabelled/Slide D-3-4-24 CT c.tif,0.06589,18x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repD_fccp,uct_figshare/Mitotracker Confocal 2023/D CZI/Slide D-3-4-24 F a.czi,uct/prepared/repD_fccp/Slide D-3-4-24 F a.tif,0.06589,18x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repD_fccp,uct_figshare/Mitotracker Confocal 2023/D CZI/Slide D-3-4-24 F b.czi,uct/prepared/repD_fccp/Slide D-3-4-24 F b.tif,0.06589,10x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repD_fccp,uct_figshare/Mitotracker Confocal 2023/D CZI/Slide D-3-4-24 F c.czi,uct/prepared/repD_fccp/Slide D-3-4-24 F c.tif,0.06589,11x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repD_fccp,uct_figshare/Mitotracker Confocal 2023/D CZI/Slide D-3-4-24 F d.czi,uct/prepared/repD_fccp/Slide D-3-4-24 F d.tif,0.06589,15x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repD_fccp,uct_figshare/Mitotracker Confocal 2023/D CZI/Slide D-3-4-24 F e.czi,uct/prepared/repD_fccp/Slide D-3-4-24 F e.tif,0.06589,19x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repD_pa24,uct_figshare/Mitotracker Confocal 2023/D CZI/Slide D-3-4-24 P24 a.czi,uct/prepared/repD_pa24/Slide D-3-4-24 P24 a.tif,0.06589,25x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repD_pa24,uct_figshare/Mitotracker Confocal 2023/D CZI/Slide D-3-4-24 P24 b.czi,uct/prepared/repD_pa24/Slide D-3-4-24 P24 b.tif,0.06589,13x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repD_pa24,uct_figshare/Mitotracker Confocal 2023/D CZI/Slide D-3-4-24 P24 c.czi,uct/prepared/repD_pa24/Slide D-3-4-24 P24 c.tif,0.06589,15x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repD_pa24,uct_figshare/Mitotracker Confocal 2023/D CZI/Slide D-3-4-24 P24 d.czi,uct/prepared/repD_pa24/Slide D-3-4-24 P24 d.tif,0.06589,10x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repD_pa24,uct_figshare/Mitotracker Confocal 2023/D CZI/Slide D-3-4-24 P24 e.czi,uct/prepared/repD_pa24/Slide D-3-4-24 P24 e.tif,0.06589,9x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repD_pa72,uct_figshare/Mitotracker Confocal 2023/D CZI/Slide D-3-4-24 P72 a.czi,uct/prepared/repD_pa72/Slide D-3-4-24 P72 a.tif,0.06589,14x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repD_pa72,uct_figshare/Mitotracker Confocal 2023/D CZI/Slide D-3-4-24 P72 b.czi,uct/prepared/repD_pa72/Slide D-3-4-24 P72 b.tif,0.06589,10x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repD_pa72,uct_figshare/Mitotracker Confocal 2023/D CZI/Slide D-3-4-24 P72 c.czi,uct/prepared/repD_pa72/Slide D-3-4-24 P72 c.tif,0.06589,11x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repD_pa72,uct_figshare/Mitotracker Confocal 2023/D CZI/Slide D-3-4-24 P72 d.czi,uct/prepared/repD_pa72/Slide D-3-4-24 P72 d.tif,0.06589,12x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"
+uct,repD_pa72,uct_figshare/Mitotracker Confocal 2023/D CZI/Slide D-3-4-24 P72 e.czi,uct/prepared/repD_pa72/Slide D-3-4-24 P72 e.tif,0.06589,10x1024x1024,"channel 2 (561 nm), MitoTracker Orange CMTMRos"

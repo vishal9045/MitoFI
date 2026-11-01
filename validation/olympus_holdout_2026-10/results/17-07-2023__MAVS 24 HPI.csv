@@ -1,0 +1,11 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+Infected 24 hpi 100x F1,True,,0.1223,mixed,0.762,0.1223,0.1196,4.746,1.8,0.0001,1.92,204,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 7 planes
+Infected 24 hpi 100x F2,True,,0.0238,elongated,0.953,0.0238,0.0976,3.036,2.19,0.0,2.36,218,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 6 planes
+Infected 24 hpi 100x F3,True,,0.7825,mixed,0.625,0.7825,0.0885,2.535,2.24,0.0,2.25,291,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 7 planes
+Infected 24 hpi 100x F4,True,,0.8779,fragmented,0.777,0.8779,0.0754,2.929,3.34,0.0,3.16,243,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 6 planes
+Infected 24 hpi 100x F5,True,,0.2024,mixed,0.622,0.2024,0.1152,3.804,1.32,0.0001,1.66,282,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 8 planes
+Mock 24 hpi 100x F1,True,,0.4583,mixed,0.418,0.4583,0.1528,2.653,1.11,0.0001,2.82,421,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 6 planes
+Mock 24 hpi 100x F2,True,,0.3264,mixed,0.515,0.3264,0.158,3.468,1.86,0.0001,3.49,413,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 7 planes
+Mock 24 hpi 100x F3,True,,0.1812,mixed,0.644,0.1812,0.1516,3.724,1.25,0.0002,2.59,395,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 7 planes
+Mock 24 hpi 100x F4,True,,0.286,mixed,0.504,0.286,0.0617,2.96,6.81,0.0001,4.57,174,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 6 planes
+Mock 24 hpi 100x F5,True,,0.347,mixed,0.625,0.347,0.1125,3.561,5.52,0.0001,5.07,327,0.049718445552178,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 6 planes

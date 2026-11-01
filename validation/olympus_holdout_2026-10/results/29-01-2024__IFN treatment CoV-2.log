@@ -1,0 +1,23 @@
+pixel size: read from each file
+
+    #  image                             um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────────────────
+    1  huh-7 IFN treatment Mito GFP …   0.0829   0.463  mixed        0.45
+    2  huh-7 IFN treatment Mito GFP …   0.0829   0.366  mixed        0.43
+    3  huh-7 IFN treatment Mito GFP …   0.0829   0.000  elongated    1.00
+    4  huh-7 IFN treatment Mito GFP …   0.0691   0.222  mixed        0.62
+    5  huh-7 IFN treatment Mito GFP …   0.0829   0.337  mixed        0.48
+    6  huh-7 IFN treatment Mito GFP …   0.0829   0.050  elongated    0.90
+    7  huh-7 IFN treatment Mito GFP …   0.0829   0.000  elongated    1.00
+    8  huh-7 IFN treatment Mito GFP …   0.0829   0.000  elongated    1.00
+    9  huh-7 IFN treatment Mito GFP …   0.0753   0.619  mixed        0.47
+   10  huh-7 IFN treatment Mito GFP …   0.1036   0.000  elongated    1.00
+   11  huh-7 IFN treatment Mito GFP …   0.0829   0.008  elongated    0.98
+  ──────────────────────────────────────────────────────────────────────────────
+  11 images                          11 scored, 0 rejected
+  index                              mean 0.188   median 0.050   sd 0.226   range 0.000–0.619
+  bands                              fragmented 0   mixed 5   elongated 6
+  pixel sizes                        4 different in this folder, 0.0691 to 0.1036 um
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/29-01-2024__IFN treatment CoV-2.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/29-01-2024__IFN treatment CoV-2_summary.csv

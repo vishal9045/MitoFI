@@ -1,0 +1,2 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+MAX_DMSO_ (2) - Deconvolved,False,mask is speckle: objects average 1.894 um and stand only 2.5 background SD above their surroundings,,qc_fail,0.476,0.3644,0.0473,1.894,2.48,0.0,3.42,246,0.020074601233102455,black point,"2D image, used as is; black point at the cytoplasm peak (221 on the 12-bit scale)"

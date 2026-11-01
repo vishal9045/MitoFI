@@ -1,0 +1,9 @@
+tile_index,col,row,x,y,width,height,image_file
+0,0,0,0,0,1024,1024,img_118980.ome.tif
+1,1,0,1024,0,512,512,img_247302.ome.tif
+2,2,0,2048,0,1024,1024,img_3f95bc.ome.tif
+3,0,1,0,1024,1024,1024,img_b5c8d8.ome.tif
+4,1,1,1024,1024,1024,1024,img_b9e847.ome.tif
+5,2,1,2048,1024,1024,1024,img_bf93ff.ome.tif
+6,0,2,0,2048,1024,1024,img_c8ec4b.ome.tif
+7,1,2,1024,2048,512,512,img_e1ddb9.ome.tif

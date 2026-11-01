@@ -1,0 +1,55 @@
+pixel size: read from each file
+
+    #  image                             um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────────────────
+    1  Huh-7 PBS mock 24 hpi b2 2.5x…   0.0829       —  —               —  too much diffuse background: 29.0% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    2  Huh-7 PBS mock 24 hpi b2 4x z…   0.0518       —  —               —  too much diffuse background: 21.7% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    3  Huh-7 PBS mock 24 hpi b3 2.5x…   0.0829       —  —               —  too much diffuse background: 19.3% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    4  Huh-7 PBS mock 24 hpi b3 2.5x…   0.0829       —  —               —  too much diffuse background: 32.9% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    5  Huh-7 PBS mock 24 hpi b3 2.5x…   0.0829       —  —               —  too much diffuse background: 34.3% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    6  Huh-7 PBS mock 24 hpi b3 4x z…   0.0518       —  —               —  too much diffuse background: 31.8% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    7  Huh-7 PBS mock 24 hpi b3 4x z…   0.0518       —  —               —  too much diffuse background: 31.3% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    8  Huh-7 PBS mock 24 hpi b3 4x z…   0.0518       —  —               —  too much diffuse background: 26.7% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    9  Huh-7 polyIC mock 24 hpi b2 2…   0.0829       —  —               —  too much diffuse background: 32.0% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   10  Huh-7 polyIC mock 24 hpi b2 2…   0.0829       —  —               —  too much diffuse background: 29.5% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   11  Huh-7 polyIC mock 24 hpi b2 4…   0.0518       —  —               —  too much diffuse background: 23.5% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   12  Huh-7 polyIC mock 24 hpi b2 4…   0.0518       —  —               —  too much diffuse background: 32.2% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   13  Huh-7 polyIC mock 24 hpi b2 4…   0.0518       —  —               —  too much diffuse background: 26.9% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   14  Huh-7 polyIC mock 24 hpi b2 4…   0.0518       —  —               —  too much diffuse background: 28.5% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   15  Huh-7 polyIC mock 24 hpi b3 2…   0.0829       —  —               —  too much diffuse background: 39.5% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   16  Huh-7 polyIC mock 24 hpi b3 2…   0.0829       —  —               —  too much diffuse background: 37.4% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   17  Huh-7 polyIC mock 24 hpi b3 2…   0.0829       —  —               —  too much diffuse background: 35.7% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   18  Huh-7 polyIC mock 24 hpi b3 4…   0.0518       —  —               —  too much diffuse background: 32.6% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   19  Huh-7 polyIC mock 24 hpi b3 4…   0.0518       —  —               —  too much diffuse background: 36.9% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+
+19 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  Huh-7 PBS mock 24 hpi b2 2.5x…   0.0829   0.071  elongated    0.87
+    2  Huh-7 PBS mock 24 hpi b2 4x z…   0.0518       —  —               —  mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16)
+    3  Huh-7 PBS mock 24 hpi b3 2.5x…   0.0829   0.019  elongated    0.96
+    4  Huh-7 PBS mock 24 hpi b3 2.5x…   0.0829   0.175  mixed        0.67
+    5  Huh-7 PBS mock 24 hpi b3 2.5x…   0.0829   0.120  mixed        0.78
+    6  Huh-7 PBS mock 24 hpi b3 4x z…   0.0518   0.185  mixed        0.67
+    7  Huh-7 PBS mock 24 hpi b3 4x z…   0.0518   0.270  mixed        0.55
+    8  Huh-7 PBS mock 24 hpi b3 4x z…   0.0518   0.094  elongated    0.82
+    9  Huh-7 polyIC mock 24 hpi b2 2…   0.0829   0.123  mixed        0.77
+   10  Huh-7 polyIC mock 24 hpi b2 2…   0.0829   0.144  mixed        0.73
+   11  Huh-7 polyIC mock 24 hpi b2 4…   0.0518   0.183  mixed        0.67
+   12  Huh-7 polyIC mock 24 hpi b2 4…   0.0518   0.154  mixed        0.71
+   13  Huh-7 polyIC mock 24 hpi b2 4…   0.0518   0.188  mixed        0.64
+   14  Huh-7 polyIC mock 24 hpi b2 4…   0.0518   0.487  mixed        0.44
+   15  Huh-7 polyIC mock 24 hpi b3 2…   0.0829   0.229  mixed        0.59
+   16  Huh-7 polyIC mock 24 hpi b3 2…   0.0829   0.117  mixed        0.79
+   17  Huh-7 polyIC mock 24 hpi b3 2…   0.0829   0.077  elongated    0.85
+   18  Huh-7 polyIC mock 24 hpi b3 4…   0.0518   0.273  mixed        0.55
+   19  Huh-7 polyIC mock 24 hpi b3 4…   0.0518   0.220  mixed        0.62
+
+1 field(s) are refused by the quality gate. Setting a black point at the cytoplasm level -- what setting the minimum in Fiji's Brightness/Contrast does, with the level read from each image -- lets many more be scored. It keeps the order between fields that all had it, but reads about 0.2 higher than untouched fields (median +0.21 to +0.24 on fields that already pass), so rows are marked "black point" in the rescue column: compare them with each other, not with untouched fields.
+    1  Huh-7 PBS mock 24 hpi b2 4x z…   0.0518   0.307  mixed        0.47
+  ──────────────────────────────────────────────────────────────────────────────
+  19 images                          19 scored, 0 rejected
+  index                              mean 0.181   median 0.175   sd 0.105   range 0.019–0.487
+  bands                              fragmented 0   mixed 15   elongated 4
+  pixel sizes                        2 different in this folder, 0.0518 to 0.0829 um
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/19-09-2022.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/19-09-2022_summary.csv

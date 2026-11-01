@@ -1,0 +1,12 @@
+pixel size: read from each file
+
+    #  image                          um/px   index  band         conf  notes
+  ───────────────────────────────────────────────────────────────────────────
+    1  MAVS stable C-8 CHECK HA F1   0.0829   0.880  fragmented   0.79
+  ───────────────────────────────────────────────────────────────────────────
+  1 images                        1 scored, 0 rejected
+  index                           mean 0.880   median 0.880   sd —   range 0.880–0.880
+  bands                           fragmented 1   mixed 0   elongated 0
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/29-04-2024 MAVS stable C-8 check.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/29-04-2024 MAVS stable C-8 check_summary.csv

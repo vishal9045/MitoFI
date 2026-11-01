@@ -1,0 +1,30 @@
+pixel size: read from each file
+
+    #  image                           um/px   index  band         conf  notes
+  ────────────────────────────────────────────────────────────────────────────
+    1  Huh-7 HA MAVS oe + CCCP F1     0.1036   0.984  fragmented   0.97
+    2  Huh-7 HA MAVS oe + CCCP F2 R   0.0825   0.952  fragmented   0.91
+    3  Huh-7 HA MAVS oe + CCCP F3     0.0829   0.983  fragmented   0.97
+    4  Huh-7 HA MAVS oe + CCCP F4R    0.0829   0.513  mixed        0.49
+    5  Huh-7 HA MAVS oe + CCCP F5R    0.0829   0.792  mixed        0.61
+    6  Huh-7 HA MAVS oe + CCCP F6     0.0829   0.934  fragmented   0.87
+    7  Huh-7 HA MAVS oe + CCCP F7     0.0829   0.992  fragmented   0.98
+    8  Huh-7 HA MAVS oe + CCCP F8     0.0829       —  —               —  mask is speckle: objects average 1.533 um and stand only 1.6 background SD above their surroundings
+
+1 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  Huh-7 HA MAVS oe + CCCP F8     0.0829       —  —               —  mask is speckle: objects average 1.533 um and stand only 1.6 background SD above their surroundings
+
+1 field(s) are refused by the quality gate. Setting a black point at the cytoplasm level -- what setting the minimum in Fiji's Brightness/Contrast does, with the level read from each image -- lets many more be scored. It keeps the order between fields that all had it, but reads about 0.2 higher than untouched fields (median +0.21 to +0.24 on fields that already pass), so rows are marked "black point" in the rescue column: compare them with each other, not with untouched fields.
+    1  Huh-7 HA MAVS oe + CCCP F8     0.0829       —  —               —  segmentation collapsed: foreground 0.37%
+  ────────────────────────────────────────────────────────────────────────────
+  8 images                         7 scored, 1 rejected
+  index                            mean 0.879   median 0.952   sd 0.175   range 0.513–0.992
+  bands                            fragmented 5   mixed 2   elongated 0
+  pixel sizes                      3 different in this folder, 0.0825 to 0.1036 um
+                                   averages cover the scored images only
+
+  why 1 image(s) were refused:
+     1  almost nothing segmented: under 1% of the field was called mitochondria. Usually the wrong channel, an empty field, or a very dim one.
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/19-09-2024 HUH-7 CCCP MitoGFP-RFP Different conditions__MAVS + CCCP.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/19-09-2024 HUH-7 CCCP MitoGFP-RFP Different conditions__MAVS + CCCP_summary.csv

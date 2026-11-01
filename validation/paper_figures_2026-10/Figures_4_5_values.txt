@@ -1,0 +1,10 @@
+A Allen hiPSC TOMM20: Interphase 0.097 (n 431/450) vs Mitotic 0.246 (n 403/450); P = 2.1e-16
+B BBBC053 TOM20, CAD: Vehicle 0.107 (n 12/29) vs FCCP 0.309 (n 27/29); P = 0.0007
+C Mito-Hacker mito-YFP: Drp1 +/+ 0.253 (n 18/26) vs Drp1 −/− 0.002 (n 22/33); P = 4.3e-06
+D MitoTracker LSM780: Control 0.002 (n 14/14) vs FCCP 0.017 (n 12/16); P = 0.00083
+A Huh7, CCCP 6 Nov 2023: Mock 0.364 (n 9/9) vs CCCP 0.912 (n 9/9); P = 0.00021
+B Huh7, IFN 29 Apr 2024: Vehicle 0.740 (n 4/4) vs IFN 0.038 (n 10/10); P = 0.001
+C Huh7, MAVS KO mito-GFP: WT 0.007 (n 10/10) vs MAVS KO 0.357 (n 17/17); P = 0.0027
+D Huh7, infection 48 h: Mock 0.025 (n 5/5) vs Infected 0.782 (n 7/7); P = 0.0013
+E Huh7, JEV mito-GFP: EV 0.964 (n 9/9) vs FL-MAVS 0.559 (n 12/12); P = 0.0013
+F Leica, CDKi (development): Vehicle 0.293 (n 9/9) vs CDKi 0.063 (n 24/26); P = 3.4e-05

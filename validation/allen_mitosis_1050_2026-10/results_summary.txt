@@ -1,0 +1,37 @@
+MitoFI 1.0.0 (pixel v6, index v8) on the October Allen sample. Plan: PLAN.md.
+1050 cells; read or download errors: 0
+
+== INSIDE THE CELL (primary) ==
+group        cells  scored  median           IQR  e/m/f      rescue (as is/bg/bp)   refused
+interphase     450     431   0.097   0.02-0.29  222/202/7           0/49/382       noise texture 17, speckle 1, almost nothing segmented 1
+M1M2           150     147   0.138   0.05-0.30   62/81/4           0/16/131       noise texture 3
+M3             150     128   0.293   0.12-0.55   32/91/5           0/7/121       noise texture 17, speckle 5
+M4M5           150     128   0.407   0.19-0.62   17/102/9           0/4/124       noise texture 18, speckle 4
+M6M7           150     121   0.242   0.08-0.51   43/74/4           0/4/117       noise texture 23, speckle 4, almost nothing segmented 2
+  mitotic vs interphase: median 0.246 (n 403) vs 0.097 (n 431); one-sided Mann-Whitney p = 2.10e-16; AUC 0.663
+  mitotic vs interphase (no black-point rows): median 0.050 (n 27) vs 0.018 (n 49); one-sided Mann-Whitney p = 1.40e-02; AUC 0.653
+  paired (mitotic minus same-field interphase): 387 pairs, median difference +0.111, mitotic higher in 66%; Wilcoxon signed-rank p = 6.87e-14
+  rescue mix (scored cells): interphase background 49 (11%), black point 382 (89%); mitotic background 27 (7%), black point 376 (93%); chi-square p = 0.026
+  within black point rows only: mitotic 0.258 (n 376) vs interphase 0.114 (n 382); one-sided p = 1.46e-14
+  within background rows only: mitotic 0.050 (n 27) vs interphase 0.018 (n 49); one-sided p = 1.40e-02
+  within as is rows only: not testable (n 0 vs 0)
+  pairs with the same rescue: 322, median difference +0.112, Wilcoxon p = 3.15e-10
+  medians by stage: interphase 0.097, M1M2 0.138, M3 0.293, M4M5 0.407, M6M7 0.242
+
+== WHOLE CROP ==
+group        cells  scored  median           IQR  e/m/f      rescue (as is/bg/bp)   refused
+interphase     450     449   0.354   0.16-0.55   80/359/10          0/119/330       almost nothing segmented 1
+M1M2           150     150   0.377   0.17-0.52   26/124/0           0/48/102       
+M3             150     150   0.394   0.17-0.60   22/126/2           0/40/110       
+M4M5           150     150   0.410   0.21-0.57   21/126/3           0/48/102       
+M6M7           150     149   0.311   0.17-0.59   27/115/7           0/45/104       almost nothing segmented 1
+  mitotic vs interphase: median 0.389 (n 450) vs 0.354 (n 449); one-sided Mann-Whitney p = 1.25e-01; AUC 0.522
+  mitotic vs interphase (no black-point rows): median 0.158 (n 136) vs 0.141 (n 119); one-sided Mann-Whitney p = 1.25e-01; AUC 0.542
+  paired (mitotic minus same-field interphase): 449 pairs, median difference +0.019, mitotic higher in 53%; Wilcoxon signed-rank p = 1.31e-01
+  rescue mix (scored cells): interphase background 119 (27%), black point 330 (73%); mitotic background 136 (30%), black point 314 (70%); chi-square p = 0.24
+  within black point rows only: mitotic 0.449 (n 314) vs interphase 0.411 (n 330); one-sided p = 8.65e-02
+  within background rows only: mitotic 0.158 (n 136) vs interphase 0.141 (n 119); one-sided p = 1.25e-01
+  within as is rows only: not testable (n 0 vs 0)
+  pairs with the same rescue: 284, median difference +0.032, Wilcoxon p = 3.03e-02
+  medians by stage: interphase 0.354, M1M2 0.377, M3 0.394, M4M5 0.410, M6M7 0.311
+

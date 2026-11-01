@@ -1,0 +1,22 @@
+pixel size: read from each file
+
+    #  image                um/px   index  band         conf  notes
+  ─────────────────────────────────────────────────────────────────
+    1  huh-7 JEV LC3 F1    0.0829   0.738  mixed        0.57
+    2  huh-7 JEV LC3 F10   0.0921   0.556  mixed        0.49
+    3  huh-7 JEV LC3 F2    0.1271   0.517  mixed        0.55
+    4  huh-7 JEV LC3 F3    0.0829   0.870  fragmented   0.75
+    5  huh-7 JEV LC3 F4    0.0829   0.795  mixed        0.63
+    6  huh-7 JEV LC3 F5    0.0829   0.826  mixed        0.68
+    7  huh-7 JEV LC3 F6    0.0829   0.395  mixed        0.46
+    8  huh-7 JEV LC3 F7    0.0829   0.220  mixed        0.63
+    9  huh-7 JEV LC3 F8    0.0829   0.591  mixed        0.55
+   10  huh-7 JEV LC3 F9    0.0691   0.468  mixed        0.44
+  ─────────────────────────────────────────────────────────────────
+  10 images             10 scored, 0 rejected
+  index                 mean 0.598   median 0.573   sd 0.209   range 0.220–0.870
+  bands                 fragmented 1   mixed 9   elongated 0
+  pixel sizes           4 different in this folder, 0.0691 to 0.1271 um
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/27-11-2023__Huh-7 JEV.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/27-11-2023__Huh-7 JEV_summary.csv

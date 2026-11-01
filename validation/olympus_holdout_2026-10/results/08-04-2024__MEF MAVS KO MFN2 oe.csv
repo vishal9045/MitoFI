@@ -1,0 +1,3 @@
+image_id,qc_pass,qc_reason,index,band,confidence,index_unvalidated,fg_frac,p90_major_um,local_contrast,haze,local_snr,n_objects,px_um,rescue,reduction
+MEF MAVS KO MFN2 oe B1 F1,True,,0.1483,mixed,0.725,0.1483,0.0832,5.839,2.48,0.0117,3.92,314,0.103580094900373,background,"channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 10 planes; background subtracted, rolling ball 2.5 um"
+MEF MAVS KO MFN2 oe B1 F2,True,,0.0007,elongated,0.999,0.0007,0.0827,3.997,4.87,0.0005,7.16,276,0.103580094900373,,channel 2 chosen by excitation at 570 nm; axes ZCYX; channel 2 of 4; max projection over 11 planes

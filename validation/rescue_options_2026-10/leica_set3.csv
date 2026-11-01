@@ -1,0 +1,459 @@
+source,lif,series,condition,px_um,option,view,qc_pass,reason,index,band
+leica,For Vishal/For Vishal/CDKi treatment + CoV-2.lif,0,mark_and_find,0.09015,background+stretch,whole,False,no objects in mask,,
+leica,For Vishal/For Vishal/CDKi treatment + CoV-2.lif,8,cdki inf,0.0903,background+stretch,whole,True,,0.0868,elongated
+leica,For Vishal/For Vishal/CDKi treatment + CoV-2.lif,3,veh inf for cdki,0.09015,background+stretch,whole,True,,0.2071,mixed
+leica,For Vishal/For Vishal/CDKi treatment + CoV-2.lif,4,veh inf for cdki,0.09015,background+stretch,whole,True,,0.2239,mixed
+leica,For Vishal/For Vishal/CDKi treatment + CoV-2.lif,1,veh inf for cdki,0.09015,background+stretch,whole,True,,0.1088,mixed
+leica,For Vishal/For Vishal/CDKi treatment + CoV-2.lif,6,cdki inf,0.0903,background+stretch,whole,True,,0.1541,mixed
+leica,For Vishal/For Vishal/CDKi treatment + CoV-2.lif,5,veh inf for cdki,0.09015,background+stretch,whole,True,,0.0496,elongated
+leica,For Vishal/For Vishal/CDKi treatment + CoV-2.lif,9,cdki inf,0.0903,background+stretch,whole,True,,0.1086,mixed
+leica,For Vishal/For Vishal/CDKi treatment + CoV-2.lif,2,veh inf for cdki,0.09015,background+stretch,whole,True,,0.2243,mixed
+leica,For Vishal/For Vishal/CDKi treatment + CoV-2.lif,10,cdki inf,0.09,background+stretch,whole,True,,0.0195,elongated
+leica,For Vishal/For Vishal/CDKi treatment + CoV-2.lif,7,cdki inf,0.0903,background+stretch,whole,True,,0.3148,mixed
+leica,For Vishal/For Vishal/CDKi treatment + CoV-2.lif,11,cdki inf,0.09,background+stretch,whole,True,,0.0068,elongated
+leica,For Vishal/For Vishal/CDKi treatment + CoV-2.lif,12,cdki inf,0.09,background+stretch,whole,True,,0.0136,elongated
+leica,For Vishal/For Vishal/CDKi treatment + CoV-2.lif,14,cdki inf,0.09,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16),,qc_fail
+leica,For Vishal/For Vishal/CDKi treatment + CoV-2.lif,16,cdki inf,0.09,background+stretch,whole,True,,0.0996,elongated
+leica,For Vishal/For Vishal/CDKi treatment + CoV-2.lif,21,cdki inf,0.09025,background+stretch,whole,True,,0.0553,elongated
+leica,For Vishal/For Vishal/CDKi treatment + CoV-2.lif,17,cdki inf,0.09,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16),,qc_fail
+leica,For Vishal/For Vishal/CDKi treatment + CoV-2.lif,15,cdki inf,0.09,background+stretch,whole,True,,0.0716,elongated
+leica,For Vishal/For Vishal/CDKi treatment + CoV-2.lif,19,cdki inf,0.09005,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16),,qc_fail
+leica,For Vishal/For Vishal/CDKi treatment + CoV-2.lif,13,cdki inf,0.09,background+stretch,whole,True,,0.0962,elongated
+leica,For Vishal/For Vishal/CDKi treatment + CoV-2.lif,18,cdki inf,0.09005,background+stretch,whole,True,,0.0389,elongated
+leica,For Vishal/For Vishal/CDKi treatment + CoV-2.lif,20,cdki inf,0.09025,background+stretch,whole,True,,0.0711,elongated
+leica,For Vishal/For Vishal/CDKi treatment + CoV-2.lif,22,cdki inf,0.09025,background+stretch,whole,True,,0.032,elongated
+leica,For Vishal/For Vishal/CDKi treatment + CoV-2.lif,23,cdki inf,0.09025,background+stretch,whole,True,,0.0296,elongated
+leica,For Vishal/For Vishal/CDKi treatment + CoV-2.lif,25,cdki inf,0.09025,background+stretch,whole,True,,0.0552,elongated
+leica,For Vishal/For Vishal/CDKi treatment + CoV-2.lif,24,cdki inf,0.09025,background+stretch,whole,True,,0.1586,mixed
+leica,For Vishal/For Vishal/CDKi treatment + CoV-2.lif,32,cdki inf ctrl treated in one field .,0.12496,background+stretch,whole,True,,0.2243,mixed
+leica,For Vishal/For Vishal/CDKi treatment + CoV-2.lif,26,cdki inf,0.07319,background+stretch,whole,True,,0.0113,elongated
+leica,For Vishal/For Vishal/CDKi treatment + CoV-2.lif,29,cdki inf,0.07228,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.0 x their surrounding noise (limit 1.16),,qc_fail
+leica,For Vishal/For Vishal/CDKi treatment + CoV-2.lif,30,cdki inf,0.07228,background+stretch,whole,True,,0.1344,mixed
+leica,For Vishal/For Vishal/CDKi treatment + CoV-2.lif,28,cdki inf,0.07228,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16),,qc_fail
+leica,For Vishal/For Vishal/CDKi treatment + CoV-2.lif,31,cdki inf,0.07228,background+stretch,whole,True,,0.0449,elongated
+leica,For Vishal/For Vishal/CDKi treatment + CoV-2.lif,27,cdki inf,0.07228,background+stretch,whole,True,,0.036,elongated
+leica,For Vishal/For Vishal/CDKi treatment + CoV-2.lif,33,veh cdki inf,0.08997,background+stretch,whole,True,,0.6056,mixed
+leica,For Vishal/For Vishal/CDKi treatment + CoV-2.lif,34,veh cdki inf,0.09028,background+stretch,whole,True,,0.6636,mixed
+leica,For Vishal/For Vishal/CDKi treatment + CoV-2.lif,35,veh cdki inf,0.09028,background+stretch,whole,True,,0.3731,mixed
+leica,For Vishal/For Vishal/CDKi treatment + CoV-2.lif,36,veh cdki inf,0.07202,background+stretch,whole,True,,0.5455,mixed
+leica,For Vishal/For Vishal/Huh-7 WT for MFN1 KO .lif,0,mark_and_find,0.07209,background+stretch,whole,True,,0.8286,mixed
+leica,For Vishal/For Vishal/Huh-7 WT for MFN1 KO .lif,1,mark_and_find,0.07209,background+stretch,whole,True,,0.5172,mixed
+leica,For Vishal/For Vishal/Huh-7 WT for MFN1 KO .lif,2,mark_and_find,0.07209,background+stretch,whole,True,,0.3209,mixed
+leica,For Vishal/For Vishal/Huh-7 WT for MFN1 KO .lif,4,mark_and_find,0.07209,background+stretch,whole,True,,0.6766,mixed
+leica,For Vishal/For Vishal/col7 mito morph.lif,1,col mito morph,0.07214,background+stretch,whole,True,,0.624,mixed
+leica,For Vishal/For Vishal/col7 mito morph.lif,0,col mito morph,0.07214,background+stretch,whole,True,,0.6127,mixed
+leica,For Vishal/For Vishal/Huh-7 WT for MFN1 KO .lif,3,mark_and_find,0.07209,background+stretch,whole,True,,0.2701,mixed
+leica,For Vishal/For Vishal/col7 mito morph.lif,2,mark_and_find,0.07217,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16),,qc_fail
+leica,For Vishal/For Vishal/col7 mito morph.lif,3,col mito morph,0.07217,background+stretch,whole,True,,0.2968,mixed
+leica,For Vishal/For Vishal/col7 mito morph.lif,5,col mito morph,0.07217,background+stretch,whole,True,,0.6243,mixed
+leica,For Vishal/For Vishal/col7 mito morph.lif,4,col mito morph,0.07217,background+stretch,whole,True,,0.3472,mixed
+leica,For Vishal/For Vishal/col7 mito morph.lif,6,col mito morph,0.07217,background+stretch,whole,True,,0.7809,mixed
+leica,For Vishal/For Vishal/col7 mito morph.lif,7,col mito morph,0.07217,background+stretch,whole,True,,0.7654,mixed
+leica,For Vishal/For Vishal/col7 mito morph.lif,8,col mito morph,0.07217,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16),,qc_fail
+leica,For Vishal/For Vishal/colony 7 mfn1 ko.lif,3,col7 mito morph,0.07217,background+stretch,whole,True,,0.389,mixed
+leica,For Vishal/For Vishal/colony 7 mfn1 ko.lif,2,col mfn1 ko,0.0722,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.0 x their surrounding noise (limit 1.16),,qc_fail
+leica,For Vishal/For Vishal/colony 7 mfn1 ko.lif,1,col mfn1 ko,0.0722,background+stretch,whole,True,,0.2706,mixed
+leica,For Vishal/For Vishal/colony 7 mfn1 ko.lif,0,col mfn1 ko,0.0722,background+stretch,whole,True,,0.3249,mixed
+leica,For Vishal/For Vishal/colony 7 mfn1 ko.lif,4,col7 mito morph,0.07217,background+stretch,whole,True,,0.5619,mixed
+leica,For Vishal/For Vishal/colony 7 mfn1 ko.lif,5,col7 mito morph,0.07217,background+stretch,whole,True,,0.5745,mixed
+leica,For Vishal/For Vishal/colony 7 mfn1 ko.lif,6,col7 mito morph,0.07217,background+stretch,whole,True,,0.8979,fragmented
+leica,For Vishal/For Vishal/colony 7 mfn1 ko.lif,7,col7 mito morph,0.07217,background+stretch,whole,True,,0.9427,fragmented
+leica,For Vishal/For Vishal/colony 7 mfn1 ko.lif,8,col7 mito morph,0.07217,background+stretch,whole,True,,0.6168,mixed
+leica,For Vishal/For Vishal/colony 7 mfn1 ko.lif,9,col7 mito morph,0.07217,background+stretch,whole,True,,0.8111,mixed
+leica,For Vishal/For Vishal/colony 7 mfn1 ko.lif,11,col7 mito morph,0.07217,background+stretch,whole,True,,0.8122,mixed
+leica,For Vishal/For Vishal/colony 7 mfn1 ko.lif,12,col7 mito morph,0.07217,background+stretch,whole,True,,0.8474,mixed
+leica,For Vishal/For Vishal/colony 7 mfn1 ko.lif,10,col7 mito morph,0.07217,background+stretch,whole,True,,0.4438,mixed
+leica,For Vishal/For Vishal/colony 7 mfn1 ko.lif,13,col7 mito morph,0.07217,background+stretch,whole,True,,0.4346,mixed
+leica,For Vishal/For Vishal/colony 9 mfn1 ko mito.lif,0,col mfn1 ko,0.07211,background+stretch,whole,True,,0.3658,mixed
+leica,For Vishal/For Vishal/colony 9 mfn1 ko mito.lif,1,col mfn1 ko,0.07211,background+stretch,whole,True,,0.5727,mixed
+leica,For Vishal/For Vishal/colony 9 mfn1 ko mito.lif,2,col mfn1 ko,0.07211,background+stretch,whole,True,,0.3607,mixed
+leica,For Vishal/For Vishal/colony 9 mfn1 ko mito.lif,5,col mfn1 ko,0.07211,background+stretch,whole,True,,0.736,mixed
+leica,For Vishal/For Vishal/colony 9 mfn1 ko mito.lif,3,col mfn1 ko,0.07211,background+stretch,whole,True,,0.3762,mixed
+leica,For Vishal/For Vishal/colony 9 mfn1 ko mito.lif,4,col mfn1 ko,0.07211,background+stretch,whole,True,,0.7194,mixed
+leica,For Vishal/For Vishal/colony 9 mfn1 ko mito.lif,6,col mfn1 ko,0.07211,background+stretch,whole,True,,0.7344,mixed
+leica,For Vishal/For Vishal/huh7 mfn1 ko pool.lif,2,mark_and_find,0.07211,background+stretch,whole,True,,0.4223,mixed
+leica,For Vishal/For Vishal/huh7 mfn1 ko pool.lif,0,mark_and_find,0.07211,background+stretch,whole,True,,0.9336,fragmented
+leica,For Vishal/For Vishal/huh7 mfn1 ko pool.lif,1,mark_and_find,0.07211,background+stretch,whole,True,,0.8923,fragmented
+leica,For Vishal/For Vishal/huh7 mfn1 ko pool.lif,4,mark_and_find,0.07211,background+stretch,whole,True,,0.155,mixed
+leica,For Vishal/For Vishal/huh7 mfn1 ko pool.lif,3,mark_and_find,0.07211,background+stretch,whole,True,,0.8956,fragmented
+leica,For Vishal/For Vishal/huh7 mfn1 ko pool.lif,5,mark_and_find,0.07211,background+stretch,whole,True,,0.3242,mixed
+leica,For Vishal/For Vishal/huh7 mfn1 ko pool.lif,6,mark_and_find,0.07211,background+stretch,whole,True,,0.2547,mixed
+leica,For Vishal/For Vishal/huh7 mfn1 ko pool.lif,7,mark_and_find,0.07211,background+stretch,whole,True,,0.6611,mixed
+leica,For Vishal/For Vishal/huh7 mfn1 ko pool.lif,8,mark_and_find,0.07211,background+stretch,whole,True,,0.6102,mixed
+leica,For Vishal/For Vishal/huh7 mfn1 ko pool.lif,9,mark_and_find,0.07211,background+stretch,whole,True,,0.5748,mixed
+leica,For Vishal/For Vishal/huh7 mfn1 ko pool.lif,10,mark_and_find,0.07211,background+stretch,whole,True,,0.3939,mixed
+leica,For Vishal/For Vishal/huh7 mfn1 ko pool.lif,11,mark_and_find,0.07211,background+stretch,whole,True,,0.3876,mixed
+leica,For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,1,mfn1 ko normal media inf,0.06012,background+stretch,whole,True,,0.5352,mixed
+leica,For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,0,mfn1 ko normal media inf,0.07207,background+stretch,whole,True,,0.386,mixed
+leica,For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,2,mfn1 ko normal media inf,0.06012,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16),,qc_fail
+leica,For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,3,mfn1 ko normal media inf,0.06012,background+stretch,whole,True,,0.2745,mixed
+leica,For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,4,mfn1 ko normal media inf,0.06012,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16),,qc_fail
+leica,For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,5,220mg pyruvate mfn1 ko,0.05147,background+stretch,whole,True,,0.2793,mixed
+leica,For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,6,220mg pyruvate mfn1 ko,0.05147,background+stretch,whole,True,,0.3788,mixed
+leica,For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,7,mfn1 ko normal media inf,0.05161,background+stretch,whole,True,,0.0548,elongated
+leica,For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,9,mfn1 ko normal media inf,0.05161,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16),,qc_fail
+leica,For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,10,mfn1 ko normal media inf,0.05161,background+stretch,whole,True,,0.123,mixed
+leica,For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,8,mfn1 ko normal media inf,0.05161,background+stretch,whole,False,mask is speckle: objects average 2.008 um and stand only 1.0 background SD above their surroundings,,qc_fail
+leica,For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,11,mfn1 ko normal media inf,0.05161,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16),,qc_fail
+leica,For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,12,mfn1 ko normal media inf,0.05161,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16),,qc_fail
+leica,For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,13,mfn1 ko normal media inf,0.05154,background+stretch,whole,True,,0.176,mixed
+leica,For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,14,mfn1 ko normal media inf,0.05154,background+stretch,whole,True,,0.3398,mixed
+leica,For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,15,220mg pyruvate mfn1 ko inf,0.05159,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.0 x their surrounding noise (limit 1.16),,qc_fail
+leica,For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,16,220mg pyruvate mfn1 ko inf,0.05159,background+stretch,whole,True,,0.2485,mixed
+leica,For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,17,220mg pyruvate mfn1 ko inf,0.05159,background+stretch,whole,True,,0.6782,mixed
+leica,For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,19,220mg pyruvate mfn1 ko inf,0.05159,background+stretch,whole,True,,0.1519,mixed
+leica,For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,20,0mg pyruvate mfn1 ko inf,0.05152,background+stretch,whole,True,,0.3029,mixed
+leica,For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,18,220mg pyruvate mfn1 ko inf,0.05159,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16),,qc_fail
+leica,For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,21,0mg pyruvate mfn1 ko inf,0.05152,background+stretch,whole,True,,0.8758,fragmented
+leica,For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,22,0mg pyruvate mfn1 ko inf,0.05149,background+stretch,whole,True,,0.6631,mixed
+leica,For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,23,110mg pyruvate mfn1 ko inf,0.05153,background+stretch,whole,True,,0.362,mixed
+leica,For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,24,110mg pyruvate mfn1 ko inf,0.05158,background+stretch,whole,True,,0.7375,mixed
+leica,For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,25,110mg pyruvate mfn1 ko inf,0.05154,background+stretch,whole,True,,0.5815,mixed
+leica,For Vishal/For Vishal/mfn1 ko pyruvate treatment.lif,26,110mg pyruvate mfn1 ko inf,0.05156,background+stretch,whole,True,,0.6028,mixed
+leica,For Vishal/For Vishal/wt mock pyruvate treatment.lif,0,wt 0mg pyruvate mock,0.0516,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16),,qc_fail
+leica,For Vishal/For Vishal/wt mock pyruvate treatment.lif,2,wt 0mg pyruvate mock,0.0516,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.0 x their surrounding noise (limit 1.16),,qc_fail
+leica,For Vishal/For Vishal/wt mock pyruvate treatment.lif,5,wt 110mg pyruvate mock,0.05154,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.0 x their surrounding noise (limit 1.16),,qc_fail
+leica,For Vishal/For Vishal/wt mock pyruvate treatment.lif,3,wt 0mg pyruvate mock,0.0516,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16),,qc_fail
+leica,For Vishal/For Vishal/wt mock pyruvate treatment.lif,4,wt 0mg pyruvate mock,0.0516,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.0 x their surrounding noise (limit 1.16),,qc_fail
+leica,For Vishal/For Vishal/wt mock pyruvate treatment.lif,6,wt 110mg pyruvate mock,0.05154,background+stretch,whole,False,mask looks like noise texture: large objects stand only 0.9 x their surrounding noise (limit 1.16),,qc_fail
+leica,For Vishal/For Vishal/wt mock pyruvate treatment.lif,1,wt 0mg pyruvate mock,0.0516,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.0 x their surrounding noise (limit 1.16),,qc_fail
+leica,For Vishal/For Vishal/wt mock pyruvate treatment.lif,7,wt 110mg pyruvate mock,0.05154,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.0 x their surrounding noise (limit 1.16),,qc_fail
+leica,For Vishal/For Vishal/wt mock pyruvate treatment.lif,8,wt 110mg pyruvate mock,0.05154,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16),,qc_fail
+leica,For Vishal/For Vishal/wt mock pyruvate treatment.lif,9,wt 110mg pyruvate mock,0.05154,background+stretch,whole,False,mask looks like noise texture: large objects stand only 0.9 x their surrounding noise (limit 1.16),,qc_fail
+leica,For Vishal/For Vishal/wt mock pyruvate treatment.lif,10,wt 110mg pyruvate mock,0.05154,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.0 x their surrounding noise (limit 1.16),,qc_fail
+leica,For Vishal/For Vishal/wt mock pyruvate treatment.lif,11,wt 220mg pyruvate mock,0.0516,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.0 x their surrounding noise (limit 1.16),,qc_fail
+leica,For Vishal/For Vishal/wt mock pyruvate treatment.lif,13,wt 220mg pyruvate mock,0.0516,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.0 x their surrounding noise (limit 1.16),,qc_fail
+leica,For Vishal/For Vishal/wt mock pyruvate treatment.lif,14,wt 220mg pyruvate mock,0.0516,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16),,qc_fail
+leica,For Vishal/For Vishal/wt mock pyruvate treatment.lif,12,wt 220mg pyruvate mock,0.0516,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16),,qc_fail
+leica,For Vishal/For Vishal/wt mock pyruvate treatment.lif,15,wt 220mg pyruvate mock,0.0516,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16),,qc_fail
+leica,For Vishal/For Vishal/wt mock pyruvate treatment.lif,17,wt 220mg pyruvate mock,0.0516,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16),,qc_fail
+leica,For Vishal/For Vishal/wt mock pyruvate treatment.lif,16,wt 220mg pyruvate mock,0.0516,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.0 x their surrounding noise (limit 1.16),,qc_fail
+leica,For Vishal/For Vishal/wt mock pyruvate treatment.lif,18,wt 220mg pyruvate mock,0.0516,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16),,qc_fail
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,1,post met inf nuc,0.18038,background+stretch,whole,False,mask looks like noise texture: large objects stand only 0.9 x their surrounding noise (limit 1.16),,qc_fail
+leica,For Vishal/For Vishal/wt mock pyruvate treatment.lif,20,wt 220mg pyruvate mock,0.0516,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.0 x their surrounding noise (limit 1.16),,qc_fail
+leica,For Vishal/For Vishal/wt mock pyruvate treatment.lif,19,wt 220mg pyruvate mock,0.0516,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16),,qc_fail
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,8,series003,0.18038,background+stretch,whole,False,mask looks like noise texture: large objects stand only 0.8 x their surrounding noise (limit 1.16),,qc_fail
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,10,mark_and_find,0.07215,background+stretch,whole,False,segmentation collapsed: foreground 0.43%,,qc_fail
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,5,mef wt 48hpi,0.07215,background+stretch,whole,True,,0.0776,elongated
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,3,mef wt 48hpi,0.07215,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16),,qc_fail
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,4,mef wt 48hpi,0.07215,background+stretch,whole,True,,0.145,mixed
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,11,mef ko 48hpi,0.07215,background+stretch,whole,True,,0.2897,mixed
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,9,mef wt 48hpi,0.18038,background+stretch,whole,True,,0.1282,mixed
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,2,mef wt 48hpi,0.07215,background+stretch,whole,True,,0.4319,mixed
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,6,mef wt 48hpi,0.07215,background+stretch,whole,True,,0.4339,mixed
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,7,mef wt 48hpi,0.07215,background+stretch,whole,True,,0.1176,mixed
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,12,mef ko 48hpi,0.07215,background+stretch,whole,True,,0.2369,mixed
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,13,mef ko 48hpi,0.07215,background+stretch,whole,True,,0.0421,elongated
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,15,mef ko 48hpi,0.07215,background+stretch,whole,True,,0.4507,mixed
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,16,mef ko 48hpi,0.07215,background+stretch,whole,True,,0.3478,mixed
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,14,mef ko 48hpi,0.07215,background+stretch,whole,True,,0.0309,elongated
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,19,mark_and_find,0.07215,background+stretch,whole,True,,0.0656,elongated
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,20,mef wt mock,0.07215,background+stretch,whole,True,,0.1128,mixed
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,21,mef wt mock,0.07215,background+stretch,whole,True,,0.0971,elongated
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,22,mef wt mock,0.07215,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.2 x their surrounding noise (limit 1.16),,qc_fail
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,23,mef wt mock,0.07215,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.0 x their surrounding noise (limit 1.16),,qc_fail
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,26,image005,0.07215,background+stretch,whole,False,mask looks like noise texture: large objects stand only 0.9 x their surrounding noise (limit 1.16),,qc_fail
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,24,mef wt mock,0.07215,background+stretch,whole,True,,0.0128,elongated
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,25,mef wt mock,0.07215,background+stretch,whole,True,,0.0429,elongated
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,27,mef ko mock,0.07215,background+stretch,whole,True,,0.2339,mixed
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,0,series001,0.09014,background+stretch,whole,False,mask is speckle: objects average 1.235 um and stand only 1.3 background SD above their surroundings,,qc_fail
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,28,mef ko mock,0.07215,background+stretch,whole,True,,0.2223,mixed
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,29,mef ko mock,0.07215,background+stretch,whole,True,,0.1181,mixed
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,31,mef ko mock,0.07215,background+stretch,whole,True,,0.1052,elongated
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,30,mef ko mock,0.07215,background+stretch,whole,True,,0.2077,mixed
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,32,mef ko mock,0.07215,background+stretch,whole,True,,0.1254,mixed
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,33,mef ko mock,0.07215,background+stretch,whole,True,,0.0501,elongated
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,34,mef 48h mavs ko mock,0.05911,background+stretch,whole,True,,0.1606,mixed
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,35,mef 48h mavs ko mock,0.05911,background+stretch,whole,True,,0.1111,mixed
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,40,mef 48h mavs ko mock,0.11995,background+stretch,whole,True,,0.1888,mixed
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,41,mef 48h mavs ko mock,0.11995,background+stretch,whole,True,,0.1444,mixed
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,42,mef 48h mavs ko mock,0.11995,background+stretch,whole,True,,0.1163,mixed
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,43,mef 48h mavs ko mock,0.11995,background+stretch,whole,True,,0.1774,mixed
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,44,mef 48h mavs ko mock,0.11995,background+stretch,whole,True,,0.4518,mixed
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,36,mef 48h mavs ko mock,0.05911,background+stretch,whole,True,,0.0852,elongated
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,37,mef 48h mavs ko mock,0.05911,background+stretch,whole,True,,0.2972,mixed
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,38,mef 48h mavs ko mock,0.05911,background+stretch,whole,True,,0.3929,mixed
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,39,mef 48h mavs ko mock,0.0569,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.0 x their surrounding noise (limit 1.16),,qc_fail
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,53,mark_and_find,0.12035,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16),,qc_fail
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,46,mef wt 24h mock,0.06036,background+stretch,whole,True,,0.036,elongated
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,45,mark_and_find,0.06036,background+stretch,whole,False,mask looks like noise texture: large objects stand only 0.9 x their surrounding noise (limit 1.16),,qc_fail
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,48,mef wt 24h mock,0.06036,background+stretch,whole,True,,0.0482,elongated
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,49,mef wt 24h mock,0.06036,background+stretch,whole,True,,0.0108,elongated
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,47,mef wt 24h mock,0.06036,background+stretch,whole,True,,0.0021,elongated
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,55,mef wt 24h mock,0.12049,background+stretch,whole,True,,0.1508,mixed
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,50,mef wt 24h mock,0.06036,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.0 x their surrounding noise (limit 1.16),,qc_fail
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,51,mef wt 24h mock,0.06036,background+stretch,whole,True,,0.0281,elongated
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,56,mef wt 24h mock,0.12049,background+stretch,whole,True,,0.055,elongated
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,54,mef wt,0.06011,background+stretch,whole,True,,0.043,elongated
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,52,mef wt,0.04502,background+stretch,whole,True,,0.0034,elongated
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,57,mef wt 24h mock,0.12049,background+stretch,whole,True,,0.0976,elongated
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,58,mef wt 24h mock,0.12049,background+stretch,whole,True,,0.0659,elongated
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,59,mef wt 24h mock,0.12049,background+stretch,whole,True,,0.0787,elongated
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,62,mark_and_find,0.08702,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.0 x their surrounding noise (limit 1.16),,qc_fail
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,65,mef mavs ko 24h mock inf,0.06008,background+stretch,whole,True,,0.0118,elongated
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,63,mef mavs ko 24h mock inf,0.06008,background+stretch,whole,True,,0.0933,elongated
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,61,mef wt mock inf,0.06006,background+stretch,whole,True,,0.1867,mixed
+leica,mef cells microscopy/mef cells microscopy/2nd feb 2023 mef wt and ko.lif,64,mef mavs ko 24h mock inf,0.06008,background+stretch,whole,True,,0.1536,mixed
+leica,mef cells microscopy/mef cells microscopy/MEF/mfn2 ko and wt veh mock and inf.lif,0,mark_and_find,0.07204,background+stretch,whole,False,mask is speckle: objects average 1.173 um and stand only 1.4 background SD above their surroundings,,qc_fail
+leica,mef cells microscopy/mef cells microscopy/MEF/mfn2 ko and wt veh mock and inf.lif,1,mark_and_find,0.07204,background+stretch,whole,False,mask is speckle: objects average 1.121 um and stand only 1.3 background SD above their surroundings,,qc_fail
+leica,mef cells microscopy/mef cells microscopy/MEF/mfn2 ko and wt veh mock and inf.lif,2,mfn2 ko veh inf,0.07204,background+stretch,whole,True,,0.3018,mixed
+leica,mef cells microscopy/mef cells microscopy/MEF/mfn2 ko and wt veh mock and inf.lif,3,mfn2 ko veh inf,0.07204,background+stretch,whole,True,,0.5679,mixed
+leica,mef cells microscopy/mef cells microscopy/MEF/mfn2 ko and wt veh mock and inf.lif,4,mfn2 ko veh inf,0.07204,background+stretch,whole,True,,0.6723,mixed
+leica,mef cells microscopy/mef cells microscopy/MEF/mfn2 ko and wt veh mock and inf.lif,6,mfn2 ko veh inf,0.07204,background+stretch,whole,True,,0.7219,mixed
+leica,mef cells microscopy/mef cells microscopy/MEF/mfn2 ko and wt veh mock and inf.lif,5,mfn2 ko veh inf,0.07204,background+stretch,whole,True,,0.4563,mixed
+leica,mef cells microscopy/mef cells microscopy/MEF/mfn2 ko and wt veh mock and inf.lif,7,mfn2 ko veh mock,0.07204,background+stretch,whole,True,,0.8123,mixed
+leica,mef cells microscopy/mef cells microscopy/MEF/mfn2 ko and wt veh mock and inf.lif,9,mfn2 ko veh mock,0.07204,background+stretch,whole,True,,0.541,mixed
+leica,mef cells microscopy/mef cells microscopy/MEF/mfn2 ko and wt veh mock and inf.lif,10,mfn2 ko veh mock,0.07204,background+stretch,whole,True,,0.9834,fragmented
+leica,mef cells microscopy/mef cells microscopy/MEF/mfn2 ko and wt veh mock and inf.lif,8,mfn2 ko veh mock,0.07204,background+stretch,whole,True,,0.7321,mixed
+leica,mef cells microscopy/mef cells microscopy/MEF/mfn2 ko and wt veh mock and inf.lif,11,mfn2 ko veh mock,0.07204,background+stretch,whole,True,,0.8085,mixed
+leica,mef cells microscopy/mef cells microscopy/MEF/mfn2 ko and wt veh mock and inf.lif,12,mfn2 ko veh mock,0.07204,background+stretch,whole,True,,0.9073,fragmented
+leica,mef cells microscopy/mef cells microscopy/mfn1 ko kinetics dsrna mfn2.lif,5,48hpi mfn1 ko dsrna mfn2,0.14442,background+stretch,whole,True,,0.0028,elongated
+leica,mef cells microscopy/mef cells microscopy/MEF/mfn2 ko and wt veh mock and inf.lif,13,mef wt mock veh,0.07228,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.0 x their surrounding noise (limit 1.16),,qc_fail
+leica,mef cells microscopy/mef cells microscopy/MEF/mfn2 ko and wt veh mock and inf.lif,14,mef wt mock veh,0.07228,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16),,qc_fail
+leica,mef cells microscopy/mef cells microscopy/mfn1 ko kinetics dsrna mfn2.lif,4,24hpi mfn1 ko dsrna mfn2,0.10148,background+stretch,whole,True,,0.3105,mixed
+leica,mef cells microscopy/mef cells microscopy/MEF/mfn2 ko and wt veh mock and inf.lif,15,mef wt mock veh,0.07228,background+stretch,whole,True,,0.0427,elongated
+leica,mef cells microscopy/mef cells microscopy/mfn1 ko kinetics dsrna mfn2.lif,0,12hpi mfn1 ko dsrna mfn2,0.07204,background+stretch,whole,True,,0.5471,mixed
+leica,mef cells microscopy/mef cells microscopy/MEF/mfn2 ko and wt veh mock and inf.lif,16,mef wt mock veh,0.07228,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.2 x their surrounding noise (limit 1.16),,qc_fail
+leica,mef cells microscopy/mef cells microscopy/mfn1 ko kinetics dsrna mfn2.lif,1,12hpi mfn1 ko dsrna mfn2,0.07204,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.0 x their surrounding noise (limit 1.16),,qc_fail
+leica,mef cells microscopy/mef cells microscopy/mfn1 ko kinetics dsrna mfn2.lif,2,12h mock mfn1 ko dsrna mfn2,0.07204,background+stretch,whole,True,,0.1589,mixed
+leica,mef cells microscopy/mef cells microscopy/mfn1 ko kinetics dsrna mfn2.lif,3,24hpi mfn1 ko dsrna mfn2,0.07211,background+stretch,whole,True,,0.4228,mixed
+leica,mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,14,wt veh mock pampk,0.07216,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16),,qc_fail
+leica,mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,15,wt veh mock pampk,0.07205,background+stretch,whole,False,mask looks like noise texture: large objects stand only 0.9 x their surrounding noise (limit 1.16),,qc_fail
+leica,mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,16,wt veh mock pampk,0.07205,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16),,qc_fail
+leica,mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,32,mfn1 ko veh mock pampk,0.07213,background+stretch,whole,True,,0.529,mixed
+leica,mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,34,mfn1 ko veh mock pampk,0.07213,background+stretch,whole,True,,0.3466,mixed
+leica,mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,36,mfn1 ko veh mock pampk,0.07213,background+stretch,whole,True,,0.4648,mixed
+leica,mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,35,mfn1 ko veh mock pampk,0.07213,background+stretch,whole,True,,0.7862,mixed
+leica,mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,33,mfn1 ko veh mock pampk,0.07213,background+stretch,whole,True,,0.4785,mixed
+leica,mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,43,mfn1 ko met mock pampk,0.07205,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16),,qc_fail
+leica,mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,42,mfn1 ko met mock pampk,0.07205,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16),,qc_fail
+leica,mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,44,mfn1 ko met mock pampk,0.07205,background+stretch,whole,True,,0.0378,elongated
+leica,mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,46,mfn1 ko met mock pampk,0.07205,background+stretch,whole,True,,0.0469,elongated
+leica,mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,45,mfn1 ko met mock pampk,0.07205,background+stretch,whole,True,,0.0153,elongated
+leica,mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,47,mfn2 ko veh mock pampk,0.07205,background+stretch,whole,True,,0.5437,mixed
+leica,mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,50,mfn2 ko veh mock pampk,0.07205,background+stretch,whole,True,,0.5408,mixed
+leica,mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,49,mfn2 ko veh mock pampk,0.07205,background+stretch,whole,True,,0.6204,mixed
+leica,mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,48,mfn2 ko veh mock pampk,0.07205,background+stretch,whole,True,,0.619,mixed
+leica,mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,51,mfn2 ko veh mock pampk,0.07205,background+stretch,whole,True,,0.5912,mixed
+leica,mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,52,mfn2 ko met mock pampk,0.07205,background+stretch,whole,True,,0.5322,mixed
+leica,mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,56,mfn2 ko met mock pampk,0.07205,background+stretch,whole,True,,0.4718,mixed
+leica,mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,54,mfn2 ko met mock pampk,0.07205,background+stretch,whole,True,,0.4907,mixed
+leica,mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,55,mfn2 ko met mock pampk,0.07205,background+stretch,whole,True,,0.3858,mixed
+leica,mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,53,mfn2 ko met mock pampk,0.07205,background+stretch,whole,True,,0.6887,mixed
+leica,mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,57,wt veh mock pampk,0.07213,background+stretch,whole,False,mask is speckle: objects average 2.006 um and stand only 0.8 background SD above their surroundings,,qc_fail
+leica,mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,58,wt veh mock pampk,0.07213,background+stretch,whole,False,mask looks like noise texture: large objects stand only 0.8 x their surrounding noise (limit 1.16),,qc_fail
+leica,mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,61,wt veh mock pampk,0.07213,background+stretch,whole,False,mask is speckle: objects average 1.997 um and stand only 1.2 background SD above their surroundings,,qc_fail
+leica,mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,59,wt veh mock pampk,0.07213,background+stretch,whole,False,mask is speckle: objects average 2.096 um and stand only 0.8 background SD above their surroundings,,qc_fail
+leica,mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,60,wt veh mock pampk,0.07213,background+stretch,whole,False,mask is speckle: objects average 1.882 um and stand only 0.8 background SD above their surroundings,,qc_fail
+leica,mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,62,wt met mock pampk,0.07213,background+stretch,whole,False,mask looks like noise texture: large objects stand only 0.9 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/MFN1 KO pool exon 4+ 10 mito.lif,2,mfn1 ko exon + pool,0.14421,background+stretch,whole,True,,0.3627,mixed
+leica,mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,63,wt met mock pampk,0.07213,background+stretch,whole,False,mask looks like noise texture: large objects stand only 0.9 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/MFN1 KO pool exon 4+ 10 mito.lif,3,mfn1 ko pool,0.14427,background+stretch,whole,True,,0.6792,mixed
+leica,mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,64,wt met mock pampk,0.07213,background+stretch,whole,False,mask is speckle: objects average 1.855 um and stand only 0.9 background SD above their surroundings,,qc_fail
+leica,mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,65,wt met mock pampk,0.07213,background+stretch,whole,False,mask is speckle: objects average 1.956 um and stand only 0.8 background SD above their surroundings,,qc_fail
+leica,mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,66,wt met mock pampk,0.07213,background+stretch,whole,False,mask looks like noise texture: large objects stand only 0.9 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/MFN1 KO pool exon 4+ 10 mito.lif,0,mfn1 ko exon + pool,0.07209,background+stretch,whole,True,,0.249,mixed
+leica,mef cells microscopy/mef cells microscopy/pampk in mef cells 161223.lif,67,wt met mock pampk,0.07213,background+stretch,whole,False,mask is speckle: objects average 2.100 um and stand only 0.8 background SD above their surroundings,,qc_fail
+leica,testing 2/testing 2/MFN1 KO pool exon 4+ 10 mito.lif,1,mfn1 ko exon + pool,0.07209,background+stretch,whole,True,,0.5212,mixed
+leica,testing 2/testing 2/Mfn1 KO Mdivi august.lif,0,mfn1 ko mdivi mock,0.06011,background+stretch,whole,True,,0.132,mixed
+leica,testing 2/testing 2/Mfn1 KO Mdivi august.lif,3,mfn1 ko mdivi mock,0.06011,background+stretch,whole,True,,0.1341,mixed
+leica,testing 2/testing 2/Mfn1 KO Mdivi august.lif,1,mfn1 ko mdivi mock,0.06011,background+stretch,whole,True,,0.27,mixed
+leica,testing 2/testing 2/Mfn1 KO Mdivi august.lif,2,mfn1 ko mdivi mock,0.06011,background+stretch,whole,True,,0.3557,mixed
+leica,testing 2/testing 2/Mfn1 KO Mdivi august.lif,4,mfn1 ko mdivi mock,0.06011,background+stretch,whole,True,,0.6817,mixed
+leica,testing 2/testing 2/Mfn1 KO Mdivi august.lif,5,mfn1 ko veh mock,0.06016,background+stretch,whole,True,,0.4191,mixed
+leica,testing 2/testing 2/Mfn1 KO Mdivi august.lif,8,mfn1 ko veh mock,0.06016,background+stretch,whole,True,,0.3086,mixed
+leica,testing 2/testing 2/Mfn1 KO Mdivi august.lif,6,mfn1 ko veh mock,0.06016,background+stretch,whole,True,,0.16,mixed
+leica,testing 2/testing 2/Mfn1 KO Mdivi august.lif,7,mfn1 ko veh mock,0.06016,background+stretch,whole,True,,0.3057,mixed
+leica,testing 2/testing 2/Mfn1 KO Mdivi august.lif,9,mfn1 ko veh mock,0.06016,background+stretch,whole,True,,0.2483,mixed
+leica,testing 2/testing 2/Mfn1 KO Mdivi august.lif,10,mfn1 ko mdivi inf,0.0602,background+stretch,whole,True,,0.583,mixed
+leica,testing 2/testing 2/Mfn1 KO Mdivi august.lif,11,mfn1 ko mdivi inf,0.0602,background+stretch,whole,True,,0.3174,mixed
+leica,testing 2/testing 2/Mfn1 KO Mdivi august.lif,12,mfn1 ko mdivi inf,0.0602,background+stretch,whole,True,,0.4664,mixed
+leica,testing 2/testing 2/Mfn1 KO Mdivi august.lif,13,mfn1 ko mdivi inf,0.0602,background+stretch,whole,True,,0.3955,mixed
+leica,testing 2/testing 2/Mfn1 KO Mdivi august.lif,15,mfn1 ko veh inf,0.06017,background+stretch,whole,True,,0.3559,mixed
+leica,testing 2/testing 2/Mfn1 KO Mdivi august.lif,14,mfn1 ko mdivi inf,0.0602,background+stretch,whole,True,,0.5377,mixed
+leica,testing 2/testing 2/Mfn1 KO Mdivi august.lif,16,mfn1 ko veh inf,0.06017,background+stretch,whole,True,,0.4097,mixed
+leica,testing 2/testing 2/Mfn1 KO Mdivi august.lif,17,mfn1 ko veh inf,0.06017,background+stretch,whole,True,,0.2529,mixed
+leica,testing 2/testing 2/Mfn1 KO Mdivi august.lif,19,mfn1 ko veh inf,0.06017,background+stretch,whole,True,,0.2342,mixed
+leica,testing 2/testing 2/Mfn1 KO Mdivi august.lif,18,mfn1 ko veh inf,0.06017,background+stretch,whole,True,,0.3805,mixed
+leica,testing 2/testing 2/Mfn1 KO Mdivi august.lif,20,mfn1 ko veh inf,0.06017,background+stretch,whole,True,,0.5192,mixed
+leica,testing 2/testing 2/Mfn1 KO Mdivi august.lif,21,mfn1 ko veh inf,0.06017,background+stretch,whole,True,,0.3472,mixed
+leica,testing 2/testing 2/NEM 2 quant.lif,0,mark_and_find,0.0977,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.0 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/NEM 2 quant.lif,1,nuc,0.09015,background+stretch,whole,True,,0.1292,mixed
+leica,testing 2/testing 2/NEM 2 quant.lif,2,nuc,0.09015,background+stretch,whole,True,,0.03,elongated
+leica,testing 2/testing 2/NEM 2 quant.lif,3,nuc,0.0903,background+stretch,whole,True,,0.0507,elongated
+leica,testing 2/testing 2/Mfn1 KO Mdivi august.lif,22,mfn1 ko veh inf,0.06017,background+stretch,whole,True,,0.3773,mixed
+leica,testing 2/testing 2/Mfn1 KO Mdivi august.lif,24,mfn1 ko veh inf,0.06017,background+stretch,whole,True,,0.4469,mixed
+leica,testing 2/testing 2/Mfn1 KO Mdivi august.lif,23,mfn1 ko veh inf,0.06017,background+stretch,whole,True,,0.4564,mixed
+leica,testing 2/testing 2/NEM 2 quant.lif,5,nuc,0.0904,background+stretch,whole,True,,0.1344,mixed
+leica,testing 2/testing 2/NEM 2 quant.lif,4,nuc,0.0904,background+stretch,whole,True,,0.1147,mixed
+leica,testing 2/testing 2/NEM 2 quant.lif,6,mem,0.07229,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.2 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/NEM 2 quant.lif,7,mem,0.07229,background+stretch,whole,True,,0.1233,mixed
+leica,testing 2/testing 2/NEM 2 quant.lif,8,mem,0.07229,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/NEM 2 quant.lif,9,mem,0.07229,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.0 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/NEM 2 quant.lif,10,mem,0.07229,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.0 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/NEM 2 quant.lif,11,mem,0.07229,background+stretch,whole,True,,0.0263,elongated
+leica,testing 2/testing 2/NEM 2 quant.lif,12,mem,0.07229,background+stretch,whole,True,,0.1801,mixed
+leica,testing 2/testing 2/NEM 2 quant.lif,16,mark_and_find,0.09017,background+stretch,whole,True,,0.0831,elongated
+leica,testing 2/testing 2/NEM 2 quant.lif,13,mem,0.07229,background+stretch,whole,True,,0.1058,elongated
+leica,testing 2/testing 2/NEM 2 quant.lif,14,mem,0.07229,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.2 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/NEM 2 quant.lif,15,mem,0.07229,background+stretch,whole,True,,0.196,mixed
+leica,testing 2/testing 2/NEM 2 quant.lif,17,env,0.09017,background+stretch,whole,True,,0.0941,elongated
+leica,testing 2/testing 2/NEM 2 quant.lif,18,env,0.09017,background+stretch,whole,True,,0.0002,elongated
+leica,testing 2/testing 2/NEM 2 quant.lif,19,env,0.09017,background+stretch,whole,True,,0.0969,elongated
+leica,testing 2/testing 2/NEM 2 quant.lif,20,env,0.09017,background+stretch,whole,True,,0.2012,mixed
+leica,testing 2/testing 2/NEM 2 quant.lif,21,env,0.09017,background+stretch,whole,True,,0.0832,elongated
+leica,testing 2/testing 2/NEM 2 quant.lif,27,env,0.12047,background+stretch,whole,True,,0.1254,mixed
+leica,testing 2/testing 2/NEM 2 quant.lif,23,env,0.07207,background+stretch,whole,True,,0.0496,elongated
+leica,testing 2/testing 2/NEM 2 quant.lif,24,env,0.07207,background+stretch,whole,True,,0.0608,elongated
+leica,testing 2/testing 2/NEM 2 quant.lif,22,env,0.07207,background+stretch,whole,True,,0.0775,elongated
+leica,testing 2/testing 2/NEM 2 quant.lif,28,env,0.12047,background+stretch,whole,True,,0.003,elongated
+leica,testing 2/testing 2/NEM 2 quant.lif,26,env,0.07207,background+stretch,whole,True,,0.0574,elongated
+leica,testing 2/testing 2/NEM 2 quant.lif,25,env,0.07207,background+stretch,whole,True,,0.0309,elongated
+leica,testing 2/testing 2/NEM 2 quant.lif,29,env,0.12047,background+stretch,whole,True,,0.0063,elongated
+leica,testing 2/testing 2/NEM 2 quant.lif,31,env,0.12047,background+stretch,whole,True,,0.0617,elongated
+leica,testing 2/testing 2/NEM 2 quant.lif,30,env,0.12047,background+stretch,whole,True,,0.0482,elongated
+leica,testing 2/testing 2/NEM 2 quant.lif,32,env,0.12047,background+stretch,whole,True,,0.2076,mixed
+leica,testing 2/testing 2/mavs ko veh mdivi  quant.lif,2,mavs ko veh,0.09015,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.2 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/NEM 2 quant.lif,34,env,0.12047,background+stretch,whole,True,,0.3127,mixed
+leica,testing 2/testing 2/mavs ko veh mdivi  quant.lif,1,mavs ko veh,0.09015,background+stretch,whole,True,,0.2978,mixed
+leica,testing 2/testing 2/NEM 2 quant.lif,33,env,0.12047,background+stretch,whole,True,,0.1222,mixed
+leica,testing 2/testing 2/mavs ko veh mdivi  quant.lif,4,mavs ko veh,0.09015,background+stretch,whole,True,,0.2651,mixed
+leica,testing 2/testing 2/mavs ko veh mdivi  quant.lif,0,mavs ko veh,0.09015,background+stretch,whole,True,,0.3275,mixed
+leica,testing 2/testing 2/mavs ko veh mdivi  quant.lif,3,mavs ko veh,0.09015,background+stretch,whole,True,,0.597,mixed
+leica,testing 2/testing 2/mavs ko veh mdivi  quant.lif,5,mavs ko veh,0.09015,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mavs ko veh mdivi  quant.lif,6,mavs ko veh,0.09015,background+stretch,whole,True,,0.232,mixed
+leica,testing 2/testing 2/mavs ko veh mdivi  quant.lif,7,mark_and_find,0.09037,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.0 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mavs ko veh mdivi  quant.lif,8,mavs ko mdivi,0.09037,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.0 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mavs ko veh mdivi  quant.lif,12,mavs ko mdivi,0.09037,background+stretch,whole,True,,0.6446,mixed
+leica,testing 2/testing 2/mavs ko veh mdivi  quant.lif,9,mavs ko mdivi,0.09037,background+stretch,whole,False,mask looks like noise texture: large objects stand only 0.9 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mavs ko veh mdivi  quant.lif,10,mavs ko mdivi,0.09037,background+stretch,whole,True,,0.1253,mixed
+leica,testing 2/testing 2/mavs ko veh mdivi  quant.lif,11,mavs ko mdivi,0.09037,background+stretch,whole,True,,0.341,mixed
+leica,testing 2/testing 2/mavs ko veh mdivi  quant.lif,13,mavs ko mdivi,0.09037,background+stretch,whole,True,,0.5138,mixed
+leica,testing 2/testing 2/mavs ko veh mdivi  quant.lif,14,mavs ko mdivi,0.09037,background+stretch,whole,True,,0.4517,mixed
+leica,testing 2/testing 2/mavs ko veh mdivi  quant.lif,15,mavs ko mdivi,0.09037,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mavs ko veh mdivi  quant.lif,16,mavs ko mdivi,0.09037,background+stretch,whole,True,,0.4137,mixed
+leica,testing 2/testing 2/mavs ko veh mdivi  quant.lif,17,mavs ko mdivi,0.09037,background+stretch,whole,True,,0.6893,mixed
+leica,testing 2/testing 2/mdivi mef wt and mavs ko.lif,2,mark_and_find,0.1203,background+stretch,whole,False,no objects in mask,,
+leica,testing 2/testing 2/mdivi mef wt and mavs ko.lif,1,huh-7 mavs ko mock veh,0.11273,background+stretch,whole,True,,0.3558,mixed
+leica,testing 2/testing 2/mdivi mef wt and mavs ko.lif,0,mark_and_find,0.11273,background+stretch,whole,False,mask looks like noise texture: large objects stand only 0.9 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mdivi mef wt and mavs ko.lif,3,mavs ko veh inf,0.0601,background+stretch,whole,True,,0.1473,mixed
+leica,testing 2/testing 2/mdivi mef wt and mavs ko.lif,6,mavs ko veh inf,0.0601,background+stretch,whole,True,,0.4309,mixed
+leica,testing 2/testing 2/mdivi mef wt and mavs ko.lif,4,mavs ko veh inf,0.0601,background+stretch,whole,True,,0.3272,mixed
+leica,testing 2/testing 2/mdivi mef wt and mavs ko.lif,5,mavs ko veh inf,0.0601,background+stretch,whole,True,,0.5514,mixed
+leica,testing 2/testing 2/mdivi mef wt and mavs ko.lif,8,mavs ko veh inf,0.0601,background+stretch,whole,True,,0.4082,mixed
+leica,testing 2/testing 2/mdivi mef wt and mavs ko.lif,7,mavs ko veh inf,0.0601,background+stretch,whole,True,,0.6288,mixed
+leica,testing 2/testing 2/mdivi mef wt and mavs ko.lif,9,mavs ko veh inf,0.0601,background+stretch,whole,True,,0.2096,mixed
+leica,testing 2/testing 2/mdivi mef wt and mavs ko.lif,10,mef mavs ko mdivi inf,0.06006,background+stretch,whole,True,,0.2275,mixed
+leica,testing 2/testing 2/mdivi mef wt and mavs ko.lif,11,mef mavs ko mdivi inf,0.06006,background+stretch,whole,True,,0.2168,mixed
+leica,testing 2/testing 2/mdivi mef wt and mavs ko.lif,12,mef mavs ko mdivi inf,0.06006,background+stretch,whole,True,,0.2436,mixed
+leica,testing 2/testing 2/mdivi mef wt and mavs ko.lif,13,mef mavs ko mdivi inf,0.06006,background+stretch,whole,True,,0.1294,mixed
+leica,testing 2/testing 2/mdivi mef wt and mavs ko.lif,15,mef wt veh inf,0.06016,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mdivi mef wt and mavs ko.lif,14,mef wt veh inf,0.06016,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.0 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mdivi mef wt and mavs ko.lif,16,mef wt veh inf,0.06016,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mdivi mef wt and mavs ko.lif,18,mef wt veh inf,0.06016,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mdivi mef wt and mavs ko.lif,17,mef wt veh inf,0.06016,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mdivi mef wt and mavs ko.lif,19,mef wt veh inf,0.06016,background+stretch,whole,False,mask looks like noise texture: large objects stand only 0.9 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mdivi mef wt and mavs ko.lif,21,mef wt mdivi inf,0.08957,background+stretch,whole,True,,0.0581,elongated
+leica,testing 2/testing 2/mdivi mef wt and mavs ko.lif,20,mef wt mdivi inf,0.06006,background+stretch,whole,True,,0.0962,elongated
+leica,testing 2/testing 2/mdivi mef wt and mavs ko.lif,22,mef wt mdivi inf,0.06004,background+stretch,whole,True,,0.0383,elongated
+leica,testing 2/testing 2/mdivi mef wt and mavs ko.lif,23,mef wt mdivi inf,0.06005,background+stretch,whole,True,,0.0162,elongated
+leica,testing 2/testing 2/mdivi mef wt and mavs ko.lif,24,mef wt mdivi inf,0.06016,background+stretch,whole,True,,0.0042,elongated
+leica,testing 2/testing 2/mef all cells mavs localizatio test.lif,1,wt test,0.06011,background+stretch,whole,True,,0.2387,mixed
+leica,testing 2/testing 2/mef all cells mavs localizatio test.lif,2,wt mock,0.05158,background+stretch,whole,True,,0.0157,elongated
+leica,testing 2/testing 2/mef all cells mavs localizatio test.lif,5,wt mock,0.05158,background+stretch,whole,False,mask looks like noise texture: large objects stand only 0.7 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mef all cells mavs localizatio test.lif,3,wt mock,0.05158,background+stretch,whole,True,,0.0379,elongated
+leica,testing 2/testing 2/mef all cells mavs localizatio test.lif,4,wt mock,0.05158,background+stretch,whole,True,,0.1331,mixed
+leica,testing 2/testing 2/mef all cells mavs localizatio test.lif,6,wt mock,0.05158,background+stretch,whole,True,,0.0397,elongated
+leica,testing 2/testing 2/mef all cells mavs localizatio test.lif,9,wt mock,0.06021,background+stretch,whole,True,,0.2959,mixed
+leica,testing 2/testing 2/mef all cells mavs localizatio test.lif,7,mfn1 ko mock,0.0515,background+stretch,whole,False,mask is speckle: objects average 2.189 um and stand only 1.1 background SD above their surroundings,,qc_fail
+leica,testing 2/testing 2/mef all cells mavs localizatio test.lif,0,wt test,0.04509,background+stretch,whole,True,,0.1566,mixed
+leica,testing 2/testing 2/mef all cells mavs localizatio test.lif,10,dual ko mock,0.06003,background+stretch,whole,True,,0.5873,mixed
+leica,testing 2/testing 2/mef all cells mavs localizatio test.lif,8,mfn1 ko mock,0.0515,background+stretch,whole,False,mask is speckle: objects average 2.030 um and stand only 1.3 background SD above their surroundings,,qc_fail
+leica,testing 2/testing 2/mef all cells mavs localizatio test.lif,12,mfn2 ko mock,0.0601,background+stretch,whole,True,,0.9615,fragmented
+leica,testing 2/testing 2/mef all cells mavs localizatio test.lif,13,mfn1 ko mock,0.06018,background+stretch,whole,False,mask is speckle: objects average 2.061 um and stand only 3.3 background SD above their surroundings,,qc_fail
+leica,testing 2/testing 2/mef all cells mavs localizatio test.lif,14,mark_and_find,0.06019,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.0 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mef all cells mavs localizatio test.lif,15,wt mock,0.06019,background+stretch,whole,True,,0.2231,mixed
+leica,testing 2/testing 2/mef all cells mavs localizatio test.lif,16,wt mock,0.06019,background+stretch,whole,True,,0.1893,mixed
+leica,testing 2/testing 2/mef wt mfn2 ko mavs localization.lif,0,mfn2 ko mock,0.06011,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.0 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mef wt mfn2 ko mavs localization.lif,2,mfn2 ko mock,0.06011,background+stretch,whole,False,mask is speckle: objects average 1.773 um and stand only 3.2 background SD above their surroundings,,qc_fail
+leica,testing 2/testing 2/mef wt mfn2 ko mavs localization.lif,3,mfn2 ko mock,0.06011,background+stretch,whole,True,,0.7867,mixed
+leica,testing 2/testing 2/mef wt mfn2 ko mavs localization.lif,1,mfn2 ko mock,0.06011,background+stretch,whole,False,mask is speckle: objects average 2.017 um and stand only 1.1 background SD above their surroundings,,qc_fail
+leica,testing 2/testing 2/mef wt mfn2 ko mavs localization.lif,4,mfn2 ko mock,0.06011,background+stretch,whole,True,,0.9293,fragmented
+leica,testing 2/testing 2/mef wt mfn2 ko mavs localization.lif,5,wt mock,0.06011,background+stretch,whole,True,,0.2819,mixed
+leica,testing 2/testing 2/mef wt mfn2 ko mavs localization.lif,6,wt mock,0.06018,background+stretch,whole,True,,0.1131,mixed
+leica,testing 2/testing 2/mef wt mfn2 ko mavs localization.lif,7,wt mock,0.06018,background+stretch,whole,True,,0.2592,mixed
+leica,testing 2/testing 2/mef wt mfn2 ko mavs localization.lif,9,wt mock,0.06018,background+stretch,whole,False,mask looks like noise texture: large objects stand only 0.9 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mef wt mfn2 ko mavs localization.lif,11,wt mock,0.06018,background+stretch,whole,True,,0.3839,mixed
+leica,testing 2/testing 2/mef wt mfn2 ko mavs localization.lif,8,wt mock,0.06018,background+stretch,whole,True,,0.3453,mixed
+leica,testing 2/testing 2/mef wt mfn2 ko mavs localization.lif,10,wt mock,0.06018,background+stretch,whole,True,,0.3942,mixed
+leica,testing 2/testing 2/mef wt mfn2 ko mavs localization.lif,15,mark_and_find,0.06017,background+stretch,whole,True,,0.0971,elongated
+leica,testing 2/testing 2/mef wt mfn2 ko mavs localization.lif,12,mark_and_find,0.06017,background+stretch,whole,True,,0.3288,mixed
+leica,testing 2/testing 2/mef wt mfn2 ko mavs localization.lif,13,mark_and_find,0.06017,background+stretch,whole,True,,0.7281,mixed
+leica,testing 2/testing 2/mef wt mfn2 ko mavs localization.lif,14,mark_and_find,0.06017,background+stretch,whole,True,,0.224,mixed
+leica,testing 2/testing 2/mef wt mfn2 ko mavs localization.lif,16,mark_and_find,0.06017,background+stretch,whole,True,,0.1694,mixed
+leica,testing 2/testing 2/mef wt mfn2 ko mavs localization.lif,17,mark_and_find,0.06017,background+stretch,whole,True,,0.2669,mixed
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,0,mfn1 ko veh,0.05154,background+stretch,whole,True,,0.5492,mixed
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,1,mfn1 ko veh,0.05154,background+stretch,whole,True,,0.4737,mixed
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,2,mfn1 ko veh,0.05154,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,4,mfn1 ko veh,0.05154,background+stretch,whole,True,,0.0077,elongated
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,5,mfn1 ko veh,0.05154,background+stretch,whole,False,mask looks like noise texture: large objects stand only 0.9 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,7,mark_and_find,0.05149,background+stretch,whole,False,mask looks like noise texture: large objects stand only 0.7 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,3,mfn1 ko veh,0.05154,background+stretch,whole,True,,0.1118,mixed
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,6,mfn1 ko veh,0.05154,background+stretch,whole,True,,0.0758,elongated
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,8,mfn1 ko veh,0.05155,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.0 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,9,mfn1 ko veh,0.05155,background+stretch,whole,False,mask looks like noise texture: large objects stand only 0.9 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,10,mfn1 ko veh,0.05155,background+stretch,whole,False,mask looks like noise texture: large objects stand only 0.8 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,11,mfn1 ko veh,0.05155,background+stretch,whole,False,mask looks like noise texture: large objects stand only 0.9 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,12,mfn1 ko veh,0.05155,background+stretch,whole,False,mask looks like noise texture: large objects stand only 0.7 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,13,mfn1 ko veh,0.05155,background+stretch,whole,False,mask looks like noise texture: large objects stand only 0.8 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,14,mfn1 ko mdivi,0.05148,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.0 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,16,mfn1 ko mdivi,0.05148,background+stretch,whole,False,mask is speckle: objects average 1.961 um and stand only 0.5 background SD above their surroundings,,qc_fail
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,17,mfn1 ko mdivi,0.05148,background+stretch,whole,False,mask looks like noise texture: large objects stand only 0.9 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,15,mfn1 ko mdivi,0.05148,background+stretch,whole,False,mask looks like noise texture: large objects stand only 0.9 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,19,mfn1 ko mdivi,0.05148,background+stretch,whole,False,mask is speckle: objects average 2.060 um and stand only 0.6 background SD above their surroundings,,qc_fail
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,18,mfn1 ko mdivi,0.05148,background+stretch,whole,False,mask looks like noise texture: large objects stand only 0.8 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,20,mfn1 ko mdivi,0.05148,background+stretch,whole,False,mask looks like noise texture: large objects stand only 0.8 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,21,mfn1 ko mdivi,0.05148,background+stretch,whole,False,mask looks like noise texture: large objects stand only 0.9 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,23,mfn2 ko mdivi,0.06006,background+stretch,whole,False,mask looks like noise texture: large objects stand only 0.9 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,22,mfn1 ko mdivi,0.05148,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.0 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,24,mfn2 ko mdivi,0.06006,background+stretch,whole,False,mask looks like noise texture: large objects stand only 0.9 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,25,mfn2 ko mdivi,0.06016,background+stretch,whole,True,,0.2684,mixed
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,26,mfn2 ko mdivi,0.06016,background+stretch,whole,True,,0.0998,elongated
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,29,mfn2 ko mdivi,0.06016,background+stretch,whole,False,mask looks like noise texture: large objects stand only 0.7 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,28,mfn2 ko mdivi,0.06016,background+stretch,whole,True,,0.3622,mixed
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,27,mfn2 ko mdivi,0.06016,background+stretch,whole,False,mask looks like noise texture: large objects stand only 0.6 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,30,mfn2 ko mdivi,0.06016,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.0 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,31,mfn2 ko mdivi,0.06016,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,32,mfn2 ko mdivi,0.06016,background+stretch,whole,False,mask looks like noise texture: large objects stand only 0.9 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,33,mfn2 ko mdivi,0.06016,background+stretch,whole,False,mask looks like noise texture: large objects stand only 0.6 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,35,mfn2 ko mdivi,0.06016,background+stretch,whole,False,mask looks like noise texture: large objects stand only 0.8 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,34,mfn2 ko mdivi,0.06016,background+stretch,whole,True,,0.1535,mixed
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,36,mfn2 ko mdivi,0.06016,background+stretch,whole,False,mask looks like noise texture: large objects stand only 0.8 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,39,mfn2 ko mdivi,0.06016,background+stretch,whole,False,mask looks like noise texture: large objects stand only 0.8 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,37,mfn2 ko mdivi,0.06016,background+stretch,whole,True,,0.0681,elongated
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,38,mfn2 ko mdivi,0.06016,background+stretch,whole,False,mask looks like noise texture: large objects stand only 0.9 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,40,mfn2 ko mdivi,0.06019,background+stretch,whole,False,mask looks like noise texture: large objects stand only 1.1 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,41,mfn2 ko mdivi,0.06019,background+stretch,whole,False,mask looks like noise texture: large objects stand only 0.8 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,43,mfn2 ko mdivi,0.06019,background+stretch,whole,True,,0.0766,elongated
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,42,mfn2 ko mdivi,0.06019,background+stretch,whole,False,mask looks like noise texture: large objects stand only 0.5 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,44,mfn2 ko mdivi,0.06019,background+stretch,whole,False,mask looks like noise texture: large objects stand only 0.9 x their surrounding noise (limit 1.16),,qc_fail
+leica,testing 2/testing 2/nem quant 3.lif,0,nuc,0.0903,background+stretch,whole,True,,0.1696,mixed
+leica,testing 2/testing 2/mfn1 ko mdivi mock.lif,45,mfn2 ko mdivi,0.06019,background+stretch,whole,True,,0.1249,mixed
+leica,testing 2/testing 2/nem quant 3.lif,1,nuc,0.0903,background+stretch,whole,True,,0.0938,elongated
+leica,testing 2/testing 2/nem quant 3.lif,3,nuc,0.0903,background+stretch,whole,True,,0.2668,mixed
+leica,testing 2/testing 2/nem quant 3.lif,8,nuc,0.0903,background+stretch,whole,True,,0.1857,mixed
+leica,testing 2/testing 2/nem quant 3.lif,5,nuc,0.0903,background+stretch,whole,True,,0.1114,mixed
+leica,testing 2/testing 2/nem quant 3.lif,2,nuc,0.0903,background+stretch,whole,True,,0.3205,mixed
+leica,testing 2/testing 2/nem quant 3.lif,4,nuc,0.0903,background+stretch,whole,True,,0.123,mixed
+leica,testing 2/testing 2/nem quant 3.lif,7,nuc,0.0903,background+stretch,whole,True,,0.1151,mixed
+leica,testing 2/testing 2/nem quant 3.lif,6,nuc,0.0903,background+stretch,whole,True,,0.1525,mixed
+leica,testing 2/testing 2/nem quant 3.lif,9,nuc,0.0903,background+stretch,whole,True,,0.2424,mixed
+leica,testing 2/testing 2/nem quant 3.lif,10,nuc,0.0903,background+stretch,whole,True,,0.1545,mixed
+leica,testing 2/testing 2/nem quant 3.lif,11,nuc,0.0903,background+stretch,whole,True,,0.1532,mixed
+leica,testing 2/testing 2/nem quant 3.lif,12,nuc,0.0903,background+stretch,whole,True,,0.0637,elongated
+leica,testing 2/testing 2/nem quant 3.lif,13,nuc,0.09,background+stretch,whole,True,,0.2069,mixed
+leica,testing 2/testing 2/nem quant 3.lif,14,nuc,0.09,background+stretch,whole,True,,0.1048,elongated
+leica,testing 2/testing 2/nem quant 3.lif,15,nuc,0.09,background+stretch,whole,True,,0.194,mixed
+leica,testing 2/testing 2/nem quant 3.lif,18,nuc,0.09,background+stretch,whole,True,,0.2418,mixed
+leica,testing 2/testing 2/nem quant 3.lif,17,nuc,0.09,background+stretch,whole,True,,0.1713,mixed
+leica,testing 2/testing 2/nem quant 3.lif,16,nuc,0.09,background+stretch,whole,True,,0.1896,mixed

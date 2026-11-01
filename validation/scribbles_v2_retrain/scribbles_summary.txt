@@ -1,0 +1,43 @@
+ilp sha256 1b31d63a9e06af2c7c4692217fa2ffae8870fe846d2275c67d5dcc5d9a562883
+
+field                     source      Mito     Bg
+montage_tile_0            olympus     3935    517
+montage_tile_1            olympus        0      0
+montage_tile_2            olympus     1522   1656
+montage_tile_3            olympus     1159  32121
+montage_tile_4            olympus      151     23
+montage_tile_5            olympus       39      0
+montage_tile_6            olympus      830   1143
+montage_tile_7            olympus        0    777
+field_00_leica.tif        leica       2306   4668
+field_01_olympus.tif      olympus       93    250
+field_02_leica.tif        leica          0   4960
+field_03_leica.tif        leica        265  15580
+field_04_olympus.tif      olympus        0   1791
+field_05_allen.tif        allen       2832    841
+field_06_leica.tif        leica        200    599
+field_07_leica.tif        leica        540   7925
+field_09_olympus.tif      olympus        0    196
+field_10_olympus.tif      olympus      245    252
+field_11_olympus.tif      olympus       78    186
+field_12_olympus.tif      olympus        0   1878
+field_13_olympus.tif      olympus      811   2703
+field_14_leica.tif        leica        493  10803
+field_15_leica.tif        leica        663   5620
+field_17_allen.tif        allen        158      7
+field_18_allen.tif        allen        493    829
+field_19_allen.tif        allen        343    149
+field_20_allen.tif        allen         17     78
+field_21_leica.tif        leica        173   3156
+field_22_leica.tif        leica        224   2201
+field_23_leica.tif        leica        318   1113
+field_24_leica.tif        leica        197    321
+field_25_leica.tif        leica        154     18
+field_27_leica.tif        leica       1451    774
+field_28_leica.tif        leica        498   1688
+field_29_leica.tif        leica        421    293
+field_30_allen.tif        allen         88    160
+field_31_allen.tif        allen        388    220
+field_32_olympus.tif      olympus      194    127
+
+by source: olympus Mito 9057 Bg 43620, leica Mito 7903 Bg 59719, allen Mito 4319 Bg 2284

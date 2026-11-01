@@ -1,0 +1,28 @@
+pixel size: read from each file
+
+    #  image                       um/px   index  band         conf  notes
+  ────────────────────────────────────────────────────────────────────────
+    1  A549 WT Poly IC 100X F1    0.0497   0.383  mixed        0.44
+    2  A549 WT Poly IC 100X F10   0.0497   0.060  elongated    0.91
+    3  A549 WT Poly IC 100X F11   0.0497   0.964  fragmented   0.93
+    4  A549 WT Poly IC 100X F2    0.0497   0.023  elongated    0.96
+    5  A549 WT Poly IC 100X F3    0.0621       —  —               —  too much diffuse background: 9.8% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    6  A549 WT Poly IC 100X F4    0.0497   0.065  elongated    0.90
+    7  A549 WT Poly IC 100X F5    0.0497   0.969  fragmented   0.94
+    8  A549 WT Poly IC 100X F6    0.0497   0.143  mixed        0.75
+    9  A549 WT Poly IC 100X F7    0.0497   0.019  elongated    0.96
+   10  A549 WT Poly IC 100X F8    0.0497   0.797  mixed        0.67
+   11  A549 WT Poly IC 100X F9    0.0497   0.016  elongated    0.97
+
+1 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  A549 WT Poly IC 100X F3    0.0621   0.077  elongated    0.88
+  ────────────────────────────────────────────────────────────────────────
+  11 images                    11 scored, 0 rejected
+  index                        mean 0.320   median 0.077   sd 0.395   range 0.016–0.969
+  bands                        fragmented 2   mixed 3   elongated 6
+  pixel sizes                  2 different in this folder, 0.0497 to 0.0621 um
+
+  NOTE: 1 of 11 scored fields were rescued (background 1, black point 0); the rest were not. Check that a difference between conditions holds without the rescued rows.
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/10-07-2023__A549 WT POLY IC.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/10-07-2023__A549 WT POLY IC_summary.csv

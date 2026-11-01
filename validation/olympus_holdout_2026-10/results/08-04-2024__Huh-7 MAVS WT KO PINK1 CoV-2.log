@@ -1,0 +1,19 @@
+pixel size: read from each file
+
+    #  image                             um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────────────────
+    1  Huh-7 MAVS KO CoV-2 PINK1 B1 …   0.0829   0.731  mixed        0.56
+    2  Huh-7 MAVS KO CoV-2 PINK1 B1 …   0.0829   0.939  fragmented   0.88
+    3  Huh-7 MAVS KO CoV-2 PINK1 B1 …   0.0829   0.775  mixed        0.65
+    4  Huh-7 MAVS KO CoV-2 PINK1 B1 …   0.0829   0.471  mixed        0.39
+    5  Huh-7 MAVS KO CoV-2 PINK1 B1 …   0.0829   0.872  fragmented   0.77
+    6  Huh-7 WT CoV-2 PINK1 B1 F1       0.0829   0.928  fragmented   0.86
+    7  Huh-7 WT CoV-2 PINK1 B1 F2       0.0829   0.663  mixed        0.46
+    8  Huh-7 WT CoV-2 PINK1 B1 F3       0.0829   0.935  fragmented   0.87
+  ──────────────────────────────────────────────────────────────────────────────
+  8 images                           8 scored, 0 rejected
+  index                              mean 0.789   median 0.824   sd 0.165   range 0.471–0.939
+  bands                              fragmented 4   mixed 4   elongated 0
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/08-04-2024__Huh-7 MAVS WT KO PINK1 CoV-2.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/08-04-2024__Huh-7 MAVS WT KO PINK1 CoV-2_summary.csv

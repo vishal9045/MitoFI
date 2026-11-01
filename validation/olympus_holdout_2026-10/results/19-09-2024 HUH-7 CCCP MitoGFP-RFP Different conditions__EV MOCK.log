@@ -1,0 +1,16 @@
+pixel size: read from each file
+
+    #  image               um/px   index  band         conf  notes
+  ────────────────────────────────────────────────────────────────
+    1  Huh-7 EV Mock F1   0.0829   0.556  mixed        0.51
+    2  Huh-7 EV Mock F2   0.0829   0.828  mixed        0.69
+    3  Huh-7 EV Mock F3   0.0829   0.530  mixed        0.74
+    4  Huh-7 EV Mock F4   0.0829   0.886  fragmented   0.78
+    5  Huh-7 EV Mock F5   0.0829   0.560  mixed        0.54
+  ────────────────────────────────────────────────────────────────
+  5 images             5 scored, 0 rejected
+  index                mean 0.672   median 0.560   sd 0.171   range 0.530–0.886
+  bands                fragmented 1   mixed 4   elongated 0
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/19-09-2024 HUH-7 CCCP MitoGFP-RFP Different conditions__EV MOCK.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/19-09-2024 HUH-7 CCCP MitoGFP-RFP Different conditions__EV MOCK_summary.csv

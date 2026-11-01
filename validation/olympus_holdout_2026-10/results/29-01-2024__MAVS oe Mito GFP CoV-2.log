@@ -1,0 +1,42 @@
+pixel size: read from each file
+
+    #  image                             um/px   index  band         conf  notes
+  ──────────────────────────────────────────────────────────────────────────────
+    1  huh-7 MAVS oe Mito GFP RFP Co…   0.0829   0.209  mixed        0.63
+    2  huh-7 MAVS oe Mito GFP RFP Co…   0.0829   0.001  elongated    1.00
+    3  huh-7 MAVS oe Mito GFP RFP Co…   0.0829   0.522  mixed        0.55
+    4  huh-7 MAVS oe Mito GFP RFP Co…   0.0829   0.111  mixed        0.80
+    5  huh-7 MAVS oe Mito GFP RFP Co…   0.0829   0.324  mixed        0.47
+    6  huh-7 MAVS oe Mito GFP RFP Co…   0.0829   0.264  mixed        0.57
+    7  huh-7 MAVS oe Mito GFP RFP Co…   0.0829   0.352  mixed        0.51
+    8  huh-7 MAVS oe Mito GFP RFP Co…   0.0829   0.131  mixed        0.77
+    9  huh-7 MAVS oe Mito GFP RFP Co…   0.0829   0.000  elongated    1.00
+   10  huh-7 MAVS oe Mito GFP RFP Co…   0.0829   0.009  elongated    0.98
+   11  huh-7 PUNO Mito GFP RFP CoV-2…   0.0829   0.619  mixed        0.45
+   12  huh-7 PUNO Mito GFP RFP CoV-2…   0.0829   0.028  elongated    0.94
+   13  huh-7 PUNO Mito GFP RFP CoV-2…   0.0829   0.082  elongated    0.84
+   14  huh-7 PUNO Mito GFP RFP CoV-2…   0.0829   0.766  mixed        0.58
+   15  huh-7 PUNO oe Mito GFP RFP Co…   0.0829       —  —               —  too much diffuse background: 6.3% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+   16  huh-7 PUNO oe Mito GFP RFP Co…   0.0829   0.330  mixed        0.46
+   17  huh-7 PUNO oe Mito GFP RFP Co…   0.0829   0.178  mixed        0.68
+   18  huh-7 PUNO oe Mito GFP RFP Co…   0.0691   0.072  elongated    0.86
+   19  huh-7 PUNO oe Mito GFP RFP Co…   0.0829   0.465  mixed        0.60
+   20  huh-7 PUNO oe Mito GFP RFP Co…   0.1036   0.090  elongated    0.82
+   21  huh-7 PUNO oe Mito GFP RFP Co…   0.0829   0.170  mixed        0.70
+   22  huh-7 PUNO oe Mito GFP RFP Co…   0.0829   0.036  elongated    0.93
+   23  huh-7 PUNO oe Mito GFP RFP Co…   0.0829   0.265  mixed        0.56
+   24  huh-7 PUNO oe Mito GFP RFP Co…   0.0829   0.192  mixed        0.65
+   25  huh-7 PUNO oe Mito GFP RFP Co…   0.0829   0.286  mixed        0.51
+
+1 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  huh-7 PUNO oe Mito GFP RFP Co…   0.0829   0.094  elongated    0.82
+  ──────────────────────────────────────────────────────────────────────────────
+  25 images                          25 scored, 0 rejected
+  index                              mean 0.224   median 0.178   sd 0.201   range 0.000–0.766
+  bands                              fragmented 0   mixed 16   elongated 9
+  pixel sizes                        3 different in this folder, 0.0691 to 0.1036 um
+
+  NOTE: 1 of 25 scored fields were rescued (background 1, black point 0); the rest were not. Check that a difference between conditions holds without the rescued rows.
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/29-01-2024__MAVS oe Mito GFP CoV-2.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/olympus_holdout_2026-10/results/29-01-2024__MAVS oe Mito GFP CoV-2_summary.csv

@@ -1,0 +1,23 @@
+pixel size: read from each file
+
+    #  image                   um/px   index  band         conf  notes
+  ────────────────────────────────────────────────────────────────────
+    1  Slide D-3-4-24 P72 a   0.0659   0.000  elongated    1.00
+    2  Slide D-3-4-24 P72 b   0.0659       —  —               —  too much diffuse background: 6.5% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    3  Slide D-3-4-24 P72 c   0.0659       —  —               —  too much diffuse background: 7.9% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    4  Slide D-3-4-24 P72 d   0.0659       —  —               —  too much diffuse background: 7.7% of the signal under the mask is smooth haze (limit 6%); subtract the background and score again
+    5  Slide D-3-4-24 P72 e   0.0659   0.000  elongated    1.00
+
+3 field(s) are refused by the quality gate. Removing diffuse background with a 2.5 um rolling ball lets some be scored.
+    1  Slide D-3-4-24 P72 b   0.0659   0.001  elongated    1.00
+    2  Slide D-3-4-24 P72 c   0.0659   0.000  elongated    1.00
+    3  Slide D-3-4-24 P72 d   0.0659   0.000  elongated    1.00
+  ────────────────────────────────────────────────────────────────────
+  5 images                 5 scored, 0 rejected
+  index                    mean 0.000   median 0.000   sd 0.000   range 0.000–0.001
+  bands                    fragmented 0   mixed 0   elongated 5
+
+  NOTE: 3 of 5 scored fields were rescued (background 3, black point 0); the rest were not. Check that a difference between conditions holds without the rescued rows.
+
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/uct/repD_pa72.csv
+  /mnt/d/My ideas/mitofi/pipeline/validation/public_sets_2026-10/results/uct/repD_pa72_summary.csv
